@@ -168,6 +168,29 @@ posted/posted_{YYYY-MM-DD}.json                    # 投稿済み
 | `.claude/agents/*.md` | サブエージェント定義 |
 | `docs/issues-backlog.md` | Issue バックログ |
 
+### Workflows
+
+| File | Purpose | Trigger |
+|------|---------|---------|
+| `.github/workflows/fetch-and-draft.yml` | ニュース取得→ツイート生成→PR作成→Slack通知 | cron (朝8:00/夜19:00 JST) + 手動 |
+| `.github/workflows/post-on-merge.yml` | tweets/ PR マージ後に X へ投稿→完了通知 | PR merge (tweets/* branch) |
+| `.github/workflows/auto-pr.yml` | 開発ブランチ push 時に PR 自動作成 | push (feature/**/claude/**) |
+| `.github/workflows/weekly-analysis.yml` | 週次投稿レポート→Slack通知 | cron (月曜 9:00 JST) + 手動 |
+| `.github/workflows/setup-issues.yml` | Issue 一括作成 (初回のみ) | 手動 |
+
+### GitHub Secrets
+
+| Secret | 用途 | 必須 |
+|--------|------|------|
+| `ANTHROPIC_API_KEY` | Claude API (ツイート生成) | 必須 |
+| `X_API_KEY` | X API Consumer Key | 必須 |
+| `X_API_SECRET` | X API Consumer Secret | 必須 |
+| `X_ACCESS_TOKEN` | X API Access Token | 必須 |
+| `X_ACCESS_SECRET` | X API Access Token Secret | 必須 |
+| `SLACK_WEBHOOK_URL` | Slack 通知 | 任意 |
+| `DISCORD_WEBHOOK_URL` | Discord 通知 | 任意 |
+| `GITHUB_TOKEN` | PR作成・Issue管理 | 自動提供 |
+
 ---
 
 ## Commands
