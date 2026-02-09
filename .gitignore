@@ -6,3 +6,6 @@ dist/
 build/
 .venv/
 venv/
+drafts/*.json
+posted/*.json
+analytics/*.json
