@@ -163,6 +163,8 @@ posted/posted_{YYYY-MM-DD}.json                    # 投稿済み
 | `scripts/generate_tweets.py` | Claude APIでツイート生成 |
 | `scripts/post_to_x.py` | X API v2で投稿 |
 | `scripts/notify.py` | Slack/Discord通知 |
+| `scripts/format_pr_body.py` | PR body にツイート案をフォーマット |
+| `scripts/weekly_report.py` | 週次分析レポート生成 |
 | `sources.yml` | ニュースソース定義 |
 | `templates/prompt_template.md` | Claude APIプロンプト |
 | `.claude/agents/*.md` | サブエージェント定義 |
