@@ -178,12 +178,23 @@ def mock_dirs(tmp_path):
 
 @pytest.fixture
 def patch_config_dirs(mock_dirs):
-    """config モジュールのディレクトリパスを tmp_path にパッチする。"""
+    """config モジュールのディレクトリパスを tmp_path にパッチする。
+
+    各スクリプトは ``from config import DRAFTS_DIR`` で独自バインディングを持つため、
+    config だけでなくスクリプトモジュール側もパッチする。
+    """
     with patch("config.DRAFTS_DIR", mock_dirs["drafts"]), \
          patch("config.POSTED_DIR", mock_dirs["posted"]), \
          patch("config.ANALYTICS_DIR", mock_dirs["analytics"]), \
          patch("config.TEMPLATES_DIR", mock_dirs["templates"]), \
-         patch("config.BASE_DIR", mock_dirs["base"]):
+         patch("config.BASE_DIR", mock_dirs["base"]), \
+         patch("fetch_news.DRAFTS_DIR", mock_dirs["drafts"]), \
+         patch("generate_tweets.DRAFTS_DIR", mock_dirs["drafts"]), \
+         patch("generate_tweets.TEMPLATES_DIR", mock_dirs["templates"]), \
+         patch("post_to_x.DRAFTS_DIR", mock_dirs["drafts"]), \
+         patch("post_to_x.POSTED_DIR", mock_dirs["posted"]), \
+         patch("notify.DRAFTS_DIR", mock_dirs["drafts"]), \
+         patch("notify.POSTED_DIR", mock_dirs["posted"]):
         yield mock_dirs
 
 
