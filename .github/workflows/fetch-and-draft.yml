@@ -83,7 +83,7 @@ jobs:
           git config user.email "news-bot@users.noreply.github.com"
 
           git checkout -b "$BRANCH"
-          git add drafts/
+          git add -f drafts/
           git diff --cached --quiet && echo "No changes to commit" && exit 0
           git commit -m "Add ${SESSION_TYPE} tweet drafts for ${DATE}"
           git push origin "$BRANCH"

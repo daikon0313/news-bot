@@ -84,7 +84,7 @@ jobs:
             mv drafts/posted_* posted/
           fi
 
-          git add posted/ drafts/
+          git add -f posted/ drafts/
           git diff --cached --quiet && echo "No changes to archive" && exit 0
           git commit -m "Archive posted tweets: ${SESSION_TYPE} ${DATE}"
           git push origin main
