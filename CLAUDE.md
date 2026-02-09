@@ -191,7 +191,8 @@ posted/posted_{YYYY-MM-DD}.json                    # 投稿済み
 | `X_ACCESS_SECRET` | X API Access Token Secret | 必須 |
 | `SLACK_WEBHOOK_URL` | Slack 通知 | 任意 |
 | `DISCORD_WEBHOOK_URL` | Discord 通知 | 任意 |
-| `GITHUB_TOKEN` | PR作成・Issue管理 | 自動提供 |
+| `GH_PAT` | PR自動作成 (Personal Access Token) | 必須 |
+| `GITHUB_TOKEN` | その他 Actions 操作 | 自動提供 |
 
 ---
 
