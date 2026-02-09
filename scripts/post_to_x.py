@@ -46,11 +46,20 @@ def _get_twitter_client() -> tweepy.Client:
             "以下の環境変数が設定されていません: " + ", ".join(missing)
         )
 
+    # 認証情報のデバッグ (値そのものは出力しない)
+    logger.info(
+        "認証情報: API_KEY=%d文字, API_SECRET=%d文字, "
+        "ACCESS_TOKEN=%d文字, ACCESS_SECRET=%d文字",
+        len(X_API_KEY), len(X_API_SECRET),
+        len(X_ACCESS_TOKEN), len(X_ACCESS_SECRET),
+    )
+
+    # 前後の空白を除去して渡す
     return tweepy.Client(
-        consumer_key=X_API_KEY,
-        consumer_secret=X_API_SECRET,
-        access_token=X_ACCESS_TOKEN,
-        access_token_secret=X_ACCESS_SECRET,
+        consumer_key=X_API_KEY.strip(),
+        consumer_secret=X_API_SECRET.strip(),
+        access_token=X_ACCESS_TOKEN.strip(),
+        access_token_secret=X_ACCESS_SECRET.strip(),
     )
 
 
@@ -115,6 +124,12 @@ def main(session_type: str | None = None, date: str | None = None) -> None:
 
         except tweepy.TweepyException as exc:
             logger.error("  -> 投稿失敗: %s", exc)
+            # API エラーの詳細を出力
+            if hasattr(exc, "response") and exc.response is not None:
+                logger.error("  -> HTTP Status: %s", exc.response.status_code)
+                logger.error("  -> Response: %s", exc.response.text)
+            if hasattr(exc, "api_errors"):
+                logger.error("  -> API Errors: %s", exc.api_errors)
             tweet["status"] = "failed"
             tweet["error"] = str(exc)
 
