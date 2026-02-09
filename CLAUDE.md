@@ -44,6 +44,8 @@ Cron (朝8:00 / 夜19:00 JST)
 - PR title: 簡潔に変更内容を記載 (70文字以内)
 - PR body: Summary + 変更内容 + テスト結果
 - レビュー後にマージ
+- **自動 PR 作成**: `feature/**` / `claude/**` ブランチへの push で自動的に PR が作成される (`.github/workflows/auto-pr.yml`)
+- 修正完了時は必ずコミット & プッシュまで行い、PR 作成を自動トリガーする
 
 ### Commit Convention
 

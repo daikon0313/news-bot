@@ -1,0 +1,89 @@
+name: "Auto: Create PR on Branch Push"
+
+on:
+  push:
+    branches:
+      - 'feature/**'
+      - 'claude/**'
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  create-pr:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Check if PR already exists
+        id: check
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          BRANCH="${{ github.ref_name }}"
+          EXISTING=$(gh pr list --head "$BRANCH" --state open --json number --jq '.[0].number // empty')
+          if [ -n "$EXISTING" ]; then
+            echo "PR #$EXISTING already exists for $BRANCH"
+            echo "exists=true" >> "$GITHUB_OUTPUT"
+            echo "pr_number=$EXISTING" >> "$GITHUB_OUTPUT"
+          else
+            echo "No existing PR for $BRANCH"
+            echo "exists=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Gather commit info for PR body
+        if: steps.check.outputs.exists == 'false'
+        id: info
+        run: |
+          BRANCH="${{ github.ref_name }}"
+
+          # Get all commits on this branch not in main
+          COMMIT_LOG=$(git log origin/main..HEAD --pretty=format:"- %s" 2>/dev/null | head -20)
+          FILE_COUNT=$(git diff --name-only origin/main...HEAD 2>/dev/null | wc -l)
+          FILES_CHANGED=$(git diff --name-only origin/main...HEAD 2>/dev/null | head -30)
+
+          {
+            echo 'body<<PREOF'
+            echo "## Summary"
+            echo ""
+            echo "Branch: \`$BRANCH\`"
+            echo "Files changed: $FILE_COUNT"
+            echo ""
+            echo "## Commits"
+            echo ""
+            echo "$COMMIT_LOG"
+            echo ""
+            echo "## Files"
+            echo ""
+            echo '```'
+            echo "$FILES_CHANGED"
+            echo '```'
+            echo ""
+            echo "---"
+            echo "*Auto-generated PR by auto-pr workflow*"
+            echo 'PREOF'
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Create Pull Request
+        if: steps.check.outputs.exists == 'false'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          BRANCH="${{ github.ref_name }}"
+
+          # Extract a title from the branch name
+          # claude/tech-news-twitter-bot-1KAFn -> tech-news-twitter-bot
+          # feature/issue-3-fix-shell-injection -> issue-3-fix-shell-injection
+          TITLE=$(echo "$BRANCH" | sed 's|^claude/||;s|^feature/||;s|-[a-zA-Z0-9]\{5\}$||')
+
+          PR_URL=$(gh pr create \
+            --base main \
+            --head "$BRANCH" \
+            --title "$TITLE" \
+            --body "${{ steps.info.outputs.body }}")
+
+          echo "Created PR: $PR_URL"
