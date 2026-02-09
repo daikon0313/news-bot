@@ -35,7 +35,8 @@ Cron (朝8:00 / 夜19:00 JST)
   - `priority: high` / `priority: medium` / `priority: low`
   - `type: bug` / `type: refactor` / `type: security`
   - `area: scripts` / `area: workflows` / `area: config`
-- 着手前に PO (Product Owner) が優先順位を判断し、オーナーに相談する
+- 着手前に PO (Product Owner) が優先順位を判断し、オーナー (Benjamin) に相談する
+- PO の承認なしに着手しない
 
 ### PR Rules
 
@@ -43,6 +44,8 @@ Cron (朝8:00 / 夜19:00 JST)
 - PR title: 簡潔に変更内容を記載 (70文字以内)
 - PR body: Summary + 変更内容 + テスト結果
 - レビュー後にマージ
+- **自動 PR 作成**: `feature/**` / `claude/**` ブランチへの push で自動的に PR が作成される (`.github/workflows/auto-pr.yml`)
+- 修正完了時は必ずコミット & プッシュまで行い、PR 作成を自動トリガーする
 
 ### Commit Convention
 
@@ -54,29 +57,87 @@ Closes #<issue-number>
 
 type: `feat`, `fix`, `refactor`, `docs`, `ci`, `chore`
 
+### CLAUDE.md 更新ルール
+
+- コード修正のたびに CLAUDE.md を見直し、必要があれば更新する
+- 新しいファイル追加時は Key Files テーブルに反映
+- Interface Contract の変更時は必ず反映
+- チーム構成やプロセスの変更時は反映
+
 ---
 
 ## Team Structure (Claude Code Agents)
 
-### Product Owner (PO) - メインエージェント
-- プロダクトの方向性を決定
-- 課題の優先順位を判定
-- 各エージェントのアウトプットを最終レビュー
-- オーナー (Benjamin) との窓口
+```
+PO (Product Owner) - メインエージェント
+├── PM (Project Manager)
+│   ├── config-coder      ← Phase 1: 最初に実行
+│   ├── core-coder        ← Phase 2: 並列
+│   ├── integration-coder ← Phase 2: 並列
+│   ├── infra-coder       ← Phase 2: 並列
+│   └── test-coder        ← Phase 3: コード完成後
+└── security-reviewer     ← Phase 3: PMレビューと並行
+```
 
-### Project Manager (PM)
-- コードレビュー・品質管理
-- contents-coder / infra-coder の成果物を統合チェック
-- ファイル間の整合性検証 (CLI引数, パス, タイムゾーン等)
-- 問題点のリストアップと修正提案
+### 各エージェントの定義
 
-### Contents Coder
-- Python スクリプトの実装・修正
-- 担当: scripts/, templates/, sources.yml, requirements.txt
+プロンプトファイル: `.claude/agents/` 以下に各エージェントの責務・スコープ・制約を定義。
 
-### Infra Coder
-- CI/CD ワークフロー・インフラ設定
-- 担当: .github/workflows/, .gitignore
+| Agent | Prompt File | 担当スコープ |
+|-------|------------|-------------|
+| PO | (メインエージェント) | プロダクト方向性, 優先順位, Benjamin との窓口 |
+| PM | `.claude/agents/project-manager.md` | コードレビュー, 統合チェック, 品質管理 |
+| config-coder | `.claude/agents/config-coder.md` | config.py, sources.yml, requirements.txt, .gitignore, templates/ |
+| core-coder | `.claude/agents/core-coder.md` | fetch_news.py, generate_tweets.py |
+| integration-coder | `.claude/agents/integration-coder.md` | post_to_x.py, notify.py |
+| infra-coder | `.claude/agents/infra-coder.md` | .github/workflows/ |
+| test-coder | `.claude/agents/test-coder.md` | tests/ |
+| security-reviewer | `.claude/agents/security-reviewer.md` | 全ファイル読み取り (セキュリティ観点) |
+
+### 開発フロー
+
+```
+Phase 1: config-coder → Interface Contract 定義
+Phase 2: core-coder, integration-coder, infra-coder (並列実行)
+Phase 3: PM レビュー + security-reviewer (並列実行)
+Phase 4: 修正 → test-coder → 最終確認
+```
+
+---
+
+## Interface Contract
+
+### CLI 引数仕様
+
+```
+fetch_news.py <session_type>
+  session_type: "morning" | "evening" (位置引数, 必須)
+
+generate_tweets.py <session_type>
+  session_type: "morning" | "evening" (位置引数, 必須)
+
+post_to_x.py [--session-type TYPE] [--date YYYY-MM-DD]
+  両方指定 → 特定ファイルを読み込み
+  未指定 → drafts/ から最新ファイルをフォールバック
+
+notify.py <notify_type> [session_type] [--session-type TYPE] [--date DATE] [--pr-url URL]
+  notify_type: "draft" | "posted" (位置引数, 必須)
+  --session-type フラグが位置引数より優先
+```
+
+### ファイル命名規則 (全て JST 基準)
+
+```
+drafts/news_{session_type}_{YYYY-MM-DD}.json      # ニュース
+drafts/tweets_{session_type}_{YYYY-MM-DD}.json     # ツイート案
+posted/posted_{YYYY-MM-DD}.json                    # 投稿済み
+```
+
+### タイムゾーン規約
+
+- Python: `datetime.now(JST)` (`from config import JST`)
+- Shell: `TZ=Asia/Tokyo date +%Y-%m-%d`
+- UTC は使用しない
 
 ---
 
@@ -89,7 +150,7 @@ type: `feat`, `fix`, `refactor`, `docs`, `ci`, `chore`
 - **News**: feedparser (RSS), requests (API)
 - **Config**: PyYAML
 - **Notifications**: Slack/Discord Webhooks
-- **Timezone**: JST (Asia/Tokyo) - 全スクリプト統一
+- **Timezone**: JST (Asia/Tokyo) - 全スクリプト・ワークフロー統一
 
 ---
 
@@ -104,6 +165,8 @@ type: `feat`, `fix`, `refactor`, `docs`, `ci`, `chore`
 | `scripts/notify.py` | Slack/Discord通知 |
 | `sources.yml` | ニュースソース定義 |
 | `templates/prompt_template.md` | Claude APIプロンプト |
+| `.claude/agents/*.md` | サブエージェント定義 |
+| `docs/issues-backlog.md` | Issue バックログ |
 
 ---
 

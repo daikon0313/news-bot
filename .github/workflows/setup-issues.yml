@@ -1,0 +1,200 @@
+name: "Setup: Create Issue Backlog"
+
+on:
+  workflow_dispatch:
+
+permissions:
+  issues: write
+
+jobs:
+  create-labels:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Create labels
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          REPO="daikon0313/news-bot"
+          gh label create "priority: high"   --repo "$REPO" --color "d73a4a" --description "早期対応が必要"   --force
+          gh label create "priority: medium" --repo "$REPO" --color "fbca04" --description "中期で対応"       --force
+          gh label create "priority: low"    --repo "$REPO" --color "0e8a16" --description "品質改善"         --force
+          gh label create "type: bug"        --repo "$REPO" --color "d73a4a" --description "バグ修正"         --force
+          gh label create "type: refactor"   --repo "$REPO" --color "1d76db" --description "リファクタリング" --force
+          gh label create "type: security"   --repo "$REPO" --color "b60205" --description "セキュリティ"     --force
+          gh label create "area: scripts"    --repo "$REPO" --color "c5def5" --description "Python スクリプト" --force
+          gh label create "area: workflows"  --repo "$REPO" --color "bfdadc" --description "GitHub Actions"   --force
+          gh label create "area: config"     --repo "$REPO" --color "d4c5f9" --description "設定関連"         --force
+
+  create-issues:
+    needs: create-labels
+    runs-on: ubuntu-latest
+    steps:
+      - name: Create Issue M-2
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh issue create --repo daikon0313/news-bot \
+            --title "post-on-merge ワークフローに timeout-minutes を設定する" \
+            --label "priority: high" --label "area: workflows" \
+            --body "$(cat <<'EOF'
+          ## 概要
+          3ツイート × 30分間隔 = 最低60分の実行時間。`post-on-merge.yml` に `timeout-minutes` が未設定。
+
+          ## 修正案
+          - `post-on-merge.yml` のジョブに `timeout-minutes: 120` を明示設定
+          - 将来的に投稿間隔の短縮 (10-15分) を検討
+
+          ## 関連ファイル
+          - `.github/workflows/post-on-merge.yml`
+          - `scripts/config.py` (POSTING_INTERVAL_MINUTES)
+          EOF
+          )"
+
+      - name: Create Issue M-4
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh issue create --repo daikon0313/news-bot \
+            --title "weekly-analysis ワークフローの Shell Injection リスクを修正" \
+            --label "priority: high" --label "type: security" --label "area: workflows" \
+            --body "$(cat <<'EOF'
+          ## 概要
+          `weekly-analysis.yml` でツイート本文を含むレポートが `${{ steps.analysis.outputs.report }}` 経由でシェルに直接展開されている。
+
+          ## リスク
+          ツイート本文に `'''` や `$(...)` が含まれると構文エラーやコマンドインジェクションが発生する。
+
+          ## 修正案
+          環境変数経由で渡す:
+          ```yaml
+          env:
+            REPORT: ステップ出力
+          run: |
+            python3 -c "import os; report = os.environ['REPORT']"
+          ```
+
+          ## 関連ファイル
+          - `.github/workflows/weekly-analysis.yml` (L141-157, L166-173)
+          EOF
+          )"
+
+      - name: Create Issue M-1
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh issue create --repo daikon0313/news-bot \
+            --title "sources.yml の設定値が config.py で無視される" \
+            --label "priority: medium" --label "type: refactor" --label "area: config" \
+            --body "$(cat <<'EOF'
+          ## 概要
+          `sources.yml` に `tweets_per_session` や `posting` を定義しているが、`config.py` ではハードコード。YAML の値は未使用。
+
+          ## 修正案
+          - A) config.py で YAML から読む
+          - B) YAML から不要な設定を削除し config.py に集約 (推奨)
+
+          ## 関連ファイル
+          - `sources.yml` (L100-105)
+          - `scripts/config.py` (L50-51)
+          EOF
+          )"
+
+      - name: Create Issue m-4
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh issue create --repo daikon0313/news-bot \
+            --title "朝/夜ワークフローを reusable workflow で共通化" \
+            --label "priority: medium" --label "type: refactor" --label "area: workflows" \
+            --body "$(cat <<'EOF'
+          ## 概要
+          `fetch-and-draft.yml` と `fetch-and-draft-evening.yml` はセッション名・cron以外ほぼ同一(127行x2)。
+
+          ## 修正案
+          reusable workflow (`workflow_call`) で共通処理を切り出す。
+
+          ## 関連ファイル
+          - `.github/workflows/fetch-and-draft.yml`
+          - `.github/workflows/fetch-and-draft-evening.yml`
+          EOF
+          )"
+
+      - name: Create Issue m-1
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh issue create --repo daikon0313/news-bot \
+            --title "scripts/ の import パスを明示的に設定する" \
+            --label "priority: low" --label "type: refactor" --label "area: scripts" \
+            --body "$(cat <<'EOF'
+          ## 概要
+          各スクリプトが `from config import ...` でインポート。テスト導入時に壊れる可能性。
+
+          ## 修正案
+          各スクリプト先頭に `sys.path.insert(0, ...)` を追加。
+
+          ## 関連ファイル
+          - `scripts/fetch_news.py`, `scripts/generate_tweets.py`, `scripts/post_to_x.py`, `scripts/notify.py`
+          EOF
+          )"
+
+      - name: Create Issue m-2
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh issue create --repo daikon0313/news-bot \
+            --title "weekly-analysis の glob パターンが posted ファイル名と不一致" \
+            --label "priority: low" --label "type: bug" --label "area: workflows" \
+            --body "$(cat <<'EOF'
+          ## 概要
+          分析が `posted/tweets_*.json` を検索するが、`post_to_x.py` は `posted/posted_{date}.json` で保存。分析対象が漏れる。
+
+          ## 修正案
+          glob パターンを `posted/*.json` に広げるか命名規則を統一。
+
+          ## 関連ファイル
+          - `.github/workflows/weekly-analysis.yml` (L49)
+          - `scripts/post_to_x.py` (L123-125)
+          EOF
+          )"
+
+      - name: Create Issue m-3
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh issue create --repo daikon0313/news-bot \
+            --title "generate_tweets.py の JSON パース正規表現を非貪欲マッチに修正" \
+            --label "priority: low" --label "type: bug" --label "area: scripts" \
+            --body "$(cat <<'EOF'
+          ## 概要
+          `re.search(r"\[.*\]", text, re.DOTALL)` が貪欲マッチ。Claude のレスポンスで意図しない範囲をマッチする可能性。
+
+          ## 修正案
+          非貪欲マッチに変更、または json.loads() を先に試すフォールバック追加。
+
+          ## 関連ファイル
+          - `scripts/generate_tweets.py` (L70)
+          EOF
+          )"
+
+      - name: Create Issue m-5
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh issue create --repo daikon0313/news-bot \
+            --title ".gitignore にローカル開発用の除外パターンを追加" \
+            --label "priority: low" --label "type: refactor" --label "area: config" \
+            --body "$(cat <<'EOF'
+          ## 概要
+          ローカルで実行すると `drafts/` に JSON が生成されるが `.gitignore` に除外設定がない。
+
+          ## 注意
+          GitHub Actions ではコミットが必要なため完全除外は不可。
+
+          ## 修正案
+          開発ドキュメントに注意事項を記載、またはローカル用の命名規則を設ける。
+
+          ## 関連ファイル
+          - `.gitignore`
+          EOF
+          )"

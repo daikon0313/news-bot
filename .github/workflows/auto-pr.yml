@@ -1,0 +1,81 @@
+name: "Auto: Create PR on Branch Push"
+
+on:
+  push:
+    branches:
+      - 'feature/**'
+      - 'claude/**'
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  create-pr:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Check if PR already exists
+        id: check
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH_NAME: ${{ github.ref_name }}
+        run: |
+          EXISTING=$(gh pr list --head "$BRANCH_NAME" --state open --json number --jq '.[0].number // empty')
+          if [ -n "$EXISTING" ]; then
+            echo "PR #$EXISTING already exists for $BRANCH_NAME"
+            echo "exists=true" >> "$GITHUB_OUTPUT"
+            echo "pr_number=$EXISTING" >> "$GITHUB_OUTPUT"
+          else
+            echo "No existing PR for $BRANCH_NAME"
+            echo "exists=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Create Pull Request
+        if: steps.check.outputs.exists == 'false'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH_NAME: ${{ github.ref_name }}
+        run: |
+          # Gather commit info for PR body
+          COMMIT_LOG=$(git log origin/main..HEAD --pretty=format:"- %s" 2>/dev/null | head -20)
+          FILE_COUNT=$(git diff --name-only origin/main...HEAD 2>/dev/null | wc -l)
+          FILES_CHANGED=$(git diff --name-only origin/main...HEAD 2>/dev/null | head -30)
+
+          # Write PR body to a temp file to avoid shell expansion issues
+          cat > /tmp/pr_body.md <<PREOF
+          ## Summary
+
+          Branch: \`${BRANCH_NAME}\`
+          Files changed: ${FILE_COUNT}
+
+          ## Commits
+
+          ${COMMIT_LOG}
+
+          ## Files
+
+          \`\`\`
+          ${FILES_CHANGED}
+          \`\`\`
+
+          ---
+          *Auto-generated PR by auto-pr workflow*
+          PREOF
+
+          # Extract a title from the branch name
+          # claude/tech-news-twitter-bot-1KAFn -> tech-news-twitter-bot
+          # feature/issue-3-fix-shell-injection -> issue-3-fix-shell-injection
+          TITLE=$(echo "$BRANCH_NAME" | sed 's|^claude/||;s|^feature/||;s|-[a-zA-Z0-9]\{5\}$||')
+
+          PR_URL=$(gh pr create \
+            --base main \
+            --head "$BRANCH_NAME" \
+            --title "$TITLE" \
+            --body-file /tmp/pr_body.md)
+
+          echo "Created PR: $PR_URL"
