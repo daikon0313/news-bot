@@ -1,0 +1,105 @@
+sources:
+  # ---------------------------------------------------------------------------
+  # AI / Machine Learning
+  # ---------------------------------------------------------------------------
+  - name: "TechCrunch AI"
+    type: rss
+    url: "https://techcrunch.com/category/artificial-intelligence/feed/"
+    max_items: 5
+    categories:
+      - AI
+      - Machine Learning
+
+  - name: "OpenAI Blog"
+    type: rss
+    url: "https://openai.com/blog/rss.xml"
+    max_items: 3
+    categories:
+      - AI
+      - Machine Learning
+
+  - name: "Google AI Blog"
+    type: rss
+    url: "https://blog.google/technology/ai/rss/"
+    max_items: 3
+    categories:
+      - AI
+      - Machine Learning
+
+  - name: "MIT Technology Review"
+    type: rss
+    url: "https://www.technologyreview.com/feed/"
+    max_items: 3
+    categories:
+      - AI
+      - Tech General
+
+  # ---------------------------------------------------------------------------
+  # Data Engineering
+  # ---------------------------------------------------------------------------
+  - name: "dbt Blog"
+    type: rss
+    url: "https://www.getdbt.com/blog/rss.xml"
+    max_items: 3
+    categories:
+      - Data Engineering
+
+  - name: "Databricks Blog"
+    type: rss
+    url: "https://www.databricks.com/feed"
+    max_items: 3
+    categories:
+      - Data Engineering
+
+  # ---------------------------------------------------------------------------
+  # Tech General
+  # ---------------------------------------------------------------------------
+  - name: "Hacker News"
+    type: api
+    url: "https://hacker-news.firebaseio.com/v0/topstories.json"
+    max_items: 5
+    categories:
+      - Tech General
+
+  - name: "The Verge"
+    type: rss
+    url: "https://www.theverge.com/rss/index.xml"
+    max_items: 5
+    categories:
+      - Tech General
+
+  - name: "Ars Technica"
+    type: rss
+    url: "https://feeds.arstechnica.com/arstechnica/index"
+    max_items: 3
+    categories:
+      - Tech General
+
+  # ---------------------------------------------------------------------------
+  # Consulting / Business
+  # ---------------------------------------------------------------------------
+  - name: "McKinsey"
+    type: rss
+    url: "https://www.mckinsey.com/insights/rss"
+    max_items: 3
+    categories:
+      - Consulting
+      - Business
+
+  - name: "Harvard Business Review"
+    type: rss
+    url: "https://hbr.org/feed"
+    max_items: 3
+    categories:
+      - Business
+      - Consulting
+
+# -----------------------------------------------------------------------------
+# Posting schedule
+# -----------------------------------------------------------------------------
+posting:
+  morning_slots: ["09:00", "09:30", "10:00"]
+  evening_slots: ["20:00", "20:30", "21:00"]
+  timezone: "Asia/Tokyo"
+
+tweets_per_session: 3

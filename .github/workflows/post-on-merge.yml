@@ -1,0 +1,101 @@
+name: "Post Tweets on PR Merge"
+
+on:
+  pull_request:
+    types: [closed]
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  post-tweets:
+    # Only run when the PR was actually merged (not just closed)
+    # and the branch name starts with "tweets/"
+    if: >-
+      github.event.pull_request.merged == true &&
+      startsWith(github.event.pull_request.head.ref, 'tweets/')
+    runs-on: ubuntu-latest
+    env:
+      X_API_KEY: ${{ secrets.X_API_KEY }}
+      X_API_SECRET: ${{ secrets.X_API_SECRET }}
+      X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+      X_ACCESS_SECRET: ${{ secrets.X_ACCESS_SECRET }}
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Setup Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Determine session type from branch name
+        id: session
+        run: |
+          BRANCH="${{ github.event.pull_request.head.ref }}"
+          echo "branch=$BRANCH" >> "$GITHUB_OUTPUT"
+
+          if echo "$BRANCH" | grep -q "morning"; then
+            echo "type=morning" >> "$GITHUB_OUTPUT"
+          elif echo "$BRANCH" | grep -q "evening"; then
+            echo "type=evening" >> "$GITHUB_OUTPUT"
+          else
+            echo "type=unknown" >> "$GITHUB_OUTPUT"
+          fi
+
+          # Extract the date portion from branch name (tweets/morning-YYYY-MM-DD)
+          DATE=$(echo "$BRANCH" | grep -oP '\d{4}-\d{2}-\d{2}')
+          echo "date=$DATE" >> "$GITHUB_OUTPUT"
+          echo "Session: branch=$BRANCH, date=$DATE"
+
+      - name: Post tweets to X
+        run: |
+          python scripts/post_to_x.py \
+            --session-type "${{ steps.session.outputs.type }}" \
+            --date "${{ steps.session.outputs.date }}"
+
+      - name: Move drafts to posted and commit
+        run: |
+          git config user.name "news-bot"
+          git config user.email "news-bot@users.noreply.github.com"
+
+          SESSION_TYPE="${{ steps.session.outputs.type }}"
+          DATE="${{ steps.session.outputs.date }}"
+
+          # Move posted draft files to posted/ directory
+          if ls drafts/tweets_${SESSION_TYPE}_${DATE}* 1>/dev/null 2>&1; then
+            cp drafts/tweets_${SESSION_TYPE}_${DATE}* posted/
+          fi
+
+          # Also capture any post result logs
+          if ls drafts/posted_* 1>/dev/null 2>&1; then
+            mv drafts/posted_* posted/
+          fi
+
+          git add posted/ drafts/
+          git diff --cached --quiet && echo "No changes to archive" && exit 0
+          git commit -m "Archive posted tweets: ${SESSION_TYPE} ${DATE}"
+          git push origin main
+
+      - name: Send notification (posted)
+        continue-on-error: true
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: |
+          python scripts/notify.py posted \
+            --session-type "${{ steps.session.outputs.type }}" \
+            --date "${{ steps.session.outputs.date }}"
+
+      - name: Clean up remote branch
+        continue-on-error: true
+        run: |
+          git push origin --delete "${{ steps.session.outputs.branch }}" || true

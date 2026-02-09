@@ -1,0 +1,182 @@
+name: "Weekly Engagement Analysis"
+
+on:
+  schedule:
+    # Every Monday UTC 00:00 = JST 09:00
+    - cron: "0 0 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  weekly-analysis:
+    runs-on: ubuntu-latest
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Get date range (JST)
+        id: dates
+        run: |
+          WEEK_END=$(TZ=Asia/Tokyo date +%Y-%m-%d)
+          WEEK_START=$(TZ=Asia/Tokyo date -d '7 days ago' +%Y-%m-%d)
+          echo "week_start=$WEEK_START" >> "$GITHUB_OUTPUT"
+          echo "week_end=$WEEK_END" >> "$GITHUB_OUTPUT"
+          echo "Analysis period: $WEEK_START to $WEEK_END"
+
+      - name: Analyze posted tweets
+        id: analysis
+        run: |
+          {
+            echo 'report<<ANALYSISEOF'
+            python3 -c "
+          import json, glob, os
+          from datetime import datetime, timedelta
+          from collections import Counter
+
+          week_start = '${{ steps.dates.outputs.week_start }}'
+          week_end = '${{ steps.dates.outputs.week_end }}'
+
+          posted_files = sorted(glob.glob('posted/tweets_*.json'))
+
+          # Filter files within the date range
+          weekly_files = []
+          for f in posted_files:
+              basename = os.path.basename(f)
+              # Extract date from filename pattern: tweets_{type}_{date}.json
+              parts = basename.replace('.json', '').split('_')
+              if len(parts) >= 3:
+                  file_date = parts[-1]  # last segment should be date
+                  # Handle YYYY-MM-DD format
+                  if len(file_date) == 10:
+                      if week_start <= file_date <= week_end:
+                          weekly_files.append(f)
+
+          total_tweets = 0
+          categories = Counter()
+          sessions = Counter()
+          sources = Counter()
+
+          for f in weekly_files:
+              try:
+                  with open(f, 'r') as fh:
+                      data = json.load(fh)
+                  tweets = data if isinstance(data, list) else data.get('tweets', [data])
+                  total_tweets += len(tweets)
+                  for t in tweets:
+                      cat = t.get('category', 'Uncategorized')
+                      categories[cat] += 1
+                      src = t.get('source', 'Unknown')
+                      sources[src] += 1
+                  # Determine session type from filename
+                  if 'morning' in os.path.basename(f):
+                      sessions['morning'] += len(tweets)
+                  elif 'evening' in os.path.basename(f):
+                      sessions['evening'] += len(tweets)
+              except (json.JSONDecodeError, IOError) as e:
+                  print(f'Warning: Could not parse {f}: {e}')
+
+          print(f'# Weekly Analysis Report')
+          print(f'Period: {week_start} - {week_end}')
+          print()
+          print(f'## Summary')
+          print(f'- Total tweets posted: **{total_tweets}**')
+          print(f'- Draft files processed: **{len(weekly_files)}**')
+          print()
+
+          if sessions:
+              print(f'## Session Breakdown')
+              for session, count in sessions.most_common():
+                  print(f'- {session.capitalize()}: {count} tweets')
+              print()
+
+          if categories:
+              print(f'## Category Distribution')
+              for cat, count in categories.most_common(10):
+                  pct = (count / total_tweets * 100) if total_tweets > 0 else 0
+                  bar = '#' * int(pct / 5)
+                  print(f'- {cat}: {count} ({pct:.0f}%) {bar}')
+              print()
+
+          if sources:
+              print(f'## Top Sources')
+              for src, count in sources.most_common(5):
+                  print(f'- {src}: {count}')
+              print()
+
+          if total_tweets == 0:
+              print('No tweets were posted this week.')
+              print()
+
+          print('---')
+          print('Note: Engagement metrics (likes, retweets, impressions) require')
+          print('X API Basic plan. Please check the X Analytics dashboard manually')
+          print('for detailed engagement data.')
+          "
+            echo 'ANALYSISEOF'
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Display report in logs
+        run: |
+          echo "${{ steps.analysis.outputs.report }}"
+
+      - name: Send weekly report notification
+        continue-on-error: true
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: |
+          # Send to Slack if configured
+          if [ -n "$SLACK_WEBHOOK_URL" ]; then
+            REPORT=$(echo '${{ steps.analysis.outputs.report }}' | head -50)
+            PAYLOAD=$(python3 -c "
+          import json, sys
+          report = '''${{ steps.analysis.outputs.report }}'''
+          payload = {
+              'text': ':bar_chart: Weekly Tweet Analysis Report',
+              'blocks': [
+                  {
+                      'type': 'section',
+                      'text': {
+                          'type': 'mrkdwn',
+                          'text': report[:2900]
+                      }
+                  }
+              ]
+          }
+          print(json.dumps(payload))
+          ")
+            curl -s -X POST -H 'Content-type: application/json' \
+              --data "$PAYLOAD" \
+              "$SLACK_WEBHOOK_URL"
+            echo "Slack notification sent."
+          fi
+
+          # Send to Discord if configured
+          if [ -n "$DISCORD_WEBHOOK_URL" ]; then
+            PAYLOAD=$(python3 -c "
+          import json
+          report = '''${{ steps.analysis.outputs.report }}'''
+          payload = {
+              'content': '**Weekly Tweet Analysis Report**\n\n' + report[:1900]
+          }
+          print(json.dumps(payload))
+          ")
+            curl -s -X POST -H 'Content-type: application/json' \
+              --data "$PAYLOAD" \
+              "$DISCORD_WEBHOOK_URL"
+            echo "Discord notification sent."
+          fi
+
+          if [ -z "$SLACK_WEBHOOK_URL" ] && [ -z "$DISCORD_WEBHOOK_URL" ]; then
+            echo "No notification webhooks configured. Report is available in workflow logs only."
+          fi
