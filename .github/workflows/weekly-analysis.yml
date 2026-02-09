@@ -36,139 +36,37 @@ jobs:
           WEEK_START: ${{ steps.dates.outputs.week_start }}
           WEEK_END: ${{ steps.dates.outputs.week_end }}
         run: |
-          python3 << 'PYEOF' > /tmp/weekly_report.md
-import json, glob, os
-from collections import Counter
-
-week_start = os.environ["WEEK_START"]
-week_end = os.environ["WEEK_END"]
-
-posted_files = sorted(glob.glob("posted/*.json"))
-
-# Filter files within the date range
-weekly_files = []
-for f in posted_files:
-    basename = os.path.basename(f)
-    parts = basename.replace(".json", "").split("_")
-    if len(parts) >= 3:
-        file_date = parts[-1]
-        if len(file_date) == 10:
-            if week_start <= file_date <= week_end:
-                weekly_files.append(f)
-
-total_tweets = 0
-categories = Counter()
-sessions = Counter()
-sources = Counter()
-
-for f in weekly_files:
-    try:
-        with open(f, "r") as fh:
-            data = json.load(fh)
-        tweets = data if isinstance(data, list) else data.get("tweets", [data])
-        total_tweets += len(tweets)
-        for t in tweets:
-            cat = t.get("category", "Uncategorized")
-            categories[cat] += 1
-            src = t.get("source", "Unknown")
-            sources[src] += 1
-        if "morning" in os.path.basename(f):
-            sessions["morning"] += len(tweets)
-        elif "evening" in os.path.basename(f):
-            sessions["evening"] += len(tweets)
-    except (json.JSONDecodeError, IOError) as e:
-        print(f"Warning: Could not parse {f}: {e}")
-
-print(f"# Weekly Analysis Report")
-print(f"Period: {week_start} - {week_end}")
-print()
-print(f"## Summary")
-print(f"- Total tweets posted: **{total_tweets}**")
-print(f"- Draft files processed: **{len(weekly_files)}**")
-print()
-
-if sessions:
-    print(f"## Session Breakdown")
-    for session, count in sessions.most_common():
-        print(f"- {session.capitalize()}: {count} tweets")
-    print()
-
-if categories:
-    print(f"## Category Distribution")
-    for cat, count in categories.most_common(10):
-        pct = (count / total_tweets * 100) if total_tweets > 0 else 0
-        bar = "#" * int(pct / 5)
-        print(f"- {cat}: {count} ({pct:.0f}%) {bar}")
-    print()
-
-if sources:
-    print(f"## Top Sources")
-    for src, count in sources.most_common(5):
-        print(f"- {src}: {count}")
-    print()
-
-if total_tweets == 0:
-    print("No tweets were posted this week.")
-    print()
-
-print("---")
-print("Note: Engagement metrics (likes, retweets, impressions) require")
-print("X API Basic plan. Please check the X Analytics dashboard manually")
-print("for detailed engagement data.")
-PYEOF
+          python3 scripts/weekly_report.py "$WEEK_START" "$WEEK_END" > /tmp/weekly_report.md
 
       - name: Display report in logs
         run: cat /tmp/weekly_report.md
 
-      - name: Send weekly report notification
+      - name: Send Slack notification
+        if: env.SLACK_WEBHOOK_URL != ''
         continue-on-error: true
         env:
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+        run: |
+          REPORT=$(cat /tmp/weekly_report.md | head -c 2900)
+          jq -n --arg text "$REPORT" \
+            '{"text":":bar_chart: Weekly Tweet Analysis Report","blocks":[{"type":"section","text":{"type":"mrkdwn","text":$text}}]}' \
+            > /tmp/slack_payload.json
+          curl -s -X POST -H 'Content-type: application/json' \
+            --data @/tmp/slack_payload.json \
+            "$SLACK_WEBHOOK_URL"
+          echo "Slack notification sent."
+
+      - name: Send Discord notification
+        if: env.DISCORD_WEBHOOK_URL != ''
+        continue-on-error: true
+        env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
         run: |
-          # Send to Slack if configured
-          if [ -n "$SLACK_WEBHOOK_URL" ]; then
-            python3 << 'PYEOF' > /tmp/slack_payload.json
-import json
-
-report = open("/tmp/weekly_report.md").read()
-payload = {
-    "text": ":bar_chart: Weekly Tweet Analysis Report",
-    "blocks": [
-        {
-            "type": "section",
-            "text": {
-                "type": "mrkdwn",
-                "text": report[:2900]
-            }
-        }
-    ]
-}
-print(json.dumps(payload))
-PYEOF
-            curl -s -X POST -H 'Content-type: application/json' \
-              --data @/tmp/slack_payload.json \
-              "$SLACK_WEBHOOK_URL"
-            echo "Slack notification sent."
-          fi
-
-          # Send to Discord if configured
-          if [ -n "$DISCORD_WEBHOOK_URL" ]; then
-            python3 << 'PYEOF' > /tmp/discord_payload.json
-import json
-
-report = open("/tmp/weekly_report.md").read()
-payload = {
-    "content": "**Weekly Tweet Analysis Report**\n\n" + report[:1900]
-}
-print(json.dumps(payload))
-PYEOF
-            curl -s -X POST -H 'Content-type: application/json' \
-              --data @/tmp/discord_payload.json \
-              "$DISCORD_WEBHOOK_URL"
-            echo "Discord notification sent."
-          fi
-
-          if [ -z "$SLACK_WEBHOOK_URL" ] && [ -z "$DISCORD_WEBHOOK_URL" ]; then
-            echo "No notification webhooks configured. Report is available in workflow logs only."
-          fi
+          REPORT=$(cat /tmp/weekly_report.md | head -c 1900)
+          jq -n --arg text "$REPORT" \
+            '{"content":("**Weekly Tweet Analysis Report**\n\n" + $text)}' \
+            > /tmp/discord_payload.json
+          curl -s -X POST -H 'Content-type: application/json' \
+            --data @/tmp/discord_payload.json \
+            "$DISCORD_WEBHOOK_URL"
+          echo "Discord notification sent."

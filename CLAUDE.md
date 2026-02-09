@@ -163,6 +163,8 @@ posted/posted_{YYYY-MM-DD}.json                    # 投稿済み
 | `scripts/generate_tweets.py` | Claude APIでツイート生成 |
 | `scripts/post_to_x.py` | X API v2で投稿 |
 | `scripts/notify.py` | Slack/Discord通知 |
+| `scripts/format_pr_body.py` | PR body にツイート案をフォーマット |
+| `scripts/weekly_report.py` | 週次分析レポート生成 |
 | `sources.yml` | ニュースソース定義 |
 | `templates/prompt_template.md` | Claude APIプロンプト |
 | `.claude/agents/*.md` | サブエージェント定義 |
@@ -189,7 +191,8 @@ posted/posted_{YYYY-MM-DD}.json                    # 投稿済み
 | `X_ACCESS_SECRET` | X API Access Token Secret | 必須 |
 | `SLACK_WEBHOOK_URL` | Slack 通知 | 任意 |
 | `DISCORD_WEBHOOK_URL` | Discord 通知 | 任意 |
-| `GITHUB_TOKEN` | PR作成・Issue管理 | 自動提供 |
+| `GH_PAT` | PR自動作成 (Personal Access Token) | 必須 |
+| `GITHUB_TOKEN` | その他 Actions 操作 | 自動提供 |
 
 ---
 
