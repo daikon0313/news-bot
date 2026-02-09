@@ -21,7 +21,6 @@ jobs:
       X_API_SECRET: ${{ secrets.X_API_SECRET }}
       X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
       X_ACCESS_SECRET: ${{ secrets.X_ACCESS_SECRET }}
-      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
     steps:
       - name: Checkout repository
@@ -39,36 +38,41 @@ jobs:
 
       - name: Determine session type from branch name
         id: session
+        env:
+          PR_BRANCH: ${{ github.event.pull_request.head.ref }}
         run: |
-          BRANCH="${{ github.event.pull_request.head.ref }}"
-          echo "branch=$BRANCH" >> "$GITHUB_OUTPUT"
+          echo "branch=$PR_BRANCH" >> "$GITHUB_OUTPUT"
 
-          if echo "$BRANCH" | grep -q "morning"; then
+          if echo "$PR_BRANCH" | grep -q "morning"; then
             echo "type=morning" >> "$GITHUB_OUTPUT"
-          elif echo "$BRANCH" | grep -q "evening"; then
+          elif echo "$PR_BRANCH" | grep -q "evening"; then
             echo "type=evening" >> "$GITHUB_OUTPUT"
           else
             echo "type=unknown" >> "$GITHUB_OUTPUT"
           fi
 
           # Extract the date portion from branch name (tweets/morning-YYYY-MM-DD)
-          DATE=$(echo "$BRANCH" | grep -oP '\d{4}-\d{2}-\d{2}')
+          DATE=$(echo "$PR_BRANCH" | grep -oP '\d{4}-\d{2}-\d{2}')
           echo "date=$DATE" >> "$GITHUB_OUTPUT"
-          echo "Session: branch=$BRANCH, date=$DATE"
+          echo "Session: branch=$PR_BRANCH, date=$DATE"
 
       - name: Post tweets to X
+        env:
+          SESSION_TYPE: ${{ steps.session.outputs.type }}
+          DATE: ${{ steps.session.outputs.date }}
         run: |
           python scripts/post_to_x.py \
-            --session-type "${{ steps.session.outputs.type }}" \
-            --date "${{ steps.session.outputs.date }}"
+            --session-type "$SESSION_TYPE" \
+            --date "$DATE"
 
       - name: Move drafts to posted and commit
+        env:
+          SESSION_TYPE: ${{ steps.session.outputs.type }}
+          DATE: ${{ steps.session.outputs.date }}
+          PR_BRANCH: ${{ github.event.pull_request.head.ref }}
         run: |
           git config user.name "news-bot"
           git config user.email "news-bot@users.noreply.github.com"
-
-          SESSION_TYPE="${{ steps.session.outputs.type }}"
-          DATE="${{ steps.session.outputs.date }}"
 
           # Move posted draft files to posted/ directory
           if ls drafts/tweets_${SESSION_TYPE}_${DATE}* 1>/dev/null 2>&1; then
@@ -90,12 +94,16 @@ jobs:
         env:
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          SESSION_TYPE: ${{ steps.session.outputs.type }}
+          DATE: ${{ steps.session.outputs.date }}
         run: |
           python scripts/notify.py posted \
-            --session-type "${{ steps.session.outputs.type }}" \
-            --date "${{ steps.session.outputs.date }}"
+            --session-type "$SESSION_TYPE" \
+            --date "$DATE"
 
       - name: Clean up remote branch
         continue-on-error: true
+        env:
+          PR_BRANCH: ${{ github.event.pull_request.head.ref }}
         run: |
-          git push origin --delete "${{ steps.session.outputs.branch }}" || true
+          git push origin --delete "$PR_BRANCH" || true

@@ -1,10 +1,18 @@
-name: "Morning - Fetch & Draft Tweets"
+name: "Fetch News & Draft Tweets"
 
 on:
   schedule:
-    # UTC 23:00 = JST 08:00 (翌日)
-    - cron: "0 23 * * *"
+    - cron: "0 23 * * *"   # UTC 23:00 = JST 08:00 (morning)
+    - cron: "0 10 * * *"   # UTC 10:00 = JST 19:00 (evening)
   workflow_dispatch:
+    inputs:
+      session_type:
+        description: "Session type"
+        required: true
+        type: choice
+        options:
+          - morning
+          - evening
 
 permissions:
   contents: write
@@ -15,12 +23,27 @@ jobs:
     runs-on: ubuntu-latest
     env:
       ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      SESSION_TYPE: morning
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+
+      - name: Determine session type
+        id: session
+        env:
+          CRON_SCHEDULE: ${{ github.event.schedule }}
+          INPUT_SESSION: ${{ inputs.session_type }}
+        run: |
+          if [ -n "$INPUT_SESSION" ]; then
+            echo "type=$INPUT_SESSION" >> "$GITHUB_OUTPUT"
+          elif [ "$CRON_SCHEDULE" = "0 23 * * *" ]; then
+            echo "type=morning" >> "$GITHUB_OUTPUT"
+          elif [ "$CRON_SCHEDULE" = "0 10 * * *" ]; then
+            echo "type=evening" >> "$GITHUB_OUTPUT"
+          else
+            echo "type=morning" >> "$GITHUB_OUTPUT"
+          fi
 
       - name: Setup Python 3.12
         uses: actions/setup-python@v5
@@ -38,15 +61,22 @@ jobs:
           echo "Today (JST): $DATE"
 
       - name: Fetch news
-        run: python scripts/fetch_news.py morning
+        env:
+          SESSION_TYPE: ${{ steps.session.outputs.type }}
+        run: python scripts/fetch_news.py "$SESSION_TYPE"
 
       - name: Generate tweets with Claude
-        run: python scripts/generate_tweets.py morning
+        env:
+          SESSION_TYPE: ${{ steps.session.outputs.type }}
+        run: python scripts/generate_tweets.py "$SESSION_TYPE"
 
       - name: Create branch, commit, and push
         id: git-push
+        env:
+          SESSION_TYPE: ${{ steps.session.outputs.type }}
+          DATE: ${{ steps.date.outputs.date }}
         run: |
-          BRANCH="tweets/morning-${{ steps.date.outputs.date }}"
+          BRANCH="tweets/${SESSION_TYPE}-${DATE}"
           echo "branch=$BRANCH" >> "$GITHUB_OUTPUT"
 
           git config user.name "news-bot"
@@ -55,51 +85,17 @@ jobs:
           git checkout -b "$BRANCH"
           git add drafts/
           git diff --cached --quiet && echo "No changes to commit" && exit 0
-          git commit -m "Add morning tweet drafts for ${{ steps.date.outputs.date }}"
+          git commit -m "Add ${SESSION_TYPE} tweet drafts for ${DATE}"
           git push origin "$BRANCH"
-
-      - name: Generate PR body
-        id: pr-body
-        run: |
-          DRAFT_FILE="drafts/tweets_morning_${{ steps.date.outputs.date }}.json"
-          if [ ! -f "$DRAFT_FILE" ]; then
-            echo "body=No draft file found." >> "$GITHUB_OUTPUT"
-            exit 0
-          fi
-
-          {
-            echo 'body<<PREOF'
-            echo "## Morning Tweet Drafts - ${{ steps.date.outputs.date }}"
-            echo ""
-            echo "Below are the auto-generated tweet drafts for review."
-            echo ""
-            python3 -c "
-          import json, sys
-          with open('$DRAFT_FILE', 'r') as f:
-              tweets = json.load(f)
-          if isinstance(tweets, dict):
-              tweets = tweets.get('tweets', [tweets])
-          for i, t in enumerate(tweets, 1):
-              text = t.get('tweet_text', t.get('text', str(t)))
-              category = t.get('category', 'General')
-              source = t.get('source_title', t.get('source', ''))
-              print(f'### Tweet {i} [{category}]')
-              print(f'> {text}')
-              if source:
-                  print(f'')
-                  print(f'Source: {source}')
-              print()
-          "
-            echo "---"
-            echo "Approve and merge this PR to post the tweets."
-            echo 'PREOF'
-          } >> "$GITHUB_OUTPUT"
 
       - name: Create Pull Request
         id: create-pr
         if: steps.git-push.outcome == 'success'
+        env:
+          SESSION_TYPE: ${{ steps.session.outputs.type }}
+          DATE: ${{ steps.date.outputs.date }}
         run: |
-          BRANCH="tweets/morning-${{ steps.date.outputs.date }}"
+          BRANCH="tweets/${SESSION_TYPE}-${DATE}"
 
           # Check if branch was actually pushed (changes existed)
           if ! git ls-remote --heads origin "$BRANCH" | grep -q "$BRANCH"; then
@@ -107,11 +103,46 @@ jobs:
             exit 0
           fi
 
+          # Build PR body to file (avoids shell expansion issues)
+          DRAFT_FILE="drafts/tweets_${SESSION_TYPE}_${DATE}.json"
+          {
+            echo "## ${SESSION_TYPE} Tweet Drafts - ${DATE}"
+            echo ""
+            echo "Below are the auto-generated tweet drafts for review."
+            echo ""
+          } > /tmp/pr_body.md
+
+          if [ -f "$DRAFT_FILE" ]; then
+            python3 << 'PYEOF' >> /tmp/pr_body.md
+import json, os
+draft_file = os.environ["DRAFT_FILE"]
+with open(draft_file, "r") as f:
+    tweets = json.load(f)
+if isinstance(tweets, dict):
+    tweets = tweets.get("tweets", [tweets])
+for i, t in enumerate(tweets, 1):
+    text = t.get("tweet_text", t.get("text", str(t)))
+    category = t.get("category", "General")
+    source = t.get("source_title", t.get("source", ""))
+    print(f"### Tweet {i} [{category}]")
+    print(f"> {text}")
+    if source:
+        print(f"")
+        print(f"Source: {source}")
+    print()
+PYEOF
+          fi
+
+          {
+            echo "---"
+            echo "Approve and merge this PR to post the tweets."
+          } >> /tmp/pr_body.md
+
           PR_URL=$(gh pr create \
             --base main \
             --head "$BRANCH" \
-            --title "Morning tweet drafts - ${{ steps.date.outputs.date }}" \
-            --body "${{ steps.pr-body.outputs.body }}")
+            --title "${SESSION_TYPE} tweet drafts - ${DATE}" \
+            --body-file /tmp/pr_body.md)
 
           echo "pr_url=$PR_URL" >> "$GITHUB_OUTPUT"
           echo "Created PR: $PR_URL"
@@ -122,6 +153,7 @@ jobs:
         env:
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          SESSION_TYPE: ${{ steps.session.outputs.type }}
+          PR_URL: ${{ steps.create-pr.outputs.pr_url }}
         run: |
-          python scripts/notify.py draft morning \
-            --pr-url "${{ steps.create-pr.outputs.pr_url }}"
+          python scripts/notify.py draft "$SESSION_TYPE" --pr-url "$PR_URL"
