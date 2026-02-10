@@ -63,7 +63,7 @@ class TestConstants:
         assert config.TWEETS_PER_SESSION == 3
 
     def test_posting_interval_minutes(self):
-        assert config.POSTING_INTERVAL_MINUTES == 30
+        assert config.POSTING_INTERVAL_MINUTES == 5
 
 
 # ---------------------------------------------------------------------------
