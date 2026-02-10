@@ -4,17 +4,31 @@ on:
   pull_request:
     types: [closed]
     branches: [main]
+  workflow_dispatch:
+    inputs:
+      session_type:
+        description: "Session type"
+        required: true
+        type: choice
+        options:
+          - morning
+          - evening
+      date:
+        description: "Date (YYYY-MM-DD)"
+        required: true
+        type: string
 
 permissions:
   contents: write
 
 jobs:
   post-tweets:
-    # Only run when the PR was actually merged (not just closed)
-    # and the branch name starts with "tweets/"
+    # PR トリガー: マージ済み & tweets/ ブランチの場合のみ
+    # 手動トリガー: 常に実行
     if: >-
-      github.event.pull_request.merged == true &&
-      startsWith(github.event.pull_request.head.ref, 'tweets/')
+      github.event_name == 'workflow_dispatch' ||
+      (github.event.pull_request.merged == true &&
+       startsWith(github.event.pull_request.head.ref, 'tweets/'))
     runs-on: ubuntu-latest
     env:
       X_API_KEY: ${{ secrets.X_API_KEY }}
@@ -36,25 +50,34 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Determine session type from branch name
+      - name: Determine session type and date
         id: session
         env:
           PR_BRANCH: ${{ github.event.pull_request.head.ref }}
+          INPUT_SESSION: ${{ inputs.session_type }}
+          INPUT_DATE: ${{ inputs.date }}
         run: |
-          echo "branch=$PR_BRANCH" >> "$GITHUB_OUTPUT"
-
-          if echo "$PR_BRANCH" | grep -q "morning"; then
-            echo "type=morning" >> "$GITHUB_OUTPUT"
-          elif echo "$PR_BRANCH" | grep -q "evening"; then
-            echo "type=evening" >> "$GITHUB_OUTPUT"
+          if [ -n "$INPUT_SESSION" ]; then
+            # 手動トリガー
+            echo "type=$INPUT_SESSION" >> "$GITHUB_OUTPUT"
+            echo "date=$INPUT_DATE" >> "$GITHUB_OUTPUT"
+            echo "Manual run: session=$INPUT_SESSION, date=$INPUT_DATE"
           else
-            echo "type=unknown" >> "$GITHUB_OUTPUT"
-          fi
+            # PR マージトリガー
+            echo "branch=$PR_BRANCH" >> "$GITHUB_OUTPUT"
 
-          # Extract the date portion from branch name (tweets/morning-YYYY-MM-DD)
-          DATE=$(echo "$PR_BRANCH" | grep -oP '\d{4}-\d{2}-\d{2}')
-          echo "date=$DATE" >> "$GITHUB_OUTPUT"
-          echo "Session: branch=$PR_BRANCH, date=$DATE"
+            if echo "$PR_BRANCH" | grep -q "morning"; then
+              echo "type=morning" >> "$GITHUB_OUTPUT"
+            elif echo "$PR_BRANCH" | grep -q "evening"; then
+              echo "type=evening" >> "$GITHUB_OUTPUT"
+            else
+              echo "type=unknown" >> "$GITHUB_OUTPUT"
+            fi
+
+            DATE=$(echo "$PR_BRANCH" | grep -oP '\d{4}-\d{2}-\d{2}')
+            echo "date=$DATE" >> "$GITHUB_OUTPUT"
+            echo "PR merge: branch=$PR_BRANCH, date=$DATE"
+          fi
 
       - name: Verify X API credentials
         run: |
@@ -93,7 +116,6 @@ jobs:
         env:
           SESSION_TYPE: ${{ steps.session.outputs.type }}
           DATE: ${{ steps.session.outputs.date }}
-          PR_BRANCH: ${{ github.event.pull_request.head.ref }}
         run: |
           git config user.name "news-bot"
           git config user.email "news-bot@users.noreply.github.com"
@@ -103,7 +125,6 @@ jobs:
             cp drafts/tweets_${SESSION_TYPE}_${DATE}* posted/
           fi
 
-          # Also capture any post result logs
           if ls drafts/posted_* 1>/dev/null 2>&1; then
             mv drafts/posted_* posted/
           fi
@@ -126,6 +147,7 @@ jobs:
             --date "$DATE"
 
       - name: Clean up remote branch
+        if: github.event_name == 'pull_request'
         continue-on-error: true
         env:
           PR_BRANCH: ${{ github.event.pull_request.head.ref }}
