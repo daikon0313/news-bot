@@ -1,0 +1,32 @@
+[
+  {
+    "tweet_text": "OpenAI、ChatGPTに広告テストを開始🚀 無料アクセス維持のため広告導入。回答の独立性と強力なプライバシー保護を約束、ユーザーコントロールも提供。無料版存続のための現実的な選択だが、AIとの対話に広告が挟まる未来は少し複雑な気持ち。 #AI #ChatGPT https://openai.com/index/testing-ads-in-chatgpt",
+    "source_title": "Testing ads in ChatGPT",
+    "source_url": "https://openai.com/index/testing-ads-in-chatgpt",
+    "category": "AI",
+    "status": "pending",
+    "id": "23ec2cec-4805-480f-9fd9-84344a22c401",
+    "generated_at": "2026-02-11T08:30:06.946611+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "xAI創業メンバーの半数近くが既に退社💼 IPO前の重要な時期に人材流出が加速。マスク氏のX統合やガバナンス問題が背景か。急成長スタートアップにありがちとはいえ、この規模の離脱は今後の技術開発に影響必至。 #AI #xAI https://techcrunch.com/2026/02/10/nearly-half-of-xais-founding-team-has-now-left-the-company/",
+    "source_title": "Nearly half of xAI's founding team has now left the company",
+    "source_url": "https://techcrunch.com/2026/02/10/nearly-half-of-xais-founding-team-has-now-left-the-company/",
+    "category": "AI",
+    "status": "pending",
+    "id": "3749d50b-6d08-4d35-921f-f1f96f6ab49b",
+    "generated_at": "2026-02-11T08:30:06.946611+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "Waymo、フィリピンのリモートワーカーが自動運転車を支援と幹部が明かす🚗 完全自動運転と謳いながら人間の遠隔サポートに依存。技術的限界と人件費のバランスを取る現実的な運用だが、自動運転の「自動」の定義を改めて考えさせられる。 #自動運転 #テック https://people.com/waymo-exec-reveals-company-uses-operators-in-the-philippines-to-assist-autonomous-vehicles-11900507",
+    "source_title": "Waymo exec reveals company uses remote workers in the Philippines",
+    "source_url": "https://people.com/waymo-exec-reveals-company-uses-operators-in-the-philippines-to-assist-autonomous-vehicles-11900507",
+    "category": "Tech General",
+    "status": "pending",
+    "id": "3f967410-ae6f-447c-9d0e-839969e87d47",
+    "generated_at": "2026-02-11T08:30:06.946611+09:00",
+    "session_type": "morning"
+  }
+]
