@@ -1,0 +1,32 @@
+[
+  {
+    "tweet_text": "OpenAI、ChatGPTで広告テストを開始 🔔 無料アクセス維持のための収益化施策。回答の独立性とプライバシー保護を強調しているが、広告がAI体験にどう影響するか注目。無料版ユーザーには避けられない流れかも。 #AI #ChatGPT https://openai.com/index/testing-ads-in-chatgpt",
+    "source_title": "Testing ads in ChatGPT",
+    "source_url": "https://openai.com/index/testing-ads-in-chatgpt",
+    "category": "AI",
+    "status": "pending",
+    "id": "392f0971-ea37-40d7-be71-9784ea1f52ff",
+    "generated_at": "2026-02-12T08:21:55.336147+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "AppleのSiri大改修、またも遅延 😅 3月のiOS 26.4リリース予定が5月以降に延期、一部機能はiOS 27（9月）まで持ち越しとのこと。AI競争が激化する中、Appleの慎重すぎる姿勢が裏目に出ている印象。 #Apple #AI https://techcrunch.com/2026/02/11/apples-siri-revamp-reportedly-delayed-again/",
+    "source_title": "Apple's Siri revamp reportedly delayed… again",
+    "source_url": "https://techcrunch.com/2026/02/11/apples-siri-revamp-reportedly-delayed-again/",
+    "category": "AI",
+    "status": "pending",
+    "id": "52ca6b9f-d978-49b7-b6e1-4c7e22730d8b",
+    "generated_at": "2026-02-12T08:21:55.336147+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "iOS 26.3でAndroidへの乗り換えが簡単に 📱 アプリ、写真、メッセージ、電話番号まで移行可能。AppleがAndroid移行を支援するのは意外だが、規制対応やユーザー体験重視の姿勢の表れか。囲い込み戦略の転換点になるかも。 #iOS #Apple https://www.theverge.com/tech/877587/ios-26-3-released-transfer-to-android",
+    "source_title": "iOS 26.3 makes it easier to switch to Android",
+    "source_url": "https://www.theverge.com/tech/877587/ios-26-3-released-transfer-to-android",
+    "category": "Tech General",
+    "status": "pending",
+    "id": "0bf3da69-2046-4455-875f-1863238d03fa",
+    "generated_at": "2026-02-12T08:21:55.336147+09:00",
+    "session_type": "morning"
+  }
+]
