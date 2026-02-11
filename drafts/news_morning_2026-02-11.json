@@ -1,0 +1,290 @@
+[
+  {
+    "title": "Amazon may launch a marketplace where media sites can sell their content to AI companies",
+    "url": "https://techcrunch.com/2026/02/10/amazon-may-launch-a-marketplace-where-media-sites-can-sell-their-content-to-ai-companies/",
+    "summary": "A new report claims the e-commerce giant is looking to create a pipeline of licensable content between media publishers and AI companies.",
+    "source": "TechCrunch AI",
+    "category": "AI",
+    "fetched_at": "2026-02-11T08:29:50.052880+09:00"
+  },
+  {
+    "title": "An ice dance duo skated to AI music at the Olympics",
+    "url": "https://techcrunch.com/2026/02/10/olympics-czech-ice-dancers-duo-ai-music/",
+    "summary": "Czech ice dancers Katerina Mrazkova and Daniel Mrazek are learning the hard way that LLMs sometimes spit out straight-up plagiarism.",
+    "source": "TechCrunch AI",
+    "category": "AI",
+    "fetched_at": "2026-02-11T08:29:50.052896+09:00"
+  },
+  {
+    "title": "This Sequoia-backed lab thinks the brain is ‘the floor, not the ceiling’ for AI",
+    "url": "https://techcrunch.com/podcast/this-sequoia-backed-lab-thinks-the-brain-is-the-floor-not-the-ceiling-for-ai/",
+    "summary": "AI lab&#160;Flapping Airplanes&#160;just landed $180 million in seed funding from the likes of Google Ventures, Sequoia, and Index to do something most labs have quietly given up on: making models learn like humans instead of vacuuming up the internet. The founding team, made up of brothers Ben and ",
+    "source": "TechCrunch AI",
+    "category": "AI",
+    "fetched_at": "2026-02-11T08:29:50.052902+09:00"
+  },
+  {
+    "title": "Boston Dynamics CEO Robert Playter steps down after 30 years at the company",
+    "url": "https://techcrunch.com/2026/02/10/boston-dynamics-ceo-robert-playter-steps-down-after-30-years-at-the-company/",
+    "summary": "Robert Playter announcd he is leaving Boston Dynamics after 30 years at the company in various roles, including six years as CEO.",
+    "source": "TechCrunch AI",
+    "category": "AI",
+    "fetched_at": "2026-02-11T08:29:50.052906+09:00"
+  },
+  {
+    "title": "Nearly half of xAI’s founding team has now left the company",
+    "url": "https://techcrunch.com/2026/02/10/nearly-half-of-xais-founding-team-has-now-left-the-company/",
+    "summary": "Whatever the cause of the departures, the cumulative impact is alarming. There is a lot of work left to do at xAI, and an IPO will bring more scrutiny than the lab has ever faced before.",
+    "source": "TechCrunch AI",
+    "category": "AI",
+    "fetched_at": "2026-02-11T08:29:50.052911+09:00"
+  },
+  {
+    "title": "Bringing ChatGPT to GenAI.mil",
+    "url": "https://openai.com/index/bringing-chatgpt-to-genaimil",
+    "summary": "OpenAI for Government announces the deployment of a custom ChatGPT on GenAI.mil, bringing secure, safety-forward AI to U.S. defense teams.",
+    "source": "OpenAI Blog",
+    "category": "AI",
+    "fetched_at": "2026-02-11T08:29:50.577316+09:00"
+  },
+  {
+    "title": "Testing ads in ChatGPT",
+    "url": "https://openai.com/index/testing-ads-in-chatgpt",
+    "summary": "OpenAI begins testing ads in ChatGPT to support free access, with clear labeling, answer independence, strong privacy protections, and user control.",
+    "source": "OpenAI Blog",
+    "category": "AI",
+    "fetched_at": "2026-02-11T08:29:50.577331+09:00"
+  },
+  {
+    "title": "Making AI work for everyone, everywhere: our approach to localization",
+    "url": "https://openai.com/index/our-approach-to-localization",
+    "summary": "OpenAI shares its approach to AI localization, showing how globally shared frontier models can be adapted to local languages, laws, and cultures without compromising safety.",
+    "source": "OpenAI Blog",
+    "category": "AI",
+    "fetched_at": "2026-02-11T08:29:50.577337+09:00"
+  },
+  {
+    "title": "9 fun questions to try asking Google Photos",
+    "url": "https://blog.google/products-and-platforms/products/photos/ask-button-ask-photos-tips/",
+    "summary": "A collage of outdoor images, a blue icon that say \"Ask Photos,\" and examples of Ask Photos prompts.",
+    "source": "Google AI Blog",
+    "category": "AI",
+    "fetched_at": "2026-02-11T08:29:50.845666+09:00"
+  },
+  {
+    "title": "Helping kids and teens learn and grow online on Safer Internet Day",
+    "url": "https://blog.google/innovation-and-ai/technology/safety-security/safer-internet-day-2026-kids-teens/",
+    "summary": "User profile on smartphone connected to security, media, and settings icons.",
+    "source": "Google AI Blog",
+    "category": "AI",
+    "fetched_at": "2026-02-11T08:29:50.845678+09:00"
+  },
+  {
+    "title": "Natively Adaptive Interfaces: A new framework for AI accessibility",
+    "url": "https://blog.google/company-news/outreach-and-initiatives/accessibility/natively-adaptive-interfaces-ai-accessibility/",
+    "summary": "A collage of four images, the first of a woman with curly hair in front of a silver laptop, the second of the same woman and a man with short black hair speaking on a stairwell, the third of a the same man with glasses, and an aerial image of NTID",
+    "source": "Google AI Blog",
+    "category": "AI",
+    "fetched_at": "2026-02-11T08:29:50.845683+09:00"
+  },
+  {
+    "title": "A “QuitGPT” campaign is urging people to cancel their ChatGPT subscriptions",
+    "url": "https://www.technologyreview.com/2026/02/10/1132577/a-quitgpt-campaign-is-urging-people-to-cancel-chatgpt-subscriptions/",
+    "summary": "In September, Alfred Stephen, a freelance software developer in Singapore, purchased a ChatGPT Plus subscription, which costs $20 a month and offers more access to advanced models, to speed up his work. But he grew frustrated with the chatbot’s coding abilities and its gushing, meandering replies. T",
+    "source": "MIT Technology Review",
+    "category": "AI",
+    "fetched_at": "2026-02-11T08:29:51.011799+09:00"
+  },
+  {
+    "title": "The Download: Making AI Work, and why the Moltbook hype is similar to Pokémon",
+    "url": "https://www.technologyreview.com/2026/02/10/1132608/the-download-making-ai-work-and-why-the-moltbook-hype-is-similar-to-pokemon/",
+    "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. A first look at Making AI Work, MIT Technology Review’s new AI newsletter Are you interested in learning more about the ways in which AI is actually b",
+    "source": "MIT Technology Review",
+    "category": "AI",
+    "fetched_at": "2026-02-11T08:29:51.011812+09:00"
+  },
+  {
+    "title": "Why the Moltbook frenzy was like Pokémon",
+    "url": "https://www.technologyreview.com/2026/02/09/1132537/a-lesson-from-pokemon/",
+    "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,&#160;sign up here. Lots of influential people in tech last week were describing Moltbook, an online hangout populated by AI agents interacting with one another, as a glimpse in",
+    "source": "MIT Technology Review",
+    "category": "AI",
+    "fetched_at": "2026-02-11T08:29:51.011817+09:00"
+  },
+  {
+    "title": "dbt Core v1.11 is GA",
+    "url": "https://www.getdbt.com/blog/dbt-core-v1-11-is-ga",
+    "summary": "dbt Core v1.11 is GA with first-class UDFs, clearer project validation, and performance improvements across adapters.",
+    "source": "dbt Blog",
+    "category": "Data Engineering",
+    "fetched_at": "2026-02-11T08:29:51.452275+09:00"
+  },
+  {
+    "title": "Deliver reliable AI with the dbt Semantic Layer and dbt MCP Server",
+    "url": "https://www.getdbt.com/blog/dbt-mcp-server-reliable-ai",
+    "summary": "Learn how to provide structured context to AI systems with a dbt-powered MCP server.",
+    "source": "dbt Blog",
+    "category": "Data Engineering",
+    "fetched_at": "2026-02-11T08:29:51.452290+09:00"
+  },
+  {
+    "title": "How data mesh solved centralized data management challenges",
+    "url": "https://www.getdbt.com/blog/how-data-mesh-solves-centralized-data-challenges",
+    "summary": "Data mesh decentralizes data ownership and reduces bottlenecks with self-service platforms and federated governance.",
+    "source": "dbt Blog",
+    "category": "Data Engineering",
+    "fetched_at": "2026-02-11T08:29:51.452296+09:00"
+  },
+  {
+    "title": "Agent Bricks Supervisor Agent is Now GA: Orchestrate Enterprise Agents",
+    "url": "https://www.databricks.com/blog/agent-bricks-supervisor-agent-now-ga-orchestrate-enterprise-agents",
+    "summary": "Enterprises are quickly ramping up agent development for financial analysis copilots, customer service assistants...",
+    "source": "Databricks Blog",
+    "category": "Data Engineering",
+    "fetched_at": "2026-02-11T08:29:51.623800+09:00"
+  },
+  {
+    "title": "How to improve patient outcomes with next best actions using a Composable CDP on Databricks",
+    "url": "https://www.databricks.com/blog/how-improve-patient-outcomes-next-best-actions-using-composable-cdp-databricks",
+    "summary": "Whether your organization directly delivers healthcare, or supports patients and...",
+    "source": "Databricks Blog",
+    "category": "Data Engineering",
+    "fetched_at": "2026-02-11T08:29:51.623814+09:00"
+  },
+  {
+    "title": "Introducing the new Databricks Partner Program and Well-Architected Framework for ISVs and Data Providers",
+    "url": "https://www.databricks.com/blog/introducing-new-databricks-partner-program-and-well-architected-framework-isvs-and-data",
+    "summary": "More than 20k customers - including over 60% of the Fortune 500 - rely on Databricks to detect fraud, discover new drugs...",
+    "source": "Databricks Blog",
+    "category": "Data Engineering",
+    "fetched_at": "2026-02-11T08:29:51.623819+09:00"
+  },
+  {
+    "title": "Waymo exec reveals company uses remote workers in the Philippines",
+    "url": "https://people.com/waymo-exec-reveals-company-uses-operators-in-the-philippines-to-assist-autonomous-vehicles-11900507",
+    "summary": "",
+    "source": "Hacker News",
+    "category": "Tech General",
+    "fetched_at": "2026-02-11T08:29:51.889999+09:00"
+  },
+  {
+    "title": "The Singularity will occur on a Tuesday",
+    "url": "https://campedersen.com/singularity",
+    "summary": "",
+    "source": "Hacker News",
+    "category": "Tech General",
+    "fetched_at": "2026-02-11T08:29:51.974057+09:00"
+  },
+  {
+    "title": "The Day the Telnet Died",
+    "url": "https://www.labs.greynoise.io/grimoire/2026-02-10-telnet-falls-silent/",
+    "summary": "",
+    "source": "Hacker News",
+    "category": "Tech General",
+    "fetched_at": "2026-02-11T08:29:52.057511+09:00"
+  },
+  {
+    "title": "How did Windows 95 get permission to put the Weezer video Buddy Holly on the CD?",
+    "url": "https://devblogs.microsoft.com/oldnewthing/20260210-00/?p=112052",
+    "summary": "",
+    "source": "Hacker News",
+    "category": "Tech General",
+    "fetched_at": "2026-02-11T08:29:52.143135+09:00"
+  },
+  {
+    "title": "Ex-GitHub CEO launches a new developer platform for AI agents",
+    "url": "https://entire.io/blog/hello-entire-world/",
+    "summary": "",
+    "source": "Hacker News",
+    "category": "Tech General",
+    "fetched_at": "2026-02-11T08:29:52.229689+09:00"
+  },
+  {
+    "title": "ChatGPT’s deep research tool adds a built-in document viewer so you can read its reports",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/876775/openai-deep-research-chatgpt-full-screen-report-viewer",
+    "summary": "OpenAI is updating ChatGPT's deep research tool with a full-screen viewer that you can use to scroll through and navigate to specific areas of its AI-generated reports. As shown in a video shared by OpenAI, the built-in viewer allows you to open ChatGPT's reports in a window separate from your chat,",
+    "source": "The Verge",
+    "category": "Tech General",
+    "fetched_at": "2026-02-11T08:29:52.306870+09:00"
+  },
+  {
+    "title": "Samsung’s next Unpacked is confirmed for later this month",
+    "url": "https://www.theverge.com/tech/876717/samsung-galaxy-unpacked-february-2026-s26",
+    "summary": "Samsung's annual Galaxy S-series reveal is later than usual this year, but we finally have a confirmed date to circle on the calendar: February 25th. And if you were hoping for major hardware upgrades from the company's flagship phones, you probably shouldn't hold your breath: an extensive leak publ",
+    "source": "The Verge",
+    "category": "Tech General",
+    "fetched_at": "2026-02-11T08:29:52.306882+09:00"
+  },
+  {
+    "title": "Trump’s new ‘Buy American’ requirement for EV charging would dramatically curtail build-out",
+    "url": "https://www.theverge.com/transportation/876703/trump-ev-charging-buy-american-nevi-funds",
+    "summary": "It seems clear at this point to say that Donald Trump does not want to spend a single dime on EV charging. He tried to freeze $5 billion in funding for the National Electric Vehicle Infrastructure (NEVI) program, which was approved as part of the Bipartisan Infrastructure Law. And when a federal jud",
+    "source": "The Verge",
+    "category": "Tech General",
+    "fetched_at": "2026-02-11T08:29:52.306887+09:00"
+  },
+  {
+    "title": "Fitbit’s AI health coach is now available on your iPhone",
+    "url": "https://www.theverge.com/gadgets/876692/fitbit-ai-health-coach-public-preview-ios",
+    "summary": "Google announced on Tuesday that the public preview of Fitbit's AI personal health coach is rolling out to iOS users in the U.S. as well as both iOS and Android users in the UK, Canada, Australia, New Zealand, and Singapore. The update tests a major overhaul of Fitbit's app, introducing a conversati",
+    "source": "The Verge",
+    "category": "Tech General",
+    "fetched_at": "2026-02-11T08:29:52.306892+09:00"
+  },
+  {
+    "title": "Ayaneo’s new Windows handheld will cost up to $4,299 with maxed out specs",
+    "url": "https://www.theverge.com/tech/876521/ayaneo-next-2-windows-handheld-ryzen-ai-max-395-indiegogo-preorder",
+    "summary": "Ayaneo opened preorders for its next Windows 11 handheld and it looks like a powerhouse. The Ayaneo Next 2 is 13.45 inches wide, 10.3-inches tall, and weighs 3.14 pounds. That's more than twice as heavy as the original Ayaneo Next that launched back in 2022, and it easily outweighs the Steam Deck an",
+    "source": "The Verge",
+    "category": "Tech General",
+    "fetched_at": "2026-02-11T08:29:52.306896+09:00"
+  },
+  {
+    "title": "Archive.today CAPTCHA page executes DDoS; Wikipedia considers banning site",
+    "url": "https://arstechnica.com/tech-policy/2026/02/wikipedia-might-blacklist-archive-today-after-site-maintainer-ddosed-a-blog/",
+    "summary": "DDoS hit blog that tried to uncover Archive.today founder's identity in 2023.",
+    "source": "Ars Technica",
+    "category": "Tech General",
+    "fetched_at": "2026-02-11T08:29:52.470854+09:00"
+  },
+  {
+    "title": "Yet another co-founder departs Elon Musk's xAI",
+    "url": "https://arstechnica.com/ai/2026/02/grok-maker-xai-loses-another-co-founder/",
+    "summary": "Tony Wu leaves a company now entangled with social media, space-based IPOs.",
+    "source": "Ars Technica",
+    "category": "Tech General",
+    "fetched_at": "2026-02-11T08:29:52.470866+09:00"
+  },
+  {
+    "title": "Dewormer ivermectin as cancer cure? RFK Jr.'s NIH funds \"absurd\" study.",
+    "url": "https://arstechnica.com/health/2026/02/dewormer-ivermectin-as-cancer-cure-rfk-jr-s-nih-funds-absurd-study/",
+    "summary": "There's no reason to think ivermectin cures cancer, but RFK Jr's NIH is on it anyway.",
+    "source": "Ars Technica",
+    "category": "Tech General",
+    "fetched_at": "2026-02-11T08:29:52.470871+09:00"
+  },
+  {
+    "title": "AI in Southeast Asia: An era of opportunity",
+    "url": "https://www.mckinsey.com/featured-insights/future-of-asia/ai-in-southeast-asia-an-era-of-opportunity",
+    "summary": "AI adoption in Southeast Asia is at an inflection point—moving rapidly from exploration to deployment. With strong digital foundations, tech-savvy enterprises, and a young, connected population, the region’s major economies are accelerating toward global competitiveness.",
+    "source": "McKinsey",
+    "category": "Consulting",
+    "fetched_at": "2026-02-11T08:29:52.920322+09:00"
+  },
+  {
+    "title": "Global Private Markets Report 2026 Private equity: Clearer view, tougher terrain",
+    "url": "https://www.mckinsey.com/industries/private-capital/our-insights/global-private-markets-report",
+    "summary": "Private equity weather has improved, revealing more demanding, technical ground. Here’s what our analyses indicate for dealmakers, operators, fundraisers, and LPs as they look to the road ahead.",
+    "source": "McKinsey",
+    "category": "Consulting",
+    "fetched_at": "2026-02-11T08:29:52.920334+09:00"
+  },
+  {
+    "title": "The new CIO mandate: Strategy, speed, and scaled intelligence",
+    "url": "https://www.mckinsey.com/capabilities/mckinsey-technology/our-insights/the-new-cio-mandate-strategy-speed-and-scaled-intelligence",
+    "summary": "Our Global Tech Agenda 2026 shows that top CIOs are rewiring their companies for growth, deploying agentic AI and data monetization to create measurable business value.",
+    "source": "McKinsey",
+    "category": "Consulting",
+    "fetched_at": "2026-02-11T08:29:52.920339+09:00"
+  }
+]
