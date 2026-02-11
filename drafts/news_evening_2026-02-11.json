@@ -1,0 +1,290 @@
+[
+  {
+    "title": "With co-founders leaving and an IPO looming, Elon Musk turns talk to the moon",
+    "url": "https://techcrunch.com/2026/02/10/with-co-founders-leaving-and-an-ipo-looming-elon-musk-turns-talk-to-the-moon/",
+    "summary": "According to The New York Times, which reports that it heard the meeting, Musk told employees that xAI needs a lunar manufacturing facility, a factory on the moon that will build AI satellites and fling them into space via a giant catapult.",
+    "source": "TechCrunch AI",
+    "category": "AI",
+    "fetched_at": "2026-02-11T19:40:55.798763+09:00"
+  },
+  {
+    "title": "OpenAI policy exec who opposed chatbot’s “adult mode” reportedly fired on discrimination claim",
+    "url": "https://techcrunch.com/2026/02/10/openai-policy-exec-who-opposed-chatbots-adult-mode-reportedly-fired-on-discrimination-claim/",
+    "summary": "The executive has denied the allegation that she engaged in discrimination.",
+    "source": "TechCrunch AI",
+    "category": "AI",
+    "fetched_at": "2026-02-11T19:40:55.798779+09:00"
+  },
+  {
+    "title": "Okay, now exactly half of xAI’s founding team has left the company",
+    "url": "https://techcrunch.com/2026/02/10/nearly-half-of-xais-founding-team-has-now-left-the-company/",
+    "summary": "Whatever the cause of the departures, the cumulative impact is alarming. There is a lot of work left to do at xAI, and an IPO will bring more scrutiny than the lab has ever faced before.",
+    "source": "TechCrunch AI",
+    "category": "AI",
+    "fetched_at": "2026-02-11T19:40:55.798785+09:00"
+  },
+  {
+    "title": "Amazon may launch a marketplace where media sites can sell their content to AI companies",
+    "url": "https://techcrunch.com/2026/02/10/amazon-may-launch-a-marketplace-where-media-sites-can-sell-their-content-to-ai-companies/",
+    "summary": "A new report claims the e-commerce giant is looking to create a pipeline of licensable content between media publishers and AI companies.",
+    "source": "TechCrunch AI",
+    "category": "AI",
+    "fetched_at": "2026-02-11T19:40:55.798790+09:00"
+  },
+  {
+    "title": "An ice dance duo skated to AI music at the Olympics",
+    "url": "https://techcrunch.com/2026/02/10/olympics-czech-ice-dancers-duo-ai-music/",
+    "summary": "Czech ice dancers Katerina Mrazkova and Daniel Mrazek are learning the hard way that LLMs sometimes spit out straight-up plagiarism.",
+    "source": "TechCrunch AI",
+    "category": "AI",
+    "fetched_at": "2026-02-11T19:40:55.798794+09:00"
+  },
+  {
+    "title": "Bringing ChatGPT to GenAI.mil",
+    "url": "https://openai.com/index/bringing-chatgpt-to-genaimil",
+    "summary": "OpenAI for Government announces the deployment of a custom ChatGPT on GenAI.mil, bringing secure, safety-forward AI to U.S. defense teams.",
+    "source": "OpenAI Blog",
+    "category": "AI",
+    "fetched_at": "2026-02-11T19:40:56.272644+09:00"
+  },
+  {
+    "title": "Testing ads in ChatGPT",
+    "url": "https://openai.com/index/testing-ads-in-chatgpt",
+    "summary": "OpenAI begins testing ads in ChatGPT to support free access, with clear labeling, answer independence, strong privacy protections, and user control.",
+    "source": "OpenAI Blog",
+    "category": "AI",
+    "fetched_at": "2026-02-11T19:40:56.272661+09:00"
+  },
+  {
+    "title": "Making AI work for everyone, everywhere: our approach to localization",
+    "url": "https://openai.com/index/our-approach-to-localization",
+    "summary": "OpenAI shares its approach to AI localization, showing how globally shared frontier models can be adapted to local languages, laws, and cultures without compromising safety.",
+    "source": "OpenAI Blog",
+    "category": "AI",
+    "fetched_at": "2026-02-11T19:40:56.272666+09:00"
+  },
+  {
+    "title": "9 fun questions to try asking Google Photos",
+    "url": "https://blog.google/products-and-platforms/products/photos/ask-button-ask-photos-tips/",
+    "summary": "A collage of outdoor images, a blue icon that say \"Ask Photos,\" and examples of Ask Photos prompts.",
+    "source": "Google AI Blog",
+    "category": "AI",
+    "fetched_at": "2026-02-11T19:40:56.564975+09:00"
+  },
+  {
+    "title": "Helping kids and teens learn and grow online on Safer Internet Day",
+    "url": "https://blog.google/innovation-and-ai/technology/safety-security/safer-internet-day-2026-kids-teens/",
+    "summary": "User profile on smartphone connected to security, media, and settings icons.",
+    "source": "Google AI Blog",
+    "category": "AI",
+    "fetched_at": "2026-02-11T19:40:56.564989+09:00"
+  },
+  {
+    "title": "Natively Adaptive Interfaces: A new framework for AI accessibility",
+    "url": "https://blog.google/company-news/outreach-and-initiatives/accessibility/natively-adaptive-interfaces-ai-accessibility/",
+    "summary": "A collage of four images, the first of a woman with curly hair in front of a silver laptop, the second of the same woman and a man with short black hair speaking on a stairwell, the third of a the same man with glasses, and an aerial image of NTID",
+    "source": "Google AI Blog",
+    "category": "AI",
+    "fetched_at": "2026-02-11T19:40:56.564994+09:00"
+  },
+  {
+    "title": "EVs could be cheaper to own than gas cars in Africa by 2040",
+    "url": "https://www.technologyreview.com/2026/02/11/1132714/evs-africa-cost/",
+    "summary": "Electric vehicles could be economically competitive in Africa sooner than expected. Just 1% of new cars sold across the continent in 2025 were electric, but a new analysis finds that with solar off-grid charging, EVs could be cheaper to own than gas vehicles by 2040. There are major barriers to high",
+    "source": "MIT Technology Review",
+    "category": "AI",
+    "fetched_at": "2026-02-11T19:40:56.719203+09:00"
+  },
+  {
+    "title": "A “QuitGPT” campaign is urging people to cancel their ChatGPT subscriptions",
+    "url": "https://www.technologyreview.com/2026/02/10/1132577/a-quitgpt-campaign-is-urging-people-to-cancel-chatgpt-subscriptions/",
+    "summary": "In September, Alfred Stephen, a freelance software developer in Singapore, purchased a ChatGPT Plus subscription, which costs $20 a month and offers more access to advanced models, to speed up his work. But he grew frustrated with the chatbot’s coding abilities and its gushing, meandering replies. T",
+    "source": "MIT Technology Review",
+    "category": "AI",
+    "fetched_at": "2026-02-11T19:40:56.719216+09:00"
+  },
+  {
+    "title": "The Download: Making AI Work, and why the Moltbook hype is similar to Pokémon",
+    "url": "https://www.technologyreview.com/2026/02/10/1132608/the-download-making-ai-work-and-why-the-moltbook-hype-is-similar-to-pokemon/",
+    "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. A first look at Making AI Work, MIT Technology Review’s new AI newsletter Are you interested in learning more about the ways in which AI is actually b",
+    "source": "MIT Technology Review",
+    "category": "AI",
+    "fetched_at": "2026-02-11T19:40:56.719222+09:00"
+  },
+  {
+    "title": "dbt Core v1.11 is GA",
+    "url": "https://www.getdbt.com/blog/dbt-core-v1-11-is-ga",
+    "summary": "dbt Core v1.11 is GA with first-class UDFs, clearer project validation, and performance improvements across adapters.",
+    "source": "dbt Blog",
+    "category": "Data Engineering",
+    "fetched_at": "2026-02-11T19:40:57.103884+09:00"
+  },
+  {
+    "title": "Deliver reliable AI with the dbt Semantic Layer and dbt MCP Server",
+    "url": "https://www.getdbt.com/blog/dbt-mcp-server-reliable-ai",
+    "summary": "Learn how to provide structured context to AI systems with a dbt-powered MCP server.",
+    "source": "dbt Blog",
+    "category": "Data Engineering",
+    "fetched_at": "2026-02-11T19:40:57.103900+09:00"
+  },
+  {
+    "title": "How data mesh solved centralized data management challenges",
+    "url": "https://www.getdbt.com/blog/how-data-mesh-solves-centralized-data-challenges",
+    "summary": "Data mesh decentralizes data ownership and reduces bottlenecks with self-service platforms and federated governance.",
+    "source": "dbt Blog",
+    "category": "Data Engineering",
+    "fetched_at": "2026-02-11T19:40:57.103905+09:00"
+  },
+  {
+    "title": "Agent Bricks Supervisor Agent is Now GA: Orchestrate Enterprise Agents",
+    "url": "https://www.databricks.com/blog/agent-bricks-supervisor-agent-now-ga-orchestrate-enterprise-agents",
+    "summary": "Enterprises are quickly ramping up agent development for financial analysis copilots, customer service assistants...",
+    "source": "Databricks Blog",
+    "category": "Data Engineering",
+    "fetched_at": "2026-02-11T19:40:57.184575+09:00"
+  },
+  {
+    "title": "How to improve patient outcomes with next best actions using a Composable CDP on Databricks",
+    "url": "https://www.databricks.com/blog/how-improve-patient-outcomes-next-best-actions-using-composable-cdp-databricks",
+    "summary": "Whether your organization directly delivers healthcare, or supports patients and...",
+    "source": "Databricks Blog",
+    "category": "Data Engineering",
+    "fetched_at": "2026-02-11T19:40:57.184591+09:00"
+  },
+  {
+    "title": "Introducing the new Databricks Partner Program and Well-Architected Framework for ISVs and Data Providers",
+    "url": "https://www.databricks.com/blog/introducing-new-databricks-partner-program-and-well-architected-framework-isvs-and-data",
+    "summary": "More than 20k customers - including over 60% of the Fortune 500 - rely on Databricks to detect fraud, discover new drugs...",
+    "source": "Databricks Blog",
+    "category": "Data Engineering",
+    "fetched_at": "2026-02-11T19:40:57.184596+09:00"
+  },
+  {
+    "title": "Windows Notepad App Remote Code Execution Vulnerability",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-20841",
+    "summary": "",
+    "source": "Hacker News",
+    "category": "Tech General",
+    "fetched_at": "2026-02-11T19:40:57.468351+09:00"
+  },
+  {
+    "title": "A Cosmic Miracle: A Remarkably Luminous Galaxy at z=14.44 Confirmed with JWST",
+    "url": "https://astro.theoj.org/article/156033-a-cosmic-miracle-a-remarkably-luminous-galaxy-at-_z_-sub-spec-sub-14-44-confirmed-with-jwst",
+    "summary": "",
+    "source": "Hacker News",
+    "category": "Tech General",
+    "fetched_at": "2026-02-11T19:40:57.582090+09:00"
+  },
+  {
+    "title": "The Feynman Lectures on Physics (1961-1964)",
+    "url": "https://www.feynmanlectures.caltech.edu/",
+    "summary": "",
+    "source": "Hacker News",
+    "category": "Tech General",
+    "fetched_at": "2026-02-11T19:40:57.689789+09:00"
+  },
+  {
+    "title": "The Singularity will occur on a Tuesday",
+    "url": "https://campedersen.com/singularity",
+    "summary": "",
+    "source": "Hacker News",
+    "category": "Tech General",
+    "fetched_at": "2026-02-11T19:40:57.793533+09:00"
+  },
+  {
+    "title": "Signy: Signed URLs for Small Devices",
+    "url": "https://github.com/golioth/signy",
+    "summary": "",
+    "source": "Hacker News",
+    "category": "Tech General",
+    "fetched_at": "2026-02-11T19:40:57.898878+09:00"
+  },
+  {
+    "title": "The Toyota Highlander is now a three-row electric SUV with 320 miles of range",
+    "url": "https://www.theverge.com/transportation/875906/toyota-highlander-ev-suv-range-specs",
+    "summary": "Toyota unveiled the new 2027 Highlander, a fully redesigned midsize SUV that marks the brand's first three-row electric vehicle for the US market and the first Toyota EV assembled in America. It's a familiar name - Toyota has been selling gas Highlanders for over 20 years - with an all-new powertrai",
+    "source": "The Verge",
+    "category": "Tech General",
+    "fetched_at": "2026-02-11T19:40:57.998368+09:00"
+  },
+  {
+    "title": "Amazon Ring’s Super Bowl ad sparks backlash amid fears of mass surveillance",
+    "url": "https://www.theverge.com/tech/876866/ring-search-party-super-bowl-ad-online-backlash",
+    "summary": "Ring's new Search Party feature has once again drawn backlash for the company. A 30-second ad that aired during Sunday's Super Bowl showed Ring cameras \"surveilling\" neighborhoods to locate a lost dog. In the current political climate, a prime-time ad celebrating neighborhood surveillance struck a n",
+    "source": "The Verge",
+    "category": "Tech General",
+    "fetched_at": "2026-02-11T19:40:57.998383+09:00"
+  },
+  {
+    "title": "Boston Dynamics CEO Robert Playter is stepping down after six years",
+    "url": "https://www.theverge.com/tech/876819/boston-dynamics-robots-ceo-steps-down-hyundai",
+    "summary": "Robert Playter, CEO of Boston Dynamics, announced on Tuesday that he is stepping down from his role effective immediately and leaving the company on February 27th, as previously reported by A3. Under Playter's leadership, Boston Dynamics navigated its way through an acquisition from Softbank that br",
+    "source": "The Verge",
+    "category": "Tech General",
+    "fetched_at": "2026-02-11T19:40:57.998388+09:00"
+  },
+  {
+    "title": "Bezos could have saved The Washington Post’s local news and sports reporters",
+    "url": "https://www.theverge.com/policy/876834/bezos-washington-post-sports-local-reporters",
+    "summary": "Hello and welcome to Regulator, a newsletter for Verge subscribers about tech politicking in the age of Trump. If you're a subscriber, you are dominant and talented, like the Seattle Seahawks. If you're not a subscriber yet, it's time to get your act together, like the New England Patriots. (I'm fro",
+    "source": "The Verge",
+    "category": "Tech General",
+    "fetched_at": "2026-02-11T19:40:57.998392+09:00"
+  },
+  {
+    "title": "ChatGPT’s deep research tool adds a built-in document viewer so you can read its reports",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/876775/openai-deep-research-chatgpt-full-screen-report-viewer",
+    "summary": "OpenAI is updating ChatGPT's deep research tool with a full-screen viewer that you can use to scroll through and navigate to specific areas of its AI-generated reports. As shown in a video shared by OpenAI, the built-in viewer allows you to open ChatGPT's reports in a window separate from your chat,",
+    "source": "The Verge",
+    "category": "Tech General",
+    "fetched_at": "2026-02-11T19:40:57.998396+09:00"
+  },
+  {
+    "title": "FDA refuses to review Moderna's mRNA flu vaccine",
+    "url": "https://arstechnica.com/health/2026/02/fda-refuses-to-review-modernas-mrna-flu-vaccine/",
+    "summary": "The move comes amid RFK Jr.'s relentless efforts to enact his anti-vaccine agenda.",
+    "source": "Ars Technica",
+    "category": "Tech General",
+    "fetched_at": "2026-02-11T19:40:58.163907+09:00"
+  },
+  {
+    "title": "SpaceX's next-gen Super Heavy booster aces four days of \"cryoproof\" testing",
+    "url": "https://arstechnica.com/space/2026/02/spacexs-starbase-is-coming-alive-again-after-a-lull-in-starship-testing/",
+    "summary": "The next Starship flight is a key precursor for more ambitious missions.",
+    "source": "Ars Technica",
+    "category": "Tech General",
+    "fetched_at": "2026-02-11T19:40:58.163921+09:00"
+  },
+  {
+    "title": "Archive.today CAPTCHA page executes DDoS; Wikipedia considers banning site",
+    "url": "https://arstechnica.com/tech-policy/2026/02/wikipedia-might-blacklist-archive-today-after-site-maintainer-ddosed-a-blog/",
+    "summary": "DDoS hit blog that tried to uncover Archive.today founder's identity in 2023.",
+    "source": "Ars Technica",
+    "category": "Tech General",
+    "fetched_at": "2026-02-11T19:40:58.163927+09:00"
+  },
+  {
+    "title": "What to expect in the global fashion industry in 2026",
+    "url": "https://www.mckinsey.com/industries/retail/our-insights/what-to-expect-in-the-global-fashion-industry-in-2026",
+    "summary": "This year’s dominant themes include agentic AI, the growth of the resale market, the quest for operational efficiency, and strategic renewal in the luxury sector.",
+    "source": "McKinsey",
+    "category": "Consulting",
+    "fetched_at": "2026-02-11T19:40:58.382962+09:00"
+  },
+  {
+    "title": "AI in Southeast Asia: An era of opportunity",
+    "url": "https://www.mckinsey.com/featured-insights/future-of-asia/ai-in-southeast-asia-an-era-of-opportunity",
+    "summary": "AI adoption in Southeast Asia is at an inflection point—moving rapidly from exploration to deployment. With strong digital foundations, tech-savvy enterprises, and a young, connected population, the region’s major economies are accelerating toward global competitiveness.",
+    "source": "McKinsey",
+    "category": "Consulting",
+    "fetched_at": "2026-02-11T19:40:58.382974+09:00"
+  },
+  {
+    "title": "Global Private Markets Report 2026 Private equity: Clearer view, tougher terrain",
+    "url": "https://www.mckinsey.com/industries/private-capital/our-insights/global-private-markets-report",
+    "summary": "Private equity weather has improved, revealing more demanding, technical ground. Here’s what our analyses indicate for dealmakers, operators, fundraisers, and LPs as they look to the road ahead.",
+    "source": "McKinsey",
+    "category": "Consulting",
+    "fetched_at": "2026-02-11T19:40:58.382979+09:00"
+  }
+]
