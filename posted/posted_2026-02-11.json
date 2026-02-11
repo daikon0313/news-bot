@@ -1,38 +1,35 @@
 [
   {
-    "tweet_text": "OpenAI、ChatGPTに広告テストを開始🚀 無料アクセス維持のため広告導入。回答の独立性と強力なプライバシー保護を約束、ユーザーコントロールも提供。無料版存続のための現実的な選択だが、AIとの対話に広告が挟まる未来は少し複雑な気持ち。 #AI #ChatGPT https://openai.com/index/testing-ads-in-chatgpt",
+    "tweet_text": "🚀 マスク氏のxAI、月面工場でAI衛星を製造し巨大カタパルトで射出する構想を発表。創業メンバーの半数が退社、IPOも控える中での突飛な発表に注目が集まる。現実逃避か本気か…今後の展開が気になる。 #AI #xAI\nhttps://techcrunch.com/2026/02/10/with-co-founders-leaving-and-an-ipo-looming-elon-musk-turns-talk-to-the-moon/",
+    "source_title": "With co-founders leaving and an IPO looming, Elon Musk turns talk to the moon",
+    "source_url": "https://techcrunch.com/2026/02/10/with-co-founders-leaving-and-an-ipo-looming-elon-musk-turns-talk-to-the-moon/",
+    "category": "AI",
+    "status": "failed",
+    "id": "3c46c2e5-2e4a-4f61-ba5d-94099384bf8e",
+    "generated_at": "2026-02-11T19:41:13.841985+09:00",
+    "session_type": "evening",
+    "error": "403 Forbidden"
+  },
+  {
+    "tweet_text": "💬 OpenAI、ChatGPTで広告テストを開始。無料アクセスを維持するための施策で、回答の独立性とプライバシー保護を強調。ユーザーコントロールも可能とのこと。ついに来たか…収益化の本格化でサービス品質がどう変わるか注目。 #OpenAI #ChatGPT\nhttps://openai.com/index/testing-ads-in-chatgpt",
     "source_title": "Testing ads in ChatGPT",
     "source_url": "https://openai.com/index/testing-ads-in-chatgpt",
     "category": "AI",
-    "status": "posted",
-    "id": "23ec2cec-4805-480f-9fd9-84344a22c401",
-    "generated_at": "2026-02-11T08:30:06.946611+09:00",
-    "session_type": "morning",
-    "tweet_id": "2021412908291244545",
-    "posted_at": "2026-02-11T11:36:08.250829+09:00"
+    "status": "failed",
+    "id": "cea9296d-ce7b-44ba-843d-bd6093f0156c",
+    "generated_at": "2026-02-11T19:41:13.841985+09:00",
+    "session_type": "evening",
+    "error": "403 Forbidden"
   },
   {
-    "tweet_text": "xAI創業メンバーの半数近くが既に退社💼 IPO前の重要な時期に人材流出が加速。マスク氏のX統合やガバナンス問題が背景か。急成長スタートアップにありがちとはいえ、この規模の離脱は今後の技術開発に影響必至。 #AI #xAI https://techcrunch.com/2026/02/10/nearly-half-of-xais-founding-team-has-now-left-the-company/",
-    "source_title": "Nearly half of xAI's founding team has now left the company",
-    "source_url": "https://techcrunch.com/2026/02/10/nearly-half-of-xais-founding-team-has-now-left-the-company/",
-    "category": "AI",
-    "status": "posted",
-    "id": "3749d50b-6d08-4d35-921f-f1f96f6ab49b",
-    "generated_at": "2026-02-11T08:30:06.946611+09:00",
-    "session_type": "morning",
-    "tweet_id": "2021414168067215422",
-    "posted_at": "2026-02-11T11:41:08.530138+09:00"
-  },
-  {
-    "tweet_text": "Waymo、フィリピンのリモートワーカーが自動運転車を支援と幹部が明かす🚗 完全自動運転と謳いながら人間の遠隔サポートに依存。技術的限界と人件費のバランスを取る現実的な運用だが、自動運転の「自動」の定義を改めて考えさせられる。 #自動運転 #テック https://people.com/waymo-exec-reveals-company-uses-operators-in-the-philippines-to-assist-autonomous-vehicles-11900507",
-    "source_title": "Waymo exec reveals company uses remote workers in the Philippines",
-    "source_url": "https://people.com/waymo-exec-reveals-company-uses-operators-in-the-philippines-to-assist-autonomous-vehicles-11900507",
+    "tweet_text": "🤖 Boston Dynamics CEO、ロバート・プレイター氏が6年の任期を経て退任を発表。同氏のリーダーシップの下、ソフトバンクからの買収を経験し商用化を推進。ロボット産業の象徴的存在の新体制に期待。 #ロボティクス #BostonDynamics\nhttps://www.theverge.com/tech/876819/boston-dynamics-robots-ceo-steps-down-hyundai",
+    "source_title": "Boston Dynamics CEO Robert Playter is stepping down after six years",
+    "source_url": "https://www.theverge.com/tech/876819/boston-dynamics-robots-ceo-steps-down-hyundai",
     "category": "Tech General",
-    "status": "posted",
-    "id": "3f967410-ae6f-447c-9d0e-839969e87d47",
-    "generated_at": "2026-02-11T08:30:06.946611+09:00",
-    "session_type": "morning",
-    "tweet_id": "2021415427591549073",
-    "posted_at": "2026-02-11T11:46:08.831106+09:00"
+    "status": "failed",
+    "id": "0296b090-a964-4385-96d1-eab0fcbf1235",
+    "generated_at": "2026-02-11T19:41:13.841985+09:00",
+    "session_type": "evening",
+    "error": "403 Forbidden"
   }
 ]
