@@ -181,6 +181,42 @@ class TestPostToXMain:
             assert t["status"] == "failed"
             assert "Rate limit" in t["error"]
 
+        # posted/ には失敗分が含まれないこと
+        posted_path = patch_config_dirs["posted"] / "posted_2026-02-09.json"
+        posted_data = json.loads(posted_path.read_text(encoding="utf-8"))
+        assert posted_data == []
+
+    def test_partial_failure_posted_only_success(self, patch_config_dirs):
+        """一部失敗時、posted/ には成功分のみ保存されること。"""
+        import tweepy
+        self._write_tweets_file(patch_config_dirs["drafts"])
+
+        mock_client = MagicMock()
+        call_count = [0]
+
+        def create_tweet_side_effect(**kwargs):
+            call_count[0] += 1
+            if call_count[0] == 2:
+                raise tweepy.TweepyException("Duplicate content")
+            resp = MagicMock()
+            resp.data = {"id": f"ok-{call_count[0]}"}
+            return resp
+
+        mock_client.create_tweet.side_effect = create_tweet_side_effect
+
+        with patch("post_to_x._get_twitter_client", return_value=mock_client), \
+             patch("post_to_x.time.sleep"), \
+             patch("post_to_x.datetime") as mock_dt:
+            mock_dt.now.return_value = FIXED_NOW
+            mock_dt.side_effect = lambda *a, **kw: datetime(*a, **kw)
+
+            post_to_x.main(session_type="morning", date="2026-02-09")
+
+        posted_path = patch_config_dirs["posted"] / "posted_2026-02-09.json"
+        posted_data = json.loads(posted_path.read_text(encoding="utf-8"))
+        assert len(posted_data) == 2
+        assert all(t["status"] == "posted" for t in posted_data)
+
     def test_sleep_between_posts(self, patch_config_dirs):
         """ツイート間に待機が入ること (最後のツイート後は待機しない)。"""
         self._write_tweets_file(patch_config_dirs["drafts"])

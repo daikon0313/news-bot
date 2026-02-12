@@ -9,3 +9,4 @@ venv/
 drafts/*.json
 posted/*.json
 analytics/*.json
+!**/.gitkeep

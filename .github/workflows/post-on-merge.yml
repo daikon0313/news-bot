@@ -29,6 +29,7 @@ jobs:
       (github.event.pull_request.merged == true &&
        startsWith(github.event.pull_request.head.ref, 'tweets/'))
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     env:
       X_API_KEY: ${{ secrets.X_API_KEY }}
       X_API_SECRET: ${{ secrets.X_API_SECRET }}
@@ -70,30 +71,6 @@ jobs:
             echo "date=$DATE" >> "$GITHUB_OUTPUT"
             echo "PR merge: branch=$PR_BRANCH, date=$DATE"
           fi
-
-      - name: Verify X API credentials
-        run: |
-          python3 -c "
-          import os, tweepy
-          ck = os.environ.get('X_API_KEY','').strip()
-          cs = os.environ.get('X_API_SECRET','').strip()
-          at = os.environ.get('X_ACCESS_TOKEN','').strip()
-          ats = os.environ.get('X_ACCESS_SECRET','').strip()
-          print(f'Credential lengths: API_KEY={len(ck)}, API_SECRET={len(cs)}, ACCESS_TOKEN={len(at)}, ACCESS_SECRET={len(ats)}')
-          client = tweepy.Client(consumer_key=ck, consumer_secret=cs, access_token=at, access_token_secret=ats)
-          try:
-              client.get_me()
-              print('OK: Authentication successful')
-          except tweepy.Unauthorized as e:
-              print(f'FAIL: 401 Unauthorized - credentials are INVALID')
-              if hasattr(e, 'response') and e.response is not None:
-                  print(f'Response: {e.response.text}')
-              raise SystemExit(1)
-          except tweepy.Forbidden:
-              print('OK: Auth works (403 = endpoint restricted on Free tier, expected)')
-          except Exception as e:
-              print(f'Other error: {type(e).__name__}: {e}')
-          "
 
       - name: Post tweets to X
         env:
