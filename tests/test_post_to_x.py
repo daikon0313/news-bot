@@ -22,6 +22,35 @@ import post_to_x
 
 
 # ---------------------------------------------------------------------------
+# _validate_tweet
+# ---------------------------------------------------------------------------
+class TestValidateTweet:
+    def test_valid_tweet_no_warnings(self):
+        tweet = {"tweet_text": "テストツイート #AI #テック https://example.com"}
+        assert post_to_x._validate_tweet(tweet, 1) == []
+
+    def test_too_long_tweet(self):
+        tweet = {"tweet_text": "あ" * 281}
+        warnings = post_to_x._validate_tweet(tweet, 1)
+        assert any("文字数超過" in w for w in warnings)
+
+    def test_missing_url(self):
+        tweet = {"tweet_text": "URLなしツイート #AI"}
+        warnings = post_to_x._validate_tweet(tweet, 1)
+        assert any("URL" in w for w in warnings)
+
+    def test_missing_hashtag(self):
+        tweet = {"tweet_text": "ハッシュタグなし https://example.com"}
+        warnings = post_to_x._validate_tweet(tweet, 1)
+        assert any("ハッシュタグ" in w for w in warnings)
+
+    def test_multiple_warnings(self):
+        tweet = {"tweet_text": "短い"}
+        warnings = post_to_x._validate_tweet(tweet, 1)
+        assert len(warnings) == 2  # URL + hashtag
+
+
+# ---------------------------------------------------------------------------
 # _get_twitter_client
 # ---------------------------------------------------------------------------
 class TestGetTwitterClient:

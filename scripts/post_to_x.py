@@ -27,6 +27,25 @@ from config import (
     logger,
 )
 
+MAX_TWEET_LENGTH = 280
+
+
+def _validate_tweet(tweet: dict, index: int) -> list[str]:
+    """ツイートの品質チェック。警告メッセージのリストを返す。"""
+    warnings: list[str] = []
+    text = tweet.get("tweet_text", "")
+
+    if len(text) > MAX_TWEET_LENGTH:
+        warnings.append(f"[{index}] 文字数超過: {len(text)}文字 (上限{MAX_TWEET_LENGTH})")
+
+    if "http" not in text:
+        warnings.append(f"[{index}] URL が含まれていません")
+
+    if "#" not in text:
+        warnings.append(f"[{index}] ハッシュタグがありません")
+
+    return warnings
+
 
 def _get_twitter_client() -> tweepy.Client:
     """tweepy Client (API v2) を生成する。"""
@@ -98,6 +117,11 @@ def main(session_type: str | None = None, date: str | None = None) -> None:
         return
 
     logger.info("投稿対象: %d 件", len(pending))
+
+    # 投稿前バリデーション
+    for i, tweet in enumerate(pending, 1):
+        for warn in _validate_tweet(tweet, i):
+            logger.warning("バリデーション: %s", warn)
 
     # Twitter クライアント作成
     client = _get_twitter_client()
