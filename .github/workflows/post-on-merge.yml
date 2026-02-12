@@ -101,6 +101,7 @@ jobs:
           git add -f posted/ drafts/
           git diff --cached --quiet && echo "No changes to archive" && exit 0
           git commit -m "Archive posted tweets: ${SESSION_TYPE} ${DATE}"
+          git pull --rebase origin main
           git push origin main
 
       - name: Send notification (posted)
