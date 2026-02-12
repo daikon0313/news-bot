@@ -1,0 +1,57 @@
+[
+  {
+    "tweet_text": "🚨 Spotifyのトップ開発者、12月から1行もコード書いてない—理由はAI\n\nClaude CodeとSpotify独自AI「Honk」が開発を高速化。人間の役割は「指示」と「レビュー」へシフト。コーディングの未来、もう始まってる。\n\n#AI #ChatGPT\n\nhttps://techcrunch.com/2026/02/12/spotify-says-its-best-developers-havent-written-a-line-of-code-since-december-thanks-to-ai/",
+    "source_title": "Spotify says its best developers haven't written a line of code since December, thanks to AI",
+    "source_url": "https://techcrunch.com/2026/02/12/spotify-says-its-best-developers-havent-written-a-line-of-code-since-december-thanks-to-ai/",
+    "category": "AI",
+    "format_type": "速報",
+    "status": "pending",
+    "id": "fdb789fd-4adf-4022-8bda-fa8a402403d2",
+    "generated_at": "2026-02-13T08:00:13.460090+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "💰 Anthropic、評価額38兆円で300億ドル調達\n\nOpenAIとの顧客・文化的注目の争奪戦が激化する中での巨額調達。この資金でClaudeはどこまで進化する？2026年、AI市場の覇権争いは新章へ。\n\n#生成AI #OpenAI\n\nhttps://techcrunch.com/2026/02/12/anthropic-raises-another-30-billion-in-series-g-with-a-new-value-of-380-billion/",
+    "source_title": "Anthropic raises another $30B in Series G, with a new value of $380B",
+    "source_url": "https://techcrunch.com/2026/02/12/anthropic-raises-another-30-billion-in-series-g-with-a-new-value-of-380-billion/",
+    "category": "AI",
+    "format_type": "データ",
+    "status": "pending",
+    "id": "06d82548-e172-43f1-8ebc-65ec9e487530",
+    "generated_at": "2026-02-13T08:00:13.460090+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "🤔 AIエージェントに誹謗中傷記事を書かれた男性の告白\n\n人間が書いたかAIが書いたか、もう見分けがつかない時代。デマ・フェイク対策、個人でどう防ぐ？あなたの名前で検索したら、何が出てくる？\n\n#AI #テック\n\nhttps://theshamblog.com/an-ai-agent-published-a-hit-piece-on-me/",
+    "source_title": "An AI agent published a hit piece on me",
+    "source_url": "https://theshamblog.com/an-ai-agent-published-a-hit-piece-on-me/",
+    "category": "Tech General",
+    "format_type": "問いかけ",
+    "status": "pending",
+    "id": "29f0546e-5149-4869-969f-dbe2ed91a8f5",
+    "generated_at": "2026-02-13T08:00:13.460090+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "📊 OpenAI「GPT-5.3-Codex-Spark」発表—生成速度15倍、コンテキスト128k\n\nリアルタイムコーディングモデルとして初。専用チップ搭載でCodexが進化。Proユーザー先行公開中。開発体験、また一段変わりそう。\n\n#ChatGPT #AI\n\nhttps://openai.com/index/introducing-gpt-5-3-codex-spark",
+    "source_title": "Introducing GPT-5.3-Codex-Spark",
+    "source_url": "https://openai.com/index/introducing-gpt-5-3-codex-spark",
+    "category": "AI",
+    "format_type": "解説",
+    "status": "pending",
+    "id": "2ff07d81-88a7-4e73-911c-d03e347db3f5",
+    "generated_at": "2026-02-13T08:00:13.460090+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "🧠 Google「Gemini 3 Deep Think」登場—科学・研究・エンジニアリング特化\n\nこれはOpenAIへの本気の対抗馬。深層思考モデルで複雑な問題解決に強み。AI競争、「速さ」から「考える力」へシフトしてる。\n\n#AI #Google\n\nhttps://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-deep-think/",
+    "source_title": "Gemini 3 Deep Think: Advancing science, research and engineering",
+    "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-deep-think/",
+    "category": "AI",
+    "format_type": "意見",
+    "status": "pending",
+    "id": "3cae38df-cc47-495f-9578-b865f07b5a2e",
+    "generated_at": "2026-02-13T08:00:13.460090+09:00",
+    "session_type": "morning"
+  }
+]
