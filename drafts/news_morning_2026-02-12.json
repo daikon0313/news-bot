@@ -1,0 +1,290 @@
+[
+  {
+    "title": "AI inference startup Modal Labs in talks to raise at $2.5B valuation, sources say",
+    "url": "https://techcrunch.com/2026/02/11/ai-inference-startup-modal-labs-in-talks-to-raise-at-2-5b-valuation-sources-say/",
+    "summary": "General Catalyst is in talks to lead the round for the four-year-old startup, according to our sources.",
+    "source": "TechCrunch AI",
+    "category": "AI",
+    "fetched_at": "2026-02-12T08:21:37.255512+09:00"
+  },
+  {
+    "title": "OpenAI disbands mission alignment team, which focused on ‘safe’ and ‘trustworthy’ AI development",
+    "url": "https://techcrunch.com/2026/02/11/openai-disbands-mission-alignment-team-which-focused-on-safe-and-trustworthy-ai-development/",
+    "summary": "The team's leader has been given a new role as OpenAI's chief futurist, while the other team members have been reassigned throughout the company.",
+    "source": "TechCrunch AI",
+    "category": "AI",
+    "fetched_at": "2026-02-12T08:21:37.255530+09:00"
+  },
+  {
+    "title": "Apple’s Siri revamp reportedly delayed… again",
+    "url": "https://techcrunch.com/2026/02/11/apples-siri-revamp-reportedly-delayed-again/",
+    "summary": "While the new Siri was expected to launch with the upcoming iOS 26.4 update in March, now, the changes are expected to roll out more slowly over time, reportedly postponing some features until the May iOS update, or even until the release of iOS 27 in September.",
+    "source": "TechCrunch AI",
+    "category": "AI",
+    "fetched_at": "2026-02-12T08:21:37.255536+09:00"
+  },
+  {
+    "title": "Uber Eats launches AI assistant to help with grocery cart creation",
+    "url": "https://techcrunch.com/2026/02/11/uber-eats-launches-ai-assistant-to-help-with-grocery-cart-creation/",
+    "summary": "Uber Eats launched a new AI feature, “Cart Assistant,” that can automatically add items to your cart based on text or image prompts.",
+    "source": "TechCrunch AI",
+    "category": "AI",
+    "fetched_at": "2026-02-12T08:21:37.255541+09:00"
+  },
+  {
+    "title": "Glean’s fight to own the AI layer inside every company",
+    "url": "https://techcrunch.com/podcast/glean-arvind-jain-equity-podcast-own-the-ai-layer-inside-every-company/",
+    "summary": "Enterprise AI is shifting fast from chatbots that answer questions to systems that actually do the work across an organization. But who will own the AI layer that powers all of it?&#160; Glean, which started as an enterprise search product, has evolved into what it calls an “AI work assistant,” aimi",
+    "source": "TechCrunch AI",
+    "category": "AI",
+    "fetched_at": "2026-02-12T08:21:37.255546+09:00"
+  },
+  {
+    "title": "Harness engineering: leveraging Codex in an agent-first world",
+    "url": "https://openai.com/index/harness-engineering",
+    "summary": "By Ryan Lopopolo, Member of the Technical Staff",
+    "source": "OpenAI Blog",
+    "category": "AI",
+    "fetched_at": "2026-02-12T08:21:37.776689+09:00"
+  },
+  {
+    "title": "Bringing ChatGPT to GenAI.mil",
+    "url": "https://openai.com/index/bringing-chatgpt-to-genaimil",
+    "summary": "OpenAI for Government announces the deployment of a custom ChatGPT on GenAI.mil, bringing secure, safety-forward AI to U.S. defense teams.",
+    "source": "OpenAI Blog",
+    "category": "AI",
+    "fetched_at": "2026-02-12T08:21:37.776707+09:00"
+  },
+  {
+    "title": "Testing ads in ChatGPT",
+    "url": "https://openai.com/index/testing-ads-in-chatgpt",
+    "summary": "OpenAI begins testing ads in ChatGPT to support free access, with clear labeling, answer independence, strong privacy protections, and user control.",
+    "source": "OpenAI Blog",
+    "category": "AI",
+    "fetched_at": "2026-02-12T08:21:37.776713+09:00"
+  },
+  {
+    "title": "9 fun questions to try asking Google Photos",
+    "url": "https://blog.google/products-and-platforms/products/photos/ask-button-ask-photos-tips/",
+    "summary": "A collage of outdoor images, a blue icon that say \"Ask Photos,\" and examples of Ask Photos prompts.",
+    "source": "Google AI Blog",
+    "category": "AI",
+    "fetched_at": "2026-02-12T08:21:37.991484+09:00"
+  },
+  {
+    "title": "Helping kids and teens learn and grow online on Safer Internet Day",
+    "url": "https://blog.google/innovation-and-ai/technology/safety-security/safer-internet-day-2026-kids-teens/",
+    "summary": "User profile on smartphone connected to security, media, and settings icons.",
+    "source": "Google AI Blog",
+    "category": "AI",
+    "fetched_at": "2026-02-12T08:21:37.991498+09:00"
+  },
+  {
+    "title": "Natively Adaptive Interfaces: A new framework for AI accessibility",
+    "url": "https://blog.google/company-news/outreach-and-initiatives/accessibility/natively-adaptive-interfaces-ai-accessibility/",
+    "summary": "A collage of four images, the first of a woman with curly hair in front of a silver laptop, the second of the same woman and a man with short black hair speaking on a stairwell, the third of a the same man with glasses, and an aerial image of NTID",
+    "source": "Google AI Blog",
+    "category": "AI",
+    "fetched_at": "2026-02-12T08:21:37.991504+09:00"
+  },
+  {
+    "title": "Is a secure AI assistant possible?",
+    "url": "https://www.technologyreview.com/2026/02/11/1132768/is-a-secure-ai-assistant-possible/",
+    "summary": "AI agents are a risky business. Even when stuck inside the chatbox window, LLMs will make mistakes and behave badly. Once they have tools that they can use to interact with the outside world, such as web browsers and email addresses, the consequences of those mistakes become far more serious. That m",
+    "source": "MIT Technology Review",
+    "category": "AI",
+    "fetched_at": "2026-02-12T08:21:38.192553+09:00"
+  },
+  {
+    "title": "The Download: inside the QuitGPT movement, and EVs in Africa",
+    "url": "https://www.technologyreview.com/2026/02/11/1132724/the-download-inside-the-quitgpt-movement-and-evs-in-africa/",
+    "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. A “QuitGPT” campaign is urging people to cancel their ChatGPT subscriptions In September, Alfred Stephen, a freelance software developer in Singapore,",
+    "source": "MIT Technology Review",
+    "category": "AI",
+    "fetched_at": "2026-02-12T08:21:38.192568+09:00"
+  },
+  {
+    "title": "EVs could be cheaper to own than gas cars in Africa by 2040",
+    "url": "https://www.technologyreview.com/2026/02/11/1132714/evs-africa-cost/",
+    "summary": "Electric vehicles could be economically competitive in Africa sooner than expected. Just 1% of new cars sold across the continent in 2025 were electric, but a new analysis finds that with solar off-grid charging, EVs could be cheaper to own than gas vehicles by 2040. There are major barriers to high",
+    "source": "MIT Technology Review",
+    "category": "AI",
+    "fetched_at": "2026-02-12T08:21:38.192573+09:00"
+  },
+  {
+    "title": "Maximize the business value of your data platform with dbt",
+    "url": "https://www.getdbt.com/blog/dbt-business-value",
+    "summary": "Learn how tools like Fusion’s state-aware orchestration deliver real business value.",
+    "source": "dbt Blog",
+    "category": "Data Engineering",
+    "fetched_at": "2026-02-12T08:21:38.565096+09:00"
+  },
+  {
+    "title": "Bring structured context to Snowflake Intelligence with dbt",
+    "url": "https://www.getdbt.com/blog/bring-structured-context-to-snowflake-intelligence-with-dbt",
+    "summary": "Power reliable Cortex and Snowflake Intelligence experiences with dbt and Snowflake Semantic Views.",
+    "source": "dbt Blog",
+    "category": "Data Engineering",
+    "fetched_at": "2026-02-12T08:21:38.565112+09:00"
+  },
+  {
+    "title": "dbt Core v1.11 is GA",
+    "url": "https://www.getdbt.com/blog/dbt-core-v1-11-is-ga",
+    "summary": "dbt Core v1.11 is GA with first-class UDFs, clearer project validation, and performance improvements across adapters.",
+    "source": "dbt Blog",
+    "category": "Data Engineering",
+    "fetched_at": "2026-02-12T08:21:38.565118+09:00"
+  },
+  {
+    "title": "Domain Intelligence Wins: What “High-Quality” Actually Means in Production AI",
+    "url": "https://www.databricks.com/blog/domain-intelligence-wins-what-high-quality-actually-means-production-ai",
+    "summary": "As enterprises move from experimenting with generative AI to deploying agentic systems in production...",
+    "source": "Databricks Blog",
+    "category": "Data Engineering",
+    "fetched_at": "2026-02-12T08:21:38.720709+09:00"
+  },
+  {
+    "title": "Building What’s Next. Together. Introducing the Brickbuilder Partner Network for the Agentic AI Era",
+    "url": "https://www.databricks.com/blog/building-whats-next-together-introducing-brickbuilder-partner-network-agentic-ai-era",
+    "summary": "As we stand at the threshold of a new fiscal year, the technology landscape is shifting...",
+    "source": "Databricks Blog",
+    "category": "Data Engineering",
+    "fetched_at": "2026-02-12T08:21:38.720725+09:00"
+  },
+  {
+    "title": "Structured vs unstructured data",
+    "url": "https://www.databricks.com/blog/structured-vs-unstructured-data",
+    "summary": "Structured and unstructured data are both key assets to modern organizations, but...",
+    "source": "Databricks Blog",
+    "category": "Data Engineering",
+    "fetched_at": "2026-02-12T08:21:38.720730+09:00"
+  },
+  {
+    "title": "Discord/Twitch/Snapchat age verification bypass",
+    "url": "https://age-verifier.kibty.town/",
+    "summary": "",
+    "source": "Hacker News",
+    "category": "Tech General",
+    "fetched_at": "2026-02-12T08:21:38.947425+09:00"
+  },
+  {
+    "title": "Fluorite – A console-grade game engine fully integrated with Flutter",
+    "url": "https://fluorite.game/",
+    "summary": "",
+    "source": "Hacker News",
+    "category": "Tech General",
+    "fetched_at": "2026-02-12T08:21:39.008972+09:00"
+  },
+  {
+    "title": "GLM-5: From Vibe Coding to Agentic Engineering",
+    "url": "https://z.ai/blog/glm-5",
+    "summary": "",
+    "source": "Hacker News",
+    "category": "Tech General",
+    "fetched_at": "2026-02-12T08:21:39.062478+09:00"
+  },
+  {
+    "title": "NetNewsWire Turns 23",
+    "url": "https://netnewswire.blog/2026/02/11/netnewswire-turns.html",
+    "summary": "",
+    "source": "Hacker News",
+    "category": "Tech General",
+    "fetched_at": "2026-02-12T08:21:39.121892+09:00"
+  },
+  {
+    "title": "Claude Code is being dumbed down?",
+    "url": "https://symmetrybreak.ing/blog/claude-code-is-being-dumbed-down/",
+    "summary": "",
+    "source": "Hacker News",
+    "category": "Tech General",
+    "fetched_at": "2026-02-12T08:21:39.180027+09:00"
+  },
+  {
+    "title": "iOS 26.3 makes it easier to switch to Android",
+    "url": "https://www.theverge.com/tech/877587/ios-26-3-released-transfer-to-android",
+    "summary": "On Wednesday, Apple released its latest iOS 26 update, which includes a new process for switching from an iPhone to an Android phone, as previously reported by 9to5Mac. The updated transferring tool can move over data like apps, photos, messages, and even a user's phone number by sitting the two pho",
+    "source": "The Verge",
+    "category": "Tech General",
+    "fetched_at": "2026-02-12T08:21:39.289565+09:00"
+  },
+  {
+    "title": "Anthropic says it&#8217;ll try to keep its data centers from raising electricity costs",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/877526/anthropic-ai-electricity-costs-data-center-pledge",
+    "summary": "Anthropic is the latest AI company promising to limit the impact its data centers have on nearby residents' electricity bills. The company said it would pay higher monthly electricity charges in order to cover 100 percent of the upgrades needed to connect its data centers to power grids. \"This inclu",
+    "source": "The Verge",
+    "category": "Tech General",
+    "fetched_at": "2026-02-12T08:21:39.289582+09:00"
+  },
+  {
+    "title": "Why I wish I hadn’t bought my Samsung OLED TV",
+    "url": "https://www.theverge.com/tech/877396/samsung-tv-software-volume-on-screen-display-switch-hdmi-input-tizen",
+    "summary": "In June 2024, in a dusty TV shop empty of customers save myself, my wife, and my kids, I stared deep into the LG C3 and Samsung S90C. I went back and forth between the two OLED screens for easily 20 minutes, happily paralyzed by the choice in front of me. The Video Only salesperson [&#8230;]",
+    "source": "The Verge",
+    "category": "Tech General",
+    "fetched_at": "2026-02-12T08:21:39.289587+09:00"
+  },
+  {
+    "title": "Aurora says it will ‘triple’ its driverless truck network",
+    "url": "https://www.theverge.com/transportation/877191/aurora-driverless-truck-triple-routes-texas",
+    "summary": "Aurora, the driverless truck firm founded by former members of Google's pioneering self-driving car team, is branching out. In advance of its quarterly earnings report today, the company announced that a new software update would enable it to triple its driverless network to a total of 10 routes acr",
+    "source": "The Verge",
+    "category": "Tech General",
+    "fetched_at": "2026-02-12T08:21:39.289592+09:00"
+  },
+  {
+    "title": "Apple keeps hitting bumps with its overhauled Siri",
+    "url": "https://www.theverge.com/tech/877494/apple-siri-ai-overhaul-ios-personalized",
+    "summary": "Apple had been reportedly pushing to introduce some big changes to Siri with iOS 26.4, but now the company is planning to introduce them in later versions of iOS, including iOS 26.5 and iOS 27, Bloomberg reports. Nearly a year ago, Apple delayed planned features for Siri that would let it understand",
+    "source": "The Verge",
+    "category": "Tech General",
+    "fetched_at": "2026-02-12T08:21:39.289623+09:00"
+  },
+  {
+    "title": "Once-hobbled Lumma Stealer is back with lures that are hard to resist",
+    "url": "https://arstechnica.com/security/2026/02/once-hobbled-lumma-stealer-is-back-with-lures-that-are-hard-to-resist/",
+    "summary": "ClickFix bait, combined with advanced Castleloader malware, is installing Lumma \"at scale.\"",
+    "source": "Ars Technica",
+    "category": "Tech General",
+    "fetched_at": "2026-02-12T08:21:39.451280+09:00"
+  },
+  {
+    "title": "Byte magazine artist Robert Tinney, who illustrated the birth of PCs, dies at 78",
+    "url": "https://arstechnica.com/gadgets/2026/02/byte-magazine-artist-robert-tinney-who-illustrated-the-birth-of-pcs-dies-at-78/",
+    "summary": "He became one of the first to visualize personal computing by painting vivid cover art.",
+    "source": "Ars Technica",
+    "category": "Tech General",
+    "fetched_at": "2026-02-12T08:21:39.451296+09:00"
+  },
+  {
+    "title": "Yes, Rocket Lab is blowing up engines. No, it's not a big deal, CEO says.",
+    "url": "https://arstechnica.com/space/2026/02/yes-rocket-lab-is-blowing-up-engines-no-its-not-a-big-deal-ceo-says/",
+    "summary": "\"We are in the part of the program where we are doing very nasty things to the engine.\"",
+    "source": "Ars Technica",
+    "category": "Tech General",
+    "fetched_at": "2026-02-12T08:21:39.451302+09:00"
+  },
+  {
+    "title": "What to expect in the global fashion industry in 2026",
+    "url": "https://www.mckinsey.com/industries/retail/our-insights/what-to-expect-in-the-global-fashion-industry-in-2026",
+    "summary": "This year’s dominant themes include agentic AI, the growth of the resale market, the quest for operational efficiency, and strategic renewal in the luxury sector.",
+    "source": "McKinsey",
+    "category": "Consulting",
+    "fetched_at": "2026-02-12T08:21:39.932435+09:00"
+  },
+  {
+    "title": "AI in Southeast Asia: An era of opportunity",
+    "url": "https://www.mckinsey.com/featured-insights/future-of-asia/ai-in-southeast-asia-an-era-of-opportunity",
+    "summary": "AI adoption in Southeast Asia is at an inflection point—moving rapidly from exploration to deployment. With strong digital foundations, tech-savvy enterprises, and a young, connected population, the region’s major economies are accelerating toward global competitiveness.",
+    "source": "McKinsey",
+    "category": "Consulting",
+    "fetched_at": "2026-02-12T08:21:39.932448+09:00"
+  },
+  {
+    "title": "Global Private Markets Report 2026 Private equity: Clearer view, tougher terrain",
+    "url": "https://www.mckinsey.com/industries/private-capital/our-insights/global-private-markets-report",
+    "summary": "Private equity weather has improved, revealing more demanding, technical ground. Here’s what our analyses indicate for dealmakers, operators, fundraisers, and LPs as they look to the road ahead.",
+    "source": "McKinsey",
+    "category": "Consulting",
+    "fetched_at": "2026-02-12T08:21:39.932454+09:00"
+  }
+]
