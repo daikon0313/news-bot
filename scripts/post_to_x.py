@@ -7,7 +7,6 @@ Usage:
 
 import argparse
 import json
-import shutil
 import sys
 import time
 from datetime import datetime
@@ -47,7 +46,7 @@ def _get_twitter_client() -> tweepy.Client:
         )
 
     # 認証情報のデバッグ (値そのものは出力しない)
-    logger.info(
+    logger.debug(
         "認証情報: API_KEY=%d文字, API_SECRET=%d文字, "
         "ACCESS_TOKEN=%d文字, ACCESS_SECRET=%d文字",
         len(X_API_KEY), len(X_API_SECRET),
@@ -143,11 +142,13 @@ def main(session_type: str | None = None, date: str | None = None) -> None:
             logger.info("次の投稿まで %d 分待機...", POSTING_INTERVAL_MINUTES)
             time.sleep(wait_sec)
 
-    # posted/ にコピー
+    # posted/ に投稿成功分のみ保存 (failed はデdup対象にしない)
     today = datetime.now(JST).strftime("%Y-%m-%d")
     posted_path = POSTED_DIR / f"posted_{today}.json"
-    shutil.copy2(tweets_file, posted_path)
-    logger.info("投稿済みデータをコピー: %s", posted_path)
+    posted_tweets = [t for t in tweets if t.get("status") == "posted"]
+    with open(posted_path, "w", encoding="utf-8") as f:
+        json.dump(posted_tweets, f, ensure_ascii=False, indent=2)
+    logger.info("投稿済みデータを保存: %s (%d 件)", posted_path, len(posted_tweets))
 
     logger.info("完了: %d 件投稿", posted_count)
 

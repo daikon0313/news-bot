@@ -5,25 +5,24 @@ Usage:
     python scripts/weekly_report.py 2026-02-02 2026-02-09
 """
 
-import glob
 import json
-import os
 import sys
 from collections import Counter
+
+from config import POSTED_DIR
 
 
 def main() -> None:
     week_start = sys.argv[1]
     week_end = sys.argv[2]
 
-    posted_files = sorted(glob.glob("posted/*.json"))
+    posted_files = sorted(POSTED_DIR.glob("*.json"))
 
     # Filter files within the date range
     weekly_files = []
     for f in posted_files:
-        basename = os.path.basename(f)
-        parts = basename.replace(".json", "").split("_")
-        if len(parts) >= 3:
+        parts = f.stem.split("_")
+        if len(parts) >= 2:
             file_date = parts[-1]
             if len(file_date) == 10 and week_start <= file_date <= week_end:
                 weekly_files.append(f)
@@ -42,10 +41,8 @@ def main() -> None:
             for t in tweets:
                 categories[t.get("category", "Uncategorized")] += 1
                 sources[t.get("source", "Unknown")] += 1
-            if "morning" in os.path.basename(f):
+            if "morning" in f.name:
                 sessions["morning"] += len(tweets)
-            elif "evening" in os.path.basename(f):
-                sessions["evening"] += len(tweets)
         except (json.JSONDecodeError, IOError) as e:
             print(f"Warning: Could not parse {f}: {e}", file=sys.stderr)
 

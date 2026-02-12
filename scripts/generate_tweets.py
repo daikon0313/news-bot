@@ -65,8 +65,8 @@ def _parse_tweets_json(text: str) -> list[dict]:
     if code_block:
         json_str = code_block.group(1).strip()
     else:
-        # コードブロックがなければ [ ... ] を直接探す
-        bracket = re.search(r"\[.*\]", text, re.DOTALL)
+        # コードブロックがなければ [{ ... }] (JSON配列) を直接探す
+        bracket = re.search(r"\[\s*\{.*\}\s*\]", text, re.DOTALL)
         if bracket:
             json_str = bracket.group(0)
         else:
