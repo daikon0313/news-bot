@@ -189,6 +189,7 @@ def patch_config_dirs(mock_dirs):
          patch("config.TEMPLATES_DIR", mock_dirs["templates"]), \
          patch("config.BASE_DIR", mock_dirs["base"]), \
          patch("fetch_news.DRAFTS_DIR", mock_dirs["drafts"]), \
+         patch("fetch_news.POSTED_DIR", mock_dirs["posted"]), \
          patch("generate_tweets.DRAFTS_DIR", mock_dirs["drafts"]), \
          patch("generate_tweets.TEMPLATES_DIR", mock_dirs["templates"]), \
          patch("post_to_x.DRAFTS_DIR", mock_dirs["drafts"]), \

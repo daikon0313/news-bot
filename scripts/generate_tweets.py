@@ -2,7 +2,6 @@
 generate_tweets.py -- Claude API でツイートを生成する
 Usage:
     python scripts/generate_tweets.py morning
-    python scripts/generate_tweets.py evening
 """
 
 import argparse
@@ -81,13 +80,13 @@ def main(session_type: str) -> str:
     ツイートを生成して JSON に保存する。
 
     Args:
-        session_type: "morning" or "evening"
+        session_type: "morning"
 
     Returns:
         保存先ファイルパス (文字列)
     """
-    if session_type not in ("morning", "evening"):
-        raise ValueError(f"session_type は 'morning' または 'evening' を指定: {session_type}")
+    if session_type not in ("morning",):
+        raise ValueError(f"session_type は 'morning' を指定: {session_type}")
 
     if not ANTHROPIC_API_KEY:
         raise EnvironmentError(
@@ -146,8 +145,8 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Claude API でツイートを生成する")
     parser.add_argument(
         "session_type",
-        choices=["morning", "evening"],
-        help="セッション種別 (morning / evening)",
+        choices=["morning"],
+        help="セッション種別 (morning)",
     )
     args = parser.parse_args()
 

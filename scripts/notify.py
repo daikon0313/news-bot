@@ -163,14 +163,14 @@ if __name__ == "__main__":
         "session_type",
         nargs="?",
         default=None,
-        choices=["morning", "evening"],
+        choices=["morning"],
         help="セッション種別 (draft 時に必要)",
     )
     parser.add_argument(
         "--session-type",
         dest="session_type_flag",
         default=None,
-        choices=["morning", "evening"],
+        choices=["morning"],
         help="セッション種別 (--session-type フラグ版)",
     )
     parser.add_argument(

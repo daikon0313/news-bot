@@ -135,7 +135,7 @@ class TestGenerateTweetsMain:
     def test_invalid_session_type(self):
         """不正な session_type で ValueError が発生すること。"""
         with patch("generate_tweets.ANTHROPIC_API_KEY", "sk-test"):
-            with pytest.raises(ValueError, match="morning.*evening"):
+            with pytest.raises(ValueError, match="morning"):
                 generate_tweets.main("invalid")
 
     def test_missing_api_key(self):

@@ -48,8 +48,9 @@ JST = timezone(timedelta(hours=9))
 # ---------------------------------------------------------------------------
 # 定数
 # ---------------------------------------------------------------------------
-TWEETS_PER_SESSION = 3
+TWEETS_PER_SESSION = 5
 POSTING_INTERVAL_MINUTES = 5
+DEDUP_DAYS = 30
 CLAUDE_MODEL = os.getenv("CLAUDE_MODEL", "claude-sonnet-4-5-20250929")
 
 

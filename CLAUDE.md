@@ -8,12 +8,12 @@ Claude API でツイートを生成し、GitHub PR 経由で人間が承認後�
 ### Architecture
 
 ```
-Cron (朝8:00 / 夜19:00 JST)
-  → fetch_news.py (RSS/API)
-  → generate_tweets.py (Claude API)
+Cron (朝8:00 JST)
+  → fetch_news.py (RSS/API + 重複排除)
+  → generate_tweets.py (Claude API, 5件/セッション)
   → GitHub PR 自動作成 + Slack/Discord 通知
   → Benjamin が PR 確認・承認
-  → マージ → post_to_x.py (30分間隔) → 完了通知
+  → マージ → post_to_x.py (5分間隔) → 完了通知
 ```
 
 ---
@@ -111,10 +111,11 @@ Phase 4: 修正 → test-coder → 最終確認
 
 ```
 fetch_news.py <session_type>
-  session_type: "morning" | "evening" (位置引数, 必須)
+  session_type: "morning" (位置引数, 必須)
+  重複排除: posted/ の過去30日分の source_url と比較
 
 generate_tweets.py <session_type>
-  session_type: "morning" | "evening" (位置引数, 必須)
+  session_type: "morning" (位置引数, 必須)
 
 post_to_x.py [--session-type TYPE] [--date YYYY-MM-DD]
   両方指定 → 特定ファイルを読み込み
@@ -174,8 +175,8 @@ posted/posted_{YYYY-MM-DD}.json                    # 投稿済み
 
 | File | Purpose | Trigger |
 |------|---------|---------|
-| `.github/workflows/fetch-and-draft.yml` | ニュース取得→ツイート生成→PR作成→Slack通知 | cron (朝8:00/夜19:00 JST) + 手動 |
-| `.github/workflows/post-on-merge.yml` | tweets/ PR マージ後に X へ投稿→完了通知 | PR merge (tweets/* branch) |
+| `.github/workflows/fetch-and-draft.yml` | ニュース取得→ツイート生成→PR作成→Slack通知 | cron (朝8:00 JST) + 手動 |
+| `.github/workflows/post-on-merge.yml` | tweets/ PR マージ後に X へ投稿→完了通知 | PR merge (tweets/*) + 手動 |
 | `.github/workflows/auto-pr.yml` | 開発ブランチ push 時に PR 自動作成 | push (feature/**/claude/**) |
 | `.github/workflows/weekly-analysis.yml` | 週次投稿レポート→Slack通知 | cron (月曜 9:00 JST) + 手動 |
 | `.github/workflows/setup-issues.yml` | Issue 一括作成 (初回のみ) | 手動 |
@@ -211,5 +212,5 @@ python scripts/notify.py draft morning     # 通知テスト
 ## Cost Constraints
 
 - 月 $1〜2 で運用 (Claude API Sonnet + 無料枠のみ)
-- X API Free: 月1,500ツイート (1日6ツイートなら月180で余裕)
-- GitHub Actions: Public リポジトリなら無料
+- X API Free: 月1,500ツイート (1日5ツイートなら月150で余裕)
+- GitHub Actions: Public リポジトリなら無料 (無制限)
