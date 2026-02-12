@@ -2,7 +2,7 @@ name: "Fetch News & Draft Tweets"
 
 on:
   schedule:
-    - cron: "0 23 * * *"   # UTC 23:00 = JST 08:00 (morning)
+    - cron: "30 22 * * *"   # UTC 22:30 = JST 07:30 (通勤ピーク前に準備)
   workflow_dispatch:
     inputs:
       session_type:
