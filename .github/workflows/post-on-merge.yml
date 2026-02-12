@@ -12,7 +12,6 @@ on:
         type: choice
         options:
           - morning
-          - evening
       date:
         description: "Date (YYYY-MM-DD)"
         required: true
@@ -65,14 +64,7 @@ jobs:
           else
             # PR マージトリガー
             echo "branch=$PR_BRANCH" >> "$GITHUB_OUTPUT"
-
-            if echo "$PR_BRANCH" | grep -q "morning"; then
-              echo "type=morning" >> "$GITHUB_OUTPUT"
-            elif echo "$PR_BRANCH" | grep -q "evening"; then
-              echo "type=evening" >> "$GITHUB_OUTPUT"
-            else
-              echo "type=unknown" >> "$GITHUB_OUTPUT"
-            fi
+            echo "type=morning" >> "$GITHUB_OUTPUT"
 
             DATE=$(echo "$PR_BRANCH" | grep -oP '\d{4}-\d{2}-\d{2}')
             echo "date=$DATE" >> "$GITHUB_OUTPUT"

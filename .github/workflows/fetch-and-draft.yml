@@ -3,7 +3,6 @@ name: "Fetch News & Draft Tweets"
 on:
   schedule:
     - cron: "0 23 * * *"   # UTC 23:00 = JST 08:00 (morning)
-    - cron: "0 10 * * *"   # UTC 10:00 = JST 19:00 (evening)
   workflow_dispatch:
     inputs:
       session_type:
@@ -12,7 +11,6 @@ on:
         type: choice
         options:
           - morning
-          - evening
 
 permissions:
   contents: write
@@ -32,15 +30,10 @@ jobs:
       - name: Determine session type
         id: session
         env:
-          CRON_SCHEDULE: ${{ github.event.schedule }}
           INPUT_SESSION: ${{ inputs.session_type }}
         run: |
           if [ -n "$INPUT_SESSION" ]; then
             echo "type=$INPUT_SESSION" >> "$GITHUB_OUTPUT"
-          elif [ "$CRON_SCHEDULE" = "0 23 * * *" ]; then
-            echo "type=morning" >> "$GITHUB_OUTPUT"
-          elif [ "$CRON_SCHEDULE" = "0 10 * * *" ]; then
-            echo "type=evening" >> "$GITHUB_OUTPUT"
           else
             echo "type=morning" >> "$GITHUB_OUTPUT"
           fi

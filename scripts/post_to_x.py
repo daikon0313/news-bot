@@ -157,7 +157,7 @@ def main(session_type: str | None = None, date: str | None = None) -> None:
 # ---------------------------------------------------------------------------
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="X にツイートを投稿する")
-    parser.add_argument("--session-type", default=None, choices=["morning", "evening"])
+    parser.add_argument("--session-type", default=None, choices=["morning"])
     parser.add_argument("--date", default=None, help="日付 (YYYY-MM-DD)")
     args = parser.parse_args()
     try:

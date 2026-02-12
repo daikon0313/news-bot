@@ -2,20 +2,22 @@
 fetch_news.py -- ニュースソースから記事を取得して JSON に保存する
 Usage:
     python scripts/fetch_news.py morning
-    python scripts/fetch_news.py evening
 """
 
 import argparse
 import json
+import re
 import sys
-from datetime import datetime
+from datetime import datetime, timedelta
 
 import feedparser
 import requests
 
 from config import (
+    DEDUP_DAYS,
     DRAFTS_DIR,
     JST,
+    POSTED_DIR,
     ensure_dirs,
     load_sources,
     logger,
@@ -107,6 +109,43 @@ def _fetch_rss(source: dict) -> list[dict]:
 
 
 # ---------------------------------------------------------------------------
+# 重複排除
+# ---------------------------------------------------------------------------
+def _load_posted_urls() -> set[str]:
+    """posted/ ディレクトリの過去 DEDUP_DAYS 日分の source_url を収集する。"""
+    urls: set[str] = set()
+    cutoff = datetime.now(JST).date() - timedelta(days=DEDUP_DAYS)
+
+    if not POSTED_DIR.exists():
+        return urls
+
+    for path in POSTED_DIR.glob("posted_*.json"):
+        # ファイル名から日付を抽出 (posted_YYYY-MM-DD.json)
+        m = re.search(r"posted_(\d{4}-\d{2}-\d{2})\.json$", path.name)
+        if not m:
+            continue
+        try:
+            file_date = datetime.strptime(m.group(1), "%Y-%m-%d").date()
+        except ValueError:
+            continue
+        if file_date < cutoff:
+            continue
+
+        try:
+            with open(path, "r", encoding="utf-8") as f:
+                tweets = json.load(f)
+            for tweet in tweets:
+                url = tweet.get("source_url", "")
+                if url:
+                    urls.add(url)
+        except (json.JSONDecodeError, OSError) as exc:
+            logger.warning("posted ファイルの読み込みに失敗: %s (%s)", path, exc)
+
+    logger.info("重複排除: 過去 %d 日分の URL %d 件をロード", DEDUP_DAYS, len(urls))
+    return urls
+
+
+# ---------------------------------------------------------------------------
 # メイン処理
 # ---------------------------------------------------------------------------
 def main(session_type: str) -> str:
@@ -114,13 +153,13 @@ def main(session_type: str) -> str:
     ニュースを取得して JSON ファイルに保存する。
 
     Args:
-        session_type: "morning" or "evening"
+        session_type: "morning"
 
     Returns:
         保存先ファイルパス (文字列)
     """
-    if session_type not in ("morning", "evening"):
-        raise ValueError(f"session_type は 'morning' または 'evening' を指定: {session_type}")
+    if session_type not in ("morning",):
+        raise ValueError(f"session_type は 'morning' を指定: {session_type}")
 
     ensure_dirs()
     sources_cfg = load_sources()
@@ -144,6 +183,15 @@ def main(session_type: str) -> str:
         logger.info("  -> %d 件取得", len(articles))
         all_articles.extend(articles)
 
+    # 重複排除
+    posted_urls = _load_posted_urls()
+    if posted_urls:
+        before_count = len(all_articles)
+        all_articles = [a for a in all_articles if a.get("url", "") not in posted_urls]
+        removed = before_count - len(all_articles)
+        if removed:
+            logger.info("重複排除: %d 件を除外 (%d → %d)", removed, before_count, len(all_articles))
+
     # 保存
     today = datetime.now(JST).strftime("%Y-%m-%d")
     out_path = DRAFTS_DIR / f"news_{session_type}_{today}.json"
@@ -161,8 +209,8 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="ニュースソースから記事を取得する")
     parser.add_argument(
         "session_type",
-        choices=["morning", "evening"],
-        help="セッション種別 (morning / evening)",
+        choices=["morning"],
+        help="セッション種別 (morning)",
     )
     args = parser.parse_args()
 

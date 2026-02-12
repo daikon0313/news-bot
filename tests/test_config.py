@@ -60,7 +60,10 @@ class TestPaths:
 # ---------------------------------------------------------------------------
 class TestConstants:
     def test_tweets_per_session(self):
-        assert config.TWEETS_PER_SESSION == 3
+        assert config.TWEETS_PER_SESSION == 5
+
+    def test_dedup_days(self):
+        assert config.DEDUP_DAYS == 30
 
     def test_posting_interval_minutes(self):
         assert config.POSTING_INTERVAL_MINUTES == 5

@@ -4,7 +4,7 @@ test_fetch_news.py -- fetch_news.py のテスト
 
 import json
 import sys
-from datetime import datetime
+from datetime import datetime, timedelta
 from pathlib import Path
 from types import SimpleNamespace
 from unittest.mock import MagicMock, patch
@@ -252,7 +252,7 @@ class TestFetchHackerNews:
 class TestFetchNewsMain:
     def test_invalid_session_type(self):
         """不正な session_type で ValueError が発生すること。"""
-        with pytest.raises(ValueError, match="morning.*evening"):
+        with pytest.raises(ValueError, match="morning"):
             fetch_news.main("invalid")
 
     def test_main_morning(self, patch_config_dirs, sources_file):
@@ -310,9 +310,96 @@ class TestFetchNewsMain:
             hn_resp.raise_for_status.return_value = None
             mock_get.return_value = hn_resp
 
-            result = fetch_news.main("evening")
+            result = fetch_news.main("morning")
 
         out_path = Path(result)
         assert out_path.exists()
         data = json.loads(out_path.read_text(encoding="utf-8"))
         assert isinstance(data, list)
+
+
+# ---------------------------------------------------------------------------
+# 重複排除
+# ---------------------------------------------------------------------------
+class TestDeduplication:
+    def test_load_posted_urls_empty(self, patch_config_dirs):
+        """posted/ が空の場合、空セットを返すこと。"""
+        with patch("fetch_news.datetime") as mock_dt:
+            mock_dt.now.return_value = FIXED_NOW
+            mock_dt.strptime = datetime.strptime
+            urls = fetch_news._load_posted_urls()
+        assert urls == set()
+
+    def test_load_posted_urls_collects_source_urls(self, patch_config_dirs):
+        """posted/ から source_url を収集すること。"""
+        posted_data = [
+            {"source_url": "https://example.com/1", "status": "posted"},
+            {"source_url": "https://example.com/2", "status": "posted"},
+        ]
+        posted_path = patch_config_dirs["posted"] / "posted_2026-02-08.json"
+        posted_path.write_text(json.dumps(posted_data), encoding="utf-8")
+
+        with patch("fetch_news.datetime") as mock_dt:
+            mock_dt.now.return_value = FIXED_NOW
+            mock_dt.strptime = datetime.strptime
+            urls = fetch_news._load_posted_urls()
+        assert urls == {"https://example.com/1", "https://example.com/2"}
+
+    def test_dedup_old_files_ignored(self, patch_config_dirs):
+        """DEDUP_DAYS より古いファイルは無視されること。"""
+        posted_path = patch_config_dirs["posted"] / "posted_2025-12-01.json"
+        posted_path.write_text(
+            json.dumps([{"source_url": "https://old.example.com"}]),
+            encoding="utf-8",
+        )
+
+        with patch("fetch_news.datetime") as mock_dt:
+            mock_dt.now.return_value = FIXED_NOW
+            mock_dt.strptime = datetime.strptime
+            urls = fetch_news._load_posted_urls()
+        assert "https://old.example.com" not in urls
+
+    def test_dedup_filters_in_main(self, patch_config_dirs, sources_file):
+        """main() で重複 URL の記事が除外されること。"""
+        posted_data = [
+            {"source_url": "https://example.com/duplicate", "status": "posted"},
+        ]
+        posted_path = patch_config_dirs["posted"] / "posted_2026-02-08.json"
+        posted_path.write_text(json.dumps(posted_data), encoding="utf-8")
+
+        entries = [
+            SimpleNamespace(
+                title="Duplicate",
+                link="https://example.com/duplicate",
+                summary="Old news",
+                get=lambda key, default=None: {
+                    "title": "Duplicate", "link": "https://example.com/duplicate",
+                }.get(key, default),
+            ),
+            SimpleNamespace(
+                title="New Article",
+                link="https://example.com/new",
+                summary="Fresh news",
+                get=lambda key, default=None: {
+                    "title": "New Article", "link": "https://example.com/new",
+                }.get(key, default),
+            ),
+        ]
+        feed = MagicMock(bozo=False, entries=entries)
+
+        with patch("fetch_news.feedparser.parse", return_value=feed), \
+             patch("fetch_news.requests.get") as mock_get, \
+             patch("fetch_news.datetime") as mock_dt:
+            mock_dt.now.return_value = FIXED_NOW
+            mock_dt.strptime = datetime.strptime
+            hn_resp = MagicMock()
+            hn_resp.json.return_value = []
+            hn_resp.raise_for_status.return_value = None
+            mock_get.return_value = hn_resp
+
+            result = fetch_news.main("morning")
+
+        data = json.loads(Path(result).read_text(encoding="utf-8"))
+        urls = [a["url"] for a in data]
+        assert "https://example.com/duplicate" not in urls
+        assert "https://example.com/new" in urls
