@@ -1,0 +1,57 @@
+[
+  {
+    "tweet_text": "🧠 GPT-5.2が理論物理学で新公式を導出→人間の数学者が証明に成功\n\nAIが「発見」して人間が「検証」する時代に。科学研究のワークフロー自体が変わり始めてる。次はノーベル賞級の発見もAI起点になるかも。\n\n#AI #ChatGPT\n\nhttps://openai.com/index/new-result-theoretical-physics",
+    "source_title": "GPT-5.2 derives a new result in theoretical physics",
+    "source_url": "https://openai.com/index/new-result-theoretical-physics",
+    "category": "AI",
+    "format_type": "意見",
+    "status": "pending",
+    "id": "f9134c35-8673-4536-a9ab-ba0567ddb447",
+    "generated_at": "2026-02-14T08:02:58.053565+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "🏠 Airbnbのカスタマーサポート、米国・カナダで33%がAI対応に\n\nCEOは「ユーザーを理解し旅行全体を計画するアプリ」を予告。宿探しから予約、問い合わせまで全自動化の未来が見えてきた。旅行代理店の仕事、どう変わる？\n\n#AI #ビジネス\n\nhttps://techcrunch.com/2026/02/13/airbnb-says-a-third-of-its-customer-support-is-now-handled-by-ai-in-the-u-s-and-canada/",
+    "source_title": "Airbnb says a third of its customer support is now handled by AI in the US and Canada",
+    "source_url": "https://techcrunch.com/2026/02/13/airbnb-says-a-third-of-its-customer-support-is-now-handled-by-ai-in-the-u-s-and-canada/",
+    "category": "AI",
+    "format_type": "問いかけ",
+    "status": "pending",
+    "id": "e4662332-0d7b-4ee0-9fb9-7dccc740150a",
+    "generated_at": "2026-02-14T08:02:58.053565+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "🚨 OpenAI、xAIで人材流出が止まらない\n\nxAIは創業メンバーの半数が退社、OpenAIもミッション調整チーム解散。AI業界の「バーンアウト」問題が深刻化してる。急成長の裏で何が起きてるのか。\n\n#AI #テック\n\nhttps://techcrunch.com/video/why-top-talent-is-walking-away-from-openai-and-xai/",
+    "source_title": "Why top talent is walking away from OpenAI and xAI",
+    "source_url": "https://techcrunch.com/video/why-top-talent-is-walking-away-from-openai-and-xai/",
+    "category": "AI",
+    "format_type": "速報",
+    "status": "pending",
+    "id": "cfefcbc4-7a57-4606-9857-8e41ee238ff1",
+    "generated_at": "2026-02-14T08:02:58.053565+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "📊 dbt Labs、自社の計算コストを64%削減\n\nFusionとstate-aware orchestrationで実現。データエンジニアリングのコスト最適化、もはや「やるかやらないか」じゃなく「どうやるか」のフェーズ。具体的な手法が参考になる。\n\n#データ分析 #DX\n\nhttps://www.getdbt.com/blog/dbt-compute-cost-reduction-fusion-state-aware-orchestration",
+    "source_title": "How dbt Labs reduced dbt-related compute costs by 64% with Fusion and state-aware orchestration",
+    "source_url": "https://www.getdbt.com/blog/dbt-compute-cost-reduction-fusion-state-aware-orchestration",
+    "category": "Data Engineering",
+    "format_type": "データ",
+    "status": "pending",
+    "id": "83aded12-767c-46ee-9916-248e63327116",
+    "generated_at": "2026-02-14T08:02:58.053565+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "🎤 ALS患者のミュージシャン、AIで「再び歌える」ように\n\nAIが奪った声を、AIが取り戻す。病気で失った声をAIが再現し、ステージ復帰を実現。技術の本当の価値って、こういう人生を変える瞬間にあると思う。\n\n#AI #テクノロジー\n\nhttps://www.technologyreview.com/2026/02/13/1132913/als-stole-this-musicians-voice-ai-sing/",
+    "source_title": "ALS stole this musician's voice. AI let him sing again.",
+    "source_url": "https://www.technologyreview.com/2026/02/13/1132913/als-stole-this-musicians-voice-ai-sing/",
+    "category": "AI",
+    "format_type": "解説",
+    "status": "pending",
+    "id": "7cb2f438-8da3-4b10-9375-d7c94d1981de",
+    "generated_at": "2026-02-14T08:02:58.053565+09:00",
+    "session_type": "morning"
+  }
+]
