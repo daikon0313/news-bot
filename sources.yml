@@ -1,46 +1,12 @@
 sources:
   # ---------------------------------------------------------------------------
-  # AI / Machine Learning
-  # ---------------------------------------------------------------------------
-  - name: "TechCrunch AI"
-    type: rss
-    url: "https://techcrunch.com/category/artificial-intelligence/feed/"
-    max_items: 5
-    categories:
-      - AI
-      - Machine Learning
-
-  - name: "OpenAI Blog"
-    type: rss
-    url: "https://openai.com/blog/rss.xml"
-    max_items: 3
-    categories:
-      - AI
-      - Machine Learning
-
-  - name: "Google AI Blog"
-    type: rss
-    url: "https://blog.google/technology/ai/rss/"
-    max_items: 3
-    categories:
-      - AI
-      - Machine Learning
-
-  - name: "MIT Technology Review"
-    type: rss
-    url: "https://www.technologyreview.com/feed/"
-    max_items: 3
-    categories:
-      - AI
-      - Tech General
-
-  # ---------------------------------------------------------------------------
-  # Data Engineering
+  # Priority 1: Data Engineering
   # ---------------------------------------------------------------------------
   - name: "dbt Blog"
     type: rss
     url: "https://www.getdbt.com/blog/rss.xml"
     max_items: 3
+    priority: 1
     categories:
       - Data Engineering
 
@@ -48,48 +14,185 @@ sources:
     type: rss
     url: "https://www.databricks.com/feed"
     max_items: 3
+    priority: 1
     categories:
       - Data Engineering
 
+  - name: "Snowflake Blog"
+    type: rss
+    url: "https://www.snowflake.com/feed/"
+    max_items: 3
+    priority: 1
+    categories:
+      - Data Engineering
+
+  - name: "AWS Big Data Blog"
+    type: rss
+    url: "https://aws.amazon.com/blogs/big-data/feed/"
+    max_items: 3
+    priority: 1
+    categories:
+      - Data Engineering
+      - Cloud
+
+  - name: "Google Cloud Data Analytics"
+    type: rss
+    url: "https://cloud.google.com/blog/products/data-analytics/rss"
+    max_items: 3
+    priority: 1
+    categories:
+      - Data Engineering
+      - Cloud
+
+  - name: "Netflix Tech Blog"
+    type: rss
+    url: "https://netflixtechblog.com/feed"
+    max_items: 3
+    priority: 1
+    categories:
+      - Data Engineering
+      - Engineering
+
+  - name: "Spotify Engineering"
+    type: rss
+    url: "https://engineering.atspotify.com/feed/"
+    max_items: 3
+    priority: 1
+    categories:
+      - Data Engineering
+      - Engineering
+
+  - name: "Uber Engineering"
+    type: rss
+    url: "https://www.uber.com/blog/engineering/rss/"
+    max_items: 3
+    priority: 1
+    categories:
+      - Data Engineering
+      - Engineering
+
+  - name: "LinkedIn Engineering"
+    type: rss
+    url: "https://engineering.linkedin.com/blog.rss"
+    max_items: 3
+    priority: 1
+    categories:
+      - Data Engineering
+      - Engineering
+
+  - name: "Airbnb Tech Blog"
+    type: rss
+    url: "https://medium.com/feed/airbnb-engineering"
+    max_items: 3
+    priority: 1
+    categories:
+      - Data Engineering
+      - Engineering
+
   # ---------------------------------------------------------------------------
-  # Tech General
+  # Priority 1: AI Engineering
+  # ---------------------------------------------------------------------------
+  - name: "TechCrunch AI"
+    type: rss
+    url: "https://techcrunch.com/category/artificial-intelligence/feed/"
+    max_items: 5
+    priority: 1
+    categories:
+      - AI
+
+  - name: "OpenAI Blog"
+    type: rss
+    url: "https://openai.com/blog/rss.xml"
+    max_items: 3
+    priority: 1
+    categories:
+      - AI
+
+  - name: "Google AI Blog"
+    type: rss
+    url: "https://blog.google/technology/ai/rss/"
+    max_items: 3
+    priority: 1
+    categories:
+      - AI
+
+  - name: "Anthropic Blog"
+    type: rss
+    url: "https://www.anthropic.com/blog/rss"
+    max_items: 3
+    priority: 1
+    categories:
+      - AI
+
+  - name: "Hugging Face Blog"
+    type: rss
+    url: "https://huggingface.co/blog/feed.xml"
+    max_items: 3
+    priority: 1
+    categories:
+      - AI
+
+  - name: "MIT Technology Review"
+    type: rss
+    url: "https://www.technologyreview.com/feed/"
+    max_items: 3
+    priority: 1
+    categories:
+      - AI
+
+  # ---------------------------------------------------------------------------
+  # Priority 2: Engineering General
   # ---------------------------------------------------------------------------
   - name: "Hacker News"
     type: api
     url: "https://hacker-news.firebaseio.com/v0/topstories.json"
     max_items: 5
+    priority: 2
     categories:
-      - Tech General
+      - Engineering
 
+  - name: "Meta Engineering"
+    type: rss
+    url: "https://engineering.fb.com/feed/"
+    max_items: 3
+    priority: 2
+    categories:
+      - Engineering
+
+  # ---------------------------------------------------------------------------
+  # Priority 3: IT General
+  # ---------------------------------------------------------------------------
   - name: "The Verge"
     type: rss
     url: "https://www.theverge.com/rss/index.xml"
-    max_items: 5
+    max_items: 3
+    priority: 3
     categories:
-      - Tech General
+      - IT
 
   - name: "Ars Technica"
     type: rss
     url: "https://feeds.arstechnica.com/arstechnica/index"
     max_items: 3
+    priority: 3
     categories:
-      - Tech General
+      - IT
 
   # ---------------------------------------------------------------------------
-  # Consulting / Business
+  # Priority 4: Business (lowest)
   # ---------------------------------------------------------------------------
   - name: "McKinsey"
     type: rss
     url: "https://www.mckinsey.com/insights/rss"
-    max_items: 3
+    max_items: 2
+    priority: 4
     categories:
-      - Consulting
       - Business
 
   - name: "Harvard Business Review"
     type: rss
     url: "https://hbr.org/feed"
-    max_items: 3
+    max_items: 2
+    priority: 4
     categories:
       - Business
-      - Consulting

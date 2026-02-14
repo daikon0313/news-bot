@@ -23,6 +23,8 @@ from config import (
     logger,
 )
 
+MAX_ARTICLES_FOR_PROMPT = 20
+
 # ---------------------------------------------------------------------------
 # Hacker News API helpers
 # ---------------------------------------------------------------------------
@@ -30,7 +32,7 @@ HN_TOP_STORIES_URL = "https://hacker-news.firebaseio.com/v0/topstories.json"
 HN_ITEM_URL = "https://hacker-news.firebaseio.com/v0/item/{id}.json"
 
 
-def _fetch_hackernews(max_items: int) -> list[dict]:
+def _fetch_hackernews(max_items: int, priority: int = 3) -> list[dict]:
     """Hacker News API から上位記事を取得する。"""
     articles: list[dict] = []
     try:
@@ -56,7 +58,8 @@ def _fetch_hackernews(max_items: int) -> list[dict]:
                     "url": item.get("url", f"https://news.ycombinator.com/item?id={story_id}"),
                     "summary": "",
                     "source": "Hacker News",
-                    "category": "Tech General",
+                    "category": "Engineering",
+                    "priority": priority,
                     "fetched_at": datetime.now(JST).isoformat(),
                 }
             )
@@ -78,6 +81,7 @@ def _fetch_rss(source: dict) -> list[dict]:
     max_items = source.get("max_items", 5)
     categories = source.get("categories", [])
     category = categories[0] if categories else "General"
+    priority = source.get("priority", 3)
 
     try:
         feed = feedparser.parse(url)
@@ -99,6 +103,7 @@ def _fetch_rss(source: dict) -> list[dict]:
                     "summary": summary,
                     "source": name,
                     "category": category,
+                    "priority": priority,
                     "fetched_at": datetime.now(JST).isoformat(),
                 }
             )
@@ -173,7 +178,7 @@ def main(session_type: str) -> str:
         logger.info("取得中: %s (type=%s)", name, src_type)
 
         if src_type == "api" and "hacker-news" in source.get("url", ""):
-            articles = _fetch_hackernews(source.get("max_items", 5))
+            articles = _fetch_hackernews(source.get("max_items", 5), source.get("priority", 3))
         elif src_type == "rss":
             articles = _fetch_rss(source)
         else:
@@ -191,6 +196,14 @@ def main(session_type: str) -> str:
         removed = before_count - len(all_articles)
         if removed:
             logger.info("重複排除: %d 件を除外 (%d → %d)", removed, before_count, len(all_articles))
+
+    # 優先度順にソート (priority 1 が最優先)
+    all_articles.sort(key=lambda a: a.get("priority", 99))
+
+    # Claude API に渡す記事数を制限
+    if len(all_articles) > MAX_ARTICLES_FOR_PROMPT:
+        logger.info("記事数を %d → %d に絞り込み (上位優先)", len(all_articles), MAX_ARTICLES_FOR_PROMPT)
+        all_articles = all_articles[:MAX_ARTICLES_FOR_PROMPT]
 
     # 保存
     today = datetime.now(JST).strftime("%Y-%m-%d")

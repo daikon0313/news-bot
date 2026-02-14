@@ -46,10 +46,11 @@ def _build_prompt(news_articles: list[dict]) -> str:
     # ニュース記事をテキストに変換
     articles_text = ""
     for i, article in enumerate(news_articles, 1):
+        priority = article.get("priority", 3)
         articles_text += (
             f"[{i}] {article['title']}\n"
             f"    URL: {article['url']}\n"
-            f"    ソース: {article['source']} ({article['category']})\n"
+            f"    ソース: {article['source']} ({article['category']}) [priority: {priority}]\n"
             f"    概要: {article.get('summary', 'N/A')}\n\n"
         )
 
