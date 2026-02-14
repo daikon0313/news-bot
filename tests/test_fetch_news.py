@@ -194,7 +194,7 @@ class TestFetchHackerNews:
 
         assert len(articles) == 3
         assert articles[0]["source"] == "Hacker News"
-        assert articles[0]["category"] == "Tech General"
+        assert articles[0]["category"] == "Engineering"
         assert "HN Story" in articles[0]["title"]
 
     def test_max_items_limits_hn(self):
