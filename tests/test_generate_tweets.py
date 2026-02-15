@@ -86,6 +86,61 @@ Hope you like them!
         assert len(result) == 1
         assert result[0]["category"] == "AI"
 
+    def test_parse_newlines_in_tweet_text(self):
+        """ツイート本文内の改行を含む JSON をパースできること。"""
+        text = '''```json
+[
+  {
+    "tweet_text": "1行目のテキスト
+2行目のテキスト #AI https://example.com",
+    "source_title": "Test",
+    "source_url": "https://example.com",
+    "category": "AI",
+    "status": "pending"
+  }
+]
+```'''
+        result = generate_tweets._parse_tweets_json(text)
+        assert len(result) == 1
+        assert "1行目" in result[0]["tweet_text"]
+
+    def test_parse_trailing_comma(self):
+        """末尾カンマがある JSON をパースできること。"""
+        text = '''[
+  {
+    "tweet_text": "テスト #AI https://example.com",
+    "source_title": "Test",
+    "source_url": "https://example.com",
+    "category": "AI",
+    "status": "pending",
+  },
+]'''
+        result = generate_tweets._parse_tweets_json(text)
+        assert len(result) == 1
+
+    def test_parse_tabs_in_text(self):
+        """タブ文字を含む JSON をパースできること。"""
+        text = '[{"tweet_text": "テスト\there #AI", "status": "pending"}]'
+        # raw tab in the JSON string value — should be repaired
+        raw = '[{"tweet_text": "テスト\there #AI", "status": "pending"}]'
+        result = generate_tweets._parse_tweets_json(raw)
+        assert len(result) == 1
+
+    def test_parse_multiple_code_blocks_picks_valid(self):
+        """複数コードブロックがある場合、有効な JSON を見つけること。"""
+        text = '''Here is an example:
+```
+invalid json here
+```
+
+And here are the actual tweets:
+```json
+[{"tweet_text": "Valid", "status": "pending"}]
+```'''
+        result = generate_tweets._parse_tweets_json(text)
+        assert len(result) == 1
+        assert result[0]["tweet_text"] == "Valid"
+
 
 # ---------------------------------------------------------------------------
 # _load_news

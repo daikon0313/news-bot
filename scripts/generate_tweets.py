@@ -61,19 +61,82 @@ def _build_prompt(news_articles: list[dict]) -> str:
 
 def _parse_tweets_json(text: str) -> list[dict]:
     """Claude のレスポンスから JSON 配列を抽出・パースする。"""
-    # コードブロック内の JSON を優先的に探す
-    code_block = re.search(r"```(?:json)?\s*\n?(.*?)\n?```", text, re.DOTALL)
-    if code_block:
-        json_str = code_block.group(1).strip()
-    else:
-        # コードブロックがなければ [{ ... }] (JSON配列) を直接探す
+    candidates: list[str] = []
+
+    # 1. コードブロック内の JSON を優先的に探す
+    for m in re.finditer(r"```(?:json)?\s*\n?(.*?)\n?```", text, re.DOTALL):
+        candidates.append(m.group(1).strip())
+
+    # 2. コードブロックがなければ [{ ... }] (JSON配列) を直接探す
+    if not candidates:
         bracket = re.search(r"\[\s*\{.*\}\s*\]", text, re.DOTALL)
         if bracket:
-            json_str = bracket.group(0)
-        else:
-            raise ValueError("レスポンスから JSON 配列を検出できませんでした")
+            candidates.append(bracket.group(0))
 
-    return json.loads(json_str)
+    # 3. それでもなければ全体を試す
+    if not candidates:
+        candidates.append(text.strip())
+
+    last_error = None
+    for json_str in candidates:
+        # そのまま試す
+        try:
+            result = json.loads(json_str)
+            if isinstance(result, list):
+                return result
+        except json.JSONDecodeError as exc:
+            last_error = exc
+
+        # 修復を試みる: 制御文字を除去、改行をエスケープ
+        cleaned = _repair_json(json_str)
+        try:
+            result = json.loads(cleaned)
+            if isinstance(result, list):
+                logger.warning("JSON を修復してパースしました")
+                return result
+        except json.JSONDecodeError as exc:
+            last_error = exc
+
+    # デバッグ用にレスポンスの冒頭をログ出力
+    logger.error("JSON パース失敗。レスポンス冒頭 500 文字:\n%s", text[:500])
+    raise ValueError(
+        f"レスポンスから JSON 配列を検出できませんでした: {last_error}"
+    )
+
+
+def _repair_json(json_str: str) -> str:
+    """よくある JSON の問題を修復する。"""
+    # 文字列値内の生の改行を \\n にエスケープ
+    # JSON の文字列リテラル内 ("..." の中) の生改行を処理
+    result = []
+    in_string = False
+    escape_next = False
+    for ch in json_str:
+        if escape_next:
+            result.append(ch)
+            escape_next = False
+            continue
+        if ch == '\\':
+            result.append(ch)
+            escape_next = True
+            continue
+        if ch == '"':
+            in_string = not in_string
+            result.append(ch)
+            continue
+        if in_string and ch == '\n':
+            result.append('\\n')
+            continue
+        if in_string and ch == '\t':
+            result.append('\\t')
+            continue
+        result.append(ch)
+    repaired = ''.join(result)
+
+    # 末尾カンマを除去 (}, ] の前の ,)
+    repaired = re.sub(r',\s*([}\]])', r'\1', repaired)
+
+    return repaired
 
 
 def main(session_type: str) -> str:
