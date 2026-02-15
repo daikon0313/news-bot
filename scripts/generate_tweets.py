@@ -172,17 +172,46 @@ def main(session_type: str) -> str:
     client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
     message = client.messages.create(
         model=CLAUDE_MODEL,
-        max_tokens=2048,
+        max_tokens=4096,
         messages=[
             {"role": "user", "content": prompt},
         ],
     )
 
     response_text = message.content[0].text
-    logger.info("Claude API からレスポンスを取得しました")
+    stop_reason = getattr(message, "stop_reason", None)
+    logger.info("Claude API からレスポンスを取得しました (stop_reason=%s)", stop_reason)
 
-    # JSON パース
-    tweets = _parse_tweets_json(response_text)
+    if stop_reason == "max_tokens":
+        logger.warning("レスポンスが max_tokens で切り詰められました")
+
+    # JSON パース (失敗時はリトライ)
+    try:
+        tweets = _parse_tweets_json(response_text)
+    except ValueError:
+        logger.warning("JSON パース失敗。Claude に再生成を依頼します...")
+        retry_message = client.messages.create(
+            model=CLAUDE_MODEL,
+            max_tokens=4096,
+            messages=[
+                {"role": "user", "content": prompt},
+                {"role": "assistant", "content": response_text},
+                {
+                    "role": "user",
+                    "content": (
+                        "上記の JSON にパースエラーがありました。"
+                        "正しい JSON 配列を再出力してください。"
+                        "コードブロック (```json ... ```) で囲み、"
+                        "文字列内の改行は \\n を使い、"
+                        "末尾カンマは入れないでください。"
+                    ),
+                },
+            ],
+        )
+        retry_text = retry_message.content[0].text
+        logger.info("リトライレスポンスを取得しました")
+        tweets = _parse_tweets_json(retry_text)
+
     logger.info("ツイート %d 件を生成しました", len(tweets))
 
     # メタデータを追加
