@@ -13,18 +13,6 @@
     "posted_at": "2026-02-17T08:34:46.982592+09:00"
   },
   {
-    "tweet_text": "🚀 DatabricksのAI機能がAWS GovCloudで一般提供開始\n\nAI/BI Genie、Foundation Model API、Databricks Assistantが政府機関向けクラウドで利用可能に。厳格なコンプライアンス要件を満たしながら、生成AI活用が進む時代へ。\n\n公共セクターのAI民主化が加速しそう。\n\n#AI #Databricks\n\nhttps://www.databricks.com/blog/aibi-genie-foundational-model-api-and-databricks-assistant-now-generally-available-aws",
-    "source_title": "AI/BI Genie, Foundational Model API, and Databricks Assistant Now Generally Available in AWS GovCloud",
-    "source_url": "https://www.databricks.com/blog/aibi-genie-foundational-model-api-and-databricks-assistant-now-generally-available-aws",
-    "category": "AI",
-    "format_type": "速報",
-    "status": "failed",
-    "id": "4a390272-da80-4e6d-b94e-8d7366f07162",
-    "generated_at": "2026-02-17T07:59:39.751012+09:00",
-    "session_type": "morning",
-    "error": "403 Forbidden\nYou are not permitted to perform this action."
-  },
-  {
     "tweet_text": "パイロットから6,000ユーザーへ。\n\nSnowflakeがエンタープライズAIエージェントのスケール方法を実践ガイドで公開。MVP段階から大規模展開まで、信頼性と測定可能な効果をどう担保するか。\n\nこれからAI Agent導入する企業は必読かも📊\n\n#AI #Snowflake\n\nhttps://www.snowflake.com/content/snowflake-site/global/en/blog/scale-enterprise-agents",
     "source_title": "From Pilot to 6,000 Users: How to Scale Enterprise AI Agents",
     "source_url": "https://www.snowflake.com/content/snowflake-site/global/en/blog/scale-enterprise-agents",
