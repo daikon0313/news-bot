@@ -205,6 +205,7 @@ class TestGenerateTweetsMain:
         mock_response_text = json.dumps(SAMPLE_TWEETS, ensure_ascii=False)
         mock_message = MagicMock()
         mock_message.content = [MagicMock(text=f"```json\n{mock_response_text}\n```")]
+        mock_message.stop_reason = "end_turn"
 
         mock_client = MagicMock()
         mock_client.messages.create.return_value = mock_message
@@ -235,6 +236,7 @@ class TestGenerateTweetsMain:
         mock_response_text = json.dumps(SAMPLE_TWEETS, ensure_ascii=False)
         mock_message = MagicMock()
         mock_message.content = [MagicMock(text=f"```json\n{mock_response_text}\n```")]
+        mock_message.stop_reason = "end_turn"
 
         mock_client = MagicMock()
         mock_client.messages.create.return_value = mock_message
@@ -253,6 +255,46 @@ class TestGenerateTweetsMain:
         # messages.create が呼ばれること
         mock_client.messages.create.assert_called_once()
         call_kwargs = mock_client.messages.create.call_args
-        assert call_kwargs.kwargs["max_tokens"] == 2048
+        assert call_kwargs.kwargs["max_tokens"] == 4096
         assert len(call_kwargs.kwargs["messages"]) == 1
         assert call_kwargs.kwargs["messages"][0]["role"] == "user"
+
+    def test_main_retry_on_parse_failure(self, news_file, patch_config_dirs):
+        """初回パース失敗 → リトライで成功すること。"""
+        valid_json = json.dumps(SAMPLE_TWEETS, ensure_ascii=False)
+
+        # 初回: 壊れた JSON, リトライ: 正しい JSON
+        bad_message = MagicMock()
+        bad_message.content = [MagicMock(text='```json\n[{"broken": }]\n```')]
+        bad_message.stop_reason = "end_turn"
+
+        good_message = MagicMock()
+        good_message.content = [MagicMock(text=f"```json\n{valid_json}\n```")]
+        good_message.stop_reason = "end_turn"
+
+        mock_client = MagicMock()
+        mock_client.messages.create.side_effect = [bad_message, good_message]
+
+        with patch("generate_tweets.ANTHROPIC_API_KEY", "sk-test-key"), \
+             patch("generate_tweets.anthropic.Anthropic", return_value=mock_client), \
+             patch("generate_tweets.datetime") as mock_dt, \
+             patch("generate_tweets.uuid") as mock_uuid:
+            mock_dt.now.return_value = FIXED_NOW
+            mock_dt.side_effect = lambda *a, **kw: datetime(*a, **kw)
+            mock_uuid.uuid4.return_value = "retry-uuid"
+
+            result = generate_tweets.main("morning")
+
+        # 2回呼ばれること (初回 + リトライ)
+        assert mock_client.messages.create.call_count == 2
+        # リトライの messages に assistant + user が追加されていること
+        retry_kwargs = mock_client.messages.create.call_args_list[1]
+        assert len(retry_kwargs.kwargs["messages"]) == 3
+        assert retry_kwargs.kwargs["messages"][1]["role"] == "assistant"
+        assert retry_kwargs.kwargs["messages"][2]["role"] == "user"
+
+        # ファイルが正常に保存されていること
+        out_path = Path(result)
+        assert out_path.exists()
+        tweets = json.loads(out_path.read_text(encoding="utf-8"))
+        assert len(tweets) == 3
