@@ -1,0 +1,57 @@
+[
+  {
+    "tweet_text": "64%のコスト削減！\n\ndbt Labsが自社のdbt運用コストを大幅削減した事例が公開されました。秘訣はFusionによるstate-aware orchestration。ジョブ実行の最適化で無駄な計算を徹底排除した結果です。\n\n自社プロダクトを使い倒してる企業は強い💪\n\n#データエンジニアリング #dbt\n\nhttps://www.getdbt.com/blog/dbt-compute-cost-reduction-fusion-state-aware-orchestration",
+    "source_title": "How dbt Labs reduced dbt-related compute costs by 64% with Fusion and state-aware orchestration",
+    "source_url": "https://www.getdbt.com/blog/dbt-compute-cost-reduction-fusion-state-aware-orchestration",
+    "category": "Data Engineering",
+    "format_type": "データ",
+    "status": "pending",
+    "id": "14fd13d0-5b8b-4805-8195-f671e216c571",
+    "generated_at": "2026-02-17T07:59:39.751012+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "🚀 DatabricksのAI機能がAWS GovCloudで一般提供開始\n\nAI/BI Genie、Foundation Model API、Databricks Assistantが政府機関向けクラウドで利用可能に。厳格なコンプライアンス要件を満たしながら、生成AI活用が進む時代へ。\n\n公共セクターのAI民主化が加速しそう。\n\n#AI #Databricks\n\nhttps://www.databricks.com/blog/aibi-genie-foundational-model-api-and-databricks-assistant-now-generally-available-aws",
+    "source_title": "AI/BI Genie, Foundational Model API, and Databricks Assistant Now Generally Available in AWS GovCloud",
+    "source_url": "https://www.databricks.com/blog/aibi-genie-foundational-model-api-and-databricks-assistant-now-generally-available-aws",
+    "category": "AI",
+    "format_type": "速報",
+    "status": "pending",
+    "id": "4a390272-da80-4e6d-b94e-8d7366f07162",
+    "generated_at": "2026-02-17T07:59:39.751012+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "パイロットから6,000ユーザーへ。\n\nSnowflakeがエンタープライズAIエージェントのスケール方法を実践ガイドで公開。MVP段階から大規模展開まで、信頼性と測定可能な効果をどう担保するか。\n\nこれからAI Agent導入する企業は必読かも📊\n\n#AI #Snowflake\n\nhttps://www.snowflake.com/content/snowflake-site/global/en/blog/scale-enterprise-agents",
+    "source_title": "From Pilot to 6,000 Users: How to Scale Enterprise AI Agents",
+    "source_url": "https://www.snowflake.com/content/snowflake-site/global/en/blog/scale-enterprise-agents",
+    "category": "AI",
+    "format_type": "解説",
+    "status": "pending",
+    "id": "e7dff1db-e983-4f32-b3aa-10fc62695848",
+    "generated_at": "2026-02-17T07:59:39.751012+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "💡 処理時間を「時間単位→分単位」に短縮\n\nVeriskがAmazon RedshiftとApache Icebergでレイクハウスアーキテクチャを構築。数十億レコードの処理が劇的に高速化し、ストレージコストも削減。\n\nレイクハウスの実例として参考になります。\n\n#データエンジニアリング #AWS\n\nhttps://aws.amazon.com/blogs/big-data/verisk-cuts-processing-time-and-storage-costs-with-amazon-redshift-and-lakehouse/",
+    "source_title": "Verisk cuts processing time and storage costs with Amazon Redshift and lakehouse",
+    "source_url": "https://aws.amazon.com/blogs/big-data/verisk-cuts-processing-time-and-storage-costs-with-amazon-redshift-and-lakehouse/",
+    "category": "Data Engineering",
+    "format_type": "データ",
+    "status": "pending",
+    "id": "7406dc7a-a05b-4f6f-b489-75f19b2fea38",
+    "generated_at": "2026-02-17T07:59:39.751012+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "🎯 Spotifyはパーソナライゼーションと実験を別スタックで運用\n\nなぜ統合しないのか？技術的・実務的な理由が詳しく解説されています。大規模プラットフォームにおける設計思想が垣間見える良記事。\n\nドメイン分離の重要性を再認識🎵\n\n#データ基盤 #Engineering\n\nhttps://engineering.atspotify.com/2026/1/why-we-use-separate-tech-stacks-for-personalization-and-experimentation/",
+    "source_title": "Why We Use Separate Tech Stacks for Personalization and Experimentation",
+    "source_url": "https://engineering.atspotify.com/2026/1/why-we-use-separate-tech-stacks-for-personalization-and-experimentation/",
+    "category": "Tech General",
+    "format_type": "意見",
+    "status": "pending",
+    "id": "ef42ef59-8c34-44f3-a31d-65f26794dc72",
+    "generated_at": "2026-02-17T07:59:39.751012+09:00",
+    "session_type": "morning"
+  }
+]

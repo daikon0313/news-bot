@@ -1,0 +1,182 @@
+[
+  {
+    "title": "How dbt Labs reduced dbt-related compute costs by 64% with Fusion and state-aware orchestration",
+    "url": "https://www.getdbt.com/blog/dbt-compute-cost-reduction-fusion-state-aware-orchestration",
+    "summary": "With intelligent orchestration and optimization, we achieved a 64% reduction in compute costs and simplified our job architecture.",
+    "source": "dbt Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-02-17T07:59:10.220837+09:00"
+  },
+  {
+    "title": "Maximize the business value of your data platform with dbt",
+    "url": "https://www.getdbt.com/blog/dbt-business-value",
+    "summary": "Learn how tools like Fusion’s state-aware orchestration deliver real business value.",
+    "source": "dbt Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-02-17T07:59:10.220873+09:00"
+  },
+  {
+    "title": "Bring structured context to Snowflake Intelligence with dbt",
+    "url": "https://www.getdbt.com/blog/bring-structured-context-to-snowflake-intelligence-with-dbt",
+    "summary": "Power reliable Cortex and Snowflake Intelligence experiences with dbt and Snowflake Semantic Views.",
+    "source": "dbt Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-02-17T07:59:10.220879+09:00"
+  },
+  {
+    "title": "Getting the Full Picture: Unifying Databricks and Cloud Infrastructure Costs",
+    "url": "https://www.databricks.com/blog/getting-full-picture-unifying-databricks-and-cloud-infrastructure-costs",
+    "summary": "Understanding TCO on DatabricksUnderstanding the value of your AI and data investments...",
+    "source": "Databricks Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-02-17T07:59:10.332614+09:00"
+  },
+  {
+    "title": "Domain Intelligence Wins: What “High-Quality” Actually Means in Production AI",
+    "url": "https://www.databricks.com/blog/domain-intelligence-wins-what-high-quality-actually-means-production-ai",
+    "summary": "As enterprises move from experimenting with generative AI to deploying agentic systems in production...",
+    "source": "Databricks Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-02-17T07:59:10.332628+09:00"
+  },
+  {
+    "title": "AI/BI Genie, Foundational Model API, and Databricks Assistant Now Generally Available in AWS GovCloud",
+    "url": "https://www.databricks.com/blog/aibi-genie-foundational-model-api-and-databricks-assistant-now-generally-available-aws",
+    "summary": "Government agencies and organizations with strict compliance requirements now have...",
+    "source": "Databricks Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-02-17T07:59:10.332633+09:00"
+  },
+  {
+    "title": "From Pilot to 6,000 Users: How to Scale Enterprise AI Agents",
+    "url": "https://www.snowflake.com/content/snowflake-site/global/en/blog/scale-enterprise-agents",
+    "summary": "A practical guide to scaling enterprise AI agents, from MVP to 6,000 users, with lessons on rollout, trust and measurable impact",
+    "source": "Snowflake Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-02-17T07:59:11.249248+09:00"
+  },
+  {
+    "title": "AI In Shopping: Implications and a Roadmap for Consumer Goods Leaders",
+    "url": "https://www.snowflake.com/content/snowflake-site/global/en/blog/ai-shopping-consumer-goods-roadmap",
+    "summary": "AI-enabled shopping is reshaping how consumers buy products. Learn the key implications for CPG companies-and the roadmap leaders need to create value in the new era",
+    "source": "Snowflake Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-02-17T07:59:11.249261+09:00"
+  },
+  {
+    "title": "2026 Manufacturing Predictions: The Modern Data Estate & AI",
+    "url": "https://www.snowflake.com/content/snowflake-site/global/en/blog/manufacturing-predictions-data-estate-2026",
+    "summary": "Explore 2026 manufacturing predictions on the modern data estate-how AI is breaking down data siloes to improve supply chains, operations, and decision-making.",
+    "source": "Snowflake Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-02-17T07:59:11.249266+09:00"
+  },
+  {
+    "title": "Verisk cuts processing time and storage costs with Amazon Redshift and lakehouse",
+    "url": "https://aws.amazon.com/blogs/big-data/verisk-cuts-processing-time-and-storage-costs-with-amazon-redshift-and-lakehouse/",
+    "summary": "Verisk, a catastrophe modeling SaaS provider serving insurance and reinsurance companies worldwide, cut processing time from hours to minutes-level aggregations while reducing storage costs by implementing a lakehouse architecture with Amazon Redshift and Apache Iceberg. If you’re managing billions ",
+    "source": "AWS Big Data Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-02-17T07:59:11.752867+09:00"
+  },
+  {
+    "title": "Amazon OpenSearch Service 101: T-shirt size your domain for e-commerce search",
+    "url": "https://aws.amazon.com/blogs/big-data/amazon-opensearch-service-101-t-shirt-size-your-domain-for-e-commerce-search/",
+    "summary": "While general sizing guidelines for OpenSearch Service domains are covered in detail in OpenSearch Service documentation, in this post we specifically focus on T-shirt-sizing OpenSearch Service domains for e-commerce search workloads. T-shirt sizing simplifies complex capacity planning by categorizi",
+    "source": "AWS Big Data Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-02-17T07:59:11.752881+09:00"
+  },
+  {
+    "title": "Common streaming data enrichment patterns in Amazon Managed Service for Apache Flink",
+    "url": "https://aws.amazon.com/blogs/big-data/common-streaming-data-enrichment-patterns-in-amazon-managed-service-for-apache-flink/",
+    "summary": "Stream data processing allows you to act on data in real time. Real-time data analytics can help you have on-time and optimized responses while improving overall customer experience. Apache Flink&nbsp;is a distributed computation framework that allows for stateful real-time data processing. It provi",
+    "source": "AWS Big Data Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-02-17T07:59:11.752887+09:00"
+  },
+  {
+    "title": "How We Release the Spotify App: A Look Under the Hood (Part 2)",
+    "url": "https://engineering.atspotify.com/2026/2/how-we-release-the-spotify-app-part-2/",
+    "summary": "<p>In Part 2, we will peek under the hood at the tooling that makes the Spotify release process possible. </p>\n<p>The post <a href=\"https://engineering.atspotify.com/2026/2/how-we-release-the-spotify-app-part-2/\">How We Release the Spotify App: A Look Under the Hood (Part 2)</a> appeared first on <a",
+    "source": "Spotify Engineering",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-02-17T07:59:13.563223+09:00"
+  },
+  {
+    "title": "Congratulations to the recipients of the 2025 Spotify FOSS Fund",
+    "url": "https://engineering.atspotify.com/2026/1/congratulations-to-the-recipients-of-the-2025-spotify-foss-fund/",
+    "summary": "<p>TL;DR Established in 2022 as a way to help support the great open source ecosystem projects that Spotify...</p>\n<p>The post <a href=\"https://engineering.atspotify.com/2026/1/congratulations-to-the-recipients-of-the-2025-spotify-foss-fund/\">Congratulations to the recipients of the 2025 Spotify FOS",
+    "source": "Spotify Engineering",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-02-17T07:59:13.563237+09:00"
+  },
+  {
+    "title": "Why We Use Separate Tech Stacks for Personalization and Experimentation",
+    "url": "https://engineering.atspotify.com/2026/1/why-we-use-separate-tech-stacks-for-personalization-and-experimentation/",
+    "summary": "<p>The technical and practical rationale for a clear separation between these domains.</p>\n<p>The post <a href=\"https://engineering.atspotify.com/2026/1/why-we-use-separate-tech-stacks-for-personalization-and-experimentation/\">Why We Use Separate Tech Stacks for Personalization and Experimentation</",
+    "source": "Spotify Engineering",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-02-17T07:59:13.563242+09:00"
+  },
+  {
+    "title": "My Journey to Airbnb — Anna Sulkina",
+    "url": "https://medium.com/airbnb-engineering/my-journey-to-airbnb-anna-sulkina-85216183d094?source=rss----53c7c27702d5---4",
+    "summary": "<figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/1*eiZyGBIJvx3S5kREFK8wOw.jpeg\" /></figure><p><em>Anna Sulkina has always been a traveler, and we’re lucky her travels have brought her to Airbnb. Anna is a Senior Director of Engineering, and she’s responsible for Application &amp; Cl",
+    "source": "Airbnb Tech Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-02-17T07:59:14.037486+09:00"
+  },
+  {
+    "title": "My Journey to Airbnb: Peter Coles",
+    "url": "https://medium.com/airbnb-engineering/my-journey-to-airbnb-peter-coles-0e8efd01c5a8?source=rss----53c7c27702d5---4",
+    "summary": "<figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/1*kQQ1LthGsvtJyUW5bVf0RA.jpeg\" /></figure><h3>Public school to PhD</h3><p><em>The story of Airbnb’s Head Economist for Policy and Director of Data Science involves geology, co-teaching with a Nobel Prize winner, and CSI. (No, not the ",
+    "source": "Airbnb Tech Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-02-17T07:59:14.037500+09:00"
+  },
+  {
+    "title": "Pay As a Local",
+    "url": "https://medium.com/airbnb-engineering/pay-as-a-local-bef469b72f32?source=rss----53c7c27702d5---4",
+    "summary": "<h3><strong>How Airbnb rolled out 20+ locally relevant payment methods worldwide in just 14 months</strong></h3><p><strong>By: </strong><a href=\"https://www.linkedin.com/in/gerumhaile\"><strong>Gerum Haile</strong></a><strong>, </strong><a href=\"https://www.linkedin.com/in/bo-shi-0321a693\"><strong>Bo",
+    "source": "Airbnb Tech Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-02-17T07:59:14.037506+09:00"
+  },
+  {
+    "title": "Have money, will travel: a16z’s hunt for the next European unicorn",
+    "url": "https://techcrunch.com/2026/02/16/have-money-will-travel-a16zs-hunt-for-the-next-european-unicorn/",
+    "summary": "According to a16z, it has eyes around the world in order to spot companies as early as local funds might.",
+    "source": "TechCrunch AI",
+    "category": "AI",
+    "priority": 1,
+    "fetched_at": "2026-02-17T07:59:14.125348+09:00"
+  },
+  {
+    "title": "How Ricursive Intelligence raised $335M at a $4B valuation in 4 months",
+    "url": "https://techcrunch.com/2026/02/16/how-ricursive-intelligence-raised-335m-at-a-4b-valuation-in-4-months/",
+    "summary": "The reason why this nascent startup had VCs lining up is the founders.They are so famed in the AI world, everyone tried to hire them.",
+    "source": "TechCrunch AI",
+    "category": "AI",
+    "priority": 1,
+    "fetched_at": "2026-02-17T07:59:14.125360+09:00"
+  }
+]
