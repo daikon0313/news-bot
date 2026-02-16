@@ -1,0 +1,57 @@
+[
+  {
+    "tweet_text": "💰 dbt Labs、計算コスト64%削減に成功！Fusionのstate-aware orchestrationで実現した驚異的なコスト最適化。ジョブアーキテクチャもシンプル化され、運用負荷も大幅減。データ基盤のコスト問題に悩むチームは必見です。\n\n#データエンジニアリング #dbt\nhttps://www.getdbt.com/blog/dbt-compute-cost-reduction-fusion-state-aware-orchestration",
+    "source_title": "How dbt Labs reduced dbt-related compute costs by 64% with Fusion and state-aware orchestration",
+    "source_url": "https://www.getdbt.com/blog/dbt-compute-cost-reduction-fusion-state-aware-orchestration",
+    "category": "Data Engineering",
+    "format_type": "データ",
+    "status": "pending",
+    "id": "e5f525a3-51fe-4177-9264-9edeb83e79ee",
+    "generated_at": "2026-02-16T09:14:35.313564+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "🤖 本番環境のAIで「高品質」とは何を意味するのか？Databricksが指摘する、実験フェーズから本番agentic systemsへの移行で見落とされがちなドメインインテリジェンスの重要性。これ、プロダクション化で失敗するチームの共通課題かも。\n\n#AI #生成AI\nhttps://www.databricks.com/blog/domain-intelligence-wins-what-high-quality-actually-means-production-ai",
+    "source_title": "Domain Intelligence Wins: What \"High-Quality\" Actually Means in Production AI",
+    "source_url": "https://www.databricks.com/blog/domain-intelligence-wins-what-high-quality-actually-means-production-ai",
+    "category": "AI",
+    "format_type": "意見",
+    "status": "pending",
+    "id": "f21f9d5d-3793-465b-8e04-399280fc2996",
+    "generated_at": "2026-02-16T09:14:35.313564+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "⚡ Amazon Athena、1分単位の予約＆新しいキャパシティ制御機能を追加！短時間のクエリワークロードでもコスト効率が大幅改善。サーバーレスでありながら、クリティカルなワークロードの安定実行も可能に。AWSのデータ分析基盤がまた進化しました。\n\n#データ基盤 #AWS\nhttps://aws.amazon.com/blogs/big-data/amazon-athena-adds-1-minute-reservations-and-new-capacity-control-features/",
+    "source_title": "Amazon Athena adds 1-minute reservations and new capacity control features",
+    "source_url": "https://aws.amazon.com/blogs/big-data/amazon-athena-adds-1-minute-reservations-and-new-capacity-control-features/",
+    "category": "Data Engineering",
+    "format_type": "速報",
+    "status": "pending",
+    "id": "a2853717-49df-4ba6-b042-8761669709d3",
+    "generated_at": "2026-02-16T09:14:35.313564+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "🎙️ NPRの元司会者David Greene氏がGoogleを提訴。NotebookLMのポッドキャスト音声が自分の声を無断使用していると主張。AI音声合成の権利問題、いよいよ本格的な法廷闘争へ。クリエイターの声（文字通り）をどう守るか、業界の転換点になりそう。\n\n#AI #生成AI\nhttps://techcrunch.com/2026/02/15/longtime-npr-host-david-greene-sues-google-over-notebooklm-voice/",
+    "source_title": "Longtime NPR host David Greene sues Google over NotebookLM voice",
+    "source_url": "https://techcrunch.com/2026/02/15/longtime-npr-host-david-greene-sues-google-over-notebooklm-voice/",
+    "category": "AI",
+    "format_type": "解説",
+    "status": "pending",
+    "id": "c5b39a71-3b4a-4410-876a-f3b494762d5e",
+    "generated_at": "2026-02-16T09:14:35.313564+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "🎵 Spotifyはなぜパーソナライゼーションと実験用に別々の技術スタックを使うのか？一見非効率に見えるこの選択、実は明確な技術的・実用的な理由があった。大規模プロダクトのアーキテクチャ設計、参考になります。\n\n#データエンジニアリング #MLOps\nhttps://engineering.atspotify.com/2026/1/why-we-use-separate-tech-stacks-for-personalization-and-experimentation/",
+    "source_title": "Why We Use Separate Tech Stacks for Personalization and Experimentation",
+    "source_url": "https://engineering.atspotify.com/2026/1/why-we-use-separate-tech-stacks-for-personalization-and-experimentation/",
+    "category": "Data Engineering",
+    "format_type": "問いかけ",
+    "status": "pending",
+    "id": "fb8b2357-41c3-4fef-a800-368252c698c7",
+    "generated_at": "2026-02-16T09:14:35.313564+09:00",
+    "session_type": "morning"
+  }
+]
