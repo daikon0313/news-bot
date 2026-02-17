@@ -1,0 +1,57 @@
+[
+  {
+    "tweet_text": "🔥 GPT-5.2が理論物理学で新しい公式を導出\n\nグルーオン振幅の新公式を提案→学術チームが正式証明に成功。AIが科学的発見の最前線に立つ時代が本格化。次はノーベル賞級の発見も？\n\n#AI #生成AI\nhttps://openai.com/index/new-result-theoretical-physics",
+    "source_title": "GPT-5.2 derives a new result in theoretical physics",
+    "source_url": "https://openai.com/index/new-result-theoretical-physics",
+    "category": "AI",
+    "format_type": "速報",
+    "status": "pending",
+    "id": "b7c9c4cc-8f78-4fc3-a9e0-8b333726ac15",
+    "generated_at": "2026-02-18T08:00:10.979709+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "💡 Anthropic、Claude Sonnet 4.6をリリース\n\n4ヶ月更新サイクルを維持し、高度な推論とエージェント機能を強化。しかもSnowflake Cortex AIで即利用可能に。セキュアなガバナンス環境でエンタープライズ活用が加速しそう\n\n#データエンジニアリング #Snowflake\nhttps://www.snowflake.com/content/snowflake-site/global/en/blog/claude-sonnet-4-6-snowflake-cortex-ai",
+    "source_title": "Announcing Anthropic Claude Sonnet 4.6 on Snowflake Cortex AI",
+    "source_url": "https://www.snowflake.com/content/snowflake-site/global/en/blog/claude-sonnet-4-6-snowflake-cortex-ai",
+    "category": "Data Engineering",
+    "format_type": "解説",
+    "status": "pending",
+    "id": "5c1f9512-804f-4c1c-9af9-0986e5cd6fb3",
+    "generated_at": "2026-02-18T08:00:10.979709+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "🤔 高QPSのモデルサービング、あなたのチームは対策できてる？\n\nDatabricksがベストプラクティスを公開。瞬時レスポンスが求められる時代、推論基盤の設計が競争力を左右する。キャッシュ戦略とスケーリング設計がカギ\n\n#MLOps #Databricks\nhttps://www.databricks.com/blog/best-practices-high-qps-model-serving-databricks",
+    "source_title": "Best Practices for High QPS Model Serving on Databricks",
+    "source_url": "https://www.databricks.com/blog/best-practices-high-qps-model-serving-databricks",
+    "category": "AI",
+    "format_type": "問いかけ",
+    "status": "pending",
+    "id": "5bc96752-498b-4398-b955-97037c0dbd08",
+    "generated_at": "2026-02-18T08:00:10.979709+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "📊 dbt × Snowflake、セマンティックレイヤーで次のステージへ\n\nSnowflake Intelligenceに構造化コンテキストを提供し、信頼性の高いCortex体験を実現。データモデルとAIの連携が、ビジネス価値創出の新定石になりつつある\n\n#データ基盤 #dbt\nhttps://www.getdbt.com/blog/bring-structured-context-to-snowflake-intelligence-with-dbt",
+    "source_title": "Bring structured context to Snowflake Intelligence with dbt",
+    "source_url": "https://www.getdbt.com/blog/bring-structured-context-to-snowflake-intelligence-with-dbt",
+    "category": "Data Engineering",
+    "format_type": "意見",
+    "status": "pending",
+    "id": "63f1f784-6f0f-4668-b2b7-473c7b490534",
+    "generated_at": "2026-02-18T08:00:10.979709+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "🛠️ Spotifyのアプリリリースプロセス、Part 2公開\n\n数億ユーザーを支えるリリースツールチェーンの裏側を大公開。大規模プロダクトの継続的デリバリーを実現する仕組みは、どんな組織にも参考になる知見が満載\n\n#エンジニアリング #DevOps\nhttps://engineering.atspotify.com/2026/2/how-we-release-the-spotify-app-part-2/",
+    "source_title": "How We Release the Spotify App: A Look Under the Hood (Part 2)",
+    "source_url": "https://engineering.atspotify.com/2026/2/how-we-release-the-spotify-app-part-2/",
+    "category": "Tech General",
+    "format_type": "データ",
+    "status": "pending",
+    "id": "fc67df79-7000-4a19-a4cb-f2007e6ab22f",
+    "generated_at": "2026-02-18T08:00:10.979709+09:00",
+    "session_type": "morning"
+  }
+]
