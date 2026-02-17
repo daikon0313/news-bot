@@ -1,0 +1,182 @@
+[
+  {
+    "title": "Maximize the business value of your data platform with dbt",
+    "url": "https://www.getdbt.com/blog/dbt-business-value",
+    "summary": "Learn how tools like Fusion’s state-aware orchestration deliver real business value.",
+    "source": "dbt Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-02-18T07:59:35.091198+09:00"
+  },
+  {
+    "title": "Bring structured context to Snowflake Intelligence with dbt",
+    "url": "https://www.getdbt.com/blog/bring-structured-context-to-snowflake-intelligence-with-dbt",
+    "summary": "Power reliable Cortex and Snowflake Intelligence experiences with dbt and Snowflake Semantic Views.",
+    "source": "dbt Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-02-18T07:59:35.091205+09:00"
+  },
+  {
+    "title": "Business Analytics: Essential Tools, Techniques and Skills for Data-Driven Success",
+    "url": "https://www.databricks.com/blog/business-analytics-essential-tools-techniques-and-skills-data-driven-success",
+    "summary": "Introduction: What Business Analytics DoesFor many organizations, business analytics...",
+    "source": "Databricks Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-02-18T07:59:35.195806+09:00"
+  },
+  {
+    "title": "The Marketing Cloud and Adstra deliver identity resolution through Databricks Clean Rooms for secure, privacy-first marketing data collaboration",
+    "url": "https://www.databricks.com/blog/marketing-cloud-and-adstra-deliver-identity-resolution-through-databricks-clean-rooms-secure",
+    "summary": "In 2026, the million dollar question for modern marketers has become: How do you...",
+    "source": "Databricks Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-02-18T07:59:35.195817+09:00"
+  },
+  {
+    "title": "Best Practices for High QPS Model Serving on Databricks",
+    "url": "https://www.databricks.com/blog/best-practices-high-qps-model-serving-databricks",
+    "summary": "Customers expect instant responses across every interaction, whether it is a recommendation...",
+    "source": "Databricks Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-02-18T07:59:35.195822+09:00"
+  },
+  {
+    "title": "Announcing Anthropic Claude Sonnet 4.6 on Snowflake Cortex AI",
+    "url": "https://www.snowflake.com/content/snowflake-site/global/en/blog/claude-sonnet-4-6-snowflake-cortex-ai",
+    "summary": "Claude Sonnet 4.6 is now on Snowflake Cortex AI. Get Anthropic's most capable model with advanced reasoning and agentic capabilities on Snowflake’s secure, governed platform.",
+    "source": "Snowflake Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-02-18T07:59:35.467559+09:00"
+  },
+  {
+    "title": "AI In Shopping: Implications and a Roadmap for Consumer Goods Leaders",
+    "url": "https://www.snowflake.com/content/snowflake-site/global/en/blog/ai-shopping-consumer-goods-roadmap",
+    "summary": "AI-enabled shopping is reshaping how consumers buy products. Learn the key implications for CPG companies-and the roadmap leaders need to create value in the new era",
+    "source": "Snowflake Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-02-18T07:59:35.467576+09:00"
+  },
+  {
+    "title": "Amazon Managed Service for Apache Flink application lifecycle management with Terraform",
+    "url": "https://aws.amazon.com/blogs/big-data/amazon-managed-service-for-apache-flink-application-lifecycle-management-with-terraform/",
+    "summary": "In this post, you’ll learn how to use Terraform to automate and streamline your Apache Flink application lifecycle management on Amazon Managed Service for Apache Flink. We’ll walk you through the complete lifecycle including deployment, updates, scaling, and troubleshooting common issues. This post",
+    "source": "AWS Big Data Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-02-18T07:59:36.026122+09:00"
+  },
+  {
+    "title": "Build a data pipeline from Google Search Console to Amazon Redshift using AWS Glue",
+    "url": "https://aws.amazon.com/blogs/big-data/build-a-data-pipeline-from-google-search-console-to-amazon-redshift-using-aws-glue/",
+    "summary": "In this post, we explore how AWS Glue extract, transform, and load (ETL) capabilities connect Google applications and Amazon Redshift, helping you unlock deeper insights and drive data-informed decisions through automated data pipeline management. We walk you through the process of using AWS Glue to",
+    "source": "AWS Big Data Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-02-18T07:59:36.026135+09:00"
+  },
+  {
+    "title": "How We Release the Spotify App: A Look Under the Hood (Part 2)",
+    "url": "https://engineering.atspotify.com/2026/2/how-we-release-the-spotify-app-part-2/",
+    "summary": "<p>In Part 2, we will peek under the hood at the tooling that makes the Spotify release process possible. </p>\n<p>The post <a href=\"https://engineering.atspotify.com/2026/2/how-we-release-the-spotify-app-part-2/\">How We Release the Spotify App: A Look Under the Hood (Part 2)</a> appeared first on <a",
+    "source": "Spotify Engineering",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-02-18T07:59:37.773046+09:00"
+  },
+  {
+    "title": "Congratulations to the recipients of the 2025 Spotify FOSS Fund",
+    "url": "https://engineering.atspotify.com/2026/1/congratulations-to-the-recipients-of-the-2025-spotify-foss-fund/",
+    "summary": "<p>TL;DR Established in 2022 as a way to help support the great open source ecosystem projects that Spotify...</p>\n<p>The post <a href=\"https://engineering.atspotify.com/2026/1/congratulations-to-the-recipients-of-the-2025-spotify-foss-fund/\">Congratulations to the recipients of the 2025 Spotify FOS",
+    "source": "Spotify Engineering",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-02-18T07:59:37.773060+09:00"
+  },
+  {
+    "title": "My Journey to Airbnb — Anna Sulkina",
+    "url": "https://medium.com/airbnb-engineering/my-journey-to-airbnb-anna-sulkina-85216183d094?source=rss----53c7c27702d5---4",
+    "summary": "<figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/1*eiZyGBIJvx3S5kREFK8wOw.jpeg\" /></figure><p><em>Anna Sulkina has always been a traveler, and we’re lucky her travels have brought her to Airbnb. Anna is a Senior Director of Engineering, and she’s responsible for Application &amp; Cl",
+    "source": "Airbnb Tech Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-02-18T07:59:38.363970+09:00"
+  },
+  {
+    "title": "My Journey to Airbnb: Peter Coles",
+    "url": "https://medium.com/airbnb-engineering/my-journey-to-airbnb-peter-coles-0e8efd01c5a8?source=rss----53c7c27702d5---4",
+    "summary": "<figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/1*kQQ1LthGsvtJyUW5bVf0RA.jpeg\" /></figure><h3>Public school to PhD</h3><p><em>The story of Airbnb’s Head Economist for Policy and Director of Data Science involves geology, co-teaching with a Nobel Prize winner, and CSI. (No, not the ",
+    "source": "Airbnb Tech Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-02-18T07:59:38.363985+09:00"
+  },
+  {
+    "title": "Pay As a Local",
+    "url": "https://medium.com/airbnb-engineering/pay-as-a-local-bef469b72f32?source=rss----53c7c27702d5---4",
+    "summary": "<h3><strong>How Airbnb rolled out 20+ locally relevant payment methods worldwide in just 14 months</strong></h3><p><strong>By: </strong><a href=\"https://www.linkedin.com/in/gerumhaile\"><strong>Gerum Haile</strong></a><strong>, </strong><a href=\"https://www.linkedin.com/in/bo-shi-0321a693\"><strong>Bo",
+    "source": "Airbnb Tech Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-02-18T07:59:38.363991+09:00"
+  },
+  {
+    "title": "Apple is reportedly cooking up a trio of AI wearables",
+    "url": "https://techcrunch.com/2026/02/17/apple-is-reportedly-cooking-up-a-trio-of-ai-wearables/",
+    "summary": "As the AI hardware space heats up, the iPhone maker has multiple smart products in development.",
+    "source": "TechCrunch AI",
+    "category": "AI",
+    "priority": 1,
+    "fetched_at": "2026-02-18T07:59:38.431890+09:00"
+  },
+  {
+    "title": "Anthropic releases Sonnet 4.6",
+    "url": "https://techcrunch.com/2026/02/17/anthropic-releases-sonnet-4-6/",
+    "summary": "Anthropic has released a new version of its mid-size Sonnet model, keeping pace with the company's four-month update cycle.",
+    "source": "TechCrunch AI",
+    "category": "AI",
+    "priority": 1,
+    "fetched_at": "2026-02-18T07:59:38.431903+09:00"
+  },
+  {
+    "title": "Mistral AI buys Koyeb in first acquisition to back its cloud ambitions",
+    "url": "https://techcrunch.com/2026/02/17/mistral-ai-buys-koyeb-in-first-acquisition-to-back-its-cloud-ambitions/",
+    "summary": "Mistral AI has agreed to buy Koyeb, a Paris-based startup that simplifies AI app deployment at scale and manages the infrastructure behind it.",
+    "source": "TechCrunch AI",
+    "category": "AI",
+    "priority": 1,
+    "fetched_at": "2026-02-18T07:59:38.431908+09:00"
+  },
+  {
+    "title": "SpaceX vets raise $50M Series A for data center links",
+    "url": "https://techcrunch.com/2026/02/17/spacex-vets-raise-50m-series-a-for-data-center-links/",
+    "summary": "Mesh aims to mass-produce optical transceivers for AI data centers.",
+    "source": "TechCrunch AI",
+    "category": "AI",
+    "priority": 1,
+    "fetched_at": "2026-02-18T07:59:38.431912+09:00"
+  },
+  {
+    "title": "Running AI models is turning into a memory game",
+    "url": "https://techcrunch.com/2026/02/17/running-ai-models-is-turning-into-a-memory-game/",
+    "summary": "When we talk about the cost of AI infrastructure, the focus is usually on Nvidia and GPUs -- but memory is an increasingly important part of the picture.",
+    "source": "TechCrunch AI",
+    "category": "AI",
+    "priority": 1,
+    "fetched_at": "2026-02-18T07:59:38.431916+09:00"
+  },
+  {
+    "title": "GPT-5.2 derives a new result in theoretical physics",
+    "url": "https://openai.com/index/new-result-theoretical-physics",
+    "summary": "A new preprint shows GPT-5.2 proposing a new formula for a gluon amplitude, later formally proved and verified by OpenAI and academic collaborators.",
+    "source": "OpenAI Blog",
+    "category": "AI",
+    "priority": 1,
+    "fetched_at": "2026-02-18T07:59:38.960547+09:00"
+  }
+]
