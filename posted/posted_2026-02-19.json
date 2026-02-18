@@ -26,18 +26,6 @@
     "posted_at": "2026-02-19T08:10:06.882748+09:00"
   },
   {
-    "tweet_text": "🚀 Databricks「Custom Agents」正式リリース\n\n旧Agent Frameworkが本番利用可能に。独自データ×LLMでエージェント構築→デプロイまで一気通貫。\n\nRAGからエージェントへ。データプラットフォームがAI実行基盤になる流れ、もう止まらない。\n\n#データエンジニアリング #Databricks\n\nhttps://www.databricks.com/blog/custom-agents-now-available-databricks",
-    "source_title": "Custom Agents now available on Databricks",
-    "source_url": "https://www.databricks.com/blog/custom-agents-now-available-databricks",
-    "category": "Data Engineering",
-    "format_type": "速報",
-    "status": "failed",
-    "id": "bc734498-13b0-48ed-a1bb-90ac63bf7dbb",
-    "generated_at": "2026-02-19T08:03:20.083569+09:00",
-    "session_type": "morning",
-    "error": "403 Forbidden\nYou are not permitted to perform this action."
-  },
-  {
     "tweet_text": "💡 CyberArk、Apache Iceberg × Amazon BedrockでCS生産性4倍達成\n\nデータレイクとLLMを統合し、サポート業務を劇的効率化。技術選定の成功事例として必読。\n\nIcebergの柔軟性 + 生成AIの組み合わせ、これがモダンデータ基盤の勝ちパターンかも。\n\n#データ基盤 #AWS\n\nhttps://aws.amazon.com/blogs/big-data/how-cyberark-uses-apache-iceberg-and-amazon-bedrock-to-deliver-up-to-4x-support-productivity/",
     "source_title": "How CyberArk uses Apache Iceberg and Amazon Bedrock to deliver up to 4x support productivity",
     "source_url": "https://aws.amazon.com/blogs/big-data/how-cyberark-uses-apache-iceberg-and-amazon-bedrock-to-deliver-up-to-4x-support-productivity/",
@@ -49,17 +37,5 @@
     "session_type": "morning",
     "tweet_id": "2024262682627437039",
     "posted_at": "2026-02-19T08:20:07.323871+09:00"
-  },
-  {
-    "tweet_text": "🛡️ Airbnb、動的設定変更を大規模に安全運用する仕組みを公開\n\nコード変更なしでシステム挙動を変える「Dynamic Config」をどう守るか。ロールバック機構・影響範囲検証・段階的ロールアウトの設計思想が参考になる。\n\nインフラ運用の成熟度が見える記事。\n\n#データエンジニアリング #SRE\n\nhttps://medium.com/airbnb-engineering/safeguarding-dynamic-configuration-changes-at-scale-5aca5222ed68?source=rss----53c7c27702d5---4",
-    "source_title": "Safeguarding Dynamic Configuration Changes at Scale",
-    "source_url": "https://medium.com/airbnb-engineering/safeguarding-dynamic-configuration-changes-at-scale-5aca5222ed68?source=rss----53c7c27702d5---4",
-    "category": "Engineering",
-    "format_type": "意見",
-    "status": "failed",
-    "id": "08903fc0-50a0-415b-a0ee-822ae8424d2e",
-    "generated_at": "2026-02-19T08:03:20.083569+09:00",
-    "session_type": "morning",
-    "error": "403 Forbidden\nYou are not permitted to perform this action."
   }
 ]
