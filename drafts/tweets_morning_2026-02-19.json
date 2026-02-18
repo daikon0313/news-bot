@@ -1,0 +1,57 @@
+[
+  {
+    "tweet_text": "🎵 Gemini、ついに音楽生成に対応！\n\nテキスト・画像・動画から楽曲を自動生成できるように。デザイナーがムードボード見せて「こんな感じのBGM作って」が実現する世界。\n\nコンテンツ制作のワークフローが根本から変わりそう。\n\n#生成AI #Gemini\n\nhttps://blog.google/innovation-and-ai/products/gemini-app/lyria-3/",
+    "source_title": "A new way to express yourself: Gemini can now create music",
+    "source_url": "https://blog.google/innovation-and-ai/products/gemini-app/lyria-3/",
+    "category": "AI",
+    "format_type": "速報",
+    "status": "pending",
+    "id": "ab0d7f8b-4794-45db-9bb9-dc4110eacec3",
+    "generated_at": "2026-02-19T08:03:20.083569+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "🔒 OpenAI、ChatGPTに「ロックダウンモード」追加\n\nプロンプトインジェクション攻撃やAI経由のデータ流出を防ぐ新機能。企業向けセキュリティが本格化。\n\n「AIに社内データ食わせて大丈夫？」問題にようやく本腰。エンタープライズ採用の障壁が一つ消えた。\n\n#AI #ChatGPT\n\nhttps://openai.com/index/introducing-lockdown-mode-and-elevated-risk-labels-in-chatgpt",
+    "source_title": "Introducing Lockdown Mode and Elevated Risk labels in ChatGPT",
+    "source_url": "https://openai.com/index/introducing-lockdown-mode-and-elevated-risk-labels-in-chatgpt",
+    "category": "AI",
+    "format_type": "解説",
+    "status": "pending",
+    "id": "3fbea942-4ba2-4377-950a-be1ce88ffcb3",
+    "generated_at": "2026-02-19T08:03:20.083569+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "🚀 Databricks「Custom Agents」正式リリース\n\n旧Agent Frameworkが本番利用可能に。独自データ×LLMでエージェント構築→デプロイまで一気通貫。\n\nRAGからエージェントへ。データプラットフォームがAI実行基盤になる流れ、もう止まらない。\n\n#データエンジニアリング #Databricks\n\nhttps://www.databricks.com/blog/custom-agents-now-available-databricks",
+    "source_title": "Custom Agents now available on Databricks",
+    "source_url": "https://www.databricks.com/blog/custom-agents-now-available-databricks",
+    "category": "Data Engineering",
+    "format_type": "速報",
+    "status": "pending",
+    "id": "bc734498-13b0-48ed-a1bb-90ac63bf7dbb",
+    "generated_at": "2026-02-19T08:03:20.083569+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "💡 CyberArk、Apache Iceberg × Amazon BedrockでCS生産性4倍達成\n\nデータレイクとLLMを統合し、サポート業務を劇的効率化。技術選定の成功事例として必読。\n\nIcebergの柔軟性 + 生成AIの組み合わせ、これがモダンデータ基盤の勝ちパターンかも。\n\n#データ基盤 #AWS\n\nhttps://aws.amazon.com/blogs/big-data/how-cyberark-uses-apache-iceberg-and-amazon-bedrock-to-deliver-up-to-4x-support-productivity/",
+    "source_title": "How CyberArk uses Apache Iceberg and Amazon Bedrock to deliver up to 4x support productivity",
+    "source_url": "https://aws.amazon.com/blogs/big-data/how-cyberark-uses-apache-iceberg-and-amazon-bedrock-to-deliver-up-to-4x-support-productivity/",
+    "category": "Data Engineering",
+    "format_type": "データ",
+    "status": "pending",
+    "id": "87ca81fa-734e-40d7-bcd9-22092a1f1d48",
+    "generated_at": "2026-02-19T08:03:20.083569+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "🛡️ Airbnb、動的設定変更を大規模に安全運用する仕組みを公開\n\nコード変更なしでシステム挙動を変える「Dynamic Config」をどう守るか。ロールバック機構・影響範囲検証・段階的ロールアウトの設計思想が参考になる。\n\nインフラ運用の成熟度が見える記事。\n\n#データエンジニアリング #SRE\n\nhttps://medium.com/airbnb-engineering/safeguarding-dynamic-configuration-changes-at-scale-5aca5222ed68?source=rss----53c7c27702d5---4",
+    "source_title": "Safeguarding Dynamic Configuration Changes at Scale",
+    "source_url": "https://medium.com/airbnb-engineering/safeguarding-dynamic-configuration-changes-at-scale-5aca5222ed68?source=rss----53c7c27702d5---4",
+    "category": "Engineering",
+    "format_type": "意見",
+    "status": "pending",
+    "id": "08903fc0-50a0-415b-a0ee-822ae8424d2e",
+    "generated_at": "2026-02-19T08:03:20.083569+09:00",
+    "session_type": "morning"
+  }
+]
