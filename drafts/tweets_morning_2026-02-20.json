@@ -1,0 +1,57 @@
+[
+  {
+    "tweet_text": "🎯 Apache Polaris、ついにトップレベルプロジェクトに昇格！\n\nSnowflakeが推進するオープンレイクハウスの相互運用性が大きく前進。これでベンダーロックインの懸念が減り、データプラットフォームの選択肢が広がりそう。オープンソースへのコミットメントが本物だと証明された形に。\n\n#データエンジニアリング #Snowflake\n\nhttps://www.snowflake.com/content/snowflake-site/global/en/blog/apache-polaris-top-level-project",
+    "source_title": "Apache Polaris Graduates to Top-Level Project",
+    "source_url": "https://www.snowflake.com/content/snowflake-site/global/en/blog/apache-polaris-top-level-project",
+    "category": "Data Engineering",
+    "format_type": "速報",
+    "status": "pending",
+    "id": "409e7590-ec87-474b-9357-e1c82a400ff6",
+    "generated_at": "2026-02-20T08:01:50.392200+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "💰 OpenAI、評価額8500億ドルで1000億ドル調達へ\n\nAmazon、Nvidia、SoftBank、Microsoftが参加。この規模感、もはやスタートアップじゃない。AGI実現への本気度か、それともバブルか？AIインフラへの投資競争は加速する一方。\n\n#AI #OpenAI\n\nhttps://techcrunch.com/2026/02/19/openai-reportedly-finalizing-100b-deal-at-more-than-850b-valuation/",
+    "source_title": "OpenAI reportedly finalizing $100B deal at more than $850B valuation",
+    "source_url": "https://techcrunch.com/2026/02/19/openai-reportedly-finalizing-100b-deal-at-more-than-850b-valuation/",
+    "category": "AI",
+    "format_type": "データ",
+    "status": "pending",
+    "id": "e1b5c507-4cde-4749-88fd-ee948c93564f",
+    "generated_at": "2026-02-20T08:01:50.392200+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "🤔 Databricks、AIプロジェクトから「運用可能な能力」への移行を語る\n\nPoCで終わらせないための設計思想が重要。つまり、実験フェーズから本番運用への橋渡しをどう設計するかが企業AI活用の分水嶺。MLOps基盤、今から整備しないと間に合わない。\n\n#MLOps #Databricks\n\nhttps://www.databricks.com/blog/ai-projects-operational-capability",
+    "source_title": "From AI projects to an operational capability",
+    "source_url": "https://www.databricks.com/blog/ai-projects-operational-capability",
+    "category": "AI",
+    "format_type": "解説",
+    "status": "pending",
+    "id": "2e9fc556-5bcd-4ff4-b2c2-8e25b04b2736",
+    "generated_at": "2026-02-20T08:01:50.392200+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "⚡ Streamkap、リアルタイムストリーミングをSnowflakeへ簡素化\n\nAI時代に必須の低レイテンシーアプリ構築を、重い運用負荷なしで実現。CDC（Change Data Capture）パイプラインの民主化が進んでる。データ鮮度が競争優位になる時代、あなたのデータ基盤は対応できてる？\n\n#データ基盤 #Snowflake\n\nhttps://www.snowflake.com/content/snowflake-site/global/en/blog/startup-spotlight-streamkap",
+    "source_title": "Startup Spotlight: Streamkap Powers Real-Time Data for the AI Era",
+    "source_url": "https://www.snowflake.com/content/snowflake-site/global/en/blog/startup-spotlight-streamkap",
+    "category": "Data Engineering",
+    "format_type": "問いかけ",
+    "status": "pending",
+    "id": "9ee2d023-65d9-439e-adbe-d4fb2203fea7",
+    "generated_at": "2026-02-20T08:01:50.392200+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "🎨 Spotify、マルチエージェントアーキテクチャで広告を最適化\n\n「AIフィーチャー」を作りたかったわけじゃなく、構造的な課題を解決したかった――このマインドセットが本質。エージェント設計の実戦例として必読。プロダクト志向のAI活用、ここに極まれり。\n\n#AI #データエンジニアリング\n\nhttps://engineering.atspotify.com/2026/2/our-multi-agent-architecture-for-smarter-advertising/",
+    "source_title": "Our Multi-Agent Architecture for Smarter Advertising",
+    "source_url": "https://engineering.atspotify.com/2026/2/our-multi-agent-architecture-for-smarter-advertising/",
+    "category": "AI",
+    "format_type": "意見",
+    "status": "pending",
+    "id": "ef446c47-a3c6-45bd-88c8-8937a7133bfe",
+    "generated_at": "2026-02-20T08:01:50.392200+09:00",
+    "session_type": "morning"
+  }
+]
