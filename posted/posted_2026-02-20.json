@@ -1,0 +1,28 @@
+[
+  {
+    "tweet_text": "💰 OpenAI、評価額8500億ドルで1000億ドル調達へ\n\nAmazon、Nvidia、SoftBank、Microsoftが参加。この規模感、もはやスタートアップじゃない。AGI実現への本気度か、それともバブルか？AIインフラへの投資競争は加速する一方。\n\n#AI #OpenAI\n\nhttps://techcrunch.com/2026/02/19/openai-reportedly-finalizing-100b-deal-at-more-than-850b-valuation/",
+    "source_title": "OpenAI reportedly finalizing $100B deal at more than $850B valuation",
+    "source_url": "https://techcrunch.com/2026/02/19/openai-reportedly-finalizing-100b-deal-at-more-than-850b-valuation/",
+    "category": "AI",
+    "format_type": "データ",
+    "status": "posted",
+    "id": "e1b5c507-4cde-4749-88fd-ee948c93564f",
+    "generated_at": "2026-02-20T08:01:50.392200+09:00",
+    "session_type": "morning",
+    "tweet_id": "2024622538853158983",
+    "posted_at": "2026-02-20T08:10:03.741298+09:00"
+  },
+  {
+    "tweet_text": "🤔 Databricks、AIプロジェクトから「運用可能な能力」への移行を語る\n\nPoCで終わらせないための設計思想が重要。つまり、実験フェーズから本番運用への橋渡しをどう設計するかが企業AI活用の分水嶺。MLOps基盤、今から整備しないと間に合わない。\n\n#MLOps #Databricks\n\nhttps://www.databricks.com/blog/ai-projects-operational-capability",
+    "source_title": "From AI projects to an operational capability",
+    "source_url": "https://www.databricks.com/blog/ai-projects-operational-capability",
+    "category": "AI",
+    "format_type": "解説",
+    "status": "posted",
+    "id": "2e9fc556-5bcd-4ff4-b2c2-8e25b04b2736",
+    "generated_at": "2026-02-20T08:01:50.392200+09:00",
+    "session_type": "morning",
+    "tweet_id": "2024623798306197608",
+    "posted_at": "2026-02-20T08:15:04.007243+09:00"
+  }
+]
