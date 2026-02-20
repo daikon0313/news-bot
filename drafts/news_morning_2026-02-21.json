@@ -1,0 +1,182 @@
+[
+  {
+    "title": "Data ins and outs for 2026: what data teams are keeping, cutting, and reconsidering",
+    "url": "https://www.getdbt.com/blog/data-ins-and-outs-for-2026",
+    "summary": "Data ins and outs for 2026: simplify workflows, avoid over-engineering, and rethink how data teams use AI.",
+    "source": "dbt Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-02-21T07:57:01.749674+09:00"
+  },
+  {
+    "title": "Maximize the business value of your data platform with dbt",
+    "url": "https://www.getdbt.com/blog/dbt-business-value",
+    "summary": "Learn how tools like Fusion’s state-aware orchestration deliver real business value.",
+    "source": "dbt Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-02-21T07:57:01.749713+09:00"
+  },
+  {
+    "title": "Use Genie Everywhere with Enterprise OAuth",
+    "url": "https://www.databricks.com/blog/access-genie-everywhere",
+    "summary": "IntroDemocratizing data starts with making insights easy and secure to access. With...",
+    "source": "Databricks Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-02-21T07:57:01.936024+09:00"
+  },
+  {
+    "title": "Flexible Node Types Are Now Generally Available",
+    "url": "https://www.databricks.com/blog/flexible-node-types-are-now-generally-available",
+    "summary": "Securing specific compute capacity can be challenging, especially during high-traffic...",
+    "source": "Databricks Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-02-21T07:57:01.936029+09:00"
+  },
+  {
+    "title": "Operationalizing AI Agents at Scale in Financial Services",
+    "url": "https://www.snowflake.com/content/snowflake-site/global/en/blog/Operationalizing-ai-agents-financial-services",
+    "summary": "Learn how FSI is moving beyond siloed AI models. Operationalize governed, autonomous AI agents for risk, compliance and claims with Snowflake Intelligence.",
+    "source": "Snowflake Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-02-21T07:57:02.829916+09:00"
+  },
+  {
+    "title": "Startup Spotlight: DDI",
+    "url": "https://www.snowflake.com/content/snowflake-site/global/en/blog/startup-spotlight-ddi",
+    "summary": "Founder Andrew Carruthers shares how prebuilt tool kits and best practices speed secure, compliant app development directly inside customers’ Snowflake environment.",
+    "source": "Snowflake Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-02-21T07:57:02.829930+09:00"
+  },
+  {
+    "title": "Apache Polaris Graduates to Top-Level Project",
+    "url": "https://www.snowflake.com/content/snowflake-site/global/en/blog/apache-polaris-top-level-project",
+    "summary": "Apache Polaris graduates to an Apache Software Foundation Top-Level Project, advancing open lakehouse interoperability and strengthening Snowflake’s open source commitment",
+    "source": "Snowflake Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-02-21T07:57:02.829936+09:00"
+  },
+  {
+    "title": "Best practices for right-sizing Amazon OpenSearch Service domains",
+    "url": "https://aws.amazon.com/blogs/big-data/best-practices-for-right-sizing-amazon-opensearch-service-domains/",
+    "summary": "In this post, we guide you through the steps to determine if your OpenSearch Service domain is right-sized, using AWS tools and best practices to optimize your configuration for workloads like log analytics, search, vector search, or synthetic data testing.",
+    "source": "AWS Big Data Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-02-21T07:57:03.367232+09:00"
+  },
+  {
+    "title": "Amazon Managed Service for Apache Flink application lifecycle management with Terraform",
+    "url": "https://aws.amazon.com/blogs/big-data/amazon-managed-service-for-apache-flink-application-lifecycle-management-with-terraform/",
+    "summary": "In this post, you’ll learn how to use Terraform to automate and streamline your Apache Flink application lifecycle management on Amazon Managed Service for Apache Flink. We’ll walk you through the complete lifecycle including deployment, updates, scaling, and troubleshooting common issues. This post",
+    "source": "AWS Big Data Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-02-21T07:57:03.367238+09:00"
+  },
+  {
+    "title": "Our Multi-Agent Architecture for Smarter Advertising",
+    "url": "https://engineering.atspotify.com/2026/2/our-multi-agent-architecture-for-smarter-advertising/",
+    "summary": "<p>When we kicked this off, we weren’t trying to ship an “AI feature.” We were trying to fix a structural...</p>\n<p>The post <a href=\"https://engineering.atspotify.com/2026/2/our-multi-agent-architecture-for-smarter-advertising/\">Our Multi-Agent Architecture for Smarter Advertising</a> appeared firs",
+    "source": "Spotify Engineering",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-02-21T07:57:05.345849+09:00"
+  },
+  {
+    "title": "Congratulations to the recipients of the 2025 Spotify FOSS Fund",
+    "url": "https://engineering.atspotify.com/2026/1/congratulations-to-the-recipients-of-the-2025-spotify-foss-fund/",
+    "summary": "<p>TL;DR Established in 2022 as a way to help support the great open source ecosystem projects that Spotify...</p>\n<p>The post <a href=\"https://engineering.atspotify.com/2026/1/congratulations-to-the-recipients-of-the-2025-spotify-foss-fund/\">Congratulations to the recipients of the 2025 Spotify FOS",
+    "source": "Spotify Engineering",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-02-21T07:57:05.345868+09:00"
+  },
+  {
+    "title": "Safeguarding Dynamic Configuration Changes at Scale",
+    "url": "https://medium.com/airbnb-engineering/safeguarding-dynamic-configuration-changes-at-scale-5aca5222ed68?source=rss----53c7c27702d5---4",
+    "summary": "<h4><strong>How Airbnb ships dynamic config changes safely and reliably</strong></h4><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/1*v2VDklQn1NHAx-MiR8DYMQ.png\" /></figure><p>By <a href=\"https://www.linkedin.com/in/cosmo-qiu/\">Cosmo Qiu</a>, <a href=\"https://www.linkedin.com/in/b",
+    "source": "Airbnb Tech Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-02-21T07:57:06.085293+09:00"
+  },
+  {
+    "title": "My Journey to Airbnb — Anna Sulkina",
+    "url": "https://medium.com/airbnb-engineering/my-journey-to-airbnb-anna-sulkina-85216183d094?source=rss----53c7c27702d5---4",
+    "summary": "<figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/1*eiZyGBIJvx3S5kREFK8wOw.jpeg\" /></figure><p><em>Anna Sulkina has always been a traveler, and we’re lucky her travels have brought her to Airbnb. Anna is a Senior Director of Engineering, and she’s responsible for Application &amp; Cl",
+    "source": "Airbnb Tech Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-02-21T07:57:06.085309+09:00"
+  },
+  {
+    "title": "My Journey to Airbnb: Peter Coles",
+    "url": "https://medium.com/airbnb-engineering/my-journey-to-airbnb-peter-coles-0e8efd01c5a8?source=rss----53c7c27702d5---4",
+    "summary": "<figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/1*kQQ1LthGsvtJyUW5bVf0RA.jpeg\" /></figure><h3>Public school to PhD</h3><p><em>The story of Airbnb’s Head Economist for Policy and Director of Data Science involves geology, co-teaching with a Nobel Prize winner, and CSI. (No, not the ",
+    "source": "Airbnb Tech Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-02-21T07:57:06.085315+09:00"
+  },
+  {
+    "title": "Why creators are ditching ad revenue for chocolate bars and fintech acquisitions",
+    "url": "https://techcrunch.com/podcast/why-creators-are-ditching-ad-revenue-for-chocolate-bars-and-fintech-acquisitions/",
+    "summary": "The creator economy is evolving fast, and ad revenue alone isn&#8217;t cutting it anymore. YouTubers are launching product lines, acquiring startups, and building actual business empires. In fact, MrBeast&#8217;s company bought fintech startup Step, and his chocolate business is out-earning his medi",
+    "source": "TechCrunch AI",
+    "category": "AI",
+    "priority": 1,
+    "fetched_at": "2026-02-21T07:57:06.524101+09:00"
+  },
+  {
+    "title": "Anthropic-funded group backs candidate attacked by rival AI super PAC",
+    "url": "https://techcrunch.com/2026/02/20/anthropic-funded-group-backs-candidate-attacked-by-rival-ai-super-pac/",
+    "summary": "Dueling pro-AI PACs have centered around backing or targeting one New York congressional bid: Alex Bores, whose RAISE Act requires AI developers to disclose safety protocols and report serious system misuse.",
+    "source": "TechCrunch AI",
+    "category": "AI",
+    "priority": 1,
+    "fetched_at": "2026-02-21T07:57:06.524114+09:00"
+  },
+  {
+    "title": "InScope nabs $14.5M to solve the pain of financial reporting",
+    "url": "https://techcrunch.com/2026/02/20/inscope-nabs-14-5m-to-solve-the-pain-of-financial-reporting/",
+    "summary": "The startup, founded by accountants who worked at Flexport, Miro, Hopin and Thrive Global, automates the difficulties of prepping financial statements.",
+    "source": "TechCrunch AI",
+    "category": "AI",
+    "priority": 1,
+    "fetched_at": "2026-02-21T07:57:06.524119+09:00"
+  },
+  {
+    "title": "Great news for xAI: Grok is now pretty good at answering questions about Baldur’s Gate",
+    "url": "https://techcrunch.com/2026/02/20/great-news-for-xai-grok-is-now-pretty-good-at-answering-questions-about-baldurs-gate/",
+    "summary": "A new report from Business Insider reveals that high-level engineers at xAI were pulled off other projects to make sure Grok could answer detailed questions about the video game Baldur's Gate.",
+    "source": "TechCrunch AI",
+    "category": "AI",
+    "priority": 1,
+    "fetched_at": "2026-02-21T07:57:06.524123+09:00"
+  },
+  {
+    "title": "‘Toy Story 5’ takes aim at creepy AI toys: ‘I’m always listening’",
+    "url": "https://techcrunch.com/2026/02/20/toy-story-5-takes-aim-at-creepy-ai-toys-im-always-listening/",
+    "summary": "Addictive, AI-enabled tablets are taking over, and also, Woody is balding in the new Toy Story movie, out June 19.",
+    "source": "TechCrunch AI",
+    "category": "AI",
+    "priority": 1,
+    "fetched_at": "2026-02-21T07:57:06.524127+09:00"
+  },
+  {
+    "title": "Our First Proof submissions",
+    "url": "https://openai.com/index/first-proof-submissions",
+    "summary": "We share our AI model’s proof attempts for the First Proof math challenge, testing research-grade reasoning on expert-level problems.",
+    "source": "OpenAI Blog",
+    "category": "AI",
+    "priority": 1,
+    "fetched_at": "2026-02-21T07:57:07.106626+09:00"
+  }
+]

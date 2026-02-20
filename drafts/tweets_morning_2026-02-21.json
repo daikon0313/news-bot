@@ -1,0 +1,57 @@
+[
+  {
+    "tweet_text": "🎯 Apache Polaris、ついにトップレベルプロジェクトに昇格！\n\nSnowflakeがオープンソース化したカタログ管理が、Apache財団の正式プロジェクトへ。オープンレイクハウスの相互運用性が加速する予感。\n\nIcebergやDelta Lakeとの統合がさらに進みそう。\n\n#データエンジニアリング #Snowflake\n\nhttps://www.snowflake.com/content/snowflake-site/global/en/blog/apache-polaris-top-level-project",
+    "source_title": "Apache Polaris Graduates to Top-Level Project",
+    "source_url": "https://www.snowflake.com/content/snowflake-site/global/en/blog/apache-polaris-top-level-project",
+    "category": "Data Engineering",
+    "format_type": "速報",
+    "status": "pending",
+    "id": "63ac833f-57c5-49c5-b162-bbe26518a398",
+    "generated_at": "2026-02-21T07:57:39.721362+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "💡 dbt開発元が語る「2026年のデータチームの選択」\n\n・ワークフローをシンプルに\n・過度なエンジニアリングは避ける\n・AIの使い方を再考する\n\nつまり「複雑化からの回帰」が今年のトレンドになるってこと。あなたのチームは大丈夫？\n\n#データ基盤 #dbt\n\nhttps://www.getdbt.com/blog/data-ins-and-outs-for-2026",
+    "source_title": "Data ins and outs for 2026: what data teams are keeping, cutting, and reconsidering",
+    "source_url": "https://www.getdbt.com/blog/data-ins-and-outs-for-2026",
+    "category": "Data Engineering",
+    "format_type": "まとめ・解説",
+    "status": "pending",
+    "id": "99c9b045-c4aa-4f07-917e-782b0ba9fe67",
+    "generated_at": "2026-02-21T07:57:39.721362+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "🤖 Spotifyの広告最適化、実はマルチエージェントAIで動いてた\n\n「AI機能を出荷しようとしたわけじゃない。構造的な問題を解決しようとしただけ」\n\nこの視点、めちゃくちゃ重要。AIは手段であって目的じゃない。\n\n#AI #MLOps\n\nhttps://engineering.atspotify.com/2026/2/our-multi-agent-architecture-for-smarter-advertising/",
+    "source_title": "Our Multi-Agent Architecture for Smarter Advertising",
+    "source_url": "https://engineering.atspotify.com/2026/2/our-multi-agent-architecture-for-smarter-advertising/",
+    "category": "AI",
+    "format_type": "意見",
+    "status": "pending",
+    "id": "b392cf56-aa79-493f-bdf3-e3aabc39cf3b",
+    "generated_at": "2026-02-21T07:57:39.721362+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "🏦 金融業界、AIエージェントの本格運用フェーズへ\n\nSnowflakeが事例紹介：リスク管理・コンプライアンス・保険請求を自律型エージェントで処理。\n\n孤立したAIモデルから、ガバナンス効いた統合型エージェントへ。規制業界こそAIの本命かも。\n\n#AI #生成AI\n\nhttps://www.snowflake.com/content/snowflake-site/global/en/blog/Operationalizing-ai-agents-financial-services",
+    "source_title": "Operationalizing AI Agents at Scale in Financial Services",
+    "source_url": "https://www.snowflake.com/content/snowflake-site/global/en/blog/Operationalizing-ai-agents-financial-services",
+    "category": "AI",
+    "format_type": "データ・数字",
+    "status": "pending",
+    "id": "e0f1eed8-a10e-4ead-87dc-fb5984f2b394",
+    "generated_at": "2026-02-21T07:57:39.721362+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "🔧 Airbnbの大規模Dynamic Config変更、どう安全に届けてる？\n\n設定変更のミスが本番障害に直結する環境で、確実にデプロイする仕組みを公開。段階的ロールアウト・自動検証・ロールバック戦略がカギ。\n\nSREの教科書的な内容。\n#データエンジニアリング #SRE\n\nhttps://medium.com/airbnb-engineering/safeguarding-dynamic-configuration-changes-at-scale-5aca5222ed68?source=rss----53c7c27702d5---4",
+    "source_title": "Safeguarding Dynamic Configuration Changes at Scale",
+    "source_url": "https://medium.com/airbnb-engineering/safeguarding-dynamic-configuration-changes-at-scale-5aca5222ed68?source=rss----53c7c27702d5---4",
+    "category": "Data Engineering",
+    "format_type": "問いかけ",
+    "status": "pending",
+    "id": "5e710112-8d64-47e3-8507-e77d11d8c559",
+    "generated_at": "2026-02-21T07:57:39.721362+09:00",
+    "session_type": "morning"
+  }
+]
