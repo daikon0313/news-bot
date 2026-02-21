@@ -1,0 +1,57 @@
+[
+  {
+    "tweet_text": "🎯 Apache Polaris、Apache Software Foundationのトップレベルプロジェクトに昇格！\n\nオープンなlakehouse相互運用性が加速し、Snowflakeのオープンソースコミットメントもさらに強化。データレイク基盤の選択肢が広がる重要なマイルストーン。\n\n#データ基盤 #Snowflake\nhttps://www.snowflake.com/content/snowflake-site/global/en/blog/apache-polaris-top-level-project",
+    "source_title": "Apache Polaris Graduates to Top-Level Project",
+    "source_url": "https://www.snowflake.com/content/snowflake-site/global/en/blog/apache-polaris-top-level-project",
+    "category": "Data Engineering",
+    "format_type": "速報",
+    "status": "pending",
+    "id": "7cf9a56a-e6d8-400f-a17b-29b1f59bba37",
+    "generated_at": "2026-02-22T07:53:45.956931+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "🏦 金融業界のAI Agentが本格稼働フェーズへ\n\nSnowflakeが金融向けにガバナンス対応の自律型AIエージェントを展開。リスク管理・コンプライアンス・保険請求処理を自動化。サイロ化されたAIモデルから統合エージェント基盤への大転換。\n\n#AI #FinTech\nhttps://www.snowflake.com/content/snowflake-site/global/en/blog/Operationalizing-ai-agents-financial-services",
+    "source_title": "Operationalizing AI Agents at Scale in Financial Services",
+    "source_url": "https://www.snowflake.com/content/snowflake-site/global/en/blog/Operationalizing-ai-agents-financial-services",
+    "category": "AI",
+    "format_type": "解説",
+    "status": "pending",
+    "id": "047d127e-3464-47dd-865d-3a319bfd1539",
+    "generated_at": "2026-02-22T07:53:45.956931+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "💡 「LLMラッパー系」と「AI統合サービス系」スタートアップに黄信号？\n\nGoogle VPが警告：マージン縮小と差別化不足で生存が困難に。生成AI市場の進化で淘汰が始まる。プロダクトの本質的価値が問われる局面。\n\n#生成AI #スタートアップ\nhttps://techcrunch.com/2026/02/21/google-vp-warns-that-two-types-of-ai-startups-may-not-survive",
+    "source_title": "Google VP warns that two types of AI startups may not survive",
+    "source_url": "https://techcrunch.com/2026/02/21/google-vp-warns-that-two-types-of-ai-startups-may-not-survive",
+    "category": "AI",
+    "format_type": "意見",
+    "status": "pending",
+    "id": "057494f9-0987-4594-878f-1945725ca615",
+    "generated_at": "2026-02-22T07:53:45.956931+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "📊 dbt発・2026年データチームのトレンド予測\n\nIN：ワークフロー簡素化、過剰エンジニアリング回避\nOUT：複雑すぎるパイプライン\n再考中：データチームのAI活用方法\n\nシンプル化への回帰が鍵になりそう。\n\n#データエンジニアリング #dbt\nhttps://www.getdbt.com/blog/data-ins-and-outs-for-2026",
+    "source_title": "Data ins and outs for 2026: what data teams are keeping, cutting, and reconsidering",
+    "source_url": "https://www.getdbt.com/blog/data-ins-and-outs-for-2026",
+    "category": "Data Engineering",
+    "format_type": "まとめ",
+    "status": "pending",
+    "id": "759e781c-43a2-491b-9bb9-c2a36965b403",
+    "generated_at": "2026-02-22T07:53:45.956931+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "🎮 Microsoft新ゲーム部門CEO「無限のAIスロップでエコシステムを汚染しない」と宣言\n\nゲーム業界でのAI活用に慎重姿勢。クリエイティブの質 vs 効率化のバランスをどう取るか。AI生成コンテンツの品質論争が加熱中。\n\n#AI #Microsoft\nhttps://techcrunch.com/2026/02/21/microsofts-new-gaming-ceo-vows-not-to-flood-the-ecosystem-with-endless-ai-slop",
+    "source_title": "Microsoft's new gaming CEO vows not to flood the ecosystem with 'endless AI slop'",
+    "source_url": "https://techcrunch.com/2026/02/21/microsofts-new-gaming-ceo-vows-not-to-flood-the-ecosystem-with-endless-ai-slop",
+    "category": "AI",
+    "format_type": "問いかけ",
+    "status": "pending",
+    "id": "809b0d20-9b55-4b0b-b6b8-4e265c06a958",
+    "generated_at": "2026-02-22T07:53:45.956931+09:00",
+    "session_type": "morning"
+  }
+]
