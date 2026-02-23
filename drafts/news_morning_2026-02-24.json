@@ -1,0 +1,182 @@
+[
+  {
+    "title": "Data ins and outs for 2026: what data teams are keeping, cutting, and reconsidering",
+    "url": "https://www.getdbt.com/blog/data-ins-and-outs-for-2026",
+    "summary": "Data ins and outs for 2026: simplify workflows, avoid over-engineering, and rethink how data teams use AI.",
+    "source": "dbt Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-02-24T08:09:33.662624+09:00"
+  },
+  {
+    "title": "Maximize the business value of your data platform with dbt",
+    "url": "https://www.getdbt.com/blog/dbt-business-value",
+    "summary": "Learn how tools like Fusion’s state-aware orchestration deliver real business value.",
+    "source": "dbt Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-02-24T08:09:33.662645+09:00"
+  },
+  {
+    "title": "Spark Declarative Pipelines: Why Data Engineering Needs to Become End-to-End Declarative",
+    "url": "https://www.databricks.com/blog/spark-declarative-pipelines-why-data-engineering-needs-become-end-end-declarative",
+    "summary": "Data engineering teams are under pressure to deliver higher quality data faster,...",
+    "source": "Databricks Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-02-24T08:09:33.798469+09:00"
+  },
+  {
+    "title": "Announcing General Availability of Zerobus Ingest, part of Lakeflow Connect",
+    "url": "https://www.databricks.com/blog/announcing-general-availability-zerobus-ingest-part-lakeflow-connect",
+    "summary": "As organizations scale real-time operational intelligence, traditional streaming...",
+    "source": "Databricks Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-02-24T08:09:33.798482+09:00"
+  },
+  {
+    "title": "Cortex Code CLI Expands Towards Supporting Any Data, Anywhere",
+    "url": "https://www.snowflake.com/content/snowflake-site/global/en/blog/cortex-code-cli-expands-support",
+    "summary": "Cortex Code CLI, in addition to supporting Snowflake workflows end to end, is now expanding native support for all data systems, starting with data engineering systems dbt and Apache Airflow®. We are also introducing Snowflake’s first self-serve subscription to help developers quickly get started wi",
+    "source": "Snowflake Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-02-24T08:09:34.199052+09:00"
+  },
+  {
+    "title": "Operationalizing AI Agents at Scale in Financial Services",
+    "url": "https://www.snowflake.com/content/snowflake-site/global/en/blog/Operationalizing-ai-agents-financial-services",
+    "summary": "Learn how FSI is moving beyond siloed AI models. Operationalize governed, autonomous AI agents for risk, compliance and claims with Snowflake Intelligence.",
+    "source": "Snowflake Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-02-24T08:09:34.199064+09:00"
+  },
+  {
+    "title": "Startup Spotlight: DDI",
+    "url": "https://www.snowflake.com/content/snowflake-site/global/en/blog/startup-spotlight-ddi",
+    "summary": "Founder Andrew Carruthers shares how prebuilt tool kits and best practices speed secure, compliant app development directly inside customers’ Snowflake environment.",
+    "source": "Snowflake Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-02-24T08:09:34.199069+09:00"
+  },
+  {
+    "title": "Implement a data mesh pattern in Amazon SageMaker Catalog without changing applications",
+    "url": "https://aws.amazon.com/blogs/big-data/implement-a-data-mesh-pattern-with-amazon-sagemaker-catalog-without-making-changes-to-your-applications/",
+    "summary": "In this post, we walk through simulating a scenario based on data producer and data consumer that exists before Amazon SageMaker Catalog adoption. We use a sample dataset to simulate existing data and an existing application using an AWS Lambda function, then implement a data mesh pattern using Amaz",
+    "source": "AWS Big Data Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-02-24T08:09:34.799126+09:00"
+  },
+  {
+    "title": "Best practices for right-sizing Amazon OpenSearch Service domains",
+    "url": "https://aws.amazon.com/blogs/big-data/best-practices-for-right-sizing-amazon-opensearch-service-domains/",
+    "summary": "In this post, we guide you through the steps to determine if your OpenSearch Service domain is right-sized, using AWS tools and best practices to optimize your configuration for workloads like log analytics, search, vector search, or synthetic data testing.",
+    "source": "AWS Big Data Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-02-24T08:09:34.799145+09:00"
+  },
+  {
+    "title": "Our Multi-Agent Architecture for Smarter Advertising",
+    "url": "https://engineering.atspotify.com/2026/2/our-multi-agent-architecture-for-smarter-advertising/",
+    "summary": "<p>When we kicked this off, we weren’t trying to ship an “AI feature.” We were trying to fix a structural...</p>\n<p>The post <a href=\"https://engineering.atspotify.com/2026/2/our-multi-agent-architecture-for-smarter-advertising/\">Our Multi-Agent Architecture for Smarter Advertising</a> appeared firs",
+    "source": "Spotify Engineering",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-02-24T08:09:36.515050+09:00"
+  },
+  {
+    "title": "Congratulations to the recipients of the 2025 Spotify FOSS Fund",
+    "url": "https://engineering.atspotify.com/2026/1/congratulations-to-the-recipients-of-the-2025-spotify-foss-fund/",
+    "summary": "<p>TL;DR Established in 2022 as a way to help support the great open source ecosystem projects that Spotify...</p>\n<p>The post <a href=\"https://engineering.atspotify.com/2026/1/congratulations-to-the-recipients-of-the-2025-spotify-foss-fund/\">Congratulations to the recipients of the 2025 Spotify FOS",
+    "source": "Spotify Engineering",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-02-24T08:09:36.515067+09:00"
+  },
+  {
+    "title": "Safeguarding Dynamic Configuration Changes at Scale",
+    "url": "https://medium.com/airbnb-engineering/safeguarding-dynamic-configuration-changes-at-scale-5aca5222ed68?source=rss----53c7c27702d5---4",
+    "summary": "<h4><strong>How Airbnb ships dynamic config changes safely and reliably</strong></h4><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/1*v2VDklQn1NHAx-MiR8DYMQ.png\" /></figure><p>By <a href=\"https://www.linkedin.com/in/cosmo-qiu/\">Cosmo Qiu</a>, <a href=\"https://www.linkedin.com/in/b",
+    "source": "Airbnb Tech Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-02-24T08:09:37.077474+09:00"
+  },
+  {
+    "title": "My Journey to Airbnb — Anna Sulkina",
+    "url": "https://medium.com/airbnb-engineering/my-journey-to-airbnb-anna-sulkina-85216183d094?source=rss----53c7c27702d5---4",
+    "summary": "<figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/1*eiZyGBIJvx3S5kREFK8wOw.jpeg\" /></figure><p><em>Anna Sulkina has always been a traveler, and we’re lucky her travels have brought her to Airbnb. Anna is a Senior Director of Engineering, and she’s responsible for Application &amp; Cl",
+    "source": "Airbnb Tech Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-02-24T08:09:37.077489+09:00"
+  },
+  {
+    "title": "My Journey to Airbnb: Peter Coles",
+    "url": "https://medium.com/airbnb-engineering/my-journey-to-airbnb-peter-coles-0e8efd01c5a8?source=rss----53c7c27702d5---4",
+    "summary": "<figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/1*kQQ1LthGsvtJyUW5bVf0RA.jpeg\" /></figure><h3>Public school to PhD</h3><p><em>The story of Airbnb’s Head Economist for Policy and Director of Data Science involves geology, co-teaching with a Nobel Prize winner, and CSI. (No, not the ",
+    "source": "Airbnb Tech Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-02-24T08:09:37.077494+09:00"
+  },
+  {
+    "title": "Anthropic accuses Chinese AI labs of mining Claude as US debates AI chip exports",
+    "url": "https://techcrunch.com/2026/02/23/anthropic-accuses-chinese-ai-labs-of-mining-claude-as-us-debates-ai-chip-exports/",
+    "summary": "Anthropic accuses DeepSeek, Moonshot, and MiniMax of using 24,000 fake accounts to distill Claude’s AI capabilities, as U.S. officials debate export controls aimed at slowing China’s AI progress.",
+    "source": "TechCrunch AI",
+    "category": "AI",
+    "priority": 1,
+    "fetched_at": "2026-02-24T08:09:37.169758+09:00"
+  },
+  {
+    "title": "Google’s Cloud AI leads on the three frontiers of model capability",
+    "url": "https://techcrunch.com/2026/02/23/googles-cloud-ai-lead-on-the-three-frontiers-of-model-capability/",
+    "summary": "AI models are pushing against three frontiers at once: raw intelligence, response time, and a third quality you might call \"extensibility.\"",
+    "source": "TechCrunch AI",
+    "category": "AI",
+    "priority": 1,
+    "fetched_at": "2026-02-24T08:09:37.169768+09:00"
+  },
+  {
+    "title": "OpenAI calls in the consultants for its enterprise push",
+    "url": "https://techcrunch.com/2026/02/23/openai-calls-in-the-consultants-for-its-enterprise-push/",
+    "summary": "OpenAI is partnering with four consulting giants in an effort to see more adoption of its OpenAI Frontier AI agent platform.",
+    "source": "TechCrunch AI",
+    "category": "AI",
+    "priority": 1,
+    "fetched_at": "2026-02-24T08:09:37.169773+09:00"
+  },
+  {
+    "title": "Guide Labs debuts a new kind of interpretable LLM",
+    "url": "https://techcrunch.com/2026/02/23/guide-labs-debuts-a-new-kind-of-interpretable-llm/",
+    "summary": "The company open sourced an 8-billion-parameter LLM, Steerling-8B, trained with a new architecture designed to make its actions easily interpretable.",
+    "source": "TechCrunch AI",
+    "category": "AI",
+    "priority": 1,
+    "fetched_at": "2026-02-24T08:09:37.169777+09:00"
+  },
+  {
+    "title": "Particle’s AI news app listens to podcasts for interesting clips so you you don’t have to",
+    "url": "https://techcrunch.com/2026/02/23/particles-ai-news-app-listens-to-podcasts-for-interesting-clips-so-you-you-dont-have-to/",
+    "summary": "AI news app Particle can now pull in key moments from podcasts, letting readers instantly play short, relevant clips alongside related stories.",
+    "source": "TechCrunch AI",
+    "category": "AI",
+    "priority": 1,
+    "fetched_at": "2026-02-24T08:09:37.169781+09:00"
+  },
+  {
+    "title": "Why we no longer evaluate SWE-bench Verified",
+    "url": "https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified",
+    "summary": "SWE-bench Verified is increasingly contaminated and mismeasures frontier coding progress. Our analysis shows flawed tests and training leakage. We recommend SWE-bench Pro.",
+    "source": "OpenAI Blog",
+    "category": "AI",
+    "priority": 1,
+    "fetched_at": "2026-02-24T08:09:37.770371+09:00"
+  }
+]
