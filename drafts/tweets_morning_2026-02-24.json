@@ -1,0 +1,57 @@
+[
+  {
+    "tweet_text": "🔥 データエンジニアリングが「宣言的」に大転換\n\nDatabricksが提唱する新パラダイム：\n✅ 「どうやるか」でなく「何が欲しいか」を記述\n✅ Sparkパイプラインの複雑性を80%削減\n✅ データ品質の自動保証\n\n命令型→宣言型への移行は、SQLがアセンブリを置き換えた時と同じインパクトがある。\n\n#データエンジニアリング #Databricks\nhttps://www.databricks.com/blog/spark-declarative-pipelines-why-data-engineering-needs-become-end-end-declarative",
+    "source_title": "Spark Declarative Pipelines: Why Data Engineering Needs to Become End-to-End Declarative",
+    "source_url": "https://www.databricks.com/blog/spark-declarative-pipelines-why-data-engineering-needs-become-end-end-declarative",
+    "category": "Data Engineering",
+    "format_type": "意見",
+    "status": "pending",
+    "id": "1fc8e2da-176f-4962-81c8-7a0e91dcf647",
+    "generated_at": "2026-02-24T08:10:09.555123+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "💡 Anthropic衝撃の告発：中国AI企業が偽アカウント24,000個でClaude盗用\n\nDeepSeek、Moonshot、MiniMaxが標的。モデルの能力を「蒸留」して自社製品に転用する手法が明らかに。\n\n米国のAIチップ輸出規制議論にも影響必至。AI時代の知的財産保護、どう守る？\n\n#生成AI #AI\nhttps://techcrunch.com/2026/02/23/anthropic-accuses-chinese-ai-labs-of-mining-claude-as-us-debates-ai-chip-exports/",
+    "source_title": "Anthropic accuses Chinese AI labs of mining Claude as US debates AI chip exports",
+    "source_url": "https://techcrunch.com/2026/02/23/anthropic-accuses-chinese-ai-labs-of-mining-claude-as-us-debates-ai-chip-exports/",
+    "category": "AI",
+    "format_type": "速報",
+    "status": "pending",
+    "id": "57277bae-832a-4f8a-a72c-39494233920b",
+    "generated_at": "2026-02-24T08:10:09.555123+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "🚀 Snowflake、Cortex Code CLIをdbt・Airflowにネイティブ対応\n\n従来のSnowflake専用からマルチシステム対応へ進化。データエンジニアが慣れ親しんだツールチェーンをそのまま活用できる時代に。\n\n囲い込みからオープンエコシステムへ。これがクラウドDWHの次のステージ。\n\n#データ基盤 #Snowflake\nhttps://www.snowflake.com/content/snowflake-site/global/en/blog/cortex-code-cli-expands-support",
+    "source_title": "Cortex Code CLI Expands Towards Supporting Any Data, Anywhere",
+    "source_url": "https://www.snowflake.com/content/snowflake-site/global/en/blog/cortex-code-cli-expands-support",
+    "category": "Data Engineering",
+    "format_type": "解説",
+    "status": "pending",
+    "id": "1aa7bc2d-6f9b-4ab2-a6da-a83f6cdf12cb",
+    "generated_at": "2026-02-24T08:10:09.555123+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "📊 OpenAI、SWE-bench Verifiedの評価を正式中止\n\n理由：\n・トレーニングデータ混入による汚染\n・テストの欠陥が多数\n・フロンティアモデルの進化を正確に測定できない\n\n推奨ベンチマークはSWE-bench Proへ。AIコーディング能力評価の基準が変わる転換点。\n\n#AI #LLM\nhttps://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified",
+    "source_title": "Why we no longer evaluate SWE-bench Verified",
+    "source_url": "https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified",
+    "category": "AI",
+    "format_type": "データ",
+    "status": "pending",
+    "id": "614f9b80-28bc-4913-a767-3ec7024da475",
+    "generated_at": "2026-02-24T08:10:09.555123+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "⚙️ Airbnbの大規模設定変更、どう安全に届ける？\n\nDynamic Configの変更を本番環境で安全にロールアウトする仕組みを全公開。段階的デプロイ、自動ロールバック、影響範囲の可視化まで。\n\nインフラ規模に関わらず応用できる知見が詰まってる。これは保存版。\n\n#データエンジニアリング #DevOps\nhttps://medium.com/airbnb-engineering/safeguarding-dynamic-configuration-changes-at-scale-5aca5222ed68?source=rss----53c7c27702d5---4",
+    "source_title": "Safeguarding Dynamic Configuration Changes at Scale",
+    "source_url": "https://medium.com/airbnb-engineering/safeguarding-dynamic-configuration-changes-at-scale-5aca5222ed68?source=rss----53c7c27702d5---4",
+    "category": "Engineering",
+    "format_type": "問いかけ",
+    "status": "pending",
+    "id": "65ac1b21-1796-4f75-8d1f-0ae7dba3aabb",
+    "generated_at": "2026-02-24T08:10:09.555123+09:00",
+    "session_type": "morning"
+  }
+]
