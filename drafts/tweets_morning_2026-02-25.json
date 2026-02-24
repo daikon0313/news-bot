@@ -1,0 +1,57 @@
+[
+  {
+    "tweet_text": "🔥 Snowflake、ついにPostgres統合を発表\n\n複雑なETLパイプライン不要で、Postgresデータを直接分析・AI活用できるように。データ移行の手間が大幅削減されそう。\n\nトランザクションDBと分析基盤の境界がどんどん曖昧に... #データ基盤 #Snowflake\n\nhttps://www.snowflake.com/content/snowflake-site/global/en/blog/streamline-data-movement-snowflake-postgres",
+    "source_title": "Snowflake Postgres: Unify Postgres and Analytics on One Platform",
+    "source_url": "https://www.snowflake.com/content/snowflake-site/global/en/blog/streamline-data-movement-snowflake-postgres",
+    "category": "Data Engineering",
+    "format_type": "速報",
+    "status": "pending",
+    "id": "9a72c35f-ef06-41d8-af25-93b8509e698e",
+    "generated_at": "2026-02-25T08:03:07.295416+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "💰 Meta、AMDと最大1000億ドルのAIチップ契約\n\nNvidia依存からの脱却を加速。1.6億株のワラントも付与し、データセンター拡張を本気で推進。\n\n「personal superintelligence」実現に向けた巨額投資、GAFAMのAIインフラ競争が新局面へ。 #AI #生成AI\n\nhttps://techcrunch.com/2026/02/24/meta-strikes-up-to-100b-amd-chip-deal-as-it-chases-personal-superintelligence",
+    "source_title": "Meta strikes up to $100B AMD chip deal as it chases 'personal superintelligence'",
+    "source_url": "https://techcrunch.com/2026/02/24/meta-strikes-up-to-100b-amd-chip-deal-as-it-chases-personal-superintelligence",
+    "category": "AI",
+    "format_type": "データ",
+    "status": "pending",
+    "id": "5cf87a57-9fa4-42ca-b0ec-968f4884861b",
+    "generated_at": "2026-02-25T08:03:07.295416+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "📊 2026年のデータチーム、何を残して何を捨てる？\n\ndbtが提唱する「Ins & Outs」：過度なエンジニアリングを避け、ワークフローをシンプル化。AIの使い方も再考が必要と。\n\nツール乱立時代、引き算の思想が重要になってきた。 #データエンジニアリング #dbt\n\nhttps://www.getdbt.com/blog/data-ins-and-outs-for-2026",
+    "source_title": "Data ins and outs for 2026: what data teams are keeping, cutting, and reconsidering",
+    "source_url": "https://www.getdbt.com/blog/data-ins-and-outs-for-2026",
+    "category": "Data Engineering",
+    "format_type": "問いかけ",
+    "status": "pending",
+    "id": "1b501223-d337-482e-81fe-a9c90c89c6f4",
+    "generated_at": "2026-02-25T08:03:07.295416+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "⚡️ Databricks「Zerobus Ingest」が正式リリース\n\nリアルタイムストリーミング処理の複雑さを解消。従来のストリーミング基盤の課題に真っ向勝負。\n\nつまり：データエンジニアがKafkaやKinesis設定に悩む時間が減り、ビジネス価値創出に集中できるということ。 #データエンジニアリング #Databricks\n\nhttps://www.databricks.com/blog/announcing-general-availability-zerobus-ingest-part-lakeflow-connect",
+    "source_title": "Announcing General Availability of Zerobus Ingest",
+    "source_url": "https://www.databricks.com/blog/announcing-general-availability-zerobus-ingest-part-lakeflow-connect",
+    "category": "Data Engineering",
+    "format_type": "解説",
+    "status": "pending",
+    "id": "84109a38-e2df-418f-9da0-74228bf72083",
+    "generated_at": "2026-02-25T08:03:07.295416+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "🎵 Google、音楽生成AI「ProducerAI」を買収\n\nWyclef Jeanの新曲「Back in Abu Dhabi」で既に実用化。Google Labsに統合され、音楽制作の民主化が加速。\n\nクリエイター業界のAI活用、賛否両論ありつつも確実に浸透中... #AI #生成AI\n\nhttps://techcrunch.com/2026/02/24/music-generator-producerai-joins-google-labs",
+    "source_title": "Music generator ProducerAI joins Google Labs",
+    "source_url": "https://techcrunch.com/2026/02/24/music-generator-producerai-joins-google-labs",
+    "category": "AI",
+    "format_type": "意見",
+    "status": "pending",
+    "id": "30a64903-7886-4c39-8444-4f4be15cea4e",
+    "generated_at": "2026-02-25T08:03:07.295416+09:00",
+    "session_type": "morning"
+  }
+]
