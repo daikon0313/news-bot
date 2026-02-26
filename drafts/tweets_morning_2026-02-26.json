@@ -1,0 +1,57 @@
+[
+  {
+    "tweet_text": "🚀 ZscalerがdbtとマルチエージェントAIでPRレビュー時間を90%削減！\n\nコード品質を落とさず高速化する秘訣は、dbtの構造化されたコンテキストをAIエージェントに渡すこと。データチームのボトルネック解消に効きそう。\n\n#データエンジニアリング #dbt\n\nhttps://www.getdbt.com/blog/how-zscaler-cut-pr-review-time-dbt-context-multi-agent-ai",
+    "source_title": "How Zscaler cut PR review time by 90% using dbt context and multi-agent AI (OpenAI)",
+    "source_url": "https://www.getdbt.com/blog/how-zscaler-cut-pr-review-time-dbt-context-multi-agent-ai",
+    "category": "Data Engineering",
+    "format_type": "データ",
+    "status": "pending",
+    "id": "dee34172-5b12-4426-a89e-d1fd35480ba8",
+    "generated_at": "2026-02-26T08:02:56.048088+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "📊 Snowflake PostgresでPostgresと分析基盤が統合される時代に\n\n複雑なETLパイプラインなしで、PostgresのデータをSnowflake上でリアルタイム分析＆AI活用できる。データ移動の概念が変わるかも。\n\n#データ基盤 #Snowflake\n\nhttps://www.snowflake.com/content/snowflake-site/global/en/blog/streamline-data-movement-snowflake-postgres",
+    "source_title": "Snowflake Postgres: Unify Postgres and Analytics on One Platform",
+    "source_url": "https://www.snowflake.com/content/snowflake-site/global/en/blog/streamline-data-movement-snowflake-postgres",
+    "category": "Data Engineering",
+    "format_type": "速報",
+    "status": "pending",
+    "id": "da066591-dd82-4db1-98e6-9e3b3eee39f9",
+    "generated_at": "2026-02-26T08:02:56.048088+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "💡 DatabricksがLakeflowとAgent Bricksで「AI-First」なデータエンジニアリングを提唱\n\nデータパイプライン構築そのものをAIが支援する世界観。データエンジニアの仕事は「問題定義」に集約されていくのかも。あなたの現場では？\n\n#データエンジニアリング #Databricks\n\nhttps://www.databricks.com/blog/ai-first-approach-data-engineering-lakeflow-and-agent-bricks",
+    "source_title": "An AI-First Approach to Data Engineering with Lakeflow and Agent Bricks",
+    "source_url": "https://www.databricks.com/blog/ai-first-approach-data-engineering-lakeflow-and-agent-bricks",
+    "category": "Data Engineering",
+    "format_type": "問いかけ",
+    "status": "pending",
+    "id": "c0de5acb-3711-4977-ac69-655ea807067f",
+    "generated_at": "2026-02-26T08:02:56.048088+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "🎯 Spotifyの広告配信を支えるマルチエージェントAIアーキテクチャ\n\n「AIプロダクト」ではなく「構造的な課題」を解決するためにエージェント設計したという視点が深い。エンジニアリング視点でのAI活用事例として必読。\n\n#AI #MLOps\n\nhttps://engineering.atspotify.com/2026/2/our-multi-agent-architecture-for-smarter-advertising/",
+    "source_title": "Our Multi-Agent Architecture for Smarter Advertising",
+    "source_url": "https://engineering.atspotify.com/2026/2/our-multi-agent-architecture-for-smarter-advertising/",
+    "category": "AI",
+    "format_type": "意見",
+    "status": "pending",
+    "id": "0a037015-9403-4e7b-a56f-6056f1420a08",
+    "generated_at": "2026-02-26T08:02:56.048088+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "⚡️ AI向けデータセンター建設に各地で反対運動が激化\n\n電力消費・環境負荷への懸念から、新規建設禁止の動きまで。AI進化のインフラコストを誰が負担するか、社会的議論が本格化してきた。\n\n#AI #DX\n\nhttps://techcrunch.com/2026/02/25/the-public-opposition-to-ai-infrastructure-is-heating-up/",
+    "source_title": "The public opposition to AI infrastructure is heating up",
+    "source_url": "https://techcrunch.com/2026/02/25/the-public-opposition-to-ai-infrastructure-is-heating-up/",
+    "category": "Tech General",
+    "format_type": "解説",
+    "status": "pending",
+    "id": "f7b87590-ef4e-4538-8e4d-69733a930a13",
+    "generated_at": "2026-02-26T08:02:56.048088+09:00",
+    "session_type": "morning"
+  }
+]
