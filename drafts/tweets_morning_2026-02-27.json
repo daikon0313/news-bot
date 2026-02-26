@@ -1,0 +1,57 @@
+[
+  {
+    "tweet_text": "🚀 ZscalerがPRレビュー時間を90%削減した方法\n\ndbtのコンテキスト + マルチエージェントAIで実現。データチームのコードレビューがここまで効率化できる時代に。\n\n構造化されたメタデータがAIの精度を劇的に向上させるという好例です。\n\n#データエンジニアリング #dbt\n\nhttps://www.getdbt.com/blog/how-zscaler-cut-pr-review-time-dbt-context-multi-agent-ai",
+    "source_title": "How Zscaler cut PR review time by 90% using dbt context and multi-agent AI (OpenAI)",
+    "source_url": "https://www.getdbt.com/blog/how-zscaler-cut-pr-review-time-dbt-context-multi-agent-ai",
+    "category": "Data Engineering",
+    "format_type": "データ",
+    "status": "pending",
+    "id": "45166330-624d-467f-8bfb-d636f963125c",
+    "generated_at": "2026-02-27T08:02:21.780761+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "Snowflake PostgresがGA 🎯\n\n複雑なETLパイプライン不要で、PostgresとSnowflakeを統合。リアルタイム分析とAIワークロードが同一プラットフォームで完結する世界へ。\n\nトランザクショナルDBと分析基盤の境界がついに消えつつある。\n\n#データ基盤 #Snowflake\n\nhttps://www.snowflake.com/content/snowflake-site/global/en/blog/streamline-data-movement-snowflake-postgres",
+    "source_title": "Snowflake Postgres: Unify Postgres and Analytics on One Platform",
+    "source_url": "https://www.snowflake.com/content/snowflake-site/global/en/blog/streamline-data-movement-snowflake-postgres",
+    "category": "Data Engineering",
+    "format_type": "速報",
+    "status": "pending",
+    "id": "1f88c844-1902-46fb-92ca-4cd27d67ce9e",
+    "generated_at": "2026-02-27T08:02:21.780761+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "データチームの2026年トレンド予測\n\n✅ IN: ワークフロー簡素化、AI活用の再定義\n❌ OUT: 過剰エンジニアリング、複雑化\n\ndbtが発表した「Data ins and outs」が実践的すぎる。シンプルさへの回帰がキーワードになりそう。\n\n#データエンジニアリング #DX\n\nhttps://www.getdbt.com/blog/data-ins-and-outs-for-2026",
+    "source_title": "Data ins and outs for 2026: what data teams are keeping, cutting, and reconsidering",
+    "source_url": "https://www.getdbt.com/blog/data-ins-and-outs-for-2026",
+    "category": "Data Engineering",
+    "format_type": "まとめ",
+    "status": "pending",
+    "id": "e14ac272-20d7-4b6f-a297-897fbac2cd40",
+    "generated_at": "2026-02-27T08:02:21.780761+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "Spotifyが広告配信にマルチエージェントAIアーキテクチャを導入 🎵\n\n「AI機能」ではなく「構造的な課題解決」として設計したのがポイント。\n\nエンジニアリングブログで公開された実装例は、実務で使える示唆に溢れてる。これは読むべき。\n\n#AI #MLOps\n\nhttps://engineering.atspotify.com/2026/2/our-multi-agent-architecture-for-smarter-advertising/",
+    "source_title": "Our Multi-Agent Architecture for Smarter Advertising",
+    "source_url": "https://engineering.atspotify.com/2026/2/our-multi-agent-architecture-for-smarter-advertising/",
+    "category": "AI",
+    "format_type": "意見",
+    "status": "pending",
+    "id": "6e7848b3-9daf-4994-8d3f-214505fa353b",
+    "generated_at": "2026-02-27T08:02:21.780761+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "DatabricksがLakeflow + Agent Bricksで提唱する「AI-First Data Engineering」\n\nデータエンジニアの焦点が「パイプライン構築」から「AIによる改善」へシフト。\n\nデータ基盤のあり方が根本から変わる転換点かもしれない。\n\n#データエンジニアリング #Databricks\n\nhttps://www.databricks.com/blog/ai-first-approach-data-engineering-lakeflow-and-agent-bricks",
+    "source_title": "An AI-First Approach to Data Engineering with Lakeflow and Agent Bricks",
+    "source_url": "https://www.databricks.com/blog/ai-first-approach-data-engineering-lakeflow-and-agent-bricks",
+    "category": "Data Engineering",
+    "format_type": "意見",
+    "status": "pending",
+    "id": "2f25f6a4-7c63-4113-822d-83dc2ce48f25",
+    "generated_at": "2026-02-27T08:02:21.780761+09:00",
+    "session_type": "morning"
+  }
+]
