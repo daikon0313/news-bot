@@ -1,0 +1,182 @@
+[
+  {
+    "title": "Write once, analyze anywhere: Omni + the dbt Semantic Layer",
+    "url": "https://www.getdbt.com/blog/omni-dbt-semantic-layer",
+    "summary": "Unify metrics across BI and AI with Omni + the dbt Semantic Layer. Define once, query everywhere, eliminate semantic drift.",
+    "source": "dbt Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-02-28T07:53:09.708121+09:00"
+  },
+  {
+    "title": "How Zscaler cut PR review time by 90% using dbt context and multi-agent AI (OpenAI)",
+    "url": "https://www.getdbt.com/blog/how-zscaler-cut-pr-review-time-dbt-context-multi-agent-ai",
+    "summary": "Zscaler built an AI-powered, multi-agent PR review system that uses dbt’s structured context.",
+    "source": "dbt Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-02-28T07:53:09.708144+09:00"
+  },
+  {
+    "title": "Data ins and outs for 2026: what data teams are keeping, cutting, and reconsidering",
+    "url": "https://www.getdbt.com/blog/data-ins-and-outs-for-2026",
+    "summary": "Data ins and outs for 2026: simplify workflows, avoid over-engineering, and rethink how data teams use AI.",
+    "source": "dbt Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-02-28T07:53:09.708150+09:00"
+  },
+  {
+    "title": "TabPFN AI Accelerates Business Transformation on Databricks",
+    "url": "https://www.databricks.com/blog/tappfn-ai-accelerates-business-transformation-databricks",
+    "summary": "These days, it's difficult to find a business journal, quarterly earnings call, industry...",
+    "source": "Databricks Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-02-28T07:53:09.806292+09:00"
+  },
+  {
+    "title": "Databricks at MWC 2026",
+    "url": "https://www.databricks.com/blog/databricks-mwc-2026",
+    "summary": "Telecom: An Industry at a CrossroadsIn a few days I’ll be heading to Mobile World...",
+    "source": "Databricks Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-02-28T07:53:09.806309+09:00"
+  },
+  {
+    "title": "Nasdaq eVestment Data Now on Databricks Marketplace",
+    "url": "https://www.databricks.com/blog/nasdaq-evestment-data-now-databricks-marketplace",
+    "summary": "An institutional mandate is essentially a high-stakes job description.When a large...",
+    "source": "Databricks Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-02-28T07:53:09.806314+09:00"
+  },
+  {
+    "title": "Replacing Debezium with Openflow | Near Real-Time CDC for Snowflake",
+    "url": "https://www.snowflake.com/content/snowflake-site/global/en/blog/replacing-debezium-with-openflow",
+    "summary": "Learn how a healthcare customer replaced Debezium with Snowflake Openflow to simplify CDC pipelines and deliver near real-time data synchronization",
+    "source": "Snowflake Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-02-28T07:53:10.341292+09:00"
+  },
+  {
+    "title": "Don’t Wait for Regulators. Embrace AI Governance for Your Customers.",
+    "url": "https://www.snowflake.com/content/snowflake-site/global/en/blog/ai-governance-customer-trust",
+    "summary": "Customer trust drives AI governance. Learn four essential steps your business can take now to protect your reputation and achieve compliance, ahead of new regulations.",
+    "source": "Snowflake Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-02-28T07:53:10.341308+09:00"
+  },
+  {
+    "title": "Snowflake Postgres: Unify Postgres and Analytics on One Platform",
+    "url": "https://www.snowflake.com/content/snowflake-site/global/en/blog/streamline-data-movement-snowflake-postgres",
+    "summary": "Snowflake Postgres simplifies data movement by eliminating complex pipelines, enabling real-time analytics and AI workloads directly on the Snowflake AI Data Cloud",
+    "source": "Snowflake Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-02-28T07:53:10.341314+09:00"
+  },
+  {
+    "title": "Amazon OpenSearch Serverless introduces collection groups to optimize cost for multi-tenant workloads",
+    "url": "https://aws.amazon.com/blogs/big-data/amazon-opensearch-serverless-introduces-collection-groups-to-optimize-cost-for-multi-tenant-workloads/",
+    "summary": "Today, we’re excited to announce the general availability of the collection groups feature for Amazon OpenSearch Serverless. With this feature you can reduce compute costs for multi-tenant workloads while creating secure tenant boundaries through per-tenant encryption, giving you the flexibility to ",
+    "source": "AWS Big Data Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-02-28T07:53:10.821391+09:00"
+  },
+  {
+    "title": "Improving order history search using semantic search with Amazon OpenSearch Service",
+    "url": "https://aws.amazon.com/blogs/big-data/improving-order-history-search-using-semantic-search-with-amazon-opensearch-service/",
+    "summary": "If you’ve ever shopped on Amazon, you’ve used Your Orders. This feature maintains your complete order history dating back to 1995, so you can track and manage every purchase you’ve made. The order history search feature lets you find your past purchases by entering keywords in the search bar. Beyond",
+    "source": "AWS Big Data Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-02-28T07:53:10.821409+09:00"
+  },
+  {
+    "title": "How Swiss Life Germany automated data governance and collaboration with Amazon SageMaker",
+    "url": "https://aws.amazon.com/blogs/big-data/how-swiss-life-germany-automated-data-governance-and-collaboration-with-amazon-sagemaker/",
+    "summary": "Swiss Life Germany, a leading provider of customized pension products with over 100 years of experience, recently transitioned from legacy on-premises infrastructure to a modern cloud architecture. To enable secure data sharing and cross-departmental collaboration in this regulated environment, they",
+    "source": "AWS Big Data Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-02-28T07:53:10.821416+09:00"
+  },
+  {
+    "title": "Our Multi-Agent Architecture for Smarter Advertising",
+    "url": "https://engineering.atspotify.com/2026/2/our-multi-agent-architecture-for-smarter-advertising/",
+    "summary": "<p>When we kicked this off, we weren’t trying to ship an “AI feature.” We were trying to fix a structural...</p>\n<p>The post <a href=\"https://engineering.atspotify.com/2026/2/our-multi-agent-architecture-for-smarter-advertising/\">Our Multi-Agent Architecture for Smarter Advertising</a> appeared firs",
+    "source": "Spotify Engineering",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-02-28T07:53:12.543895+09:00"
+  },
+  {
+    "title": "Congratulations to the recipients of the 2025 Spotify FOSS Fund",
+    "url": "https://engineering.atspotify.com/2026/1/congratulations-to-the-recipients-of-the-2025-spotify-foss-fund/",
+    "summary": "<p>TL;DR Established in 2022 as a way to help support the great open source ecosystem projects that Spotify...</p>\n<p>The post <a href=\"https://engineering.atspotify.com/2026/1/congratulations-to-the-recipients-of-the-2025-spotify-foss-fund/\">Congratulations to the recipients of the 2025 Spotify FOS",
+    "source": "Spotify Engineering",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-02-28T07:53:12.543914+09:00"
+  },
+  {
+    "title": "Academic Publications & Airbnb Tech: 2025 Year in Review",
+    "url": "https://medium.com/airbnb-engineering/academic-publications-airbnb-tech-2025-year-in-review-7d79f57d3b52?source=rss----53c7c27702d5---4",
+    "summary": "<figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/1*FfdFpfjGZODh7ltZ2W2Mrg.jpeg\" /></figure><p>2025 was a big year for research at Airbnb, as we made significant progress toward our mission to use AI, data science, and machine learning to become the best travel and living platform.</",
+    "source": "Airbnb Tech Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-02-28T07:53:13.351274+09:00"
+  },
+  {
+    "title": "Safeguarding Dynamic Configuration Changes at Scale",
+    "url": "https://medium.com/airbnb-engineering/safeguarding-dynamic-configuration-changes-at-scale-5aca5222ed68?source=rss----53c7c27702d5---4",
+    "summary": "<h4><strong>How Airbnb ships dynamic config changes safely and reliably</strong></h4><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/1*v2VDklQn1NHAx-MiR8DYMQ.png\" /></figure><p>By <a href=\"https://www.linkedin.com/in/cosmo-qiu/\">Cosmo Qiu</a>, <a href=\"https://www.linkedin.com/in/b",
+    "source": "Airbnb Tech Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-02-28T07:53:13.351291+09:00"
+  },
+  {
+    "title": "My Journey to Airbnb — Anna Sulkina",
+    "url": "https://medium.com/airbnb-engineering/my-journey-to-airbnb-anna-sulkina-85216183d094?source=rss----53c7c27702d5---4",
+    "summary": "<figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/1*eiZyGBIJvx3S5kREFK8wOw.jpeg\" /></figure><p><em>Anna Sulkina has always been a traveler, and we’re lucky her travels have brought her to Airbnb. Anna is a Senior Director of Engineering, and she’s responsible for Application &amp; Cl",
+    "source": "Airbnb Tech Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-02-28T07:53:13.351297+09:00"
+  },
+  {
+    "title": "President Trump orders federal agencies to stop using Anthropic after Pentagon dispute",
+    "url": "https://techcrunch.com/2026/02/27/president-trump-orders-federal-agencies-to-stop-using-anthropic-after-pentagon-dispute/",
+    "summary": "\"We don't need it, we don't want it, and will not do business with them again,\" the president wrote in the post.",
+    "source": "TechCrunch AI",
+    "category": "AI",
+    "priority": 1,
+    "fetched_at": "2026-02-28T07:53:13.436551+09:00"
+  },
+  {
+    "title": "Musk bashes OpenAI in deposition, saying ‘nobody committed suicide because of Grok’",
+    "url": "https://techcrunch.com/2026/02/27/musk-bashes-openai-in-deposition-saying-nobody-committed-suicide-because-of-grok/",
+    "summary": "In his lawsuit against OpenAI, Musk touted xAI safety compared with ChatGPT. A few months later, xAI's Grok flooded X with nonconsensual nude images.",
+    "source": "TechCrunch AI",
+    "category": "AI",
+    "priority": 1,
+    "fetched_at": "2026-02-28T07:53:13.436566+09:00"
+  },
+  {
+    "title": "Anthropic vs. the Pentagon: What’s actually at stake?",
+    "url": "https://techcrunch.com/2026/02/27/anthropic-vs-the-pentagon-whats-actually-at-stake/",
+    "summary": "Anthropic and the Pentagon are clashing over AI use in autonomous weapons and surveillance, raising high-stakes questions about national security, corporate control, and who sets the rules for military AI.",
+    "source": "TechCrunch AI",
+    "category": "AI",
+    "priority": 1,
+    "fetched_at": "2026-02-28T07:53:13.436571+09:00"
+  }
+]

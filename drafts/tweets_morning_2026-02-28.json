@@ -1,0 +1,57 @@
+[
+  {
+    "tweet_text": "🚀 PR レビュー時間を90%削減！\n\nZscaler が dbt のコンテキストと OpenAI マルチエージェントAIを組み合わせた自動レビューシステムを構築。データパイプラインの品質管理が劇的に効率化される時代に。\n\nAI × データエンジニアリングの実用例として必見です。\n\n#データエンジニアリング #dbt\n\nhttps://www.getdbt.com/blog/how-zscaler-cut-pr-review-time-dbt-context-multi-agent-ai",
+    "source_title": "How Zscaler cut PR review time by 90% using dbt context and multi-agent AI (OpenAI)",
+    "source_url": "https://www.getdbt.com/blog/how-zscaler-cut-pr-review-time-dbt-context-multi-agent-ai",
+    "category": "Data Engineering",
+    "format_type": "データ",
+    "status": "pending",
+    "id": "0cda3975-624a-43ae-9280-3e2ef7d593a4",
+    "generated_at": "2026-02-28T07:53:44.119252+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "SnowflakeがPostgresを統合 🐘\n\n「Snowflake Postgres」で、複雑なETLパイプラインなしでPostgresデータを直接分析・AI処理できるように。\n\nリアルタイム分析の民主化が加速しそう。トランザクション処理と分析基盤の境界がどんどん曖昧になってきてますね。\n\n#データ基盤 #Snowflake\n\nhttps://www.snowflake.com/content/snowflake-site/global/en/blog/streamline-data-movement-snowflake-postgres",
+    "source_title": "Snowflake Postgres: Unify Postgres and Analytics on One Platform",
+    "source_url": "https://www.snowflake.com/content/snowflake-site/global/en/blog/streamline-data-movement-snowflake-postgres",
+    "category": "Data Engineering",
+    "format_type": "意見",
+    "status": "pending",
+    "id": "a85ee48a-9e52-4e8e-82fb-3004e3c2440d",
+    "generated_at": "2026-02-28T07:53:44.119252+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "📊 Spotifyの広告配信を支えるマルチエージェントAI\n\nSpotifyが「AI機能」ではなく「構造的な課題解決」のためにエージェント設計を採用。\n\n実装の裏側を公開してくれるのはありがたい。プロダクション環境でのマルチエージェント活用事例として参考になります。\n\n#AI #MLOps\n\nhttps://engineering.atspotify.com/2026/2/our-multi-agent-architecture-for-smarter-advertising/",
+    "source_title": "Our Multi-Agent Architecture for Smarter Advertising",
+    "source_url": "https://engineering.atspotify.com/2026/2/our-multi-agent-architecture-for-smarter-advertising/",
+    "category": "AI",
+    "format_type": "解説",
+    "status": "pending",
+    "id": "a4ea358e-b54b-43c2-bd06-2cb8370c10fc",
+    "generated_at": "2026-02-28T07:53:44.119252+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "AIガバナンス、規制を待つべき？それとも先手を打つべき？\n\nSnowflakeが「顧客の信頼がAIガバナンスを推進する」という視点で4つの必須ステップを提示。コンプライアンス対応は後手に回ると致命的。\n\n日本企業こそ今すぐ読むべき記事です。\n\n#AI #DX\n\nhttps://www.snowflake.com/content/snowflake-site/global/en/blog/ai-governance-customer-trust",
+    "source_title": "Don't Wait for Regulators. Embrace AI Governance for Your Customers.",
+    "source_url": "https://www.snowflake.com/content/snowflake-site/global/en/blog/ai-governance-customer-trust",
+    "category": "AI",
+    "format_type": "問いかけ",
+    "status": "pending",
+    "id": "1f7f534c-f2e9-4a87-80ae-988ad9d73dd9",
+    "generated_at": "2026-02-28T07:53:44.119252+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "🔧 Airbnbの動的設定変更を大規模に安全化\n\n本番環境で設定を動的に変更するのはリスク高いけど、Airbnbはどう安全性と信頼性を担保しているのか。\n\nインフラ運用の知見が詰まった実践例。SREやプラットフォームエンジニア必読です。\n\n#インフラ #SRE\n\nhttps://medium.com/airbnb-engineering/safeguarding-dynamic-configuration-changes-at-scale-5aca5222ed68?source=rss----53c7c27702d5---4",
+    "source_title": "Safeguarding Dynamic Configuration Changes at Scale",
+    "source_url": "https://medium.com/airbnb-engineering/safeguarding-dynamic-configuration-changes-at-scale-5aca5222ed68?source=rss----53c7c27702d5---4",
+    "category": "Engineering",
+    "format_type": "速報",
+    "status": "pending",
+    "id": "4cf56c23-83ec-4551-b9e6-b4bffc213c32",
+    "generated_at": "2026-02-28T07:53:44.119252+09:00",
+    "session_type": "morning"
+  }
+]
