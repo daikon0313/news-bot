@@ -1,0 +1,57 @@
+[
+  {
+    "tweet_text": "🚀 PR レビュー時間を90%削減！\n\nZscalerが dbt のコンテキストを活用したマルチエージェントAIシステムを構築。構造化されたデータコンテキストとAIの組み合わせで、レビュー品質を保ちながら圧倒的な効率化を実現。\n\nデータチームの開発速度、これで変わる。\n\n#データエンジニアリング #dbt\n\nhttps://www.getdbt.com/blog/how-zscaler-cut-pr-review-time-dbt-context-multi-agent-ai",
+    "source_title": "How Zscaler cut PR review time by 90% using dbt context and multi-agent AI (OpenAI)",
+    "source_url": "https://www.getdbt.com/blog/how-zscaler-cut-pr-review-time-dbt-context-multi-agent-ai",
+    "category": "Data Engineering",
+    "format_type": "データ",
+    "status": "pending",
+    "id": "cfe451e8-5e42-4a32-9034-9af8bd40723e",
+    "generated_at": "2026-03-01T07:49:58.879124+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "Snowflake が Postgres を統合。\n\nこれ、地味に革命的かも。複雑な ETL パイプライン不要で、トランザクショナルなワークロードと分析を1つのプラットフォームで。リアルタイム分析と AI ワークロードが直接実行できる世界へ。\n\nデータ移動の悪夢、そろそろ終わり？\n\n#データ基盤 #Snowflake\n\nhttps://www.snowflake.com/content/snowflake-site/global/en/blog/streamline-data-movement-snowflake-postgres",
+    "source_title": "Snowflake Postgres: Unify Postgres and Analytics on One Platform",
+    "source_url": "https://www.snowflake.com/content/snowflake-site/global/en/blog/streamline-data-movement-snowflake-postgres",
+    "category": "Data Engineering",
+    "format_type": "意見",
+    "status": "pending",
+    "id": "ff161b80-8d1b-4a88-a312-9f1511a40412",
+    "generated_at": "2026-03-01T07:49:58.879124+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "ペンタゴンが Anthropic をサプライチェーンリスクに指定へ。\n\n一方で OpenAI は「技術的セーフガード付き」国防総省契約を発表。生成AIと軍事利用の境界線をめぐる議論が、企業の明暗を分ける時代に。\n\nClaude がApp Store 2位に急上昇したのも、この論争の副産物。\n\n#AI #生成AI\n\nhttps://techcrunch.com/2026/02/27/pentagon-moves-to-designate-anthropic-as-a-supply-chain-risk/",
+    "source_title": "Pentagon moves to designate Anthropic as a supply-chain risk",
+    "source_url": "https://techcrunch.com/2026/02/27/pentagon-moves-to-designate-anthropic-as-a-supply-chain-risk/",
+    "category": "AI",
+    "format_type": "速報",
+    "status": "pending",
+    "id": "d0043c8c-013b-449a-a2ee-f1da2140ab1e",
+    "generated_at": "2026-03-01T07:49:58.879124+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "💰 AI インフラに数十億ドル規模の投資ラッシュ。\n\nMeta、Oracle、Microsoft、Google、OpenAI が巨額資金をデータセンターに投入中。生成 AI ブームを支えるのは結局、地道なインフラ整備。\n\nクラウドとチップだけじゃない、電力・冷却・ネットワーク全てが勝負。\n\n#AI #DX\n\nhttps://techcrunch.com/2026/02/28/billion-dollar-infrastructure-deals-ai-boom-data-centers-openai-oracle-nvidia-microsoft-google-meta/",
+    "source_title": "The billion-dollar infrastructure deals powering the AI boom",
+    "source_url": "https://techcrunch.com/2026/02/28/billion-dollar-infrastructure-deals-ai-boom-data-centers-openai-oracle-nvidia-microsoft-google-meta/",
+    "category": "AI",
+    "format_type": "データ",
+    "status": "pending",
+    "id": "1ac38a7d-9390-48f0-ac69-caa379f6d837",
+    "generated_at": "2026-03-01T07:49:58.879124+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "📊 2026年、データチームが捨てるもの・残すもの。\n\ndbt の最新記事より：過剰なエンジニアリングを避け、ワークフローをシンプルに。AI の使い方も再考すべき時期。\n\nつまり「複雑さとの戦い」がテーマ。身に覚えありすぎる...\n\n#データエンジニアリング #dbt\n\nhttps://www.getdbt.com/blog/data-ins-and-outs-for-2026",
+    "source_title": "Data ins and outs for 2026: what data teams are keeping, cutting, and reconsidering",
+    "source_url": "https://www.getdbt.com/blog/data-ins-and-outs-for-2026",
+    "category": "Data Engineering",
+    "format_type": "解説",
+    "status": "pending",
+    "id": "d881aca8-b7ae-4f48-a11e-ebfddb9f63c4",
+    "generated_at": "2026-03-01T07:49:58.879124+09:00",
+    "session_type": "morning"
+  }
+]
