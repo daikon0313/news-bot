@@ -1,0 +1,57 @@
+[
+  {
+    "tweet_text": "🔥 ZscalerがPRレビュー時間を90%削減\n\ndbtの構造化コンテキストとマルチエージェントAI（OpenAI）を組み合わせた自動レビューシステムを構築。データチームの開発速度が劇的に向上する未来がもう来てる。\n\n#データエンジニアリング #dbt\n\nhttps://www.getdbt.com/blog/how-zscaler-cut-pr-review-time-dbt-context-multi-agent-ai",
+    "source_title": "How Zscaler cut PR review time by 90% using dbt context and multi-agent AI (OpenAI)",
+    "source_url": "https://www.getdbt.com/blog/how-zscaler-cut-pr-review-time-dbt-context-multi-agent-ai",
+    "category": "Data Engineering",
+    "format_type": "データ",
+    "status": "pending",
+    "id": "5d164b9b-c596-42ac-8a2f-3bc62a73ce05",
+    "generated_at": "2026-03-02T07:52:10.718656+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "💡 Snowflake Postgresが登場\n\nPostgreSQLと分析基盤を1つのプラットフォームに統合。複雑なデータパイプラインを排除し、リアルタイム分析とAIワークロードを直接実行可能に。\n\nこれ、トランザクションDBと分析DBの境界が消える転換点かも。\n\n#データ基盤 #Snowflake\n\nhttps://www.snowflake.com/content/snowflake-site/global/en/blog/streamline-data-movement-snowflake-postgres",
+    "source_title": "Snowflake Postgres: Unify Postgres and Analytics on One Platform",
+    "source_url": "https://www.snowflake.com/content/snowflake-site/global/en/blog/streamline-data-movement-snowflake-postgres",
+    "category": "Data Engineering",
+    "format_type": "意見",
+    "status": "pending",
+    "id": "56678b2d-d082-415a-8105-d6e25f620d0e",
+    "generated_at": "2026-03-02T07:52:10.718656+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "🤔 データチームは2026年、何を「やめる」べきか？\n\ndbtが発表した「Data Ins and Outs for 2026」が興味深い。ワークフローのシンプル化、過剰エンジニアリングの回避、AIの使い方の再考がキーワード。\n\nあなたのチームは何を捨てますか？\n\n#データエンジニアリング #DX\n\nhttps://www.getdbt.com/blog/data-ins-and-outs-for-2026",
+    "source_title": "Data ins and outs for 2026: what data teams are keeping, cutting, and reconsidering",
+    "source_url": "https://www.getdbt.com/blog/data-ins-and-outs-for-2026",
+    "category": "Data Engineering",
+    "format_type": "問いかけ",
+    "status": "pending",
+    "id": "59ebdeec-95a6-4068-b3a7-065a813b4b63",
+    "generated_at": "2026-03-02T07:52:10.718656+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "⚠️ OpenAIが国防総省との契約詳細を公開\n\nサム・アルトマンCEO自ら「確かに急ぎすぎた。見た目は良くない」と認める異例の展開。安全基準、法的保護、機密環境でのAI展開方法が明らかに。\n\nAI企業のガバナンスが問われる局面。\n\n#AI #OpenAI\n\nhttps://openai.com/index/our-agreement-with-the-department-of-war",
+    "source_title": "Our agreement with the Department of War",
+    "source_url": "https://openai.com/index/our-agreement-with-the-department-of-war",
+    "category": "AI",
+    "format_type": "速報",
+    "status": "pending",
+    "id": "235130a7-97f1-40c3-953e-23caf0f46078",
+    "generated_at": "2026-03-02T07:52:10.718656+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "📊 Airbnbの2025年研究成果まとめが公開\n\nAI・データサイエンス・機械学習を活用し「最高の旅行・生活プラットフォーム」を目指す研究の集大成。アカデミックな知見をプロダクトに落とし込む事例として必見です。\n\n#データエンジニアリング #MLOps\n\nhttps://medium.com/airbnb-engineering/academic-publications-airbnb-tech-2025-year-in-review-7d79f57d3b52?source=rss----53c7c27702d5---4",
+    "source_title": "Academic Publications & Airbnb Tech: 2025 Year in Review",
+    "source_url": "https://medium.com/airbnb-engineering/academic-publications-airbnb-tech-2025-year-in-review-7d79f57d3b52?source=rss----53c7c27702d5---4",
+    "category": "Data Engineering",
+    "format_type": "解説",
+    "status": "pending",
+    "id": "1feddb2d-1417-4e1c-ab7d-c2215bb5a420",
+    "generated_at": "2026-03-02T07:52:10.718656+09:00",
+    "session_type": "morning"
+  }
+]
