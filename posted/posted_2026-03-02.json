@@ -1,17 +1,5 @@
 [
   {
-    "tweet_text": "🔥 ZscalerがPRレビュー時間を90%削減\n\ndbtの構造化コンテキストとマルチエージェントAI（OpenAI）を組み合わせた自動レビューシステムを構築。データチームの開発速度が劇的に向上する未来がもう来てる。\n\n#データエンジニアリング #dbt\n\nhttps://www.getdbt.com/blog/how-zscaler-cut-pr-review-time-dbt-context-multi-agent-ai",
-    "source_title": "How Zscaler cut PR review time by 90% using dbt context and multi-agent AI (OpenAI)",
-    "source_url": "https://www.getdbt.com/blog/how-zscaler-cut-pr-review-time-dbt-context-multi-agent-ai",
-    "category": "Data Engineering",
-    "format_type": "データ",
-    "status": "failed",
-    "id": "5d164b9b-c596-42ac-8a2f-3bc62a73ce05",
-    "generated_at": "2026-03-02T07:52:10.718656+09:00",
-    "session_type": "morning",
-    "error": "403 Forbidden"
-  },
-  {
     "tweet_text": "💡 Snowflake Postgresが登場\n\nPostgreSQLと分析基盤を1つのプラットフォームに統合。複雑なデータパイプラインを排除し、リアルタイム分析とAIワークロードを直接実行可能に。\n\nこれ、トランザクションDBと分析DBの境界が消える転換点かも。\n\n#データ基盤 #Snowflake\n\nhttps://www.snowflake.com/content/snowflake-site/global/en/blog/streamline-data-movement-snowflake-postgres",
     "source_title": "Snowflake Postgres: Unify Postgres and Analytics on One Platform",
     "source_url": "https://www.snowflake.com/content/snowflake-site/global/en/blog/streamline-data-movement-snowflake-postgres",
