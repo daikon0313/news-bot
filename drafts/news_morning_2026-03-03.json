@@ -1,0 +1,182 @@
+[
+  {
+    "title": "Write once, analyze anywhere: Omni + the dbt Semantic Layer",
+    "url": "https://www.getdbt.com/blog/omni-dbt-semantic-layer",
+    "summary": "Unify metrics across BI and AI with Omni + the dbt Semantic Layer. Define once, query everywhere, eliminate semantic drift.",
+    "source": "dbt Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-03-03T07:55:53.888068+09:00"
+  },
+  {
+    "title": "How Zscaler cut PR review time by 90% using dbt context and multi-agent AI (OpenAI)",
+    "url": "https://www.getdbt.com/blog/how-zscaler-cut-pr-review-time-dbt-context-multi-agent-ai",
+    "summary": "Zscaler built an AI-powered, multi-agent PR review system that uses dbt’s structured context.",
+    "source": "dbt Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-03-03T07:55:53.888087+09:00"
+  },
+  {
+    "title": "Real-Time Mode: Ultra-low latency streaming on Spark APIs without a second engine",
+    "url": "https://www.databricks.com/blog/real-time-mode-ultra-low-latency-streaming-spark-apis-without-second-engine",
+    "summary": "Apache Spark Structured Streaming has long powered mission-critical data pipelines at scale...",
+    "source": "Databricks Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-03-03T07:55:54.035621+09:00"
+  },
+  {
+    "title": "Jefferies modernizes equity research at scale with Databricks and agentic analytics",
+    "url": "https://www.databricks.com/blog/jefferies-modernizes-equity-research-scale-databricks-and-agentic-analytics",
+    "summary": "Equity research is a game of breadth and conviction.At Jefferies, the global equity...",
+    "source": "Databricks Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-03-03T07:55:54.035633+09:00"
+  },
+  {
+    "title": "Activate first-party data with Meta Conversions API on Databricks",
+    "url": "https://www.databricks.com/blog/activate-first-party-data-meta-conversions-api-databricks",
+    "summary": "The foundation of digital advertising is shifting. Between evolving privacy regulations,...",
+    "source": "Databricks Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-03-03T07:55:54.035638+09:00"
+  },
+  {
+    "title": "Replacing Debezium with Openflow | Near Real-Time CDC for Snowflake",
+    "url": "https://www.snowflake.com/content/snowflake-site/global/en/blog/replacing-debezium-with-openflow",
+    "summary": "Learn how a healthcare customer replaced Debezium with Snowflake Openflow to simplify CDC pipelines and deliver near real-time data synchronization",
+    "source": "Snowflake Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-03-03T07:55:54.497619+09:00"
+  },
+  {
+    "title": "Standardize Amazon Redshift operations using Templates",
+    "url": "https://aws.amazon.com/blogs/big-data/standardize-amazon-redshift-operations-using-templates/",
+    "summary": "In this post, we introduce Redshift Templates and show examples of how they can standardize and simplify your data loading operations across different scenarios. By encapsulating common COPY command parameters into reusable database objects, templates help remove repetitive parameter specifications,",
+    "source": "AWS Big Data Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-03-03T07:55:54.965269+09:00"
+  },
+  {
+    "title": "How Twilio secured their multi-engine query platform with AWS Lake Formation",
+    "url": "https://aws.amazon.com/blogs/big-data/how-twilio-secured-their-multi-engine-query-platform-with-aws-lake-formation/",
+    "summary": "Twilio is a cloud communications platform that provides programmable APIs and tools for developers to easily integrate voice, messaging, email, video, and other communication features into their applications and customer engagement workflows. In this blog series we discuss how we built a multi-engin",
+    "source": "AWS Big Data Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-03-03T07:55:54.965284+09:00"
+  },
+  {
+    "title": "Amazon OpenSearch Serverless introduces collection groups to optimize cost for multi-tenant workloads",
+    "url": "https://aws.amazon.com/blogs/big-data/amazon-opensearch-serverless-introduces-collection-groups-to-optimize-cost-for-multi-tenant-workloads/",
+    "summary": "Today, we’re excited to announce the general availability of the collection groups feature for Amazon OpenSearch Serverless. With this feature you can reduce compute costs for multi-tenant workloads while creating secure tenant boundaries through per-tenant encryption, giving you the flexibility to ",
+    "source": "AWS Big Data Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-03-03T07:55:54.965290+09:00"
+  },
+  {
+    "title": "Congratulations to the recipients of the 2025 Spotify FOSS Fund",
+    "url": "https://engineering.atspotify.com/2026/1/congratulations-to-the-recipients-of-the-2025-spotify-foss-fund/",
+    "summary": "<p>TL;DR Established in 2022 as a way to help support the great open source ecosystem projects that Spotify...</p>\n<p>The post <a href=\"https://engineering.atspotify.com/2026/1/congratulations-to-the-recipients-of-the-2025-spotify-foss-fund/\">Congratulations to the recipients of the 2025 Spotify FOS",
+    "source": "Spotify Engineering",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-03-03T07:55:56.320024+09:00"
+  },
+  {
+    "title": "My Journey to Airbnb — Anna Sulkina",
+    "url": "https://medium.com/airbnb-engineering/my-journey-to-airbnb-anna-sulkina-85216183d094?source=rss----53c7c27702d5---4",
+    "summary": "<figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/1*eiZyGBIJvx3S5kREFK8wOw.jpeg\" /></figure><p><em>Anna Sulkina has always been a traveler, and we’re lucky her travels have brought her to Airbnb. Anna is a Senior Director of Engineering, and she’s responsible for Application &amp; Cl",
+    "source": "Airbnb Tech Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-03-03T07:55:56.860398+09:00"
+  },
+  {
+    "title": "Users are ditching ChatGPT for Claude — here’s how to make the switch",
+    "url": "https://techcrunch.com/2026/03/02/users-are-ditching-chatgpt-for-claude-heres-how-to-make-the-switch/",
+    "summary": "Following controversies surrounding ChatGPT, many users are ditching the AI chatbot for Claude instead. Here's how to make the switch.",
+    "source": "TechCrunch AI",
+    "category": "AI",
+    "priority": 1,
+    "fetched_at": "2026-03-03T07:55:56.950046+09:00"
+  },
+  {
+    "title": "Tech workers urge DOD, Congress to withdraw Anthropic label as a supply-chain risk",
+    "url": "https://techcrunch.com/2026/03/02/tech-workers-urge-dod-congress-to-withdraw-anthropic-label-as-a-supply-chain-risk/",
+    "summary": "Tech workers have signed an open letter urging the Department of Defense to withdraw its designation of Anthropic as a \"supply chain risk\" and instead to settle the matter quietly.",
+    "source": "TechCrunch AI",
+    "category": "AI",
+    "priority": 1,
+    "fetched_at": "2026-03-03T07:55:56.950056+09:00"
+  },
+  {
+    "title": "A married founder duo’s company, 14.ai, is replacing customer support teams at startups",
+    "url": "https://techcrunch.com/2026/03/02/a-married-founder-duos-company-14-ai-is-replacing-customer-support-teams-at-startups/",
+    "summary": "14.ai also launched a consumer brand to understand how much AI can handle customer support tasks.",
+    "source": "TechCrunch AI",
+    "category": "AI",
+    "priority": 1,
+    "fetched_at": "2026-03-03T07:55:56.950061+09:00"
+  },
+  {
+    "title": "Anthropic’s Claude reports widespread outage",
+    "url": "https://techcrunch.com/2026/03/02/anthropics-claude-reports-widespread-outage/",
+    "summary": "Anthropic's AI chatbot Claude experienced widespread service disruptions on Monday morning, with thousands of users reporting issues accessing the bot.",
+    "source": "TechCrunch AI",
+    "category": "AI",
+    "priority": 1,
+    "fetched_at": "2026-03-03T07:55:56.950065+09:00"
+  },
+  {
+    "title": "Google looks to tackle longstanding RCS spam in India — but not alone",
+    "url": "https://techcrunch.com/2026/03/01/google-looks-to-tackle-longstanding-rcs-spam-in-india-but-not-alone/",
+    "summary": "Google is integrating carrier-level filtering into RCS in India through a partnership with Airtel to strengthen protections against spam.",
+    "source": "TechCrunch AI",
+    "category": "AI",
+    "priority": 1,
+    "fetched_at": "2026-03-03T07:55:56.950069+09:00"
+  },
+  {
+    "title": "Joint Statement from OpenAI and Microsoft",
+    "url": "https://openai.com/index/continuing-microsoft-partnership",
+    "summary": "Microsoft and OpenAI continue to work closely across research, engineering, and product development, building on years of deep collaboration and shared success.",
+    "source": "OpenAI Blog",
+    "category": "AI",
+    "priority": 1,
+    "fetched_at": "2026-03-03T07:55:57.422137+09:00"
+  },
+  {
+    "title": "OpenAI and Amazon announce strategic partnership",
+    "url": "https://openai.com/index/amazon-partnership",
+    "summary": "OpenAI and Amazon announce a strategic partnership bringing OpenAI’s Frontier platform to AWS, expanding AI infrastructure, custom models, and enterprise AI agents.",
+    "source": "OpenAI Blog",
+    "category": "AI",
+    "priority": 1,
+    "fetched_at": "2026-03-03T07:55:57.422142+09:00"
+  },
+  {
+    "title": "Google and the Massachusetts AI Hub are launching a new AI training initiative for the Commonwealth.",
+    "url": "https://blog.google/company-news/outreach-and-initiatives/grow-with-google/google-ai-training-massachusetts-residents/",
+    "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/691A1377_1920x1080.max-600x600.format-webp.webp\" />Google is partnering with the Massachusetts AI Hub to provide every Baystater with no-cost access to Google’s AI training.",
+    "source": "Google AI Blog",
+    "category": "AI",
+    "priority": 1,
+    "fetched_at": "2026-03-03T07:55:57.771383+09:00"
+  },
+  {
+    "title": "Get more context and understand translations more deeply with new AI-powered updates in Translate.",
+    "url": "https://blog.google/products-and-platforms/products/translate/translation-context-ai-update/",
+    "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Translate_TextTranslate_1920x10.max-600x600.format-webp.webp\" />New alternatives, “understand” and “ask” buttons in Google Translate help you navigate the complexities of natural language.",
+    "source": "Google AI Blog",
+    "category": "AI",
+    "priority": 1,
+    "fetched_at": "2026-03-03T07:55:57.771396+09:00"
+  }
+]

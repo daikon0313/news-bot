@@ -1,0 +1,57 @@
+[
+  {
+    "tweet_text": "🚀 ZscalerがPRレビュー時間を90%削減した手法が衝撃的\n\ndbtの構造化コンテキスト × マルチエージェントAI（OpenAI）で、コードレビューを完全自動化。データチームの生産性改善、これが次の標準になりそう\n\n#データエンジニアリング #dbt\n\nhttps://www.getdbt.com/blog/how-zscaler-cut-pr-review-time-dbt-context-multi-agent-ai",
+    "source_title": "How Zscaler cut PR review time by 90% using dbt context and multi-agent AI (OpenAI)",
+    "source_url": "https://www.getdbt.com/blog/how-zscaler-cut-pr-review-time-dbt-context-multi-agent-ai",
+    "category": "Data Engineering",
+    "format_type": "データ",
+    "status": "pending",
+    "id": "e5eead9c-1dc4-4323-87f1-37bfec27ef60",
+    "generated_at": "2026-03-03T07:56:27.906032+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "OpenAI × Amazon の戦略的パートナーシップが発表\n\nOpenAIのFrontierプラットフォームがAWSに、カスタムモデル・エンタープライズAIエージェントも展開へ。Microsoft一強時代が終わり、クラウド戦争が新局面に\n\n#AI #OpenAI\n\nhttps://openai.com/index/amazon-partnership",
+    "source_title": "OpenAI and Amazon announce strategic partnership",
+    "source_url": "https://openai.com/index/amazon-partnership",
+    "category": "AI",
+    "format_type": "意見",
+    "status": "pending",
+    "id": "d9a158e0-585d-493f-8cfe-baff5e7f53cf",
+    "generated_at": "2026-03-03T07:56:27.906032+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "Sparkで別エンジン不要のリアルタイム処理が実現\n\nDatabricksの「Real-Time Mode」は、ミリ秒レベルの超低レイテンシをSpark APIのままで提供。Flink導入を検討中のチーム、これ試す価値ありそう\n\n#データ基盤 #Databricks\n\nhttps://www.databricks.com/blog/real-time-mode-ultra-low-latency-streaming-spark-apis-without-second-engine",
+    "source_title": "Real-Time Mode: Ultra-low latency streaming on Spark APIs without a second engine",
+    "source_url": "https://www.databricks.com/blog/real-time-mode-ultra-low-latency-streaming-spark-apis-without-second-engine",
+    "category": "Data Engineering",
+    "format_type": "解説",
+    "status": "pending",
+    "id": "7207a28e-8b9e-4d8e-9e65-34b2b0f99a6f",
+    "generated_at": "2026-03-03T07:56:27.906032+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "ChatGPT離れが加速、Claudeへの移行者が急増中\n\n論争続くOpenAIから、ユーザーがAnthropicのClaudeへ大移動。長文処理・コンテキスト理解の優位性が評価されてる。あなたは乗り換え派？継続派？\n\n#生成AI #Claude\n\nhttps://techcrunch.com/2026/03/02/users-are-ditching-chatgpt-for-claude-heres-how-to-make-the-switch/",
+    "source_title": "Users are ditching ChatGPT for Claude — here's how to make the switch",
+    "source_url": "https://techcrunch.com/2026/03/02/users-are-ditching-chatgpt-for-claude-heres-how-to-make-the-switch/",
+    "category": "AI",
+    "format_type": "問いかけ",
+    "status": "pending",
+    "id": "23ebe471-8890-4e58-a15f-b8e60122c43d",
+    "generated_at": "2026-03-03T07:56:27.906032+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "📊 dbt Semantic Layer × Omniで「一度定義、どこでも分析」が現実に\n\nメトリクスをBI・AI横断で統一管理、セマンティックドリフトを撲滅。データガバナンスとスピードの両立、これが理想形かも\n\n#データエンジニアリング #dbt\n\nhttps://www.getdbt.com/blog/omni-dbt-semantic-layer",
+    "source_title": "Write once, analyze anywhere: Omni + the dbt Semantic Layer",
+    "source_url": "https://www.getdbt.com/blog/omni-dbt-semantic-layer",
+    "category": "Data Engineering",
+    "format_type": "速報",
+    "status": "pending",
+    "id": "a8f9fa48-7efb-42b5-b08d-ac75f1e8c945",
+    "generated_at": "2026-03-03T07:56:27.906032+09:00",
+    "session_type": "morning"
+  }
+]
