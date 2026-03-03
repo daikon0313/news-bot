@@ -1,0 +1,57 @@
+[
+  {
+    "tweet_text": "🚀 OpenAIが「落ち着いて」問題を解決！\n\nGPT-5.3 Instantが登場。ユーザーから不評だった「cringe」な応答（落ち着いてください的な上から目線）を大幅削減。より自然で使いやすい日常会話を実現したとのこと。\n\nLLMの「人間らしさ」ってどこまで必要？議論が深まりそう。\n\n#生成AI #ChatGPT\n\nhttps://openai.com/index/gpt-5-3-instant",
+    "source_title": "GPT-5.3 Instant: Smoother, more useful everyday conversations",
+    "source_url": "https://openai.com/index/gpt-5-3-instant",
+    "category": "AI",
+    "format_type": "速報",
+    "status": "pending",
+    "id": "d31ffc20-e416-47d0-b258-ffbb16fe1b23",
+    "generated_at": "2026-03-04T07:55:43.217821+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "年間売上2000億円超え、わずか4年のスタートアップ。\n\nAIコードエディタCursorが達成した驚異の成長率。直近3ヶ月で売上が2倍に。GitHub Copilotを超える勢いで開発者に浸透中。\n\nコーディング体験の再定義が、ここまでのマネタイズに繋がるとは。\n\n#AI #エンジニアリング\n\nhttps://techcrunch.com/2026/03/02/cursor-has-reportedly-surpassed-2b-in-annualized-revenue/",
+    "source_title": "Cursor has reportedly surpassed $2B in annualized revenue",
+    "source_url": "https://techcrunch.com/2026/03/02/cursor-has-reportedly-surpassed-2b-in-annualized-revenue/",
+    "category": "AI",
+    "format_type": "データ",
+    "status": "pending",
+    "id": "39147582-d185-4d37-ac6f-9c0b2a1e33bc",
+    "generated_at": "2026-03-04T07:55:43.217821+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "DebeziumからOpenflowへ。医療機関がCDCパイプラインを刷新した理由とは？\n\nSnowflakeのOpenflowを使うことで、CDC実装がシンプル化＆ニアリアルタイムのデータ同期を実現。運用負荷も大幅減。\n\nリアルタイムデータ基盤、選択肢が増えてきましたね。\n\n#データエンジニアリング #Snowflake\n\nhttps://www.snowflake.com/content/snowflake-site/global/en/blog/replacing-debezium-with-openflow",
+    "source_title": "Replacing Debezium with Openflow | Near Real-Time CDC for Snowflake",
+    "source_url": "https://www.snowflake.com/content/snowflake-site/global/en/blog/replacing-debezium-with-openflow",
+    "category": "Data Engineering",
+    "format_type": "解説",
+    "status": "pending",
+    "id": "dbf8641d-de8f-4244-8d01-18118b994c8d",
+    "generated_at": "2026-03-04T07:55:43.217821+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "AIがデータパイプラインを「作る側」になる時代。\n\ndbtが解説する最新トレンド：リアルタイムデータ処理の加速、自動化の進化、AIアシストによる大規模モデリング。データエンジニアの役割も大きく変わりそう。\n\nこれからは「AIと協業するDE」がスタンダードになるかも。\n\n#データエンジニアリング #dbt\n\nhttps://www.getdbt.com/blog/how-ai-changes-data-pipelines",
+    "source_title": "How AI is transforming modern data pipelines",
+    "source_url": "https://www.getdbt.com/blog/how-ai-changes-data-pipelines",
+    "category": "Data Engineering",
+    "format_type": "意見",
+    "status": "pending",
+    "id": "212ffbda-f35b-4cf8-b36a-fe7bcbc1d0fb",
+    "generated_at": "2026-03-04T07:55:43.217821+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "💡 BigQueryからAWSへ。ゲーム業界の大移行事例\n\nYggdrasil Gamingがモダンレイクハウスを構築した舞台裏。リアルタイムゲームデータの処理、プレイヤー行動分析をAWS上で統合し、マルチクラウドの複雑さを解消。\n\nアーキテクチャ選択の参考になりそう。\n\n#データ基盤 #AWS\n\nhttps://aws.amazon.com/blogs/big-data/building-a-modern-lakehouse-architecture-yggdrasil-gamings-journey-from-bigquery-to-aws/",
+    "source_title": "Building a modern lakehouse architecture: Yggdrasil Gaming's journey from BigQuery to AWS",
+    "source_url": "https://aws.amazon.com/blogs/big-data/building-a-modern-lakehouse-architecture-yggdrasil-gamings-journey-from-bigquery-to-aws/",
+    "category": "Data Engineering",
+    "format_type": "速報",
+    "status": "pending",
+    "id": "24f16be2-9e12-4edb-8250-88551d202d0d",
+    "generated_at": "2026-03-04T07:55:43.217821+09:00",
+    "session_type": "morning"
+  }
+]

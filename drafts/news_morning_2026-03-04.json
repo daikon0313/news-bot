@@ -1,0 +1,182 @@
+[
+  {
+    "title": "How AI is transforming modern data pipelines",
+    "url": "https://www.getdbt.com/blog/how-ai-changes-data-pipelines",
+    "summary": "AI is reshaping data pipelines—driving real-time data, automation, and AI-assisted modeling at scale.",
+    "source": "dbt Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-03-04T07:55:09.178778+09:00"
+  },
+  {
+    "title": "Tutorial: How to ship AI/BI Dashboard changes safely at scale with Databricks Asset Bundles",
+    "url": "https://www.databricks.com/blog/tutorial-how-ship-aibi-dashboard-changes-safely-scale-databricks-asset-bundles",
+    "summary": "The thought of a board meeting starting with a dashboard full of errors should keep analytics teams up at night...",
+    "source": "Databricks Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-03-04T07:55:09.435807+09:00"
+  },
+  {
+    "title": "From Tribal Knowledge to Instant Answers: Building Reffy on Databricks",
+    "url": "https://www.databricks.com/blog/tribal-knowledge-instant-answers-building-reffy-databricks",
+    "summary": "Finding the right customer story at the right time is surprisingly harder than it should be...",
+    "source": "Databricks Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-03-04T07:55:09.435822+09:00"
+  },
+  {
+    "title": "Public Sector Organizations Make Data-Informed Decisions with Snowflake Intelligence",
+    "url": "https://www.snowflake.com/content/snowflake-site/global/en/blog/public-sector-data-informed-snowflake-intelligence",
+    "summary": "By leveraging Snowflake Intelligence government agencies can best serve their citizens and build trust while delivering high quality, reliable digital services.",
+    "source": "Snowflake Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-03-04T07:55:10.379220+09:00"
+  },
+  {
+    "title": "Replacing Debezium with Openflow | Near Real-Time CDC for Snowflake",
+    "url": "https://www.snowflake.com/content/snowflake-site/global/en/blog/replacing-debezium-with-openflow",
+    "summary": "Learn how a healthcare customer replaced Debezium with Snowflake Openflow to simplify CDC pipelines and deliver near real-time data synchronization",
+    "source": "Snowflake Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-03-04T07:55:10.379234+09:00"
+  },
+  {
+    "title": "Building a modern lakehouse architecture: Yggdrasil Gaming’s journey from BigQuery to AWS",
+    "url": "https://aws.amazon.com/blogs/big-data/building-a-modern-lakehouse-architecture-yggdrasil-gamings-journey-from-bigquery-to-aws/",
+    "summary": "Yggdrasil Gaming develops and publishes casino games globally, processing massive amounts of real-time gaming data for game performance analytics, player behavior insights, and industry intelligence. Yggdrasil Gaming reduced multi-cloud complexity and built a scalable analytics foundation by migrati",
+    "source": "AWS Big Data Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-03-04T07:55:10.976087+09:00"
+  },
+  {
+    "title": "Set up production-ready monitoring for Amazon MSK using CloudWatch alarms",
+    "url": "https://aws.amazon.com/blogs/big-data/set-up-production-ready-monitoring-for-amazon-msk-using-cloudwatch-alarms/",
+    "summary": "In this post, I show you how to implement effective monitoring for your Kafka clusters using Amazon MSK and Amazon CloudWatch. You’ll learn how to track critical metrics like broker health, resource utilization, and consumer lag, and set up automated alerts to prevent operational issues.",
+    "source": "AWS Big Data Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-03-04T07:55:10.976106+09:00"
+  },
+  {
+    "title": "Standardize Amazon Redshift operations using Templates",
+    "url": "https://aws.amazon.com/blogs/big-data/standardize-amazon-redshift-operations-using-templates/",
+    "summary": "In this post, we introduce Redshift Templates and show examples of how they can standardize and simplify your data loading operations across different scenarios. By encapsulating common COPY command parameters into reusable database objects, templates help remove repetitive parameter specifications,",
+    "source": "AWS Big Data Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-03-04T07:55:10.976113+09:00"
+  },
+  {
+    "title": "Congratulations to the recipients of the 2025 Spotify FOSS Fund",
+    "url": "https://engineering.atspotify.com/2026/1/congratulations-to-the-recipients-of-the-2025-spotify-foss-fund/",
+    "summary": "<p>TL;DR Established in 2022 as a way to help support the great open source ecosystem projects that Spotify...</p>\n<p>The post <a href=\"https://engineering.atspotify.com/2026/1/congratulations-to-the-recipients-of-the-2025-spotify-foss-fund/\">Congratulations to the recipients of the 2025 Spotify FOS",
+    "source": "Spotify Engineering",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-03-04T07:55:12.708193+09:00"
+  },
+  {
+    "title": "My Journey to Airbnb — Anna Sulkina",
+    "url": "https://medium.com/airbnb-engineering/my-journey-to-airbnb-anna-sulkina-85216183d094?source=rss----53c7c27702d5---4",
+    "summary": "<figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/1*eiZyGBIJvx3S5kREFK8wOw.jpeg\" /></figure><p><em>Anna Sulkina has always been a traveler, and we’re lucky her travels have brought her to Airbnb. Anna is a Senior Director of Engineering, and she’s responsible for Application &amp; Cl",
+    "source": "Airbnb Tech Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-03-04T07:55:13.604559+09:00"
+  },
+  {
+    "title": "AI companies are spending millions to thwart this former tech exec’s congressional bid",
+    "url": "https://techcrunch.com/2026/03/03/ai-companies-are-spending-millions-to-thwart-this-former-tech-execs-congressional-bid/",
+    "summary": "A tech billionaire-backed super PAC is spending $125 million to undercut candidates pushing for AI regulation. New York's Alex Bores, a former tech executive himself, is one of them.",
+    "source": "TechCrunch AI",
+    "category": "AI",
+    "priority": 1,
+    "fetched_at": "2026-03-04T07:55:13.767301+09:00"
+  },
+  {
+    "title": "ChatGPT’s new GPT-5.3 Instant model will stop telling you to calm down",
+    "url": "https://techcrunch.com/2026/03/03/chatgpts-new-gpt-5-3-instant-model-will-stop-telling-you-to-calm-down/",
+    "summary": "The company says the new model will reduce the \"cringe\" that's been annoying its users for months.",
+    "source": "TechCrunch AI",
+    "category": "AI",
+    "priority": 1,
+    "fetched_at": "2026-03-04T07:55:13.767313+09:00"
+  },
+  {
+    "title": "Claude Code rolls out a voice mode capability",
+    "url": "https://techcrunch.com/2026/03/03/claude-code-rolls-out-a-voice-mode-capability/",
+    "summary": "Anthropic is stepping up its game in the AI coding space with the rollout of Voice Mode in Claude Code.",
+    "source": "TechCrunch AI",
+    "category": "AI",
+    "priority": 1,
+    "fetched_at": "2026-03-04T07:55:13.767318+09:00"
+  },
+  {
+    "title": "X says it will suspend creators from revenue-sharing program for unlabeled AI posts of ‘armed conflict’",
+    "url": "https://techcrunch.com/2026/03/03/x-says-it-will-suspend-creators-from-revenue-sharing-program-for-unlabeled-ai-posts-of-armed-conflict/",
+    "summary": "Creators who break the rules will get a three-month suspension, and if they continue to violate the policy, they'll be permanently banned.",
+    "source": "TechCrunch AI",
+    "category": "AI",
+    "priority": 1,
+    "fetched_at": "2026-03-04T07:55:13.767323+09:00"
+  },
+  {
+    "title": "Cursor has reportedly surpassed $2B in annualized revenue",
+    "url": "https://techcrunch.com/2026/03/02/cursor-has-reportedly-surpassed-2b-in-annualized-revenue/",
+    "summary": "The four-year-old startup saw its revenue run rate double over the past three months, according to one Bloomberg source.",
+    "source": "TechCrunch AI",
+    "category": "AI",
+    "priority": 1,
+    "fetched_at": "2026-03-04T07:55:13.767327+09:00"
+  },
+  {
+    "title": "GPT-5.3 Instant System Card",
+    "url": "https://openai.com/index/gpt-5-3-instant-system-card",
+    "summary": "",
+    "source": "OpenAI Blog",
+    "category": "AI",
+    "priority": 1,
+    "fetched_at": "2026-03-04T07:55:14.501117+09:00"
+  },
+  {
+    "title": "GPT-5.3 Instant: Smoother, more useful everyday conversations",
+    "url": "https://openai.com/index/gpt-5-3-instant",
+    "summary": "",
+    "source": "OpenAI Blog",
+    "category": "AI",
+    "priority": 1,
+    "fetched_at": "2026-03-04T07:55:14.501137+09:00"
+  },
+  {
+    "title": "Create new worlds in Project Genie with these 4 tips",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/tips-prompt-writing-project-genie/",
+    "summary": "A screen capture of Project Genie, an experimental interface showing a grid of circular images, many of which appear to be 360-degree views, with a large, central black globe labeled Create your own",
+    "source": "Google AI Blog",
+    "category": "AI",
+    "priority": 1,
+    "fetched_at": "2026-03-04T07:55:14.864980+09:00"
+  },
+  {
+    "title": "Gemini 3.1 Flash-Lite: Built for intelligence at scale",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-lite/",
+    "summary": "Gemini 3.1 Flash Lite logo",
+    "source": "Google AI Blog",
+    "category": "AI",
+    "priority": 1,
+    "fetched_at": "2026-03-04T07:55:14.864991+09:00"
+  },
+  {
+    "title": "Google and the Massachusetts AI Hub are launching a new AI training initiative for the Commonwealth.",
+    "url": "https://blog.google/company-news/outreach-and-initiatives/grow-with-google/google-ai-training-massachusetts-residents/",
+    "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/691A1377_1920x1080.max-600x600.format-webp.webp\" />Google is partnering with the Massachusetts AI Hub to provide every Baystater with no-cost access to Google’s AI training.",
+    "source": "Google AI Blog",
+    "category": "AI",
+    "priority": 1,
+    "fetched_at": "2026-03-04T07:55:14.864997+09:00"
+  }
+]
