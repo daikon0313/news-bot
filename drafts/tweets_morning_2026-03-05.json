@@ -1,0 +1,57 @@
+[
+  {
+    "tweet_text": "🔥 dbt公式が衝撃レポート公開\n\nAIがデータパイプラインを根本から変えている3つの事実：\n✅ リアルタイム処理が標準に\n✅ 自動化が劇的に進化\n✅ AIアシストによるモデリングが可能に\n\n「これまでのバッチ処理前提の設計、見直す時期かも」\n\n#データエンジニアリング #dbt\nhttps://www.getdbt.com/blog/how-ai-changes-data-pipelines",
+    "source_title": "How AI is transforming modern data pipelines",
+    "source_url": "https://www.getdbt.com/blog/how-ai-changes-data-pipelines",
+    "category": "Data Engineering",
+    "format_type": "まとめ・解説",
+    "status": "pending",
+    "id": "6cbd1d9d-30af-4fa4-8aed-12d2f4d633e5",
+    "generated_at": "2026-03-05T08:00:15.542876+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "🚀 Snowflake、Apache Iceberg v3対応を発表！\n\nCDC向けの行レベル系譜追跡、variant型データ対応、オープンテーブルフォーマット間の相互運用性が強化。\n\nDelta Lake・Icebergの選択肢が増える中、データレイクハウス戦争が新局面へ。あなたのチームはどのフォーマット派？\n\n#データ基盤 #Snowflake\nhttps://www.snowflake.com/content/snowflake-site/global/en/blog/apache-iceberg-v3-support",
+    "source_title": "Announcing Apache Iceberg v3 Support on Snowflake",
+    "source_url": "https://www.snowflake.com/content/snowflake-site/global/en/blog/apache-iceberg-v3-support",
+    "category": "Data Engineering",
+    "format_type": "問いかけ",
+    "status": "pending",
+    "id": "43ccff77-f053-404f-a5dc-0899de7f780e",
+    "generated_at": "2026-03-05T08:00:15.542876+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "📊 Amplitude事例：OpenSearchをベクトルDBとして活用し自然言語分析を実装\n\nスキーマ検索×コンテンツ検索でLLMの精度を向上させ、低レイテンシを実現。「既存のOpenSearchインフラをそのままRAGに使える」この発想、コスト削減にも効きそう。\n\n#AI #AWS\nhttps://aws.amazon.com/blogs/big-data/how-amplitude-implemented-natural-language-powered-analytics-using-amazon-opensearch-service-as-a-vector-database/",
+    "source_title": "How Amplitude implemented natural language-powered analytics using Amazon OpenSearch Service as a vector database",
+    "source_url": "https://aws.amazon.com/blogs/big-data/how-amplitude-implemented-natural-language-powered-analytics-using-amazon-opensearch-service-as-a-vector-database/",
+    "category": "AI",
+    "format_type": "意見",
+    "status": "pending",
+    "id": "a9db47c3-1fe4-4ea1-bf73-23e6962a61ea",
+    "generated_at": "2026-03-05T08:00:15.542876+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "⚡ OpenAI、GPT-5.2 Proで量子重力の数式検証に成功\n\n単一マイナス振幅を重力子に拡張する新論文で、AIが数式の導出・検証を支援。「理論物理×LLM」の可能性がまた一つ証明された。研究者の生産性、これから爆上がりしそう。\n\n#生成AI #OpenAI\nhttps://openai.com/index/extending-single-minus-amplitudes-to-gravitons",
+    "source_title": "Extending single-minus amplitudes to gravitons",
+    "source_url": "https://openai.com/index/extending-single-minus-amplitudes-to-gravitons",
+    "category": "AI",
+    "format_type": "速報",
+    "status": "pending",
+    "id": "7d02151f-cdb9-401f-9e20-82b9eab3860d",
+    "generated_at": "2026-03-05T08:00:15.542876+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "🛠️ Airbnb、アラート開発サイクルを「数週間→数分」に短縮\n\nObservability as Codeのレビュープロセスを改善した結果がすごい。「文化の問題じゃなかった」というタイトルも示唆的。仕組みで解決できる課題、まだまだあるはず。\n\n#DevOps #Airbnb\nhttps://medium.com/airbnb-engineering/it-wasnt-a-culture-problem-upleveling-alert-development-at-airbnb-01e2290eb0f5?source=rss----53c7c27702d5---4",
+    "source_title": "It Wasn't a Culture Problem: Upleveling Alert Development at Airbnb",
+    "source_url": "https://medium.com/airbnb-engineering/it-wasnt-a-culture-problem-upleveling-alert-development-at-airbnb-01e2290eb0f5?source=rss----53c7c27702d5---4",
+    "category": "Tech General",
+    "format_type": "データ・数字",
+    "status": "pending",
+    "id": "e1ee7f3b-25c9-4976-ab19-9aa514eb2658",
+    "generated_at": "2026-03-05T08:00:15.542876+09:00",
+    "session_type": "morning"
+  }
+]

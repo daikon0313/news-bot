@@ -1,0 +1,182 @@
+[
+  {
+    "title": "How AI is transforming modern data pipelines",
+    "url": "https://www.getdbt.com/blog/how-ai-changes-data-pipelines",
+    "summary": "AI is reshaping data pipelines—driving real-time data, automation, and AI-assisted modeling at scale.",
+    "source": "dbt Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-03-05T07:59:43.355283+09:00"
+  },
+  {
+    "title": "Unified data discovery with business context in Unity Catalog",
+    "url": "https://www.databricks.com/blog/unified-data-discovery-business-context-unity-catalog",
+    "summary": "Data discovery is built on the foundation of business contextAs data estates grow...",
+    "source": "Databricks Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-03-05T07:59:43.518768+09:00"
+  },
+  {
+    "title": "Bayer Consumer Health scales global self-service analytics with Unity Catalog",
+    "url": "https://www.databricks.com/blog/bayer-consumer-health-scales-global-self-service-analytics-unity-catalog",
+    "summary": "Bayer is a life sciences company and a global leader in healthcare and nutrition,...",
+    "source": "Databricks Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-03-05T07:59:43.518785+09:00"
+  },
+  {
+    "title": "Azure Databricks Lakebase is Generally Available",
+    "url": "https://www.databricks.com/blog/azure-databricks-lakebase-generally-available",
+    "summary": "For years, a data wall has separated the world of application development from the...",
+    "source": "Databricks Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-03-05T07:59:43.518790+09:00"
+  },
+  {
+    "title": "Announcing Apache Iceberg v3 Support on Snowflake",
+    "url": "https://www.snowflake.com/content/snowflake-site/global/en/blog/apache-iceberg-v3-support",
+    "summary": "Explore Apache Iceberg v3 support in Snowflake public preview, including row lineage for CDC, variant data, and enhanced interoperability across open table formats.",
+    "source": "Snowflake Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-03-05T07:59:43.975395+09:00"
+  },
+  {
+    "title": "Snowflake Openflow Connector: Agentless Oracle CDC to Snowflake",
+    "url": "https://www.snowflake.com/content/snowflake-site/global/en/blog/openflow-connector-oracle",
+    "summary": "Announcing the GA of the native, agentless Snowflake Openflow Connector for Oracle. Stream data with near-real-time CDC, minimal source impact, and simplified operations.",
+    "source": "Snowflake Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-03-05T07:59:43.975409+09:00"
+  },
+  {
+    "title": "From Milliseconds to Medals: How Data Collaboration Helped Power Team USA at Milano Cortina 2026",
+    "url": "https://www.snowflake.com/content/snowflake-site/global/en/blog/data-collaboration-team-usa-milano-2026",
+    "summary": "Discover how data collaboration and Snowflake Intelligence helped power Team USA at Milano Cortina 2026, driving medals in bobsled and figure skating.",
+    "source": "Snowflake Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-03-05T07:59:43.975414+09:00"
+  },
+  {
+    "title": "How Amplitude implemented natural language-powered analytics using Amazon OpenSearch Service as a vector database",
+    "url": "https://aws.amazon.com/blogs/big-data/how-amplitude-implemented-natural-language-powered-analytics-using-amazon-opensearch-service-as-a-vector-database/",
+    "summary": "Amplitude is a product and customer journey analytics platform. Our customers wanted to ask deep questions about their product usage. Ask Amplitude is an AI assistant that uses large language models (LLMs). It combines schema search and content search to provide a customized, accurate, low latency, ",
+    "source": "AWS Big Data Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-03-05T07:59:44.500423+09:00"
+  },
+  {
+    "title": "Zero-ETL integrations with Amazon OpenSearch Service",
+    "url": "https://aws.amazon.com/blogs/big-data/zero-etl-integrations-with-amazon-opensearch-service/",
+    "summary": "OpenSearch Service offers zero-ETL integrations with other Amazon Web Service (AWS) services, enabling seamless data access and analysis without the need for maintaining complex data pipelines. Zero-ETL refers to a set of integrations designed to minimize or eliminate the need to build traditional e",
+    "source": "AWS Big Data Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-03-05T07:59:44.500438+09:00"
+  },
+  {
+    "title": "Congratulations to the recipients of the 2025 Spotify FOSS Fund",
+    "url": "https://engineering.atspotify.com/2026/1/congratulations-to-the-recipients-of-the-2025-spotify-foss-fund/",
+    "summary": "<p>TL;DR Established in 2022 as a way to help support the great open source ecosystem projects that Spotify...</p>\n<p>The post <a href=\"https://engineering.atspotify.com/2026/1/congratulations-to-the-recipients-of-the-2025-spotify-foss-fund/\">Congratulations to the recipients of the 2025 Spotify FOS",
+    "source": "Spotify Engineering",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-03-05T07:59:46.089953+09:00"
+  },
+  {
+    "title": "It Wasn’t a Culture Problem: Upleveling Alert Development at Airbnb",
+    "url": "https://medium.com/airbnb-engineering/it-wasnt-a-culture-problem-upleveling-alert-development-at-airbnb-01e2290eb0f5?source=rss----53c7c27702d5---4",
+    "summary": "<figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/1*Cy9Y4YIsQLRhjl15rMGqkQ.jpeg\" /></figure><h4>How we changed our Observability as Code alert review process and cut development cycles from weeks to minutes.</h4><p>Observability as Code (OaC) — defining alerts, dashboards, and SLOs v",
+    "source": "Airbnb Tech Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-03-05T07:59:46.730106+09:00"
+  },
+  {
+    "title": "Anthropic CEO Dario Amodei calls OpenAI’s messaging around military deal ‘straight up lies,’ report says",
+    "url": "https://techcrunch.com/2026/03/04/anthropic-ceo-dario-amodei-calls-openais-messaging-around-military-deal-straight-up-lies-report-says/",
+    "summary": "Anthropic gave up its contract with the Pentagon over AI safety disagreements -- then, OpenAI swooped in.",
+    "source": "TechCrunch AI",
+    "category": "AI",
+    "priority": 1,
+    "fetched_at": "2026-03-05T07:59:46.790356+09:00"
+  },
+  {
+    "title": "Apple Music to add Transparency Tags to distinguish AI music, says report",
+    "url": "https://techcrunch.com/2026/03/04/apple-music-to-add-transparency-tags-to-distinguish-ai-music-says-report/",
+    "summary": "The label or distributor has to opt in to tagging their music as AI, so it's unclear how effective this intervention will be.",
+    "source": "TechCrunch AI",
+    "category": "AI",
+    "priority": 1,
+    "fetched_at": "2026-03-05T07:59:46.790367+09:00"
+  },
+  {
+    "title": "Google Search rolls out Gemini’s Canvas in AI Mode to all US users",
+    "url": "https://techcrunch.com/2026/03/04/https-techcrunch-com-2026-03-04-google-search-rolls-out-geminis-canvas-in-ai-mode-to-all-us-users/",
+    "summary": "Canvas in AI Mode is available to U.S. users in English for creating plans, projects, apps, and more.",
+    "source": "TechCrunch AI",
+    "category": "AI",
+    "priority": 1,
+    "fetched_at": "2026-03-05T07:59:46.790372+09:00"
+  },
+  {
+    "title": "Decagon completes first tender offer at $4.5B valuation",
+    "url": "https://techcrunch.com/2026/03/04/decagon-completes-first-tender-offer-at-4-5b-valuation/",
+    "summary": "The AI-powered customer support startup is the latest example of a fast-growing, young company that's providing employee liquidity.",
+    "source": "TechCrunch AI",
+    "category": "AI",
+    "priority": 1,
+    "fetched_at": "2026-03-05T07:59:46.790376+09:00"
+  },
+  {
+    "title": "The US military is still using Claude — but defense-tech clients are fleeing",
+    "url": "https://techcrunch.com/2026/03/04/the-us-military-is-still-using-claude-but-defense-tech-clients-are-fleeing/",
+    "summary": "As the U.S. continues its aerial attack on Iran, Anthropic models are being used for many targeting decisions.",
+    "source": "TechCrunch AI",
+    "category": "AI",
+    "priority": 1,
+    "fetched_at": "2026-03-05T07:59:46.790380+09:00"
+  },
+  {
+    "title": "Extending single-minus amplitudes to gravitons",
+    "url": "https://openai.com/index/extending-single-minus-amplitudes-to-gravitons",
+    "summary": "A new preprint extends single-minus amplitudes to gravitons, with GPT-5.2 Pro helping derive and verify nonzero graviton tree amplitudes in quantum gravity.",
+    "source": "OpenAI Blog",
+    "category": "AI",
+    "priority": 1,
+    "fetched_at": "2026-03-05T07:59:47.354453+09:00"
+  },
+  {
+    "title": "Understanding AI and learning outcomes",
+    "url": "https://openai.com/index/understanding-ai-and-learning-outcomes",
+    "summary": "OpenAI introduces the Learning Outcomes Measurement Suite to assess AI’s impact on student learning across diverse educational environments over time.",
+    "source": "OpenAI Blog",
+    "category": "AI",
+    "priority": 1,
+    "fetched_at": "2026-03-05T07:59:47.354471+09:00"
+  },
+  {
+    "title": "How Axios uses AI to help deliver high-impact local journalism",
+    "url": "https://openai.com/index/axios-allison-murphy",
+    "summary": "Axios COO Allison Murphy explains how the company uses AI to support local reporters, streamline newsroom workflows, and deliver high-impact local journalism at scale.",
+    "source": "OpenAI Blog",
+    "category": "AI",
+    "priority": 1,
+    "fetched_at": "2026-03-05T07:59:47.354479+09:00"
+  },
+  {
+    "title": "Use Canvas in AI Mode to get things done and bring your ideas to life, right in Search.",
+    "url": "https://blog.google/products-and-platforms/products/search/ai-mode-canvas-writing-coding/",
+    "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AIMMode_Social.max-600x600.format-webp.webp\" />Canvas in AI Mode is now available for everyone in the U.S. Plus, it can now help you draft documents or build interactive tools.",
+    "source": "Google AI Blog",
+    "category": "AI",
+    "priority": 1,
+    "fetched_at": "2026-03-05T07:59:47.659937+09:00"
+  }
+]
