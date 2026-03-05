@@ -1,0 +1,182 @@
+[
+  {
+    "title": "How AI improves data lineage at scale",
+    "url": "https://www.getdbt.com/blog/ai-data-lineage",
+    "summary": "Discover how AI accelerates data lineage with automated docs, testing, and scalable governance.",
+    "source": "dbt Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-03-06T08:37:18.934167+09:00"
+  },
+  {
+    "title": "How AI is transforming modern data pipelines",
+    "url": "https://www.getdbt.com/blog/how-ai-changes-data-pipelines",
+    "summary": "AI is reshaping data pipelines—driving real-time data, automation, and AI-assisted modeling at scale.",
+    "source": "dbt Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-03-06T08:37:18.934187+09:00"
+  },
+  {
+    "title": "Turning Insight Into Impact with Databricks and Global Orphan Project",
+    "url": "https://www.databricks.com/blog/turning-insight-impact-databricks-and-global-orphan-go-project",
+    "summary": "Databricks has partnered with Global Orphan (GO) Project, a nonprofit organization...",
+    "source": "Databricks Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-03-06T08:37:19.035159+09:00"
+  },
+  {
+    "title": "Meet KARL: A Faster Agent for Enterprise Knowledge, powered by custom RL",
+    "url": "https://www.databricks.com/blog/meet-karl-faster-agent-enterprise-knowledge-powered-custom-rl",
+    "summary": "Reinforcement Learning for Enterprise Agents&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;For the full tech report,&nbsp;click here. Interested in try...",
+    "source": "Databricks Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-03-06T08:37:19.035175+09:00"
+  },
+  {
+    "title": "New in Migrations: Faster and More Predictable",
+    "url": "https://www.databricks.com/blog/new-migrations-faster-and-more-predictable",
+    "summary": "Migrating off a legacy data warehouse poses many challenges – unpredictable timelines, technical debt, ...",
+    "source": "Databricks Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-03-06T08:37:19.035180+09:00"
+  },
+  {
+    "title": "AI-Ready Governance for People Data",
+    "url": "https://www.snowflake.com/content/snowflake-site/global/en/blog/people-data-ai-governance",
+    "summary": "Explore AI-ready governance for people data, covering risk, privacy, lineage and platform controls to enable responsible workforce AI at enterprise scale.",
+    "source": "Snowflake Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-03-06T08:37:19.593193+09:00"
+  },
+  {
+    "title": "How AI Agents Improve Healthcare Workflows and Insights",
+    "url": "https://www.snowflake.com/content/snowflake-site/global/en/blog/ai-agents-healthcare-efficiency",
+    "summary": "Discover how healthcare organizations use AI agents with Snowflake Intelligence to streamline workflows, reduce costs and deliver secure, care-critical insights.",
+    "source": "Snowflake Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-03-06T08:37:19.593208+09:00"
+  },
+  {
+    "title": "Announcing Apache Iceberg v3 Support on Snowflake",
+    "url": "https://www.snowflake.com/content/snowflake-site/global/en/blog/apache-iceberg-v3-support",
+    "summary": "Explore Apache Iceberg v3 support in Snowflake public preview, including row lineage for CDC, variant data, and enhanced interoperability across open table formats.",
+    "source": "Snowflake Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-03-06T08:37:19.593213+09:00"
+  },
+  {
+    "title": "How Amplitude implemented natural language-powered analytics using Amazon OpenSearch Service as a vector database",
+    "url": "https://aws.amazon.com/blogs/big-data/how-amplitude-implemented-natural-language-powered-analytics-using-amazon-opensearch-service-as-a-vector-database/",
+    "summary": "Amplitude is a product and customer journey analytics platform. Our customers wanted to ask deep questions about their product usage. Ask Amplitude is an AI assistant that uses large language models (LLMs). It combines schema search and content search to provide a customized, accurate, low latency, ",
+    "source": "AWS Big Data Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-03-06T08:37:20.102255+09:00"
+  },
+  {
+    "title": "Zero-ETL integrations with Amazon OpenSearch Service",
+    "url": "https://aws.amazon.com/blogs/big-data/zero-etl-integrations-with-amazon-opensearch-service/",
+    "summary": "OpenSearch Service offers zero-ETL integrations with other Amazon Web Service (AWS) services, enabling seamless data access and analysis without the need for maintaining complex data pipelines. Zero-ETL refers to a set of integrations designed to minimize or eliminate the need to build traditional e",
+    "source": "AWS Big Data Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-03-06T08:37:20.102272+09:00"
+  },
+  {
+    "title": "Congratulations to the recipients of the 2025 Spotify FOSS Fund",
+    "url": "https://engineering.atspotify.com/2026/1/congratulations-to-the-recipients-of-the-2025-spotify-foss-fund/",
+    "summary": "<p>TL;DR Established in 2022 as a way to help support the great open source ecosystem projects that Spotify...</p>\n<p>The post <a href=\"https://engineering.atspotify.com/2026/1/congratulations-to-the-recipients-of-the-2025-spotify-foss-fund/\">Congratulations to the recipients of the 2025 Spotify FOS",
+    "source": "Spotify Engineering",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-03-06T08:37:22.342646+09:00"
+  },
+  {
+    "title": "It Wasn’t a Culture Problem: Upleveling Alert Development at Airbnb",
+    "url": "https://medium.com/airbnb-engineering/it-wasnt-a-culture-problem-upleveling-alert-development-at-airbnb-01e2290eb0f5?source=rss----53c7c27702d5---4",
+    "summary": "<figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/1*Cy9Y4YIsQLRhjl15rMGqkQ.jpeg\" /></figure><h4>How we changed our Observability as Code alert review process and cut development cycles from weeks to minutes.</h4><p>Observability as Code (OaC) — defining alerts, dashboards, and SLOs v",
+    "source": "Airbnb Tech Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-03-06T08:37:22.950875+09:00"
+  },
+  {
+    "title": "DiligenceSquared uses AI, voice agents to make M&A research affordable",
+    "url": "https://techcrunch.com/2026/03/05/diligencesquared-uses-ai-voice-agents-to-make-ma-research-affordable/",
+    "summary": "The startup, which just raised $5 million, is founded by an ex-Blackstone principal and a former BCG consultant.",
+    "source": "TechCrunch AI",
+    "category": "AI",
+    "priority": 1,
+    "fetched_at": "2026-03-06T08:37:23.033502+09:00"
+  },
+  {
+    "title": "AWS launches a new AI agent platform specifically for healthcare",
+    "url": "https://techcrunch.com/2026/03/05/aws-amazon-connect-health-ai-agent-platform-health-care-providers/",
+    "summary": "AWS is launching Amazon Connect Health, an AI agent platform that will help with patient scheduling, documentation, and patient verification.",
+    "source": "TechCrunch AI",
+    "category": "AI",
+    "priority": 1,
+    "fetched_at": "2026-03-06T08:37:23.033516+09:00"
+  },
+  {
+    "title": "US reportedly considering sweeping new chip export controls",
+    "url": "https://techcrunch.com/2026/03/05/us-reportedly-considering-sweeping-new-chip-export-controls/",
+    "summary": "In an alleged drafted proposal, the U.S. government would play a role in every chip export sale regardless of which country it's coming from.",
+    "source": "TechCrunch AI",
+    "category": "AI",
+    "priority": 1,
+    "fetched_at": "2026-03-06T08:37:23.033521+09:00"
+  },
+  {
+    "title": "It’s official: The Pentagon has labeled Anthropic a supply-chain risk",
+    "url": "https://techcrunch.com/2026/03/05/its-official-the-pentagon-has-labeled-anthropic-a-supply-chain-risk/",
+    "summary": "The Department of Defense has officially labeled Anthropic a supply-chain risk, making the AI firm the first American company with the label. Meanwhile, the DOD continues to use Anthropic's AI in Iran.",
+    "source": "TechCrunch AI",
+    "category": "AI",
+    "priority": 1,
+    "fetched_at": "2026-03-06T08:37:23.033525+09:00"
+  },
+  {
+    "title": "EXCLUSIVE: Luma launches creative AI agents powered by its new ‘Unified Intelligence’ models",
+    "url": "https://techcrunch.com/2026/03/05/exclusive-luma-launches-creative-ai-agents-powered-by-its-new-unified-intelligence-models/",
+    "summary": "Luma introduced Luma Agents, powered by its new “Unified Intelligence” models, designed to coordinate multiple AI systems and generate end-to-end creative work across text, images, video and audio.",
+    "source": "TechCrunch AI",
+    "category": "AI",
+    "priority": 1,
+    "fetched_at": "2026-03-06T08:37:23.033529+09:00"
+  },
+  {
+    "title": "Introducing GPT-5.4",
+    "url": "https://openai.com/index/introducing-gpt-5-4",
+    "summary": "Introducing GPT-5.4, OpenAI’s most most capable and efficient frontier model for professional work, with state-of-the-art coding, computer use, tool search, and 1M-token context.",
+    "source": "OpenAI Blog",
+    "category": "AI",
+    "priority": 1,
+    "fetched_at": "2026-03-06T08:37:23.915583+09:00"
+  },
+  {
+    "title": "Reasoning models struggle to control their chains of thought, and that’s good",
+    "url": "https://openai.com/index/reasoning-models-chain-of-thought-controllability",
+    "summary": "OpenAI introduces CoT-Control and finds reasoning models struggle to control their chains of thought, reinforcing monitorability as an AI safety safeguard.",
+    "source": "OpenAI Blog",
+    "category": "AI",
+    "priority": 1,
+    "fetched_at": "2026-03-06T08:37:23.915601+09:00"
+  },
+  {
+    "title": "GPT-5.4 Thinking System Card",
+    "url": "https://openai.com/index/gpt-5-4-thinking-system-card",
+    "summary": "",
+    "source": "OpenAI Blog",
+    "category": "AI",
+    "priority": 1,
+    "fetched_at": "2026-03-06T08:37:23.915616+09:00"
+  }
+]
