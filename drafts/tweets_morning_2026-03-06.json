@@ -1,0 +1,57 @@
+[
+  {
+    "tweet_text": "🚀 OpenAIが「GPT-5.4」をリリース！\n\n最大100万トークンのコンテキスト、最先端のコーディング能力、コンピュータ操作機能を搭載した最も高性能なフロンティアモデル。プロフェッショナル向けの効率性も大幅に向上。\n\nAI開発の新時代が来そう。\n\n#AI #OpenAI\nhttps://openai.com/index/introducing-gpt-5-4",
+    "source_title": "Introducing GPT-5.4",
+    "source_url": "https://openai.com/index/introducing-gpt-5-4",
+    "category": "AI",
+    "format_type": "速報",
+    "status": "pending",
+    "id": "378e84c6-923c-4122-a834-904fb73fecb1",
+    "generated_at": "2026-03-06T08:37:48.819206+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "AIでデータリネージが加速する時代へ📊\n\ndbtが自動ドキュメント化・テスト・スケーラブルなガバナンスにAIを活用する手法を公開。手動での追跡から解放され、データ信頼性が劇的に向上。\n\nデータエンジニアの生産性が変わる。\n\n#データエンジニアリング #dbt\nhttps://www.getdbt.com/blog/ai-data-lineage",
+    "source_title": "How AI improves data lineage at scale",
+    "source_url": "https://www.getdbt.com/blog/ai-data-lineage",
+    "category": "Data Engineering",
+    "format_type": "解説",
+    "status": "pending",
+    "id": "69cd9477-dff1-430d-8dd3-475b87c2afa9",
+    "generated_at": "2026-03-06T08:37:48.819206+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "DatabricksがカスタムRLで独自開発した企業向けエージェント「KARL」を発表🤖\n\n従来のRAGエージェントより高速かつ精度の高いナレッジ検索を実現。強化学習によりエンタープライズ環境に最適化。\n\nエージェント競争が本格化してきた。\n\n#AI #Databricks\nhttps://www.databricks.com/blog/meet-karl-faster-agent-enterprise-knowledge-powered-custom-rl",
+    "source_title": "Meet KARL: A Faster Agent for Enterprise Knowledge, powered by custom RL",
+    "source_url": "https://www.databricks.com/blog/meet-karl-faster-agent-enterprise-knowledge-powered-custom-rl",
+    "category": "AI",
+    "format_type": "速報",
+    "status": "pending",
+    "id": "4a593dbf-4a9b-4e78-a757-51d3a401cdcc",
+    "generated_at": "2026-03-06T08:37:48.819206+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "SnowflakeがApache Iceberg v3対応を発表（パブリックプレビュー）❄️\n\nCDC用の行レベルリネージ、Variant型データ対応、オープンテーブルフォーマット間の相互運用性が強化。データレイクハウスの標準化が加速しそう。\n\n#データ基盤 #Snowflake\nhttps://www.snowflake.com/content/snowflake-site/global/en/blog/apache-iceberg-v3-support",
+    "source_title": "Announcing Apache Iceberg v3 Support on Snowflake",
+    "source_url": "https://www.snowflake.com/content/snowflake-site/global/en/blog/apache-iceberg-v3-support",
+    "category": "Data Engineering",
+    "format_type": "データ",
+    "status": "pending",
+    "id": "ba4d9e22-3142-4bbe-aaa3-dcb1cce3939a",
+    "generated_at": "2026-03-06T08:37:48.819206+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "Airbnb、アラート開発サイクルを「数週間→数分」に短縮🔥\n\nObservability as Code（OaC）のレビュープロセスを刷新。文化の問題ではなく、プロセス設計の問題だった。\n\n開発速度向上のヒントが詰まってる記事。\n\n#エンジニアリング #Airbnb\nhttps://medium.com/airbnb-engineering/it-wasnt-a-culture-problem-upleveling-alert-development-at-airbnb-01e2290eb0f5?source=rss----53c7c27702d5---4",
+    "source_title": "It Wasn't a Culture Problem: Upleveling Alert Development at Airbnb",
+    "source_url": "https://medium.com/airbnb-engineering/it-wasnt-a-culture-problem-upleveling-alert-development-at-airbnb-01e2290eb0f5?source=rss----53c7c27702d5---4",
+    "category": "Tech General",
+    "format_type": "意見",
+    "status": "pending",
+    "id": "8687e105-7d92-4a8b-a05c-c13bd623a89c",
+    "generated_at": "2026-03-06T08:37:48.819206+09:00",
+    "session_type": "morning"
+  }
+]
