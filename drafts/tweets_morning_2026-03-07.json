@@ -1,0 +1,57 @@
+[
+  {
+    "tweet_text": "🚨 OpenAI GPT-5.4がSnowflake Cortex AIで使えるように！\n\nOpenAIの最新・最強モデルが、Snowflakeのセキュアなガバナンス環境で直接利用可能に。データを外部に出さずLLMの恩恵を受けられるのは大きい。\n\nエンタープライズAI活用の本命かも。\n\n#生成AI #Snowflake\n\nhttps://www.snowflake.com/content/snowflake-site/global/en/blog/openai-gpt-5-4-snowflake-cortex-ai",
+    "source_title": "Announcing OpenAI GPT 5.4 on Snowflake Cortex AI",
+    "source_url": "https://www.snowflake.com/content/snowflake-site/global/en/blog/openai-gpt-5-4-snowflake-cortex-ai",
+    "category": "AI",
+    "format_type": "速報",
+    "status": "pending",
+    "id": "db698cf3-adf3-4229-ab34-c6ddb0375cdb",
+    "generated_at": "2026-03-07T07:57:58.447415+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "🔍 Anthropicの「Claude」、たった2週間でFirefoxの脆弱性を22件発見。うち14件は「高深刻度」。\n\nAIによるセキュリティ監査が現実に。人間のレビューと組み合わせれば、これまで見逃されていたバグを大幅に減らせる時代が来た。\n\n#AI #セキュリティ\n\nhttps://techcrunch.com/2026/03/06/anthropics-claude-found-22-vulnerabilities-in-firefox-over-two-weeks/",
+    "source_title": "Anthropic's Claude found 22 vulnerabilities in Firefox over two weeks",
+    "source_url": "https://techcrunch.com/2026/03/06/anthropics-claude-found-22-vulnerabilities-in-firefox-over-two-weeks/",
+    "category": "AI",
+    "format_type": "データ",
+    "status": "pending",
+    "id": "f62bab05-9d07-47ff-8d74-ea01e4a94da6",
+    "generated_at": "2026-03-07T07:57:58.447415+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "💡 AIがデータパイプラインをどう変えるのか、dbtが解説記事を公開。\n\nリアルタイムデータ処理、自動化、AI支援モデリングが標準に。従来のバッチ処理中心の設計から、イベント駆動・ストリーミング前提の世界へ。\n\nDE領域も大転換期です。\n\n#データエンジニアリング #dbt\n\nhttps://www.getdbt.com/blog/how-ai-changes-data-pipelines",
+    "source_title": "How AI is transforming modern data pipelines",
+    "source_url": "https://www.getdbt.com/blog/how-ai-changes-data-pipelines",
+    "category": "Data Engineering",
+    "format_type": "まとめ・解説",
+    "status": "pending",
+    "id": "448cf19f-0780-4015-a13b-f9bdb2140170",
+    "generated_at": "2026-03-07T07:57:58.447415+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "🏥 医療現場でAIエージェントが業務効率化とコスト削減を実現。\n\nSnowflake Intelligenceを活用し、ワークフロー自動化と診療支援をセキュアに実現する事例が登場。患者データのガバナンスを保ちながらAI活用できるのが鍵。\n\n#AI #データ基盤\n\nhttps://www.snowflake.com/content/snowflake-site/global/en/blog/ai-agents-healthcare-efficiency",
+    "source_title": "How AI Agents Improve Healthcare Workflows and Insights",
+    "source_url": "https://www.snowflake.com/content/snowflake-site/global/en/blog/ai-agents-healthcare-efficiency",
+    "category": "AI",
+    "format_type": "意見",
+    "status": "pending",
+    "id": "b8d5b56a-8d8f-4acd-b7a4-f964827df893",
+    "generated_at": "2026-03-07T07:57:58.447415+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "📊 AWS OpenSearch ServiceがZero-ETL統合を強化。\n\nS3やRDSなど他のAWSサービスと直接連携し、複雑なパイプライン構築なしでデータ分析が可能に。ETL開発・運用コストを大幅削減できるのは魅力的。\n\n#データエンジニアリング #AWS\n\nhttps://aws.amazon.com/blogs/big-data/zero-etl-integrations-with-amazon-opensearch-service/",
+    "source_title": "Zero-ETL integrations with Amazon OpenSearch Service",
+    "source_url": "https://aws.amazon.com/blogs/big-data/zero-etl-integrations-with-amazon-opensearch-service/",
+    "category": "Data Engineering",
+    "format_type": "速報",
+    "status": "pending",
+    "id": "1b8a2045-33df-45dd-9952-137af8fe85ea",
+    "generated_at": "2026-03-07T07:57:58.447415+09:00",
+    "session_type": "morning"
+  }
+]
