@@ -1,0 +1,57 @@
+[
+  {
+    "tweet_text": "🔒 Databricks、LLMで社内ログのPII検出を自動化\n\nスキーマが常に変化する大規模環境でも、LLMを活用してPIIを自動検出・ガバナンス管理する事例が公開。データエンジニアリングとAIガバナンスの融合事例として必見です。\n\n#データエンジニアリング #Databricks\n\nhttps://www.databricks.com/blog/logsentinel-how-databricks-uses-databricks-llm-powered-pii-detection-and-governance",
+    "source_title": "LogSentinel: How Databricks uses Databricks for LLM-Powered PII Detection and Governance",
+    "source_url": "https://www.databricks.com/blog/logsentinel-how-databricks-uses-databricks-llm-powered-pii-detection-and-governance",
+    "category": "Data Engineering",
+    "format_type": "速報",
+    "status": "pending",
+    "id": "646a59eb-0798-4a08-aabc-8e19455491cc",
+    "generated_at": "2026-03-09T07:52:02.748059+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "OpenAIが「Codex Security」のプレビュー公開\n\nプロジェクトのコンテキストを理解して脆弱性を検出・検証・修正まで自動化するAIセキュリティエージェント。誤検知が減り、信頼性の高いセキュリティ対策が可能に。開発者の負担が激減しそう。\n\n#AI #OpenAI\n\nhttps://openai.com/index/codex-security-now-in-research-preview",
+    "source_title": "Codex Security: now in research preview",
+    "source_url": "https://openai.com/index/codex-security-now-in-research-preview",
+    "category": "AI",
+    "format_type": "解説",
+    "status": "pending",
+    "id": "04d2d9b3-afa8-4cd9-b71b-c143a34b4ccb",
+    "generated_at": "2026-03-09T07:52:02.748059+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "データ品質改善、どこから手をつける？\n\ndbtがテスト・ガバナンス・スケーラブルな分析ワークフローを軸にした実証済み戦略を公開。組織全体でデータ品質を高めるための具体的アプローチが学べます📊\n\n#データ基盤 #dbt\n\nhttps://www.getdbt.com/blog/strategies-improve-data-quality",
+    "source_title": "Effective strategies to improve data quality across your organization",
+    "source_url": "https://www.getdbt.com/blog/strategies-improve-data-quality",
+    "category": "Data Engineering",
+    "format_type": "問いかけ",
+    "status": "pending",
+    "id": "413fca3b-c49d-4d66-9c58-49f8df065c54",
+    "generated_at": "2026-03-09T07:52:02.748059+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "Amplitude、自然言語分析にAmazon OpenSearchをベクトルDBとして活用\n\nスキーマ検索とコンテンツ検索を組み合わせ、LLMで低レイテンシ・高精度な製品分析を実現。RAGアーキテクチャの実用例として参考になります🚀\n\n#AI #AWS\n\nhttps://aws.amazon.com/blogs/big-data/how-amplitude-implemented-natural-language-powered-analytics-using-amazon-opensearch-service-as-a-vector-database/",
+    "source_title": "How Amplitude implemented natural language-powered analytics using Amazon OpenSearch Service as a vector database",
+    "source_url": "https://aws.amazon.com/blogs/big-data/how-amplitude-implemented-natural-language-powered-analytics-using-amazon-opensearch-service-as-a-vector-database/",
+    "category": "AI",
+    "format_type": "データ",
+    "status": "pending",
+    "id": "c9c556f8-5fe2-453f-8983-84714b8e8060",
+    "generated_at": "2026-03-09T07:52:02.748059+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "💰 Googleのスンダー・ピチャイCEO、6億9200万ドルの報酬パッケージ\n\nその大半はパフォーマンス連動型で、Waymoや配達ドローンWingの新株式インセンティブも含まれる。AI時代のテック企業報酬戦略の象徴的事例。\n\n#DX #Google\n\nhttps://techcrunch.com/2026/03/07/google-just-gave-sundar-pichai-a-692m-pay-package/",
+    "source_title": "Google just gave Sundar Pichai a $692M pay package",
+    "source_url": "https://techcrunch.com/2026/03/07/google-just-gave-sundar-pichai-a-692m-pay-package/",
+    "category": "Business",
+    "format_type": "意見",
+    "status": "pending",
+    "id": "59587db7-2b03-4433-a569-d71e06e721b2",
+    "generated_at": "2026-03-09T07:52:02.748059+09:00",
+    "session_type": "morning"
+  }
+]
