@@ -1,0 +1,182 @@
+[
+  {
+    "title": "Effective strategies to improve data quality across your organization",
+    "url": "https://www.getdbt.com/blog/strategies-improve-data-quality",
+    "summary": "Proven strategies to improve data quality with testing, governance, and scalable analytics workflows.",
+    "source": "dbt Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-03-09T07:51:26.837016+09:00"
+  },
+  {
+    "title": "Building a near real-time application with Zerobus Ingest and Lakebase",
+    "url": "https://www.databricks.com/blog/building-near-real-time-application-zerobus-ingest-and-lakebase",
+    "summary": "Event data from IoT, clickstream, and application telemetry powers critical real-time...",
+    "source": "Databricks Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-03-09T07:51:26.927811+09:00"
+  },
+  {
+    "title": "LogSentinel: How Databricks uses Databricks for LLM-Powered PII Detection and Governance",
+    "url": "https://www.databricks.com/blog/logsentinel-how-databricks-uses-databricks-llm-powered-pii-detection-and-governance",
+    "summary": "Databricks operates at a scale where our internal logs and datasets are constantly changing—schemas evolve, ...",
+    "source": "Databricks Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-03-09T07:51:26.927822+09:00"
+  },
+  {
+    "title": "Turning Insight Into Impact with Databricks and Global Orphan Project",
+    "url": "https://www.databricks.com/blog/turning-insight-impact-databricks-and-global-orphan-go-project",
+    "summary": "Databricks has partnered with Global Orphan (GO) Project, a nonprofit organization...",
+    "source": "Databricks Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-03-09T07:51:26.927827+09:00"
+  },
+  {
+    "title": "AI-Ready Governance for People Data",
+    "url": "https://www.snowflake.com/content/snowflake-site/global/en/blog/people-data-ai-governance",
+    "summary": "Explore AI-ready governance for people data, covering risk, privacy, lineage and platform controls to enable responsible workforce AI at enterprise scale.",
+    "source": "Snowflake Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-03-09T07:51:27.244605+09:00"
+  },
+  {
+    "title": "How Amplitude implemented natural language-powered analytics using Amazon OpenSearch Service as a vector database",
+    "url": "https://aws.amazon.com/blogs/big-data/how-amplitude-implemented-natural-language-powered-analytics-using-amazon-opensearch-service-as-a-vector-database/",
+    "summary": "Amplitude is a product and customer journey analytics platform. Our customers wanted to ask deep questions about their product usage. Ask Amplitude is an AI assistant that uses large language models (LLMs). It combines schema search and content search to provide a customized, accurate, low latency, ",
+    "source": "AWS Big Data Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-03-09T07:51:27.702093+09:00"
+  },
+  {
+    "title": "Congratulations to the recipients of the 2025 Spotify FOSS Fund",
+    "url": "https://engineering.atspotify.com/2026/1/congratulations-to-the-recipients-of-the-2025-spotify-foss-fund/",
+    "summary": "<p>TL;DR Established in 2022 as a way to help support the great open source ecosystem projects that Spotify...</p>\n<p>The post <a href=\"https://engineering.atspotify.com/2026/1/congratulations-to-the-recipients-of-the-2025-spotify-foss-fund/\">Congratulations to the recipients of the 2025 Spotify FOS",
+    "source": "Spotify Engineering",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-03-09T07:51:29.958177+09:00"
+  },
+  {
+    "title": "Will the Pentagon’s Anthropic controversy scare startups away from defense work?",
+    "url": "https://techcrunch.com/2026/03/08/will-the-pentagons-anthropic-controversy-scare-startups-away-from-defense-work/",
+    "summary": "On the latest episode of TechCrunch’s Equity podcast, we discussed what the controversy means for other startups seeking to work with the federal government.",
+    "source": "TechCrunch AI",
+    "category": "AI",
+    "priority": 1,
+    "fetched_at": "2026-03-09T07:51:30.691035+09:00"
+  },
+  {
+    "title": "Owner of ICE detention facility sees big opportunity in AI man camps",
+    "url": "https://techcrunch.com/2026/03/08/owner-of-ice-detention-facility-sees-big-opportunity-in-ai-man-camps/",
+    "summary": "AI data center developers are increasingly relying on a style of camp popularized as housing for men working in remote oil fields.",
+    "source": "TechCrunch AI",
+    "category": "AI",
+    "priority": 1,
+    "fetched_at": "2026-03-09T07:51:30.691046+09:00"
+  },
+  {
+    "title": "A roadmap for AI, if anyone will listen",
+    "url": "https://techcrunch.com/2026/03/07/a-roadmap-for-ai-if-anyone-will-listen/",
+    "summary": "The Pro-Human Declaration was finalized before last week's Pentagon-Anthropic standoff, but the collision of the two events wasn’t lost on anyone involved.",
+    "source": "TechCrunch AI",
+    "category": "AI",
+    "priority": 1,
+    "fetched_at": "2026-03-09T07:51:30.691051+09:00"
+  },
+  {
+    "title": "Google just gave Sundar Pichai a $692M pay package",
+    "url": "https://techcrunch.com/2026/03/07/google-just-gave-sundar-pichai-a-692m-pay-package/",
+    "summary": "Most of it is tied to performance, including new stock incentives linked to Waymo and Wing, its drone delivery venture.",
+    "source": "TechCrunch AI",
+    "category": "AI",
+    "priority": 1,
+    "fetched_at": "2026-03-09T07:51:30.691055+09:00"
+  },
+  {
+    "title": "Grammarly’s ‘expert review’ is just missing the actual experts",
+    "url": "https://techcrunch.com/2026/03/07/grammarlys-expert-review-is-just-missing-the-actual-experts/",
+    "summary": "A recently-added feature in Grammarly purports to improve users’ writing with help from the world's great writers and thinkers — and some tech journalists, too.",
+    "source": "TechCrunch AI",
+    "category": "AI",
+    "priority": 1,
+    "fetched_at": "2026-03-09T07:51:30.691059+09:00"
+  },
+  {
+    "title": "How Descript enables multilingual video dubbing at scale",
+    "url": "https://openai.com/index/descript",
+    "summary": "Descript uses OpenAI models to scale multilingual video dubbing, optimizing translations for both meaning and timing so dubbed speech sounds natural across languages.",
+    "source": "OpenAI Blog",
+    "category": "AI",
+    "priority": 1,
+    "fetched_at": "2026-03-09T07:51:31.379076+09:00"
+  },
+  {
+    "title": "Codex Security: now in research preview",
+    "url": "https://openai.com/index/codex-security-now-in-research-preview",
+    "summary": "Codex Security is an AI application security agent that analyzes project context to detect, validate, and patch complex vulnerabilities with higher confidence and less noise.",
+    "source": "OpenAI Blog",
+    "category": "AI",
+    "priority": 1,
+    "fetched_at": "2026-03-09T07:51:31.379090+09:00"
+  },
+  {
+    "title": "How Balyasny Asset Management built an AI research engine for investing",
+    "url": "https://openai.com/index/balyasny-asset-management",
+    "summary": "See how Balyasny built an AI research system with GPT-5.4, rigorous model evaluation, and agent workflows to transform investment analysis at scale.",
+    "source": "OpenAI Blog",
+    "category": "AI",
+    "priority": 1,
+    "fetched_at": "2026-03-09T07:51:31.379096+09:00"
+  },
+  {
+    "title": "How our open-source AI model SpeciesNet is helping to promote wildlife conservation",
+    "url": "https://blog.google/company-news/outreach-and-initiatives/sustainability/speciesnet-open-source-ai-wildlife/",
+    "summary": "Photos of animals being identified by the SpeciesNet AI model",
+    "source": "Google AI Blog",
+    "category": "AI",
+    "priority": 1,
+    "fetched_at": "2026-03-09T07:51:31.620074+09:00"
+  },
+  {
+    "title": "Ask a Techspert: How does AI understand my visual searches?",
+    "url": "https://blog.google/company-news/inside-google/googlers/how-google-ai-visual-search-works/",
+    "summary": "Mobile phone with a search bar that says \"Ask anything\"",
+    "source": "Google AI Blog",
+    "category": "AI",
+    "priority": 1,
+    "fetched_at": "2026-03-09T07:51:31.620086+09:00"
+  },
+  {
+    "title": "The latest AI news we announced in February",
+    "url": "https://blog.google/innovation-and-ai/products/google-ai-updates-february-2026/",
+    "summary": "an MP4 of a carousel with images reading \"Gemini 3.1 Pro\" and \"Nano Banana 2\"",
+    "source": "Google AI Blog",
+    "category": "AI",
+    "priority": 1,
+    "fetched_at": "2026-03-09T07:51:31.620091+09:00"
+  },
+  {
+    "title": "Bringing Robotics AI to Embedded Platforms: Dataset Recording, VLA Fine‑Tuning, and On‑Device Optimizations",
+    "url": "https://huggingface.co/blog/nxp/bringing-robotics-ai-to-embedded-platforms",
+    "summary": "",
+    "source": "Hugging Face Blog",
+    "category": "AI",
+    "priority": 1,
+    "fetched_at": "2026-03-09T07:51:36.147229+09:00"
+  },
+  {
+    "title": "Introducing Modular Diffusers - Composable Building Blocks for Diffusion Pipelines",
+    "url": "https://huggingface.co/blog/modular-diffusers",
+    "summary": "",
+    "source": "Hugging Face Blog",
+    "category": "AI",
+    "priority": 1,
+    "fetched_at": "2026-03-09T07:51:36.147246+09:00"
+  }
+]
