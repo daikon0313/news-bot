@@ -1,0 +1,57 @@
+[
+  {
+    "tweet_text": "🔒 Databricks、LLMでPII検出を自動化する内製ツール「LogSentinel」を公開\n\nスキーマ変更が頻繁に起こる大規模ログから個人情報を自動検出・ガバナンス管理。従来の正規表現ベースでは限界があった動的データにも対応できるのが強み。\n\nデータガバナンスの新時代かも。\n\n#データエンジニアリング #Databricks\n\nhttps://www.databricks.com/blog/logsentinel-how-databricks-uses-databricks-llm-powered-pii-detection-and-governance",
+    "source_title": "LogSentinel: How Databricks uses Databricks for LLM-Powered PII Detection and Governance",
+    "source_url": "https://www.databricks.com/blog/logsentinel-how-databricks-uses-databricks-llm-powered-pii-detection-and-governance",
+    "category": "Data Engineering",
+    "format_type": "速報",
+    "status": "pending",
+    "id": "0732c6c8-6db1-492f-8b46-0d18372bbaa3",
+    "generated_at": "2026-03-08T07:51:16.789210+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "🤖 OpenAIが「Codex Security」のリサーチプレビューを公開\n\nプロジェクト全体のコンテキストを理解して脆弱性を検出→検証→自動パッチまで実行するAIセキュリティエージェント。誤検知を減らしつつ複雑な脆弱性にも対応。\n\nDevSecOpsの自動化、ここまで来たか。\n\n#AI #セキュリティ\n\nhttps://openai.com/index/codex-security-now-in-research-preview",
+    "source_title": "Codex Security: now in research preview",
+    "source_url": "https://openai.com/index/codex-security-now-in-research-preview",
+    "category": "AI",
+    "format_type": "意見",
+    "status": "pending",
+    "id": "1d5429c6-043a-4951-9c15-8cbb0f3a24f2",
+    "generated_at": "2026-03-08T07:51:16.789210+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "📊 dbtが「データ品質を組織全体で改善する戦略」を公開\n\nテスト・ガバナンス・スケーラブルな分析ワークフローの3本柱で実証済みの手法を解説。データ品質はツールだけでは解決しない。組織文化とプロセスの両輪が必要という主張が的確すぎる。\n\n#データエンジニアリング #dbt\n\nhttps://www.getdbt.com/blog/strategies-improve-data-quality",
+    "source_title": "Effective strategies to improve data quality across your organization",
+    "source_url": "https://www.getdbt.com/blog/strategies-improve-data-quality",
+    "category": "Data Engineering",
+    "format_type": "まとめ",
+    "status": "pending",
+    "id": "f027b42f-fead-4fcd-83c0-52dc30c8c6f4",
+    "generated_at": "2026-03-08T07:51:16.789210+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "💰 OpenAIのロボティクスリーダー、国防総省との契約に抗議して辞任\n\nCaitlin Kalinowski氏がペンタゴン案件への反対を表明して退職。AI企業の軍事利用をめぐる議論が再燃しそう。Anthropicに続きOpenAIでも内部対立が表面化。\n\nあなたはどう思う？\n\n#AI #OpenAI\n\nhttps://techcrunch.com/2026/03/07/openai-robotics-lead-caitlin-kalinowski-quits-in-response-to-pentagon-deal/",
+    "source_title": "OpenAI robotics lead Caitlin Kalinowski quits in response to Pentagon deal",
+    "source_url": "https://techcrunch.com/2026/03/07/openai-robotics-lead-caitlin-kalinowski-quits-in-response-to-pentagon-deal/",
+    "category": "AI",
+    "format_type": "問いかけ",
+    "status": "pending",
+    "id": "151b792c-e9aa-403c-91e8-7a58cd51bab5",
+    "generated_at": "2026-03-08T07:51:16.789210+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "🎯 Amplitude、Amazon OpenSearchをベクトルDBとして活用し自然言語分析を実装\n\nスキーマ検索とコンテンツ検索を組み合わせてLLMによるカスタマイズ可能な分析を実現。低レイテンシで正確な回答を提供。\n\nプロダクト分析の民主化が加速してる。\n\n#データエンジニアリング #AWS\n\nhttps://aws.amazon.com/blogs/big-data/how-amplitude-implemented-natural-language-powered-analytics-using-amazon-opensearch-service-as-a-vector-database/",
+    "source_title": "How Amplitude implemented natural language-powered analytics using Amazon OpenSearch Service as a vector database",
+    "source_url": "https://aws.amazon.com/blogs/big-data/how-amplitude-implemented-natural-language-powered-analytics-using-amazon-opensearch-service-as-a-vector-database/",
+    "category": "Data Engineering",
+    "format_type": "データ",
+    "status": "pending",
+    "id": "95ff1e6f-3a6f-4f3c-acf0-f129c825eb7c",
+    "generated_at": "2026-03-08T07:51:16.789210+09:00",
+    "session_type": "morning"
+  }
+]
