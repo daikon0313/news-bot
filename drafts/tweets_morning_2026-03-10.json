@@ -1,0 +1,57 @@
+[
+  {
+    "tweet_text": "🚨 OpenAIがPromptfooを買収\n\nAIエージェントの安全性確保に本気モード。企業の本番環境でAIを使う前提で、開発段階で脆弱性を特定・修復できるセキュリティプラットフォームを獲得。\n\nフロンティアラボがこぞって安全性を証明しようとする動き、AIの実用化フェーズに突入した証拠かも。\n\n#AI #OpenAI\n\nhttps://openai.com/index/openai-to-acquire-promptfoo",
+    "source_title": "OpenAI to acquire Promptfoo",
+    "source_url": "https://openai.com/index/openai-to-acquire-promptfoo",
+    "category": "AI",
+    "format_type": "意見",
+    "status": "pending",
+    "id": "bf2aef62-300d-4207-92a8-c02d2ad24e85",
+    "generated_at": "2026-03-10T07:57:15.554025+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "🔍 AnthropicがClaude Codeに「コードレビュー機能」を追加\n\nAI生成コードの急増に対応するマルチエージェントシステム。ロジックエラーを自動検出し、企業開発者の負担を軽減。\n\nコードを書くAIと、そのコードをチェックするAI。開発の在り方が根本から変わり始めてる。\n\n#AIエンジニアリング #生成AI\n\nhttps://techcrunch.com/2026/03/09/anthropic-launches-code-review-tool-to-check-flood-of-ai-generated-code",
+    "source_title": "Anthropic launches code review tool to check flood of AI-generated code",
+    "source_url": "https://techcrunch.com/2026/03/09/anthropic-launches-code-review-tool-to-check-flood-of-ai-generated-code",
+    "category": "AI",
+    "format_type": "解説",
+    "status": "pending",
+    "id": "4790505f-4ca9-477a-abcd-046cbc1116be",
+    "generated_at": "2026-03-10T07:57:15.554025+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "⚡ DatabricksがAgenticAI向け新ツール「Kasal」を発表\n\nエージェントシステムの導入が加速する中、組織の生産性向上を後押しする基盤が登場。データとAIの統合プラットフォームとしての強みを活かした一手。\n\nデータ基盤がAIエージェントの土台になる時代、もう始まってます。\n\n#データエンジニアリング #Databricks\n\nhttps://www.databricks.com/blog/introducing-kasal",
+    "source_title": "Introducing Kasal",
+    "source_url": "https://www.databricks.com/blog/introducing-kasal",
+    "category": "Data Engineering",
+    "format_type": "速報",
+    "status": "pending",
+    "id": "2aa94261-4576-456c-a11b-48d9f5048d1e",
+    "generated_at": "2026-03-10T07:57:15.554025+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "🤖 100万トークンの長文学習が可能に\n\nHugging Faceが「Ulysses Sequence Parallelism」を解説。超長コンテキストでのトレーニングを実現する並列化技術で、AIモデルの記憶力が劇的に向上。\n\nRAGだけじゃない、長文理解の新時代が来そう。\n\n#MLOps #AI\n\nhttps://huggingface.co/blog/ulysses-sp",
+    "source_title": "Ulysses Sequence Parallelism: Training with Million-Token Contexts",
+    "source_url": "https://huggingface.co/blog/ulysses-sp",
+    "category": "AI",
+    "format_type": "データ",
+    "status": "pending",
+    "id": "bc5cb2ec-e014-4d5e-93a6-baf8c985ab67",
+    "generated_at": "2026-03-10T07:57:15.554025+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "💰 Spotify FOSS Fund 2025の受賞者が決定\n\n2022年から続くオープンソース支援プログラム。Spotifyが依存するOSSエコシステムへの恩返しとして、優れたプロジェクトに資金提供。\n\nエンジニアリング組織として正しい姿勢。使うだけじゃなく、育てる文化が大事。\n\n#エンジニアリング #OSS\n\nhttps://engineering.atspotify.com/2026/1/congratulations-to-the-recipients-of-the-2025-spotify-foss-fund/",
+    "source_title": "Congratulations to the recipients of the 2025 Spotify FOSS Fund",
+    "source_url": "https://engineering.atspotify.com/2026/1/congratulations-to-the-recipients-of-the-2025-spotify-foss-fund/",
+    "category": "Tech General",
+    "format_type": "意見",
+    "status": "pending",
+    "id": "da868ec9-8f65-4520-a839-29e9d5401e86",
+    "generated_at": "2026-03-10T07:57:15.554025+09:00",
+    "session_type": "morning"
+  }
+]
