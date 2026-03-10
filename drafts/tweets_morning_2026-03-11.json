@@ -1,0 +1,57 @@
+[
+  {
+    "tweet_text": "🚨 OpenAIがPromptfooを買収\n\nAIシステムの脆弱性を開発段階で検出・修正するセキュリティプラットフォーム。プロンプトインジェクション対策が標準装備される時代へ。\n\nエンタープライズAI導入の最大の壁「セキュリティ」を本気で潰しにきた。\n\n#AI #OpenAI\n\nhttps://openai.com/index/openai-to-acquire-promptfoo",
+    "source_title": "OpenAI to acquire Promptfoo",
+    "source_url": "https://openai.com/index/openai-to-acquire-promptfoo",
+    "category": "AI",
+    "format_type": "速報",
+    "status": "pending",
+    "id": "59e58437-af65-446b-bdc1-0b33df4f61f6",
+    "generated_at": "2026-03-11T07:56:23.039496+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "ETL vs ELT vs CDC、結局どれ使えばいいの？\n\ndbtが各データ移動パターンの使い分けを完全図解。バッチ処理・リアルタイム・Reverse ETLまで網羅。\n\n「モダンデータスタック」って言葉だけ知ってる人、この記事で一気に解像度上がります。\n\n#データエンジニアリング #dbt\n\nhttps://www.getdbt.com/blog/data-movement-patterns",
+    "source_title": "Data movement patterns explained (ETL, ELT, CDC & more)",
+    "source_url": "https://www.getdbt.com/blog/data-movement-patterns",
+    "category": "Data Engineering",
+    "format_type": "問いかけ",
+    "status": "pending",
+    "id": "6c1ed847-d80f-4fe4-817b-ac671ca4ba79",
+    "generated_at": "2026-03-11T07:56:23.039496+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "💡 Databricks、マルチエージェントシステムにVega-Liteで可視化機能を実装\n\nエージェント同士の協調作業に「見える化」が加わることで、複雑なAIシステムのデバッグ・モニタリングが劇的に改善。\n\nエージェント時代のオブザーバビリティはこうなる。\n\n#AIエンジニアリング #Databricks\n\nhttps://www.databricks.com/blog/bringing-visualizations-life-multi-agent-systems-vega-lite",
+    "source_title": "Bringing Visualizations to Life in Multi‑Agent Systems With Vega‑Lite",
+    "source_url": "https://www.databricks.com/blog/bringing-visualizations-life-multi-agent-systems-vega-lite",
+    "category": "AI",
+    "format_type": "解説",
+    "status": "pending",
+    "id": "1df26fde-f726-4d21-94b8-74f1bb2bd119",
+    "generated_at": "2026-03-11T07:56:23.039496+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "🔥 GoogleのGemini in Sheets、SOTA達成\n\n「シート全体を作成・整理・編集」が自然言語だけで完結。複雑なデータ分析もプロンプト一発。\n\nExcelマクロ職人が絶滅危惧種になる日、思ったより早いかも。ベータ版で既にこのレベル。\n\n#生成AI #Google\n\nhttps://blog.google/products-and-platforms/products/workspace/gemini-google-sheets-state-of-the-art/",
+    "source_title": "Gemini in Google Sheets just achieved state-of-the-art performance.",
+    "source_url": "https://blog.google/products-and-platforms/products/workspace/gemini-google-sheets-state-of-the-art/",
+    "category": "AI",
+    "format_type": "データ",
+    "status": "pending",
+    "id": "dc402864-1f34-44eb-8011-56967bb64e45",
+    "generated_at": "2026-03-11T07:56:23.039496+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "ヘルスケアAI、2026年の最優先課題は「相互運用性」\n\n183人の医療業界リーダー調査。データ分断がAI導入の最大ボトルネックに。Snowflakeが実態レポート公開。\n\n医療×AIは技術より「データガバナンス」が勝負を分ける。\n\n#データ基盤 #Snowflake\n\nhttps://www.snowflake.com/content/snowflake-site/global/en/blog/ai-interoperability-healthcare",
+    "source_title": "Healthcare AI Data Solutions: 2026 Interoperability Research Report",
+    "source_url": "https://www.snowflake.com/content/snowflake-site/global/en/blog/ai-interoperability-healthcare",
+    "category": "Data Engineering",
+    "format_type": "意見",
+    "status": "pending",
+    "id": "b0138c7b-c8fe-414a-9b67-d08b5d93c689",
+    "generated_at": "2026-03-11T07:56:23.039496+09:00",
+    "session_type": "morning"
+  }
+]
