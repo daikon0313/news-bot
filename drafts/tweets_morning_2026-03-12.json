@@ -1,0 +1,57 @@
+[
+  {
+    "tweet_text": "🚀 Databricks、プロンプトインジェクション対策を強化\n\nAIエージェント時代の最重要課題に本格対応。DASF（AI Security Framework）で悪意ある指示を遮断し、安全なエージェント運用を実現。\n\nセキュリティ設計なきAI導入は危険すぎる。\n\n#AI #Databricks\nhttps://www.databricks.com/blog/mitigating-risk-prompt-injection-ai-agents-databricks",
+    "source_title": "Mitigating The Risk of Prompt Injection for AI Agents on Databricks",
+    "source_url": "https://www.databricks.com/blog/mitigating-risk-prompt-injection-ai-agents-databricks",
+    "category": "AI",
+    "format_type": "速報",
+    "status": "pending",
+    "id": "14c77071-c3b5-474a-a4e4-5b07cda8db02",
+    "generated_at": "2026-03-12T07:52:41.617992+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "30〜40%の実行時間削減、わずか3ヶ月で達成 ⚡\n\nノルウェー政府系投資ファンドNBIMが dbt Fusion エンジンで実現。重い最適化なしでこの成果は驚異的。\n\nState-Aware Orchestrationが鍵。データパイプラインの常識が変わるかも。\n\n#データエンジニアリング #dbt\nhttps://www.getdbt.com/blog/how-a-global-investment-firm-reduced-runtimes-by-30-40-with-the-dbt-fusion-engine",
+    "source_title": "How a global investment firm reduced runtimes by 30–40% with the dbt Fusion engine",
+    "source_url": "https://www.getdbt.com/blog/how-a-global-investment-firm-reduced-runtimes-by-30-40-with-the-dbt-fusion-engine",
+    "category": "Data Engineering",
+    "format_type": "データ",
+    "status": "pending",
+    "id": "1089188c-a6de-41d7-87c7-f40ebd6d8229",
+    "generated_at": "2026-03-12T07:52:41.617992+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "💡 メタデータ管理、まだ後回しにしてる？\n\nモダンなデータチームが成果を出せる理由：\n・データの発見性向上\n・ガバナンス強化\n・パフォーマンス最適化\n・信頼性の確保\n\nすべてメタデータ管理から始まる。dbtが解説する実践ガイド。\n\n#データ基盤 #DataEngineering\nhttps://www.getdbt.com/blog/why-metadata-management-is-important",
+    "source_title": "Why metadata management is critical for modern data teams",
+    "source_url": "https://www.getdbt.com/blog/why-metadata-management-is-important",
+    "category": "Data Engineering",
+    "format_type": "問いかけ",
+    "status": "pending",
+    "id": "d1ee82c8-3d10-49f5-94a7-c7e704108a6d",
+    "generated_at": "2026-03-12T07:52:41.617992+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "OpenAIのCodex、楽天で障害対応時間を半減させる 🔧\n\nMTTR 50%削減、CI/CDレビュー自動化、フルスタック構築を数週間で実現。コーディングエージェントが開発現場を変えている。\n\n「速く・安全に」の両立が現実に。\n\n#AI #MLOps\nhttps://openai.com/index/rakuten",
+    "source_title": "Rakuten fixes issues twice as fast with Codex",
+    "source_url": "https://openai.com/index/rakuten",
+    "category": "AI",
+    "format_type": "データ",
+    "status": "pending",
+    "id": "498ee729-99ea-4dbf-90ae-17510c931610",
+    "generated_at": "2026-03-12T07:52:41.617992+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "📊 Lovable、従業員146人でARR 4億ドル突破\n\n先月だけで1億ドルの売上追加。スウェーデン発のvibe-coding系ユニコーンが示す、AI時代の新しい生産性。\n\n少数精鋭 × AI = 圧倒的スケール。組織論が根本から変わる予感。\n\n#生成AI #スタートアップ\nhttps://techcrunch.com/2026/03/11/lovable-says-it-added-100m-in-revenue-last-month-alone-with-just-146-employees/",
+    "source_title": "Lovable says it added $100M in revenue last month alone, with just 146 employees",
+    "source_url": "https://techcrunch.com/2026/03/11/lovable-says-it-added-100m-in-revenue-last-month-alone-with-just-146-employees/",
+    "category": "Tech General",
+    "format_type": "意見",
+    "status": "pending",
+    "id": "473ae228-e5c1-4daa-b9b5-86fe4cdff7e6",
+    "generated_at": "2026-03-12T07:52:41.617992+09:00",
+    "session_type": "morning"
+  }
+]
