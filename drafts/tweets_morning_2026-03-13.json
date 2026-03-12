@@ -1,0 +1,57 @@
+[
+  {
+    "tweet_text": "🚀 グローバル投資会社、dbt Fusion engineで実行時間を30-40%削減に成功\n\nNBIMがわずか3ヶ月で達成した驚異の成果。重いチューニング作業なしでState-Aware Orchestrationを活用したのがポイント。\n\nデータパイプラインの高速化、まだ手作業でやってませんか？\n\n#データエンジニアリング #dbt\n\nhttps://www.getdbt.com/blog/how-a-global-investment-firm-reduced-runtimes-by-30-40-with-the-dbt-fusion-engine",
+    "source_title": "How a global investment firm reduced runtimes by 30–40% with the dbt Fusion engine",
+    "source_url": "https://www.getdbt.com/blog/how-a-global-investment-firm-reduced-runtimes-by-30-40-with-the-dbt-fusion-engine",
+    "category": "Data Engineering",
+    "format_type": "データ",
+    "status": "pending",
+    "id": "088246c9-8b40-46bd-9a94-a449bf9909dc",
+    "generated_at": "2026-03-13T07:55:35.182116+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "💡 AIガバナンスは「戦略」そのもの。成功するAI施策はコードではなく、コントロールから始まる\n\nDatabricksが指摘する重要ポイント：AIが業務フロー・顧客接点・意思決定に組み込まれる今、ガバナンス設計が競争力を左右する時代に。\n\n技術先行で失敗してませんか？\n\n#AI #データガバナンス\n\nhttps://www.databricks.com/blog/ai-governance-strategy-why-successful-ai-initiatives-begins-control-not-code",
+    "source_title": "AI Governance Is the Strategy: Why Successful AI Initiatives Begins with Control, Not Code",
+    "source_url": "https://www.databricks.com/blog/ai-governance-strategy-why-successful-ai-initiatives-begins-control-not-code",
+    "category": "AI",
+    "format_type": "意見",
+    "status": "pending",
+    "id": "9e2d1860-f8d3-4be2-beab-084d3acf3c02",
+    "generated_at": "2026-03-13T07:55:35.182116+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "📊 メタデータ管理、まだ後回しにしてる？\n\nモダンデータチームにとってメタデータ管理が重要な理由：\n・データ発見性の向上\n・ガバナンス強化\n・パフォーマンス改善\n・信頼性の確保\n\ndbtが解説する、データ基盤を「使える資産」に変える鍵。\n\n#データエンジニアリング #データ基盤\n\nhttps://www.getdbt.com/blog/why-metadata-management-is-important",
+    "source_title": "Why metadata management is critical for modern data teams",
+    "source_url": "https://www.getdbt.com/blog/why-metadata-management-is-important",
+    "category": "Data Engineering",
+    "format_type": "まとめ・解説",
+    "status": "pending",
+    "id": "e73ef513-4012-4a04-a04e-a6a78547f8dd",
+    "generated_at": "2026-03-13T07:55:35.182116+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "⚡ EMR Serverlessのサーバーレスストレージで、Sparkのシャッフル処理コストを大幅削減\n\nAWSがベンチマーク結果を公開。シャッフル処理が多いSparkワークロードほど効果大。どんなワークロードが恩恵を受けるか、実践的なガイダンスも必見。\n\nコスト最適化の新定石になりそう。\n\n#データエンジニアリング #AWS\n\nhttps://aws.amazon.com/blogs/big-data/reducing-costs-for-shuffle-heavy-apache-spark-workloads-with-serverless-storage-for-amazon-emr-serverless/",
+    "source_title": "Reducing costs for shuffle-heavy Apache Spark workloads with serverless storage for Amazon EMR Serverless",
+    "source_url": "https://aws.amazon.com/blogs/big-data/reducing-costs-for-shuffle-heavy-apache-spark-workloads-with-serverless-storage-for-amazon-emr-serverless/",
+    "category": "Data Engineering",
+    "format_type": "速報",
+    "status": "pending",
+    "id": "4fd4eb51-5520-436c-a855-96b02c18a88d",
+    "generated_at": "2026-03-13T07:55:35.182116+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "🤖 楽天、OpenAI Codexで問題解決速度を2倍に\n\nMTTRを50%削減、CI/CDレビューを自動化、フルスタック構築を数週間で実現。コーディングエージェントが開発プロセスをどう変えるか、具体的な成果が明らかに。\n\nAIペアプロの次は、AI開発チームの時代？\n\n#AI #生成AI\n\nhttps://openai.com/index/rakuten",
+    "source_title": "Rakuten fixes issues twice as fast with Codex",
+    "source_url": "https://openai.com/index/rakuten",
+    "category": "AI",
+    "format_type": "問いかけ",
+    "status": "pending",
+    "id": "26a11e8b-32e6-4314-b582-104a30e3c26f",
+    "generated_at": "2026-03-13T07:55:35.182116+09:00",
+    "session_type": "morning"
+  }
+]
