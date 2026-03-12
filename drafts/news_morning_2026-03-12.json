@@ -1,0 +1,182 @@
+[
+  {
+    "title": "Why metadata management is critical for modern data teams",
+    "url": "https://www.getdbt.com/blog/why-metadata-management-is-important",
+    "summary": "Metadata management improves discovery, governance, performance, and trust in modern data systems.",
+    "source": "dbt Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-03-12T07:52:04.833599+09:00"
+  },
+  {
+    "title": "How a global investment firm reduced runtimes by 30–40% with the dbt Fusion engine",
+    "url": "https://www.getdbt.com/blog/how-a-global-investment-firm-reduced-runtimes-by-30-40-with-the-dbt-fusion-engine",
+    "summary": "NBIM cut runtimes 30–40% in 3 months with the dbt Fusion engine and State-Aware Orchestration—without heavy optimization.",
+    "source": "dbt Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-03-12T07:52:04.833615+09:00"
+  },
+  {
+    "title": "Effective strategies to enhance data quality management",
+    "url": "https://www.getdbt.com/blog/enhance-data-quality-management-strategies",
+    "summary": "Improve data quality with testing, metrics, automation, and a scalable governance framework.",
+    "source": "dbt Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-03-12T07:52:04.833620+09:00"
+  },
+  {
+    "title": "How Ontologies Help Nuclear Scale to Meet Global Energy Demand",
+    "url": "https://www.databricks.com/blog/how-ontologies-help-nuclear-scale-meet-global-energy-demand",
+    "summary": "Nuclear reactors are among the most complex engineered systems we operate at scale. Safe...",
+    "source": "Databricks Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-03-12T07:52:05.020369+09:00"
+  },
+  {
+    "title": "Mitigating The Risk of Prompt Injection for AI Agents on Databricks",
+    "url": "https://www.databricks.com/blog/mitigating-risk-prompt-injection-ai-agents-databricks",
+    "summary": "Overview:Since we released the Databricks AI Security Framework (DASF) in 2024, the...",
+    "source": "Databricks Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-03-12T07:52:05.020384+09:00"
+  },
+  {
+    "title": "Introducing Genie Code",
+    "url": "https://www.databricks.com/blog/introducing-genie-code",
+    "summary": "We are excited to announce&nbsp;Genie Code, the newest addition to the Databricks Genie...",
+    "source": "Databricks Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-03-12T07:52:05.020388+09:00"
+  },
+  {
+    "title": "Healthcare AI Data Solutions: 2026 Interoperability Research Report",
+    "url": "https://www.snowflake.com/content/snowflake-site/global/en/blog/ai-interoperability-healthcare",
+    "summary": "Discover how 183 healthcare leaders are adopting AI and prioritizing interoperability. Get actionable insights on healthcare data solutions for 2026 and beyond.",
+    "source": "Snowflake Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-03-12T07:52:06.065289+09:00"
+  },
+  {
+    "title": "Snowflake Intelligence for Manufacturing: Actionable Data Insights",
+    "url": "https://www.snowflake.com/content/snowflake-site/global/en/blog/snowflake-intelligence-actionable-data-insights-manufacturers",
+    "summary": "Empower manufacturers with Snowflake Intelligence. Unify product and customer data to overcome fragmentation, unlock actionable insights, and drive product innovation.",
+    "source": "Snowflake Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-03-12T07:52:06.065303+09:00"
+  },
+  {
+    "title": "From Pilot to Profit: The Compelling ROI of Generative and Agentic AI",
+    "url": "https://www.snowflake.com/content/snowflake-site/global/en/blog/roi-generative-agentic-ai",
+    "summary": "Companies investing strategically in generative and agentic AI are both accelerating at scale and obtaining a real profit.",
+    "source": "Snowflake Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-03-12T07:52:06.065308+09:00"
+  },
+  {
+    "title": "Amazon Redshift DC2 migration approach with a customer case study",
+    "url": "https://aws.amazon.com/blogs/big-data/amazon-redshift-dc2-migration-approach-with-a-customer-case-study/",
+    "summary": "In this post, we share insights from one of our customers' migration from DC2 to RA3 instances. The customer, a large enterprise in the retail industry, operated a 16-node dc2.8xlarge cluster for business intelligence (BI) and ETL workloads. Facing growing data volumes and disk capacity limitations,",
+    "source": "AWS Big Data Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-03-12T07:52:06.571303+09:00"
+  },
+  {
+    "title": "Reducing costs for shuffle-heavy Apache Spark workloads with serverless storage for Amazon EMR Serverless",
+    "url": "https://aws.amazon.com/blogs/big-data/reducing-costs-for-shuffle-heavy-apache-spark-workloads-with-serverless-storage-for-amazon-emr-serverless/",
+    "summary": "In this post, we explore the cost improvements we observed when benchmarking Apache Spark jobs with serverless storage on EMR Serverless. We take a deeper look at how serverless storage helps reduce costs for shuffle-heavy Spark workloads, and we outline practical guidance on identifying the types o",
+    "source": "AWS Big Data Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-03-12T07:52:06.571319+09:00"
+  },
+  {
+    "title": "Optimize HBase reads with bucket caching on Amazon EMR",
+    "url": "https://aws.amazon.com/blogs/big-data/optimize-hbase-reads-with-bucket-caching-on-amazon-emr/",
+    "summary": "In this post, we demonstrate how to improve HBase read performance by implementing bucket caching on Amazon EMR. Our tests reduced latency by 57.9% and improved throughput by 138.8%. This solution is particularly valuable for large-scale HBase deployments on Amazon S3 that need to optimize read perf",
+    "source": "AWS Big Data Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-03-12T07:52:06.571325+09:00"
+  },
+  {
+    "title": "Congratulations to the recipients of the 2025 Spotify FOSS Fund",
+    "url": "https://engineering.atspotify.com/2026/1/congratulations-to-the-recipients-of-the-2025-spotify-foss-fund/",
+    "summary": "<p>TL;DR Established in 2022 as a way to help support the great open source ecosystem projects that Spotify...</p>\n<p>The post <a href=\"https://engineering.atspotify.com/2026/1/congratulations-to-the-recipients-of-the-2025-spotify-foss-fund/\">Congratulations to the recipients of the 2025 Spotify FOS",
+    "source": "Spotify Engineering",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-03-12T07:52:08.651102+09:00"
+  },
+  {
+    "title": "Zendesk acquires agentic customer service startup Forethought",
+    "url": "https://techcrunch.com/2026/03/11/zendesk-acquires-agentic-customer-service-startup-forethought/",
+    "summary": "Forethought was years ahead of its time and the 2018 winner of TechCrunch Battlefield.",
+    "source": "TechCrunch AI",
+    "category": "AI",
+    "priority": 1,
+    "fetched_at": "2026-03-12T07:52:09.818744+09:00"
+  },
+  {
+    "title": "Netflix may have paid $600 million for Ben Affleck’s AI startup",
+    "url": "https://techcrunch.com/2026/03/11/netflix-may-have-paid-600-million-for-ben-afflecks-ai-startup/",
+    "summary": "This deal could rank as among the streaming giant's largest acquisitions ever.",
+    "source": "TechCrunch AI",
+    "category": "AI",
+    "priority": 1,
+    "fetched_at": "2026-03-12T07:52:09.818759+09:00"
+  },
+  {
+    "title": "Lovable says it added $100M in revenue last month alone, with just 146 employees",
+    "url": "https://techcrunch.com/2026/03/11/lovable-says-it-added-100m-in-revenue-last-month-alone-with-just-146-employees/",
+    "summary": "Swedish vibe-coding unicorn Lovable crossed $400 million in annual recurring revenue (ARR) in February.",
+    "source": "TechCrunch AI",
+    "category": "AI",
+    "priority": 1,
+    "fetched_at": "2026-03-12T07:52:09.818763+09:00"
+  },
+  {
+    "title": "Replit snags $9B valuation 6 months after hitting $3B",
+    "url": "https://techcrunch.com/2026/03/11/replit-snags-9b-valuation-6-months-after-hitting-3b/",
+    "summary": "Replit raised a new $400 million round and said it hopes to have $1B in ARR by year's end.",
+    "source": "TechCrunch AI",
+    "category": "AI",
+    "priority": 1,
+    "fetched_at": "2026-03-12T07:52:09.818767+09:00"
+  },
+  {
+    "title": "WordPress debuts a private workspace that runs in your browser via a new service, my.WordPress.net",
+    "url": "https://techcrunch.com/2026/03/11/wordpress-debuts-a-private-workspace-that-runs-in-your-browser-via-a-new-service-my-wordpress-net/",
+    "summary": "WordPress’s new browser-based service lets users create private sites without hosting or signing up, turning the platform into a personal workspace for writing, research, and AI tools.",
+    "source": "TechCrunch AI",
+    "category": "AI",
+    "priority": 1,
+    "fetched_at": "2026-03-12T07:52:09.818771+09:00"
+  },
+  {
+    "title": "Rakuten fixes issues twice as fast with Codex",
+    "url": "https://openai.com/index/rakuten",
+    "summary": "Rakuten uses Codex, the coding agent from OpenAI, to ship software faster and safer, reducing MTTR 50%, automating CI/CD reviews, and delivering full-stack builds in weeks.",
+    "source": "OpenAI Blog",
+    "category": "AI",
+    "priority": 1,
+    "fetched_at": "2026-03-12T07:52:10.619884+09:00"
+  },
+  {
+    "title": "Designing AI agents to resist prompt injection",
+    "url": "https://openai.com/index/designing-agents-to-resist-prompt-injection",
+    "summary": "How ChatGPT defends against prompt injection and social engineering by constraining risky actions and protecting sensitive data in agent workflows.",
+    "source": "OpenAI Blog",
+    "category": "AI",
+    "priority": 1,
+    "fetched_at": "2026-03-12T07:52:10.619901+09:00"
+  }
+]
