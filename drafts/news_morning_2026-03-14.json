@@ -1,0 +1,182 @@
+[
+  {
+    "title": "Why metadata management is critical for modern data teams",
+    "url": "https://www.getdbt.com/blog/why-metadata-management-is-important",
+    "summary": "Metadata management improves discovery, governance, performance, and trust in modern data systems.",
+    "source": "dbt Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-03-14T07:55:33.570272+09:00"
+  },
+  {
+    "title": "How a global investment firm reduced runtimes by 30–40% with the dbt Fusion engine",
+    "url": "https://www.getdbt.com/blog/how-a-global-investment-firm-reduced-runtimes-by-30-40-with-the-dbt-fusion-engine",
+    "summary": "NBIM cut runtimes 30–40% in 3 months with the dbt Fusion engine and State-Aware Orchestration—without heavy optimization.",
+    "source": "dbt Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-03-14T07:55:33.570290+09:00"
+  },
+  {
+    "title": "Effective strategies to enhance data quality management",
+    "url": "https://www.getdbt.com/blog/enhance-data-quality-management-strategies",
+    "summary": "Improve data quality with testing, metrics, automation, and a scalable governance framework.",
+    "source": "dbt Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-03-14T07:55:33.570295+09:00"
+  },
+  {
+    "title": "Serverless Workspaces in Azure Databricks is now Generally Available",
+    "url": "https://www.databricks.com/blog/serverless-workspaces-azure-databricks-now-generally-available",
+    "summary": "We’re excited to announce that serverless workspaces are now Generally Available on Azure, ...",
+    "source": "Databricks Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-03-14T07:55:33.717676+09:00"
+  },
+  {
+    "title": "AI Governance Is the Strategy: Why Successful AI Initiatives Begins with Control, Not Code",
+    "url": "https://www.databricks.com/blog/ai-governance-strategy-why-successful-ai-initiatives-begins-control-not-code",
+    "summary": "AI is becoming embedded in workflows, customer interactions, and enterprise decision-making...",
+    "source": "Databricks Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-03-14T07:55:33.717694+09:00"
+  },
+  {
+    "title": "The Evolution of Data Engineering: How Serverless Compute is Transforming Notebooks, Lakeflow Jobs, and Spark Declarative Pipelines",
+    "url": "https://www.databricks.com/blog/evolution-data-engineering-how-serverless-compute-transforming-notebooks-lakeflow-jobs",
+    "summary": "Data engineering has reached an inflection point. As organizations increasingly rely...",
+    "source": "Databricks Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-03-14T07:55:33.717699+09:00"
+  },
+  {
+    "title": "Accelerating FinOps with Cortex Code on Snowflake",
+    "url": "https://www.snowflake.com/content/snowflake-site/global/en/blog/automate-financial-operations-cortex-code",
+    "summary": "Discover how Snowflake Cortex Code transforms FinOps with AI-driven forecasting, anomaly detection and automated controls on an enterprise data platform.",
+    "source": "Snowflake Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-03-14T07:55:34.056479+09:00"
+  },
+  {
+    "title": "Healthcare AI Data Solutions: 2026 Interoperability Research Report",
+    "url": "https://www.snowflake.com/content/snowflake-site/global/en/blog/ai-interoperability-healthcare",
+    "summary": "Discover how 183 healthcare leaders are adopting AI and prioritizing interoperability. Get actionable insights on healthcare data solutions for 2026 and beyond.",
+    "source": "Snowflake Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-03-14T07:55:34.056494+09:00"
+  },
+  {
+    "title": "Snowflake Intelligence for Manufacturing: Actionable Data Insights",
+    "url": "https://www.snowflake.com/content/snowflake-site/global/en/blog/snowflake-intelligence-actionable-data-insights-manufacturers",
+    "summary": "Empower manufacturers with Snowflake Intelligence. Unify product and customer data to overcome fragmentation, unlock actionable insights, and drive product innovation.",
+    "source": "Snowflake Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-03-14T07:55:34.056499+09:00"
+  },
+  {
+    "title": "Amazon Redshift DC2 migration approach with a customer case study",
+    "url": "https://aws.amazon.com/blogs/big-data/amazon-redshift-dc2-migration-approach-with-a-customer-case-study/",
+    "summary": "In this post, we share insights from one of our customers' migration from DC2 to RA3 instances. The customer, a large enterprise in the retail industry, operated a 16-node dc2.8xlarge cluster for business intelligence (BI) and ETL workloads. Facing growing data volumes and disk capacity limitations,",
+    "source": "AWS Big Data Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-03-14T07:55:34.676059+09:00"
+  },
+  {
+    "title": "Reducing costs for shuffle-heavy Apache Spark workloads with serverless storage for Amazon EMR Serverless",
+    "url": "https://aws.amazon.com/blogs/big-data/reducing-costs-for-shuffle-heavy-apache-spark-workloads-with-serverless-storage-for-amazon-emr-serverless/",
+    "summary": "In this post, we explore the cost improvements we observed when benchmarking Apache Spark jobs with serverless storage on EMR Serverless. We take a deeper look at how serverless storage helps reduce costs for shuffle-heavy Spark workloads, and we outline practical guidance on identifying the types o",
+    "source": "AWS Big Data Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-03-14T07:55:34.676074+09:00"
+  },
+  {
+    "title": "Optimize HBase reads with bucket caching on Amazon EMR",
+    "url": "https://aws.amazon.com/blogs/big-data/optimize-hbase-reads-with-bucket-caching-on-amazon-emr/",
+    "summary": "In this post, we demonstrate how to improve HBase read performance by implementing bucket caching on Amazon EMR. Our tests reduced latency by 57.9% and improved throughput by 138.8%. This solution is particularly valuable for large-scale HBase deployments on Amazon S3 that need to optimize read perf",
+    "source": "AWS Big Data Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-03-14T07:55:34.676080+09:00"
+  },
+  {
+    "title": "Inside the Archive: The Tech Behind Your 2025 Wrapped Highlights",
+    "url": "https://engineering.atspotify.com/2026/3/inside-the-archive-2025-wrapped/",
+    "summary": "<p>What if we could identify interesting listening moments from your year, and tell you a story about them?</p>\n<p>The post <a href=\"https://engineering.atspotify.com/2026/3/inside-the-archive-2025-wrapped/\">Inside the Archive: The Tech Behind Your 2025 Wrapped Highlights</a> appeared first on <a hr",
+    "source": "Spotify Engineering",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-03-14T07:55:37.034780+09:00"
+  },
+  {
+    "title": "Recommending Travel Destinations to Help Users Explore",
+    "url": "https://medium.com/airbnb-engineering/recommending-travel-destinations-to-help-users-explore-5fa7a81654fb?source=rss----53c7c27702d5---4",
+    "summary": "<figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/1*GmYX3GemYdlNvs2tOLlFbQ.jpeg\" /></figure><p><em>How we built a destination recommendation model that helps users spark inspiration and narrow down choices to make journeys smoother.</em></p><p>By: <a href=\"https://www.linkedin.com/in",
+    "source": "Airbnb Tech Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-03-14T07:55:37.992610+09:00"
+  },
+  {
+    "title": "Nyne, founded by a father-son duo, gives AI agents the human context they’re missing",
+    "url": "https://techcrunch.com/2026/03/13/nyne-founded-by-a-father-son-duo-gives-ai-agents-the-human-context-theyre-missing/",
+    "summary": "The data infrastructure startup raised $5.3 million in seed funding led by Wischoff Ventures and South Park Commons.",
+    "source": "TechCrunch AI",
+    "category": "AI",
+    "priority": 1,
+    "fetched_at": "2026-03-14T07:55:38.076642+09:00"
+  },
+  {
+    "title": "Steven Spielberg says he’s ‘never used AI’ in any of his films",
+    "url": "https://techcrunch.com/2026/03/13/steven-spielberg-says-hes-never-used-ai-in-any-of-his-films/",
+    "summary": "At SXSW, Steven Spielberg said AI has uses in many fields, but not when it comes to replacing creative people in film and TV writing.",
+    "source": "TechCrunch AI",
+    "category": "AI",
+    "priority": 1,
+    "fetched_at": "2026-03-14T07:55:38.076656+09:00"
+  },
+  {
+    "title": "The biggest AI stories of the year (so far)",
+    "url": "https://techcrunch.com/2026/03/13/the-biggest-ai-stories-of-the-year-so-far/",
+    "summary": "The AI industry is constantly churning out news, like major acquisitions, indie developer successes, public outcry, and existentially dangerous contract negotiations.",
+    "source": "TechCrunch AI",
+    "category": "AI",
+    "priority": 1,
+    "fetched_at": "2026-03-14T07:55:38.076661+09:00"
+  },
+  {
+    "title": "The wild six weeks for NanoClaw’s creator that led to a deal with Docker",
+    "url": "https://techcrunch.com/2026/03/13/the-wild-six-weeks-for-nanoclaws-creator-that-led-to-a-deal-with-docker/",
+    "summary": "Gavriel Cohen is living an open source developer's dream as his project has achieved acclaim and a partnership with Docker in a matter of weeks.",
+    "source": "TechCrunch AI",
+    "category": "AI",
+    "priority": 1,
+    "fetched_at": "2026-03-14T07:55:38.076665+09:00"
+  },
+  {
+    "title": "Spotify will let you edit your Taste Profile to control your recommendations",
+    "url": "https://techcrunch.com/2026/03/13/spotify-will-let-you-edit-your-taste-profile-to-control-your-recommendations/",
+    "summary": "When you edit your Taste Profile, you'll impact your personalized playlists like Discover Weekly, recommendations, and Wrapped.",
+    "source": "TechCrunch AI",
+    "category": "AI",
+    "priority": 1,
+    "fetched_at": "2026-03-14T07:55:38.076669+09:00"
+  },
+  {
+    "title": "Rakuten fixes issues twice as fast with Codex",
+    "url": "https://openai.com/index/rakuten",
+    "summary": "Rakuten uses Codex, the coding agent from OpenAI, to ship software faster and safer, reducing MTTR 50%, automating CI/CD reviews, and delivering full-stack builds in weeks.",
+    "source": "OpenAI Blog",
+    "category": "AI",
+    "priority": 1,
+    "fetched_at": "2026-03-14T07:55:38.865703+09:00"
+  }
+]

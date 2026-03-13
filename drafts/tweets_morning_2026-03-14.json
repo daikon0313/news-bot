@@ -1,0 +1,57 @@
+[
+  {
+    "tweet_text": "🚀 Databricks「サーバーレスワークスペース」Azure で GA\n\nNotebook、Lakeflow Jobs、Sparkパイプライン全てがサーバーレス化。インフラ管理ゼロでデータエンジニアリングに集中できる時代へ。\n\n特にスタートアップ〜中規模企業には革命的かも。\n\n#データエンジニアリング #Databricks\n\nhttps://www.databricks.com/blog/evolution-data-engineering-how-serverless-compute-transforming-notebooks-lakeflow-jobs",
+    "source_title": "The Evolution of Data Engineering: How Serverless Compute is Transforming Notebooks, Lakeflow Jobs, and Spark Declarative Pipelines",
+    "source_url": "https://www.databricks.com/blog/evolution-data-engineering-how-serverless-compute-transforming-notebooks-lakeflow-jobs",
+    "category": "Data Engineering",
+    "format_type": "速報",
+    "status": "pending",
+    "id": "7f5a2347-33bc-4ff9-83fe-f36f00e2d893",
+    "generated_at": "2026-03-14T07:56:05.664453+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "30〜40%の実行時間削減📊\n\nノルウェー政府系投資ファンドNBIMが、dbt Fusion engineとState-Aware Orchestrationで3ヶ月でこの成果。\n\n重い最適化作業なしで達成したのがポイント。データパイプラインの運用コスト、まだまだ削れる余地ありそう。\n\n#データ基盤 #dbt\n\nhttps://www.getdbt.com/blog/how-a-global-investment-firm-reduced-runtimes-by-30-40-with-the-dbt-fusion-engine",
+    "source_title": "How a global investment firm reduced runtimes by 30–40% with the dbt Fusion engine",
+    "source_url": "https://www.getdbt.com/blog/how-a-global-investment-firm-reduced-runtimes-by-30-40-with-the-dbt-fusion-engine",
+    "category": "Data Engineering",
+    "format_type": "データ",
+    "status": "pending",
+    "id": "00158c01-1b17-4b49-86d6-b3426ec20d2d",
+    "generated_at": "2026-03-14T07:56:05.664453+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "💡 AIガバナンスこそが戦略\n\n「コードより先に統制」— Databricksが提唱する成功するAI施策の原則。\n\nAIが業務・顧客接点・意思決定に組み込まれる今、ガバナンス設計が後手に回ると致命的。特にエンタープライズは要注意。\n\n#AI #MLOps\n\nhttps://www.databricks.com/blog/ai-governance-strategy-why-successful-ai-initiatives-begins-control-not-code",
+    "source_title": "AI Governance Is the Strategy: Why Successful AI Initiatives Begins with Control, Not Code",
+    "source_url": "https://www.databricks.com/blog/ai-governance-strategy-why-successful-ai-initiatives-begins-control-not-code",
+    "category": "AI",
+    "format_type": "意見",
+    "status": "pending",
+    "id": "f6df70c8-0dda-4fc4-b3a8-e228e42f3fdb",
+    "generated_at": "2026-03-14T07:56:05.664453+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "🤖 Rakuten、問題解決速度が2倍に\n\nOpenAIのコーディングエージェント「Codex」導入でMTTRを50%削減。CI/CDレビューも自動化し、フルスタック構築が数週間で完了。\n\nコーディング支援を超えて、開発プロセス全体を変革するフェーズへ。\n\n#生成AI #OpenAI\n\nhttps://openai.com/index/rakuten",
+    "source_title": "Rakuten fixes issues twice as fast with Codex",
+    "source_url": "https://openai.com/index/rakuten",
+    "category": "AI",
+    "format_type": "速報",
+    "status": "pending",
+    "id": "cfdec451-691c-402c-85bf-7c9405ac9131",
+    "generated_at": "2026-03-14T07:56:05.664453+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "📍 Airbnbの旅行先レコメンド、どう作ってる？\n\n「インスピレーション喚起」と「選択肢の絞り込み」を両立させる難易度高めの課題に、独自の推薦モデルで対応。\n\nユーザージャーニー全体を見据えたML設計の好例。エンジニアリングブログ読み応えあり。\n\n#データエンジニアリング #機械学習\n\nhttps://medium.com/airbnb-engineering/recommending-travel-destinations-to-help-users-explore-5fa7a81654fb?source=rss----53c7c27702d5---4",
+    "source_title": "Recommending Travel Destinations to Help Users Explore",
+    "source_url": "https://medium.com/airbnb-engineering/recommending-travel-destinations-to-help-users-explore-5fa7a81654fb?source=rss----53c7c27702d5---4",
+    "category": "Tech General",
+    "format_type": "問いかけ",
+    "status": "pending",
+    "id": "1c0fe458-3ce0-4fc0-95b2-16bd1ee2734f",
+    "generated_at": "2026-03-14T07:56:05.664453+09:00",
+    "session_type": "morning"
+  }
+]
