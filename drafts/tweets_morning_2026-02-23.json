@@ -1,0 +1,57 @@
+[
+  {
+    "tweet_text": "🎯 Apache Polaris、Apache財団のトップレベルプロジェクトに昇格！\n\nSnowflakeがオープンソース化したカタログ管理がついに正式プロジェクトに。Iceberg/Delta Lake間の相互運用性が劇的に向上し、ベンダーロックインからの脱却が加速しそう。\n\nオープンレイクハウス時代の本格到来かも。\n\n#データ基盤 #Snowflake\n\nhttps://www.snowflake.com/content/snowflake-site/global/en/blog/apache-polaris-top-level-project",
+    "source_title": "Apache Polaris Graduates to Top-Level Project",
+    "source_url": "https://www.snowflake.com/content/snowflake-site/global/en/blog/apache-polaris-top-level-project",
+    "category": "Data Engineering",
+    "format_type": "速報",
+    "status": "pending",
+    "id": "f2f0f9e2-74e7-4123-bc02-cfd3abe09a3d",
+    "generated_at": "2026-02-23T07:54:35.203299+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "💡 「LLMラッパーとAIアグリゲーター、生き残れない」\n\nGoogle VPが警告。差別化できず利益率も低い2種のAIスタートアップが淘汰されると予測。\n\n確かに、ChatGPT APIを叩くだけのサービスは厳しい時代に。独自データ×モデルの組み合わせが勝負の分かれ目ですね。\n\n#AI #生成AI\n\nhttps://techcrunch.com/2026/02/21/google-vp-warns-that-two-types-of-ai-startups-may-not-survive/",
+    "source_title": "Google VP warns that two types of AI startups may not survive",
+    "source_url": "https://techcrunch.com/2026/02/21/google-vp-warns-that-two-types-of-ai-startups-may-not-survive/",
+    "category": "AI",
+    "format_type": "意見",
+    "status": "pending",
+    "id": "ec670492-16a1-418a-ab15-4e5fcbb2a7ff",
+    "generated_at": "2026-02-23T07:54:35.203299+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "🏦 金融業界のAIエージェント、単発モデルから自律型へ\n\nSnowflakeが金融機関向けにリスク管理・コンプライアンス・保険請求をカバーする統合型AIエージェント基盤を提供開始。サイロ化されたAIから、ガバナンス効いた実運用フェーズへ本格移行。\n\nFSI×AI、ここから本番。\n\n#データエンジニアリング #Snowflake\n\nhttps://www.snowflake.com/content/snowflake-site/global/en/blog/Operationalizing-ai-agents-financial-services",
+    "source_title": "Operationalizing AI Agents at Scale in Financial Services",
+    "source_url": "https://www.snowflake.com/content/snowflake-site/global/en/blog/Operationalizing-ai-agents-financial-services",
+    "category": "Data Engineering",
+    "format_type": "解説",
+    "status": "pending",
+    "id": "6d14d7bb-9de8-4166-857f-a01e16e6b6e4",
+    "generated_at": "2026-02-23T07:54:35.203299+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "🔧 dbtチームが提言「2026年、データチームが捨てるべきもの・残すもの」\n\nワークフロー複雑化を避け、過度なエンジニアリングをやめ、AIの使い方を再考する年に。シンプルさへの回帰がトレンド。\n\n確かに、ツール増やしすぎて運用破綻してるチーム多いかも…\n\n#データエンジニアリング #dbt\n\nhttps://www.getdbt.com/blog/data-ins-and-outs-for-2026",
+    "source_title": "Data ins and outs for 2026: what data teams are keeping, cutting, and reconsidering",
+    "source_url": "https://www.getdbt.com/blog/data-ins-and-outs-for-2026",
+    "category": "Data Engineering",
+    "format_type": "まとめ",
+    "status": "pending",
+    "id": "7b531d11-b4c3-4faa-974e-718be93ce3b6",
+    "generated_at": "2026-02-23T07:54:35.203299+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "🎵 Spotifyの広告配信、マルチエージェントアーキテクチャで進化\n\n「AIフィーチャーを作りたかったわけじゃない。構造的な課題を解決したかった」\n\n結果重視で設計されたエージェント群が、広告最適化をどう変えたのか。実務視点の設計思想が参考になります。\n\n#AI #MLOps\n\nhttps://engineering.atspotify.com/2026/2/our-multi-agent-architecture-for-smarter-advertising/",
+    "source_title": "Our Multi-Agent Architecture for Smarter Advertising",
+    "source_url": "https://engineering.atspotify.com/2026/2/our-multi-agent-architecture-for-smarter-advertising/",
+    "category": "AI",
+    "format_type": "データ",
+    "status": "pending",
+    "id": "257b32a9-668d-465a-9c5a-421e92f4e4ef",
+    "generated_at": "2026-02-23T07:54:35.203299+09:00",
+    "session_type": "morning"
+  }
+]
