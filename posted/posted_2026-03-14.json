@@ -1,17 +1,5 @@
 [
   {
-    "tweet_text": "🚀 Databricks「サーバーレスワークスペース」Azure で GA\n\nNotebook、Lakeflow Jobs、Sparkパイプライン全てがサーバーレス化。インフラ管理ゼロでデータエンジニアリングに集中できる時代へ。\n\n特にスタートアップ〜中規模企業には革命的かも。\n\n#データエンジニアリング #Databricks\n\nhttps://www.databricks.com/blog/evolution-data-engineering-how-serverless-compute-transforming-notebooks-lakeflow-jobs",
-    "source_title": "The Evolution of Data Engineering: How Serverless Compute is Transforming Notebooks, Lakeflow Jobs, and Spark Declarative Pipelines",
-    "source_url": "https://www.databricks.com/blog/evolution-data-engineering-how-serverless-compute-transforming-notebooks-lakeflow-jobs",
-    "category": "Data Engineering",
-    "format_type": "速報",
-    "status": "failed",
-    "id": "7f5a2347-33bc-4ff9-83fe-f36f00e2d893",
-    "generated_at": "2026-03-14T07:56:05.664453+09:00",
-    "session_type": "morning",
-    "error": "403 Forbidden\nYou are not permitted to perform this action."
-  },
-  {
     "tweet_text": "30〜40%の実行時間削減📊\n\nノルウェー政府系投資ファンドNBIMが、dbt Fusion engineとState-Aware Orchestrationで3ヶ月でこの成果。\n\n重い最適化作業なしで達成したのがポイント。データパイプラインの運用コスト、まだまだ削れる余地ありそう。\n\n#データ基盤 #dbt\n\nhttps://www.getdbt.com/blog/how-a-global-investment-firm-reduced-runtimes-by-30-40-with-the-dbt-fusion-engine",
     "source_title": "How a global investment firm reduced runtimes by 30–40% with the dbt Fusion engine",
     "source_url": "https://www.getdbt.com/blog/how-a-global-investment-firm-reduced-runtimes-by-30-40-with-the-dbt-fusion-engine",
@@ -49,17 +37,5 @@
     "session_type": "morning",
     "tweet_id": "2032736526078234862",
     "posted_at": "2026-03-14T17:32:09.029525+09:00"
-  },
-  {
-    "tweet_text": "📍 Airbnbの旅行先レコメンド、どう作ってる？\n\n「インスピレーション喚起」と「選択肢の絞り込み」を両立させる難易度高めの課題に、独自の推薦モデルで対応。\n\nユーザージャーニー全体を見据えたML設計の好例。エンジニアリングブログ読み応えあり。\n\n#データエンジニアリング #機械学習\n\nhttps://medium.com/airbnb-engineering/recommending-travel-destinations-to-help-users-explore-5fa7a81654fb?source=rss----53c7c27702d5---4",
-    "source_title": "Recommending Travel Destinations to Help Users Explore",
-    "source_url": "https://medium.com/airbnb-engineering/recommending-travel-destinations-to-help-users-explore-5fa7a81654fb?source=rss----53c7c27702d5---4",
-    "category": "Tech General",
-    "format_type": "問いかけ",
-    "status": "failed",
-    "id": "1c0fe458-3ce0-4fc0-95b2-16bd1ee2734f",
-    "generated_at": "2026-03-14T07:56:05.664453+09:00",
-    "session_type": "morning",
-    "error": "403 Forbidden\nYou are not permitted to perform this action."
   }
 ]
