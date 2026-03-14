@@ -1,0 +1,182 @@
+[
+  {
+    "title": "Why metadata management is critical for modern data teams",
+    "url": "https://www.getdbt.com/blog/why-metadata-management-is-important",
+    "summary": "Metadata management improves discovery, governance, performance, and trust in modern data systems.",
+    "source": "dbt Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-03-15T07:55:07.881487+09:00"
+  },
+  {
+    "title": "Effective strategies to enhance data quality management",
+    "url": "https://www.getdbt.com/blog/enhance-data-quality-management-strategies",
+    "summary": "Improve data quality with testing, metrics, automation, and a scalable governance framework.",
+    "source": "dbt Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-03-15T07:55:07.881513+09:00"
+  },
+  {
+    "title": "Serverless Workspaces in Azure Databricks is now Generally Available",
+    "url": "https://www.databricks.com/blog/serverless-workspaces-azure-databricks-now-generally-available",
+    "summary": "We’re excited to announce that serverless workspaces are now Generally Available on Azure, ...",
+    "source": "Databricks Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-03-15T07:55:08.153139+09:00"
+  },
+  {
+    "title": "The Evolution of Data Engineering: How Serverless Compute is Transforming Notebooks, Lakeflow Jobs, and Spark Declarative Pipelines",
+    "url": "https://www.databricks.com/blog/evolution-data-engineering-how-serverless-compute-transforming-notebooks-lakeflow-jobs",
+    "summary": "Data engineering has reached an inflection point. As organizations increasingly rely...",
+    "source": "Databricks Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-03-15T07:55:08.153158+09:00"
+  },
+  {
+    "title": "Accelerating FinOps with Cortex Code on Snowflake",
+    "url": "https://www.snowflake.com/content/snowflake-site/global/en/blog/automate-financial-operations-cortex-code",
+    "summary": "Discover how Snowflake Cortex Code transforms FinOps with AI-driven forecasting, anomaly detection and automated controls on an enterprise data platform.",
+    "source": "Snowflake Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-03-15T07:55:08.721472+09:00"
+  },
+  {
+    "title": "Healthcare AI Data Solutions: 2026 Interoperability Research Report",
+    "url": "https://www.snowflake.com/content/snowflake-site/global/en/blog/ai-interoperability-healthcare",
+    "summary": "Discover how 183 healthcare leaders are adopting AI and prioritizing interoperability. Get actionable insights on healthcare data solutions for 2026 and beyond.",
+    "source": "Snowflake Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-03-15T07:55:08.721487+09:00"
+  },
+  {
+    "title": "Snowflake Intelligence for Manufacturing: Actionable Data Insights",
+    "url": "https://www.snowflake.com/content/snowflake-site/global/en/blog/snowflake-intelligence-actionable-data-insights-manufacturers",
+    "summary": "Empower manufacturers with Snowflake Intelligence. Unify product and customer data to overcome fragmentation, unlock actionable insights, and drive product innovation.",
+    "source": "Snowflake Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-03-15T07:55:08.721492+09:00"
+  },
+  {
+    "title": "Amazon Redshift DC2 migration approach with a customer case study",
+    "url": "https://aws.amazon.com/blogs/big-data/amazon-redshift-dc2-migration-approach-with-a-customer-case-study/",
+    "summary": "In this post, we share insights from one of our customers' migration from DC2 to RA3 instances. The customer, a large enterprise in the retail industry, operated a 16-node dc2.8xlarge cluster for business intelligence (BI) and ETL workloads. Facing growing data volumes and disk capacity limitations,",
+    "source": "AWS Big Data Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-03-15T07:55:09.300102+09:00"
+  },
+  {
+    "title": "Reducing costs for shuffle-heavy Apache Spark workloads with serverless storage for Amazon EMR Serverless",
+    "url": "https://aws.amazon.com/blogs/big-data/reducing-costs-for-shuffle-heavy-apache-spark-workloads-with-serverless-storage-for-amazon-emr-serverless/",
+    "summary": "In this post, we explore the cost improvements we observed when benchmarking Apache Spark jobs with serverless storage on EMR Serverless. We take a deeper look at how serverless storage helps reduce costs for shuffle-heavy Spark workloads, and we outline practical guidance on identifying the types o",
+    "source": "AWS Big Data Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-03-15T07:55:09.300119+09:00"
+  },
+  {
+    "title": "Optimize HBase reads with bucket caching on Amazon EMR",
+    "url": "https://aws.amazon.com/blogs/big-data/optimize-hbase-reads-with-bucket-caching-on-amazon-emr/",
+    "summary": "In this post, we demonstrate how to improve HBase read performance by implementing bucket caching on Amazon EMR. Our tests reduced latency by 57.9% and improved throughput by 138.8%. This solution is particularly valuable for large-scale HBase deployments on Amazon S3 that need to optimize read perf",
+    "source": "AWS Big Data Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-03-15T07:55:09.300125+09:00"
+  },
+  {
+    "title": "Inside the Archive: The Tech Behind Your 2025 Wrapped Highlights",
+    "url": "https://engineering.atspotify.com/2026/3/inside-the-archive-2025-wrapped/",
+    "summary": "<p>What if we could identify interesting listening moments from your year, and tell you a story about them?</p>\n<p>The post <a href=\"https://engineering.atspotify.com/2026/3/inside-the-archive-2025-wrapped/\">Inside the Archive: The Tech Behind Your 2025 Wrapped Highlights</a> appeared first on <a hr",
+    "source": "Spotify Engineering",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-03-15T07:55:11.508774+09:00"
+  },
+  {
+    "title": "Recommending Travel Destinations to Help Users Explore",
+    "url": "https://medium.com/airbnb-engineering/recommending-travel-destinations-to-help-users-explore-5fa7a81654fb?source=rss----53c7c27702d5---4",
+    "summary": "<figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/1*GmYX3GemYdlNvs2tOLlFbQ.jpeg\" /></figure><p><em>How we built a destination recommendation model that helps users spark inspiration and narrow down choices to make journeys smoother.</em></p><p>By: <a href=\"https://www.linkedin.com/in",
+    "source": "Airbnb Tech Blog",
+    "category": "Data Engineering",
+    "priority": 1,
+    "fetched_at": "2026-03-15T07:55:12.459742+09:00"
+  },
+  {
+    "title": "US Army announces contract with Anduril worth up to $20B",
+    "url": "https://techcrunch.com/2026/03/14/us-army-announces-contract-with-anduril-worth-up-to-20b/",
+    "summary": "The Army described this as a single enterprise contract consolidating more than 120 separate \"procurement actions.\"",
+    "source": "TechCrunch AI",
+    "category": "AI",
+    "priority": 1,
+    "fetched_at": "2026-03-15T07:55:12.611041+09:00"
+  },
+  {
+    "title": "Meta reportedly considering layoffs that could affect 20% of the company",
+    "url": "https://techcrunch.com/2026/03/14/meta-reportedly-considering-layoffs-that-could-affect-20-of-the-company/",
+    "summary": "These layoffs could help Facebook's parent company offset its aggressive spending on AI infrastructure, as well as AI-related acquisitions and hiring.",
+    "source": "TechCrunch AI",
+    "category": "AI",
+    "priority": 1,
+    "fetched_at": "2026-03-15T07:55:12.611052+09:00"
+  },
+  {
+    "title": "How to use the new ChatGPT app integrations, including DoorDash, Spotify, Uber, and others",
+    "url": "https://techcrunch.com/2026/03/14/how-to-use-the-new-chatgpt-app-integrations-including-doordash-spotify-uber-and-others/",
+    "summary": "Learn how to use Spotify, Canva, Figma, Expedia, and other apps directly in ChatGPT.",
+    "source": "TechCrunch AI",
+    "category": "AI",
+    "priority": 1,
+    "fetched_at": "2026-03-15T07:55:12.611057+09:00"
+  },
+  {
+    "title": "‘Not built right the first time’ — Musk’s xAI is starting over again, again",
+    "url": "https://techcrunch.com/2026/03/13/not-built-right-the-first-time-musks-xai-is-starting-over-again-again/",
+    "summary": "The AI lab is revamping its effort to build an AI coding tool, with two new executives joining from Cursor.",
+    "source": "TechCrunch AI",
+    "category": "AI",
+    "priority": 1,
+    "fetched_at": "2026-03-15T07:55:12.611061+09:00"
+  },
+  {
+    "title": "Lawyer behind AI psychosis cases warns of mass casualty risks",
+    "url": "https://techcrunch.com/2026/03/13/lawyer-behind-ai-psychosis-cases-warns-of-mass-casualty-risks/",
+    "summary": "AI chatbots have been linked to suicides for years. Now one lawyer says they are showing up in mass casualty cases too, and the technology is moving faster than the safeguards.",
+    "source": "TechCrunch AI",
+    "category": "AI",
+    "priority": 1,
+    "fetched_at": "2026-03-15T07:55:12.611065+09:00"
+  },
+  {
+    "title": "Designing AI agents to resist prompt injection",
+    "url": "https://openai.com/index/designing-agents-to-resist-prompt-injection",
+    "summary": "How ChatGPT defends against prompt injection and social engineering by constraining risky actions and protecting sensitive data in agent workflows.",
+    "source": "OpenAI Blog",
+    "category": "AI",
+    "priority": 1,
+    "fetched_at": "2026-03-15T07:55:13.394499+09:00"
+  },
+  {
+    "title": "Wayfair boosts catalog accuracy and support speed with OpenAI",
+    "url": "https://openai.com/index/wayfair",
+    "summary": "Wayfair uses OpenAI models to improve ecommerce support and product catalog accuracy, automating ticket triage and enhancing millions of product attributes at scale.",
+    "source": "OpenAI Blog",
+    "category": "AI",
+    "priority": 1,
+    "fetched_at": "2026-03-15T07:55:13.394507+09:00"
+  },
+  {
+    "title": "How AI is helping improve heart health in rural Australia",
+    "url": "https://blog.google/innovation-and-ai/technology/health/google-ai-heart-health-australia/",
+    "summary": "A doctor is sitting across a desk from a patient. The doctor is holding a tablet and a pen. Medical charts renderings are in the background.",
+    "source": "Google AI Blog",
+    "category": "AI",
+    "priority": 1,
+    "fetched_at": "2026-03-15T07:55:13.755333+09:00"
+  }
+]

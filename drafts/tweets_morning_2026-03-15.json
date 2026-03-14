@@ -1,0 +1,57 @@
+[
+  {
+    "tweet_text": "🚀 Azure Databricks、ついにサーバーレスワークスペースがGA！\n\nインフラ管理不要でNotebook・Jobs・Sparkパイプラインが即起動。データエンジニアリングの生産性が根本から変わる予感。\n\nクラスター起動待ちの時間、もう要らない時代に。\n\n#データエンジニアリング #Databricks\nhttps://www.databricks.com/blog/serverless-workspaces-azure-databricks-now-generally-available",
+    "source_title": "Serverless Workspaces in Azure Databricks is now Generally Available",
+    "source_url": "https://www.databricks.com/blog/serverless-workspaces-azure-databricks-now-generally-available",
+    "category": "Data Engineering",
+    "format_type": "速報",
+    "status": "pending",
+    "id": "a0897b22-2ad5-4e1f-9d6d-17d29cad3fc6",
+    "generated_at": "2026-03-15T07:55:39.832642+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "メタデータ管理、まだ後回しにしてませんか？🤔\n\ndbt Blogが指摘する4つの価値：\n・データ発見性の向上\n・ガバナンス強化\n・パフォーマンス改善\n・信頼性の担保\n\n「どこにどんなデータがあるか分からない」は、もはや組織の負債です。\n\n#データエンジニアリング #dbt\nhttps://www.getdbt.com/blog/why-metadata-management-is-important",
+    "source_title": "Why metadata management is critical for modern data teams",
+    "source_url": "https://www.getdbt.com/blog/why-metadata-management-is-important",
+    "category": "Data Engineering",
+    "format_type": "問いかけ",
+    "status": "pending",
+    "id": "1a33b845-246c-40a1-a58c-31de76707ccf",
+    "generated_at": "2026-03-15T07:55:39.832642+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "💡 OpenAIが公開した「プロンプトインジェクション対策」の設計原則\n\nChatGPTは危険なアクションを制約＋機密データ保護でエージェントを守る。ソーシャルエンジニアリング攻撃への防御も実装済み。\n\nAIエージェント開発者は必読の内容です。\n\n#AI #OpenAI\nhttps://openai.com/index/designing-agents-to-resist-prompt-injection",
+    "source_title": "Designing AI agents to resist prompt injection",
+    "source_url": "https://openai.com/index/designing-agents-to-resist-prompt-injection",
+    "category": "AI",
+    "format_type": "解説",
+    "status": "pending",
+    "id": "e9747e66-0022-4eda-87d7-b1d810a4149c",
+    "generated_at": "2026-03-15T07:55:39.832642+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "57.9%のレイテンシ削減、138.8%のスループット向上📊\n\nAWS EMRのHBaseでバケットキャッシングを実装した結果がすごい。S3ベースの大規模HBaseならコスパ最強の選択肢かも。\n\n読み取りパフォーマンスがボトルネックの現場は要チェック。\n\n#データエンジニアリング #AWS\nhttps://aws.amazon.com/blogs/big-data/optimize-hbase-reads-with-bucket-caching-on-amazon-emr/",
+    "source_title": "Optimize HBase reads with bucket caching on Amazon EMR",
+    "source_url": "https://aws.amazon.com/blogs/big-data/optimize-hbase-reads-with-bucket-caching-on-amazon-emr/",
+    "category": "Data Engineering",
+    "format_type": "データ",
+    "status": "pending",
+    "id": "b186b65d-9f55-4247-8198-3152977ed75a",
+    "generated_at": "2026-03-15T07:55:39.832642+09:00",
+    "session_type": "morning"
+  },
+  {
+    "tweet_text": "🎵 Spotify Wrapped 2025の裏側技術が公開\n\n「あなたの1年で面白いリスニングの瞬間を特定し、ストーリーとして伝える」を実現した仕組みとは？\n\n膨大なイベントデータから意味を抽出する技術、他の業界でも応用できそう。\n\n#データエンジニアリング #Spotify\nhttps://engineering.atspotify.com/2026/3/inside-the-archive-2025-wrapped/",
+    "source_title": "Inside the Archive: The Tech Behind Your 2025 Wrapped Highlights",
+    "source_url": "https://engineering.atspotify.com/2026/3/inside-the-archive-2025-wrapped/",
+    "category": "Data Engineering",
+    "format_type": "意見",
+    "status": "pending",
+    "id": "c9ec8c52-b41e-42e9-94e6-32fef7831bdb",
+    "generated_at": "2026-03-15T07:55:39.832642+09:00",
+    "session_type": "morning"
+  }
+]
